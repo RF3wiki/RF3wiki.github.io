@@ -1,0 +1,49 @@
+[
+    {
+        "id":"人物相關",
+        "list":[
+            {"name":"花嫁資料列表" ,"tab":"hanayome"}
+        ]
+    },
+    {
+        "id": "裝備相關",
+        "list": [
+            {"name":"武器能力","tab":"weapon-cap"},
+            {"name":"武器配方","tab":"weapon-rec"},
+            {"name":"法杖強化素材","tab":"staff-mater"},
+            {"name":"農具配方","tab":"farm-rec"},
+            {"name":"裝備強化素材","tab":"equi-mater"},
+            {"name":"裝飾台配方","tab":"decor-rec"},
+            {"name":"飾品能力","tab":"acce-cap"},
+            {"name":"鞋子能力","tab":"shoe-cap"},
+            {"name":"頭盔能力","tab":"het-cap"},
+            {"name":"盾能力","tab":"shield-cap"}
+        ]
+    },
+    {
+        "id": "農作相關",
+        "list": [
+            {"name":"農作物資料","tab":"crop-info"} 
+        ]
+    },
+    {
+        "id": "料理、藥水相關",
+        "list": [
+            {"name":"料理配方與效果","tab":"cooking-rec"},
+            {"name":"藥品配方","tab":"drug-rec"} 
+    ]
+    },
+    {
+        "id": "釣魚相關",
+        "list": [
+            {"name":"釣魚資料-小鎮","tab":"fish-town"},
+            {"name":"釣魚資料-迷宮","tab":"fish-maze"}
+        ]
+    },
+    {
+        "id": "迷宮相關",
+        "list": [
+            {"name":"迷宮資料","tab":"maze-data"}
+        ]
+    }
+]

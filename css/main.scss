@@ -1,0 +1,32 @@
+* {
+    -webkit-user-drag: none !important;
+    user-select: none !important;
+    // overflow: hidden;
+
+    &::-webkit-scrollbar {
+        width: 0.2rem;
+        display: none;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 2rem;
+        background: lightgray;
+    }
+}
+
+html {
+    --ts-accent-color: #e55100;
+}
+
+.ts-menu {
+    .item {
+        justify-content: flex-start;
+        align-items: center;
+    }
+}
+
+div[title] {
+    &:hover {
+        box-shadow: 0 0.2rem 0 0 #e55100;
+    }
+}

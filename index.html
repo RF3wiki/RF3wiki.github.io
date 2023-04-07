@@ -85,6 +85,13 @@
               <fish-maze v-show="page.find(el=>el.id == 'fish-maze').isActive"></fish-maze>
               <maze-data v-show="page.find(el=>el.id == 'maze-data').isActive"></maze-data>
               <hanayome v-show="page.find(el=>el.id == 'hanayome').isActive"></hanayome>
+              <villagers v-show="page.find(el=>el.id == 'villagers').isActive"></villagers>
+              <div v-show="page.find(el=>el.id == 'hanatask').isActive">
+                <div class="ts-header">施工中</div>
+              </div>
+              <div v-show="page.find(el=>el.id == 'villtask').isActive">
+                <div class="ts-header">施工中</div>
+              </div>
             </div>
           </div>
         </div>
@@ -92,7 +99,7 @@
     </div>
 
     <div class="ts-modal" data-name="report">
-      <div class="content" style="width: auto;min-width: 380px;">
+      <div class="content" style="width: auto;min-width:50rem;">
         <div class="ts-content is-dense">
           <div class="ts-header">問題回報
             <span class="ts-close" data-toggle="report:is-visible" style="margin-left: auto;"></span>
@@ -110,11 +117,11 @@
         </div>
       </div>
     </div>
-    <div class="gotopbtn">
+    <!-- <div class="gotopbtn">
       <button class="ts-button is-circular is-icon" v-on:click="scrollTop">
         <span class="ts-icon is-angle-up-icon"></span>
       </button>
-    </div>
+    </div> -->
   </div>
 
   <div id="isfirefox" class="ts-modal">
@@ -146,6 +153,8 @@
           { id: 'home', isActive: true },
           { id: 'hanayome', isActive: false },
           { id: 'villagers', isActive: false },
+          { id: 'hanatask', isActive: false },
+          { id: 'villtask', isActive: false },
           { id: 'weapon-cap', isActive: false },
           { id: 'weapon-rec', isActive: false },
           { id: 'staff-mater', isActive: false },

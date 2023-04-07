@@ -15,6 +15,7 @@ import fishTown from '../json/fish-town.json' assert {type: "json"};
 import fishMaze from '../json/fish-maze.json' assert {type: "json"};
 import mazeData from '../json/maze-data.json' assert {type: "json"};
 import hanayome from '../json/hanayome.json' assert {type: "json"};
+import villagers from '../json/villagers.json' assert {type: "json"};
 
 Vue.component('weapon-cap', {
     data() {
@@ -832,6 +833,69 @@ Vue.component('hanayome', {
         </div>
         </div>
     </div>
+    `
+});
+
+Vue.component('villagers', {
+    data() {
+        return {
+            dataList: villagers,
+        }
+    },
+    template: ` 
+<div class="ts-content">
+    <div class="ts-header">
+        ※ 部分物品名稱取自英文wiki，並且機翻，可能需要自行通靈。
+    </div>
+    <div class="ts-segment" style="padding:0;">
+        <div class="ts-box is-horizontal" v-for="(item , index) in dataList">
+            <div class="ts-image is-covered">
+                <img :src="item.img" style="width:10rem;">
+            </div>
+            <div class="ts-content">
+                <div class="ts-header">
+                    <div class="ts-text">{{item.name}} </div>
+                </div>
+                <div class="ts-text">
+                    <div class="ts-row">
+                        <div class="column">
+                            最愛
+                        </div>
+                        <div class="column is-fluid">
+                            <div class="ts-chip is-outlined" v-for="it in item.favorite">
+                                {{it}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ts-text">
+                    <div class="ts-row">
+                        <div class="column">
+                            喜歡
+                        </div>
+                        <div class="column is-fluid">
+                            <div class="ts-chip is-outlined" v-for="it in item.like">
+                                {{it}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ts-text">
+                    <div class="ts-row">
+                        <div class="column">
+                            討厭
+                        </div>
+                        <div class="column is-fluid">
+                            <div class="ts-chip is-outlined" v-for="it in item.Hate">
+                                {{it}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     `
 });
 

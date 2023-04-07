@@ -29,7 +29,7 @@
             "鐵千輪",
             "腌蕪菁"
         ],
-        "img": "../img/Shara.png"
+        "img": "../img/Shara.webp"
     },
     {
         "name": "多娜",
@@ -62,7 +62,7 @@
             "冰激淋",
             "草莓牛奶"
         ],
-        "img": "../img/Raven.png"
+        "img": "../img/Raven.webp"
     },
     {
         "name": "瑪麗歐",
@@ -90,7 +90,7 @@
             "醃黃瓜",
             "蔬菜汁(綠色以外)"
         ],
-        "img": "../img/Marian.png"
+        "img": "../img/Marian.webp"
     },
     {
         "name": "小可拉",
@@ -119,7 +119,7 @@
             "究極咖喱",
             "蛋蓋飯"
         ],
-        "img": "../img/Collette.png"
+        "img": "../img/Collette.webp"
     },
     {
         "name": "伊奧",
@@ -147,7 +147,7 @@
             "鹽烤秋刀魚",
             "炒飯"
         ],
-        "img": "../img/Carmen.png"
+        "img": "../img/Carmen.webp"
     },
     {
         "name": "佩露夏",
@@ -177,7 +177,7 @@
             "生南國烏賊",
             "烤南國烏賊"
         ],
-        "img": "../img/Pia.png"
+        "img": "../img/Pia.webp"
     },
     {
         "name": "達利婭",
@@ -215,7 +215,7 @@
             "沙丁魚串",
             "果醬麵包"
         ],
-        "img": "../img/Daria.png"
+        "img": "../img/Daria.webp"
     },
     {
         "name": "咲耶",
@@ -247,7 +247,7 @@
             "閃光刺身",
             "火鍋"
         ],
-        "img": "../img/Sakuya.png"
+        "img": "../img/Sakuya.webp"
     },
     {
         "name": "索菲婭",
@@ -283,7 +283,7 @@
             "蛋包捲/煎雞蛋",
             "煎蛋/菜肉蛋卷"
         ],
-        "img": "../img/Sofia.png"
+        "img": "../img/Sofia.webp"
     },
     {
         "name": "卡琳",
@@ -311,7 +311,7 @@
             "麵包",
             "沒有"
         ],
-        "img": "../img/Karina.png"
+        "img": "../img/Karina.webp"
     },
     {
         "name": "克璐璐法",
@@ -342,6 +342,6 @@
             "蛋糕",
             "蘋果派/蘋果餡餅"
         ],
-        "img": "../img/Kuruna.png"
+        "img": "../img/Kuruna.webp"
     }
 ]

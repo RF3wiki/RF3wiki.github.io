@@ -14,6 +14,7 @@ import drugRec from '../json/drug-rec.json' assert {type: "json"};
 import fishTown from '../json/fish-town.json' assert {type: "json"};
 import fishMaze from '../json/fish-maze.json' assert {type: "json"};
 import mazeData from '../json/maze-data.json' assert {type: "json"};
+import hanayome from '../json/hanayome.json' assert {type: "json"};
 
 Vue.component('weapon-cap', {
     data() {
@@ -774,6 +775,61 @@ Vue.component('maze-data', {
                     </tr>
                 </tbody>
             </table>
+        </div>
+    </div>
+    `
+});
+
+Vue.component('hanayome', {
+    data() {
+        return {
+            dataList: hanayome,
+        }
+    },
+    template: ` 
+    <div class="ts-content">
+        <div class="ts-segment" style="padding:0;">
+        <div class="ts-box is-horizontal" v-for="(item , index) in dataList">
+            <div class="ts-image is-covered">
+            <img :src="item.img">
+            </div>
+            <div class="ts-content">
+            <div class="ts-header">
+                <div class="ts-text">{{item.name}} </div>
+            </div>
+            <div class="ts-text is-secondary">CV.{{item.cv}} </div>
+            <div class="ts-text" style="word-break: keep-all;" v-html="item.summary"></div>
+            <div class="ts-text"> 生日 {{item.Birthday}} </div>
+            <div class="ts-text"> 居住地 {{item.residence}} </div>
+            <div class="ts-text"> 最愛
+                <div class="ts-chip is-outlined" v-for="it in item.favorite">
+                {{it}}
+                </div>
+            </div>
+            <div class="ts-text"> 喜歡
+                <div class="ts-chip is-outlined" v-for="it in item.like">
+                {{it}}
+                </div>
+            </div>
+            <div class="ts-text"> 香水
+                <div class="ts-chip is-outlined" v-for="it in item.perfume">
+                {{it}}
+                </div>
+            </div>
+            <div class="ts-text"> 討厭
+                <div class="ts-chip is-outlined" v-for="it in item.Hate">
+                {{it}}
+                </div>
+            </div>
+            <div class="ts-text"> 便當
+                <div class="ts-chip is-outlined" v-for="it in item.bento">
+                {{it}}
+                </div>
+            </div>
+            <div class="ts-text" v-show="item.tag=='Shara'">※樸素的花包括托伊藥草、月落草/月淚草、粉色貓咪、藍色妖姬4種，高級的花包括除上述4種花以外13種
+            </div>
+            </div>
+        </div>
         </div>
     </div>
     `

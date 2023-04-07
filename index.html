@@ -40,10 +40,11 @@
 
       <!-- 右半空間 -->
       <div class="column is-13-wide mobile-:is-16-wide">
-        <div class="ts-space is-huge mobile-:u-hidden"></div>
-        <div class="ts-segment" style="background: var(--ts-gray-50)">
+        <div class="ts-space is-huge desktop-:u-hidden"></div>
+        <div class="ts-segment" style="background: var(--ts-gray-50);">
           <div class="ts-grid is-relaxed">
             <div class="column is-fluid">
+
               <div class="ts-center" v-show="page.find(el=>el.id == 'home').isActive">
                 <div class="ts-header is-large is-heavy is-icon">
                   <div class="ts-icon is-cube-icon"></div>
@@ -83,6 +84,7 @@
               <fish-town v-show="page.find(el=>el.id == 'fish-town').isActive"></fish-town>
               <fish-maze v-show="page.find(el=>el.id == 'fish-maze').isActive"></fish-maze>
               <maze-data v-show="page.find(el=>el.id == 'maze-data').isActive"></maze-data>
+              <hanayome v-show="page.find(el=>el.id == 'hanayome').isActive"></hanayome>
             </div>
           </div>
         </div>
@@ -107,6 +109,11 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="gotopbtn">
+      <button class="ts-button is-circular is-icon" v-on:click="scrollTop">
+        <span class="ts-icon is-angle-up-icon"></span>
+      </button>
     </div>
   </div>
 
@@ -138,6 +145,7 @@
         page: [
           { id: 'home', isActive: true },
           { id: 'hanayome', isActive: false },
+          { id: 'villagers', isActive: false },
           { id: 'weapon-cap', isActive: false },
           { id: 'weapon-rec', isActive: false },
           { id: 'staff-mater', isActive: false },
@@ -186,6 +194,13 @@
             });
           });
         },
+        scrollTop() {
+          window.scrollTo({
+            left: 0,
+            top: 0,
+            behavior: 'smooth'
+          })
+        }
       }
 
     })

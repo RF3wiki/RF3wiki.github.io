@@ -2,7 +2,15 @@
     {
         "id":"人物相關",
         "list":[
-            {"name":"花嫁資料列表" ,"tab":"hanayome"}
+            {"name":"花嫁資料" ,"tab":"hanayome"},
+            {"name":"城鎮村民","tab":"villagers"}
+        ]
+    },
+    {
+        "id":"任務相關",
+        "list":[
+            {"name":"花嫁委託", "tab":"hanatask"},
+            {"name":"一般委託", "tab":"villtask"}
         ]
     },
     {

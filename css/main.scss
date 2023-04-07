@@ -1,6 +1,6 @@
 * {
     user-select: none !important;
-
+    box-sizing: border-box;
     &::-webkit-scrollbar {
         width: 0.4rem;
         height: 0.4rem;
@@ -21,6 +21,7 @@ img {
 
 html {
     --ts-accent-color: #e55100;
+    box-sizing: border-box;
 }
 
 .ts-menu {
@@ -85,4 +86,53 @@ div[title] {
             background-color: var(--ts-gray-50);
         }
     }
+}
+
+.ts-segment {
+    .ts-box {
+        margin-top: 0.4rem;
+        margin-bottom: 0.4rem;
+        align-items: center;
+
+        &:first-child {
+            margin-top: 0;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        .ts-image {
+            img {
+                width: 20rem;
+                height: 100%;
+            }
+        }
+    }
+}
+.ts-text {
+    .ts-chip {
+        margin-left: 0.2rem;
+        margin-right: 0.2rem;
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.gotopbtn {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 1rem;
+    left: 0;
+    right: 0;
+    opacity: .4;
+    width: 20%;
+    margin: auto;
 }

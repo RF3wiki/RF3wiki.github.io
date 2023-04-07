@@ -1,0 +1,703 @@
+[
+    {
+        "caegory": "春季",
+        "list": [
+            {
+                "name": "サクラカブ(櫻色蕪菁)",
+                "seedBuy": "80",
+                "seedSell": "8",
+                "matureDay": "3(1)",
+                "crop": "不可",
+                "cropBuy": "400",
+                "cropSell": "200",
+                "Lv10Sell": "240",
+                "sp": [
+                    "HP+5",
+                    "RP+5"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "キャベツ(捲心菜)",
+                "seedBuy": "100",
+                "seedSell": "10",
+                "matureDay": "6(2)",
+                "crop": "不可",
+                "cropBuy": "1920",
+                "cropSell": "480",
+                "Lv10Sell": "960",
+                "sp": [
+                    "HP+10",
+                    "HP上限+10",
+                    "體力+2"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "イチゴ(草莓)",
+                "seedBuy": "260",
+                "seedSell": "26",
+                "matureDay": "9(3)",
+                "crop": "2日",
+                "cropBuy": "2160",
+                "cropSell": "720",
+                "Lv10Sell": "864",
+                "sp": [
+                    "RP+6%",
+                    "智力+1"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "タマネギ(洋蔥)",
+                "seedBuy": "110",
+                "seedSell": "11",
+                "matureDay": "12(4)",
+                "crop": "不可",
+                "cropBuy": "3120",
+                "cropSell": "780",
+                "Lv10Sell": "1560",
+                "sp": [
+                    "HP+20",
+                    "RP+30",
+                    "HP上限+5"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "オトメロン(少女甜瓜)",
+                "seedBuy": "620",
+                "seedSell": "62",
+                "matureDay": "7(3)",
+                "crop": "不可",
+                "cropBuy": "12600",
+                "cropSell": "4200",
+                "Lv10Sell": "6300",
+                "sp": [
+                    "HP+50",
+                    "RP+30",
+                    "HP上限+5"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "金のキャベツ(金捲心菜)",
+                "seedBuy": "230",
+                "seedSell": "23",
+                "matureDay": "14(5)",
+                "crop": "不可",
+                "cropBuy": "19000",
+                "cropSell": "3800",
+                "Lv10Sell": "11400",
+                "sp": [
+                    "HP+50",
+                    "HP上限+50",
+                    "體力+6"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "トイハーブ(托伊藥草)",
+                "seedBuy": "60",
+                "seedSell": "6",
+                "matureDay": "2(1)",
+                "crop": "不可",
+                "cropBuy": "1260",
+                "cropSell": "180",
+                "Lv10Sell": "900",
+                "sp": [
+                    "HP+2%",
+                    "RP+15%",
+                    "恢復疲勞"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "ムーンドロップ草(月落草)",
+                "seedBuy": "70",
+                "seedSell": "7",
+                "matureDay": "7(3)",
+                "crop": "不可",
+                "cropBuy": "4200",
+                "cropSell": "600",
+                "Lv10Sell": "3000",
+                "sp": [
+                    "RP+15%",
+                    "智力+6%"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "サクラ草(櫻花草)",
+                "seedBuy": "120",
+                "seedSell": "12",
+                "matureDay": "6(2)",
+                "crop": "不可",
+                "cropBuy": "6020",
+                "cropSell": "860",
+                "Lv10Sell": "4300",
+                "sp": [
+                    "RP+15%"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "ランプ草(燈草)",
+                "seedBuy": "480",
+                "seedSell": "48",
+                "matureDay": "18(6)",
+                "crop": "不可",
+                "cropBuy": "32060",
+                "cropSell": "4580",
+                "Lv10Sell": "22900",
+                "sp": [
+                    "HP+10%",
+                    "RP+15%"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "青水晶(青水晶)",
+                "seedBuy": "700",
+                "seedSell": "70",
+                "matureDay": "16(6)",
+                "crop": "不可",
+                "cropBuy": "49000",
+                "cropSell": "7000",
+                "Lv10Sell": "35000",
+                "sp": [
+                    "HP+20%",
+                    "RP+15%"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "金剛花(金剛花)",
+                "seedBuy": "1000",
+                "seedSell": "100",
+                "matureDay": "27(9)",
+                "crop": "不可",
+                "cropBuy": "89600",
+                "cropSell": "12800",
+                "Lv10Sell": "64000",
+                "sp": [
+                    "HP+50%",
+                    "RP+15%",
+                    "體力+15"
+                ],
+                "time": "3"
+            }
+        ]
+    },
+    {
+        "caegory": "夏季",
+        "list": [
+            {
+                "name": "キュウリ(黃瓜)",
+                "seedBuy": "80",
+                "seedSell": "8",
+                "matureDay": "6(2)",
+                "crop": "2日",
+                "cropBuy": "720",
+                "cropSell": "180",
+                "Lv10Sell": "216",
+                "sp": [
+                    "HP+10",
+                    "RP+10",
+                    "HP上限+5",
+                    "RP上限+10"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "トマト(番茄)",
+                "seedBuy": "140",
+                "seedSell": "14",
+                "matureDay": "11(4)",
+                "crop": "1日",
+                "cropBuy": "900",
+                "cropSell": "300",
+                "Lv10Sell": "600",
+                "sp": [
+                    "HP+15",
+                    "RP+10"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "トウモロコシ(玉米)",
+                "seedBuy": "130",
+                "seedSell": "13",
+                "matureDay": "13(5)",
+                "crop": "2日",
+                "cropBuy": "1320",
+                "cropSell": "440",
+                "Lv10Sell": "880",
+                "sp": [
+                    "HP+25",
+                    "RP+10",
+                    "HP上限+10",
+                    "RP上限+10"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "カボチャ(南瓜)",
+                "seedBuy": "220",
+                "seedSell": "22",
+                "matureDay": "10(4)",
+                "crop": "不可",
+                "cropBuy": "4960",
+                "cropSell": "1240",
+                "Lv10Sell": "2480",
+                "sp": [
+                    "HP+50",
+                    "HP上限+30",
+                    "體力+3"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "ナス(茄子)",
+                "seedBuy": "160",
+                "seedSell": "16",
+                "matureDay": "9(3)",
+                "crop": "2日",
+                "cropBuy": "1040",
+                "cropSell": "480",
+                "Lv10Sell": "720",
+                "sp": [
+                    "HP+15",
+                    "RP+10",
+                    "體力+5"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "パイナップル(菠蘿)",
+                "seedBuy": "300",
+                "seedSell": "30",
+                "matureDay": "14",
+                "crop": "3日",
+                "cropBuy": "6000",
+                "cropSell": "1200",
+                "Lv10Sell": "",
+                "sp": [
+                    "RP+20",
+                    "力量+2",
+                    "智力+6"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "金のカボチャ(金南瓜)",
+                "seedBuy": "190",
+                "seedSell": "19",
+                "matureDay": "15(5)",
+                "crop": "不可",
+                "cropBuy": "16500",
+                "cropSell": "3300",
+                "Lv10Sell": "9900",
+                "sp": [
+                    "HP+70",
+                    "HP上限+30",
+                    "體力+6"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "ピンクキャット(粉色貓咪)",
+                "seedBuy": "50",
+                "seedSell": "5",
+                "matureDay": "4(2)",
+                "crop": "不可",
+                "cropBuy": "1890",
+                "cropSell": "270",
+                "Lv10Sell": "1350",
+                "sp": [
+                    "HP+6%",
+                    "RP+15%"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "野之花火(野之花火)",
+                "seedBuy": "260",
+                "seedSell": "26",
+                "matureDay": "6(2)",
+                "crop": "不可",
+                "cropBuy": "8400",
+                "cropSell": "1200",
+                "Lv10Sell": "6000",
+                "sp": [
+                    "RP+15%",
+                    "力量+10%"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "鉄千輪(鐵千輪)",
+                "seedBuy": "420",
+                "seedSell": "42",
+                "matureDay": "25(9)",
+                "crop": "不可",
+                "cropBuy": "38500",
+                "cropSell": "5500",
+                "Lv10Sell": "27500",
+                "sp": [
+                    "HP-25%",
+                    "RP+15%",
+                    "力量+12",
+                    "體力-4"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "クローバー (四葉三葉草)",
+                "seedBuy": "390",
+                "seedSell": "39",
+                "matureDay": "10(4)",
+                "crop": "不可",
+                "cropBuy": "14700",
+                "cropSell": "2100",
+                "Lv10Sell": "10500",
+                "sp": [
+                    "RP+15%"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "緑水晶(綠水晶)",
+                "seedBuy": "700",
+                "seedSell": "70",
+                "matureDay": "16(6)",
+                "crop": "不可",
+                "cropBuy": "49000",
+                "cropSell": "7000",
+                "Lv10Sell": "35000",
+                "sp": [
+                    "HP+20%",
+                    "RP+15%"
+                ],
+                "time": "3"
+            }
+        ]
+    },
+    {
+        "caegory": "秋季",
+        "list": [
+            {
+                "name": "サツマイモ(蕃薯)",
+                "seedBuy": "80",
+                "seedSell": "8",
+                "matureDay": "6(2)",
+                "crop": "1日",
+                "cropBuy": "440",
+                "cropSell": "140",
+                "Lv10Sell": "210",
+                "sp": [
+                    "HP上限+10",
+                    "體力+5"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "ジャガイモ(土豆/馬鈴薯)",
+                "seedBuy": "90",
+                "seedSell": "9",
+                "matureDay": "3(1)",
+                "crop": "不可",
+                "cropBuy": "840",
+                "cropSell": "280",
+                "Lv10Sell": "336",
+                "sp": [
+                    "HP+5",
+                    "RP+5"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "ニンジン(胡蘿蔔)",
+                "seedBuy": "100",
+                "seedSell": "10",
+                "matureDay": "8(3)",
+                "crop": "不可",
+                "cropBuy": "1770",
+                "cropSell": "590",
+                "Lv10Sell": "885",
+                "sp": [
+                    "RP+15"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "ピーマン(青椒)",
+                "seedBuy": "150",
+                "seedSell": "15",
+                "matureDay": "9(3)",
+                "crop": "1日",
+                "cropBuy": "930",
+                "cropSell": "310",
+                "Lv10Sell": "620",
+                "sp": [
+                    "RP+15",
+                    "RP上限+10"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "ホウレン草(菠菜)",
+                "seedBuy": "60",
+                "seedSell": "6",
+                "matureDay": "2(1)",
+                "crop": "不可",
+                "cropBuy": "340",
+                "cropSell": "140",
+                "Lv10Sell": "168",
+                "sp": [
+                    "HP+5",
+                    "RP+10",
+                    "HP上限+3",
+                    "力量+3",
+                    "體力+1",
+                    "智力-2"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "金のジャガイモ(金土豆)",
+                "seedBuy": "250",
+                "seedSell": "25",
+                "matureDay": "6(2)",
+                "crop": "不可",
+                "cropBuy": "9500",
+                "cropSell": "1900",
+                "Lv10Sell": "5700",
+                "sp": [
+                    "HP+15",
+                    "RP+25",
+                    "力量+3",
+                    "體力+3",
+                    "智力+2"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "チャームブルー(藍色妖姬)",
+                "seedBuy": "40",
+                "seedSell": "4",
+                "matureDay": "6(2)",
+                "crop": "不可",
+                "cropBuy": "2240",
+                "cropSell": "320",
+                "Lv10Sell": "1600",
+                "sp": [
+                    "HP+5%",
+                    "RP+15%",
+                    "毒"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "花紅葉(花紅葉)",
+                "seedBuy": "440",
+                "seedSell": "44",
+                "matureDay": "15(5)",
+                "crop": "不可",
+                "cropBuy": "37800",
+                "cropSell": "5400",
+                "Lv10Sell": "27000",
+                "sp": [
+                    "RP+15%",
+                    "HP上限+5%"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "タンポイズン(劇毒蒲公英)",
+                "seedBuy": "510",
+                "seedSell": "51",
+                "matureDay": "22(8)",
+                "crop": "不可",
+                "cropBuy": "46200",
+                "cropSell": "6600",
+                "Lv10Sell": "33000",
+                "sp": [
+                    "RP+15%",
+                    "毒"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "赤水晶(赤水晶)",
+                "seedBuy": "700",
+                "seedSell": "70",
+                "matureDay": "16(6)",
+                "crop": "不可",
+                "cropBuy": "49000",
+                "cropSell": "7000",
+                "Lv10Sell": "35000",
+                "sp": [
+                    "HP+20%",
+                    "RP+15%"
+                ],
+                "time": "3"
+            }
+        ]
+    },
+    {
+        "caegory": "冬季",
+        "list": [
+            {
+                "name": "カブ(蕪菁)",
+                "seedBuy": "130",
+                "seedSell": "13",
+                "matureDay": "3(1)",
+                "crop": "不可",
+                "cropBuy": "1260",
+                "cropSell": "420",
+                "Lv10Sell": "630",
+                "sp": [
+                    "HP+10",
+                    "RP+5",
+                    "力量-2",
+                    "智力+3"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "ネギ(大蔥)",
+                "seedBuy": "120",
+                "seedSell": "12",
+                "matureDay": "6(2)",
+                "crop": "不可",
+                "cropBuy": "1500",
+                "cropSell": "500",
+                "Lv10Sell": "750",
+                "sp": [
+                    "HP+5",
+                    "RP+10",
+                    "力量+2"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "大根(蘿蔔)",
+                "seedBuy": "160",
+                "seedSell": "16",
+                "matureDay": "7(3)",
+                "crop": "不可",
+                "cropBuy": "2310",
+                "cropSell": "770",
+                "Lv10Sell": "1155",
+                "sp": [
+                    "HP+5",
+                    "RP+20"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "白菜(白菜)",
+                "seedBuy": "200",
+                "seedSell": "20",
+                "matureDay": "12(4)",
+                "crop": "不可",
+                "cropBuy": "5400",
+                "cropSell": "1350",
+                "Lv10Sell": "2700",
+                "sp": [
+                    "HP+15",
+                    "RP+30",
+                    "體力+5",
+                    "智力-2"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "ほかほかの実(火熱果實)",
+                "seedBuy": "470",
+                "seedSell": "47",
+                "matureDay": "18(6)",
+                "crop": "不可",
+                "cropBuy": "24000",
+                "cropSell": "4800",
+                "Lv10Sell": "12000",
+                "sp": [
+                    "HP+50",
+                    "RP+50",
+                    "體力+8",
+                    "智力-4",
+                    "火傷害減半"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "金のカブ(金蕪菁)",
+                "seedBuy": "210",
+                "seedSell": "21",
+                "matureDay": "5(2)",
+                "crop": "不可",
+                "cropBuy": "7000",
+                "cropSell": "1400",
+                "Lv10Sell": "4200",
+                "sp": [
+                    "HP+30",
+                    "RP+10",
+                    "RP上限+20",
+                    "力量-8",
+                    "智力+7"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "白水晶(白水晶)",
+                "seedBuy": "700",
+                "seedSell": "70",
+                "matureDay": "16(6)",
+                "crop": "不可",
+                "cropBuy": "49000",
+                "cropSell": "7000",
+                "Lv10Sell": "35000",
+                "sp": [
+                    "HP+20%",
+                    "RP+15%"
+                ],
+                "time": "3"
+            },
+            {
+                "name": "ツリー草(樹形草)",
+                "seedBuy": "330",
+                "seedSell": "33",
+                "matureDay": "24(8)",
+                "crop": "不可",
+                "cropBuy": "29547",
+                "cropSell": "4221",
+                "Lv10Sell": "21105",
+                "sp": [
+                    "RP+15%",
+                    "體力+12"
+                ],
+                "time": "3"
+            }
+        ]
+    },
+    {
+        "caegory": "其他",
+        "list": [
+            {
+                "name": "牧草",
+                "seedBuy": "300",
+                "seedSell": "30",
+                "matureDay": "3(1)",
+                "crop": "1日",
+                "cropBuy": "240",
+                "cropSell": "60",
+                "Lv10Sell": "",
+                "sp": [
+                    ""
+                ],
+                "time": ""
+            }
+        ]
+    }
+]

@@ -10,15 +10,15 @@
   <script src="./js/tocas/tocas.js"></script>
   <script src="./js/vue.js"></script>
   <!-- <script src="./js/vue.min.js"></script> -->
-  <script type="module" src="./js/weapon-cap.js"></script>
+  <script type="module" src="./js/component.js"></script>
   <title>符文工廠3 Wiki</title>
 </head>
 
 <body>
 
-  <div id="app" class="ts-container">
+  <div id="app" class="ts-container is-fluid">
     <div class="ts-grid is-relaxed">
-      <div class="column is-3-wide">
+      <div class="column tablet+:is-2-wide">
         <div class="ts-space"></div>
         <div class="ts-header is-large is-heavy is-center-aligned" v-on:click="changePage('home')" title>符文工廠3 Wiki
         </div>
@@ -34,8 +34,8 @@
       </div>
 
       <!-- 右半空間 -->
-      <div class="column is-13-wide">
-        <div class="ts-space is-huge"></div>
+      <div class="column is-13-wide mobile-:is-16-wide">
+        <div class="ts-space is-huge mobile-:u-hidden"></div>
         <div class="ts-segment" style="background: var(--ts-gray-50)">
           <div class="ts-grid is-relaxed">
             <div class="column is-fluid">
@@ -44,15 +44,16 @@
                   <div class="ts-icon is-cube-icon"></div>
                   使用規範
                 </div>
-                <div class="ts-space is-large"></div>
                 <div class="ts-content is-padded is-center-aligned">
                   <div class="ts-text">本網站所有資源皆來自於網路蒐集</div>
-                  <div class="ts-text">由於內容大多為舊NDS版，部分翻譯是舊民間漢化</div>
+                  <div class="ts-text" style="word-break: keep-all;">由於內容大多為舊NDS版，部分翻譯是舊民間漢化</div>
                   <div class="ts-text">未來將會陸續更新</div>
                   <div class="ts-divider is-section"></div>
                   <div class="ts-text">未經許可不得擅自複製、二次發佈</div>
                   <div class="ts-text">本網站是由對符文系列的愛推動而成</div>
                   <div class="ts-text">不可用於商業用途</div>
+                  <div class="ts-divider is-section"></div>
+                  <div class="ts-text">使用 shift + 滾輪 可以橫向滾動表格</div>
                   <div class="ts-divider is-section"></div>
                   <div class="ts-space is-large"></div>
                   <a href="https://asia.sega.com/rf3sp/cht/" target="_blank">
@@ -62,6 +63,11 @@
                 </div>
               </div>
               <weapon-cap v-show="page.find(el=>el.id == 'weapon-cap').isActive"></weapon-cap>
+              <weapon-rec v-show="page.find(el=>el.id == 'weapon-rec').isActive"></weapon-rec>
+              <staff-mater v-show="page.find(el=>el.id == 'staff-mater').isActive"></staff-mater>
+              <farm-rec v-show="page.find(el=>el.id == 'farm-rec').isActive"></farm-rec>
+              <equi-mater v-show="page.find(el=>el.id == 'equi-mater').isActive"></equi-mater>
+              <decor-rec v-show="page.find(el=>el.id == 'decor-rec').isActive"></decor-rec>
             </div>
           </div>
         </div>

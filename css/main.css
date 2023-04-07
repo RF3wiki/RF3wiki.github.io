@@ -1,16 +1,21 @@
 * {
-  -webkit-user-drag: none !important;
   -webkit-user-select: none !important;
      -moz-user-select: none !important;
           user-select: none !important;
 }
 *::-webkit-scrollbar {
-  width: 0.2rem;
-  display: none;
+  width: 0.4rem;
+  height: 0.4rem;
+  padding: 0;
 }
 *::-webkit-scrollbar-thumb {
   border-radius: 2rem;
-  background: lightgray;
+  background: rgba(229, 81, 0, 0.3019607843);
+  opacity: 0.6;
+}
+
+img {
+  -webkit-user-drag: none !important;
 }
 
 html {
@@ -24,4 +29,16 @@ html {
 
 div[title]:hover {
   box-shadow: 0 0.2rem 0 0 #e55100;
+}
+
+.ts-table {
+  white-space: nowrap;
+}
+
+.ts-content .ts-segment {
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-x: auto;
+  max-height: 56rem;
+  padding: 0;
 }/*# sourceMappingURL=main.css.map */

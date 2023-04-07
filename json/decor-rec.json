@@ -1,0 +1,1153 @@
+[
+    {
+        "category": "盾牌",
+        "tab":"shield",
+        "active":true,
+        "list": [
+            {
+                "name": "小盾牌",
+                "skillLv": "2",
+                "item1": "鐵",
+                "item2": "鐵",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "青銅盾",
+                "skillLv": "8",
+                "item1": "銅",
+                "item2": "銅",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "傘",
+                "skillLv": "17",
+                "item1": "鐵",
+                "item2": "鐵",
+                "item3": "漂亮的蟲皮",
+                "item4": "結實的藤",
+                "item5": "鳥之羽",
+                "item6": ""
+            },
+            {
+                "name": "圓盾",
+                "skillLv": "17",
+                "item1": "銅",
+                "item2": "銅",
+                "item3": "鐵",
+                "item4": "鐵",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "重盾",
+                "skillLv": "22",
+                "item1": "鐵",
+                "item2": "鐵",
+                "item3": "鐵",
+                "item4": "堅固的角",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "魔法之盾",
+                "skillLv": "24",
+                "item1": "銅",
+                "item2": "銅",
+                "item3": "紫水晶",
+                "item4": "海盜哥布林的布",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "海龜盾",
+                "skillLv": "34",
+                "item1": "龜殼",
+                "item2": "龜殼",
+                "item3": "龜殼",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "骨盾",
+                "skillLv": "36",
+                "item1": "銀",
+                "item2": "銀",
+                "item3": "昆蟲下顎",
+                "item4": "鬥牛之角",
+                "item5": "鬥牛之角",
+                "item6": ""
+            },
+            {
+                "name": "高級盾牌",
+                "skillLv": "37",
+                "item1": "銀",
+                "item2": "銀",
+                "item3": "金",
+                "item4": "金",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "混沌之盾",
+                "skillLv": "41",
+                "item1": "銀",
+                "item2": "銀",
+                "item3": "蝎子的尾巴",
+                "item4": "蝎子的鉗子",
+                "item5": "戰士之證",
+                "item6": ""
+            },
+            {
+                "name": "猴子布偶",
+                "skillLv": "43",
+                "item1": "獸人的破布",
+                "item2": "結實的蜘蛛絲",
+                "item3": "軟綿綿棉(莫可棉)",
+                "item4": "軟綿綿棉(莫可棉)",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "騎士盾",
+                "skillLv": "50",
+                "item1": "銀",
+                "item2": "銀",
+                "item3": "金",
+                "item4": "白金",
+                "item5": "鬥牛之角",
+                "item6": ""
+            },
+            {
+                "name": "棱鏡之盾",
+                "skillLv": "66",
+                "item1": "白金",
+                "item2": "紫水晶",
+                "item3": "紅寶石",
+                "item4": "綠寶石",
+                "item5": "海藍寶石",
+                "item6": "藍寶石"
+            },
+            {
+                "name": "魔力盾牌",
+                "skillLv": "67",
+                "item1": "金",
+                "item2": "金",
+                "item3": "骨膠",
+                "item4": "魔法師之粉",
+                "item5": "魔力結晶",
+                "item6": "魔力結晶"
+            },
+            {
+                "name": "元素之盾",
+                "skillLv": "69",
+                "item1": "銀",
+                "item2": "銀",
+                "item3": "白金",
+                "item4": "鑽石",
+                "item5": "魔法師之粉",
+                "item6": "妖精之粉"
+            },
+            {
+                "name": "白金盾",
+                "skillLv": "75",
+                "item1": "白金",
+                "item2": "白金",
+                "item3": "鑽石",
+                "item4": "龍牙",
+                "item5": "魔人之角",
+                "item6": "惡魔之血"
+            },
+            {
+                "name": "符文之盾",
+                "skillLv": "88",
+                "item1": "白金",
+                "item2": "鑽石",
+                "item3": "龍牙",
+                "item4": "小結晶",
+                "item5": "妖精之粉",
+                "item6": "妖精之粉"
+            }
+        ]
+    },
+    {
+        "category": "頭盔",
+        "tab":"helmet",
+        "list": [
+            {
+                "name": "手織帽",
+                "skillLv": "9",
+                "item1": "毛線球",
+                "item2": "",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "集中耳墜",
+                "skillLv": "12",
+                "item1": "鐵",
+                "item2": "生鏽的箭頭",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "飛奔頭巾",
+                "skillLv": "16",
+                "item1": "海盜哥布林的布",
+                "item2": "海盜哥布林的布",
+                "item3": "巨人手套",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "氣勢頭巾",
+                "skillLv": "32",
+                "item1": "獸人的破布",
+                "item2": "海盜哥布林的布",
+                "item3": "哥布林的繃帶",
+                "item4": "哥布林的繃帶",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "漂亮帽子",
+                "skillLv": "35",
+                "item1": "哥布林的繃帶",
+                "item2": "鳥之羽",
+                "item3": "毛皮",
+                "item4": "毛皮",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "銀髮簪",
+                "skillLv": "38",
+                "item1": "銀",
+                "item2": "骨膠",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "名牌眼鏡",
+                "skillLv": "48",
+                "item1": "骨膠",
+                "item2": "鬥牛之角",
+                "item3": "古代魚之骨",
+                "item4": "浮游靈頭巾",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "金髮簪",
+                "skillLv": "53",
+                "item1": "金",
+                "item2": "骨膠",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "羽毛帽",
+                "skillLv": "61",
+                "item1": "鳥之羽",
+                "item2": "毛皮",
+                "item3": "毛皮",
+                "item4": "上質的毛皮",
+                "item5": "絲綢",
+                "item6": "絲綢"
+            },
+            {
+                "name": "魔女耳墜",
+                "skillLv": "65",
+                "item1": "金",
+                "item2": "毛皮",
+                "item3": "銀",
+                "item4": "鐵",
+                "item5": "魔法師之粉",
+                "item6": "銀"
+            },
+            {
+                "name": "魔法師耳墜",
+                "skillLv": "82",
+                "item1": "銀",
+                "item2": "銀",
+                "item3": "紅寶石",
+                "item4": "紅寶石",
+                "item5": "魔力結晶",
+                "item6": "魔法師之粉"
+            }
+        ]
+    },
+    {
+        "category": "鞋子",
+        "tab":"shoe",
+        "list": [
+            {
+                "name": "皮靴",
+                "skillLv": "7",
+                "item1": "毛皮",
+                "item2": "毛皮",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "黏黏鞋",
+                "skillLv": "9",
+                "item1": "獸人的破布",
+                "item2": "獸人的破布",
+                "item3": "結實的蜘蛛絲",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "拖鞋",
+                "skillLv": "10",
+                "item1": "蟲皮",
+                "item2": "蟲皮",
+                "item3": "軟綿綿棉",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "特工靴/內增高靴",
+                "skillLv": "11",
+                "item1": "鐵",
+                "item2": "蟲皮",
+                "item3": "蟲皮",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "重靴",
+                "skillLv": "14",
+                "item1": "鐵",
+                "item2": "鐵",
+                "item3": "鐵",
+                "item4": "鐵",
+                "item5": "銅",
+                "item6": "銅"
+            },
+            {
+                "name": "跳步鞋",
+                "skillLv": "18",
+                "item1": "漂亮的蟲皮",
+                "item2": "漂亮的蟲皮",
+                "item3": "蘑菇孢子",
+                "item4": "結實的藤",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "銀靴",
+                "skillLv": "26",
+                "item1": "銅",
+                "item2": "銀",
+                "item3": "巨人手套",
+                "item4": "錘子碎片",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "骨靴",
+                "skillLv": "31",
+                "item1": "龍骨",
+                "item2": "",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "飛龍靴",
+                "skillLv": "33",
+                "item1": "綠寶石",
+                "item2": "綠寶石",
+                "item3": "昆蟲的下顎",
+                "item4": "豹爪",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "滑冰鞋",
+                "skillLv": "38",
+                "item1": "水之結晶",
+                "item2": "水之結晶",
+                "item3": "龜殼",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "踏雪靴",
+                "skillLv": "43",
+                "item1": "鐵",
+                "item2": "結實的藤",
+                "item3": "狼牙",
+                "item4": "上質的毛皮",
+                "item5": "上質的毛皮",
+                "item6": ""
+            },
+            {
+                "name": "金靴",
+                "skillLv": "47",
+                "item1": "銀",
+                "item2": "金",
+                "item3": "金",
+                "item4": "戰士之證",
+                "item5": "毛皮",
+                "item6": ""
+            },
+            {
+                "name": "制動靴",
+                "skillLv": "49",
+                "item1": "巨人手套",
+                "item2": "巨人手套",
+                "item3": "骨膠",
+                "item4": "骨膠",
+                "item5": "鬥牛之角",
+                "item6": ""
+            },
+            {
+                "name": "騎士靴",
+                "skillLv": "51",
+                "item1": "銀",
+                "item2": "銀",
+                "item3": "白金",
+                "item4": "維京護肩",
+                "item5": "上質的毛皮",
+                "item6": "絲綢"
+            },
+            {
+                "name": "水蜘蛛/水云",
+                "skillLv": "54",
+                "item1": "結實的蜘蛛絲",
+                "item2": "結實的蜘蛛絲",
+                "item3": "漂亮的蜘蛛絲",
+                "item4": "漂亮的蜘蛛絲",
+                "item5": "壞掉的木箱",
+                "item6": "壞掉的木箱"
+            },
+            {
+                "name": "潛行靴",
+                "skillLv": "59",
+                "item1": "獸人的破布",
+                "item2": "海盜哥布林的布",
+                "item3": "骨膠",
+                "item4": "軟綿綿棉",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "幽靈靴",
+                "skillLv": "64",
+                "item1": "魔法師之粉",
+                "item2": "魔法師之粉",
+                "item3": "狼牙",
+                "item4": "狼牙",
+                "item5": "浮游靈頭巾",
+                "item6": ""
+            },
+            {
+                "name": "羽毛靴",
+                "skillLv": "71",
+                "item1": "昆蟲的下顎",
+                "item2": "骨膠",
+                "item3": "鳥之羽",
+                "item4": "鳥之羽",
+                "item5": "毛皮",
+                "item6": ""
+            },
+            {
+                "name": "鐵屐鞋",
+                "skillLv": "76",
+                "item1": "鐵",
+                "item2": "鐵",
+                "item3": "維京護肩",
+                "item4": "維京護肩",
+                "item5": "龜殼",
+                "item6": ""
+            },
+            {
+                "name": "火箭之風",
+                "skillLv": "85",
+                "item1": "絲綢",
+                "item2": "絲綢",
+                "item3": "絲綢",
+                "item4": "惡魔之血",
+                "item5": "妖精之粉",
+                "item6": "妖精之粉"
+            },
+            {
+                "name": "妖精之靴",
+                "skillLv": "89",
+                "item1": "鑽石",
+                "item2": "鑽石",
+                "item3": "小結晶",
+                "item4": "妖精之粉",
+                "item5": "妖精之粉",
+                "item6": "妖精之粉"
+            }
+        ]
+    },
+    {
+        "category": "飾品",
+        "tab":"accessories",
+        "list": [
+            {
+                "name": "便宜的腕輪",
+                "skillLv": "1",
+                "item1": "鐵",
+                "item2": "獸人的破布",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "護符",
+                "skillLv": "3",
+                "item1": "獸人的破布",
+                "item2": "結實的蜘蛛絲",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "努力者勞動手套",
+                "skillLv": "4",
+                "item1": "獸人的破布",
+                "item2": "海盜哥布林的布",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "贈送徽章",
+                "skillLv": "6",
+                "item1": "鐵",
+                "item2": "",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "銅腕輪",
+                "skillLv": "10",
+                "item1": "銅",
+                "item2": "獸人的破布",
+                "item3": "獸人的破布",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "皮腰帶",
+                "skillLv": "13",
+                "item1": "毛皮",
+                "item2": "毛皮",
+                "item3": "漂亮的蟲皮",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "紫水晶戒指",
+                "skillLv": "15",
+                "item1": "紫水晶",
+                "item2": "",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "綠寶石戒指",
+                "skillLv": "15",
+                "item1": "綠寶石",
+                "item2": "",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "藍寶石戒指",
+                "skillLv": "15",
+                "item1": "藍寶石",
+                "item2": "",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "紅寶石戒指",
+                "skillLv": "15",
+                "item1": "紅寶石",
+                "item2": "",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "暗之戒指",
+                "skillLv": "15",
+                "item1": "骷髏",
+                "item2": "",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "水藍寶石戒指",
+                "skillLv": "15",
+                "item1": "海藍寶石",
+                "item2": "",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "結實手套",
+                "skillLv": "18",
+                "item1": "獸人的破布",
+                "item2": "海盜哥布林的布",
+                "item3": "軟綿綿棉",
+                "item4": "巨人手套",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "大地吊墜",
+                "skillLv": "19",
+                "item1": "純銀吊墜",
+                "item2": "地之結晶",
+                "item3": "地之結晶",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "純銀吊墜",
+                "skillLv": "20",
+                "item1": "鐵",
+                "item2": "銀",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "求婚戒指",
+                "skillLv": "20",
+                "item1": "銀",
+                "item2": "銀",
+                "item3": "紅寶石",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "銀腕輪",
+                "skillLv": "25",
+                "item1": "銀",
+                "item2": "海盜哥布林的布",
+                "item3": "海盜哥布林的布",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "劇毒戒指",
+                "skillLv": "27",
+                "item1": "銅",
+                "item2": "蘑菇孢子",
+                "item3": "蘑菇孢子",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "麻痹戒指",
+                "skillLv": "28",
+                "item1": "銅",
+                "item2": "植物莖",
+                "item3": "植物莖",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "沉默戒指",
+                "skillLv": "29",
+                "item1": "銅",
+                "item2": "燈章魚",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "會心戒指",
+                "skillLv": "30",
+                "item1": "銀",
+                "item2": "堅固的角",
+                "item3": "豹爪",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "幸運戒指",
+                "skillLv": "30",
+                "item1": "鑽石",
+                "item2": "四葉草",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "魔力戒指",
+                "skillLv": "31",
+                "item1": "銀",
+                "item2": "魔力結晶",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "草原吊墜",
+                "skillLv": "35",
+                "item1": "純銀吊墜",
+                "item2": "風之結晶",
+                "item3": "風之結晶",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "金腕輪",
+                "skillLv": "39",
+                "item1": "金",
+                "item2": "海盜哥布林的布",
+                "item3": "海盜哥布林的布",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "心形吊墜",
+                "skillLv": "40",
+                "item1": "純銀吊墜",
+                "item2": "愛之結晶",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "星星吊墜",
+                "skillLv": "40",
+                "item1": "純銀吊墜",
+                "item2": "光之結晶",
+                "item3": "暗之結晶",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "力量手套",
+                "skillLv": "42",
+                "item1": "蟲皮",
+                "item2": "蟲皮",
+                "item3": "錘子的碎片",
+                "item4": "豹爪",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "手織圍巾",
+                "skillLv": "43",
+                "item1": "軟綿綿棉",
+                "item2": "軟綿綿棉",
+                "item3": "軟綿綿棉",
+                "item4": "軟綿綿棉",
+                "item5": "軟綿綿棉",
+                "item6": "軟綿綿棉"
+            },
+            {
+                "name": "護盾戒指",
+                "skillLv": "44",
+                "item1": "金",
+                "item2": "錘子碎片",
+                "item3": "鬥牛之角",
+                "item4": "鬥牛之角",
+                "item5": "古代魚之骨",
+                "item6": ""
+            },
+            {
+                "name": "太陽吊墜",
+                "skillLv": "45",
+                "item1": "純銀吊墜",
+                "item2": "火之結晶",
+                "item3": "火之結晶",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "魔斗咒符",
+                "skillLv": "46",
+                "item1": "魔力結晶",
+                "item2": "魔法師之粉",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "白金腕輪",
+                "skillLv": "50",
+                "item1": "白金",
+                "item2": "海盜哥布林的布",
+                "item3": "海盜哥布林的布",
+                "item4": "古代魚之骨",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "神聖護身符",
+                "skillLv": "55",
+                "item1": "純銀吊墜",
+                "item2": "銀",
+                "item3": "銀",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "水藍寶石胸針",
+                "skillLv": "55",
+                "item1": "海藍寶石",
+                "item2": "海藍寶石",
+                "item3": "海藍寶石",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "紫水晶胸針",
+                "skillLv": "55",
+                "item1": "紫水晶",
+                "item2": "紫水晶",
+                "item3": "紫水晶",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "綠寶石胸針",
+                "skillLv": "55",
+                "item1": "綠寶石",
+                "item2": "綠寶石",
+                "item3": "綠寶石",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "藍寶石胸針",
+                "skillLv": "55",
+                "item1": "藍寶石",
+                "item2": "藍寶石",
+                "item3": "藍寶石",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "紅寶石胸針",
+                "skillLv": "55",
+                "item1": "紅寶石",
+                "item2": "紅寶石",
+                "item3": "紅寶石",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "水滴吊墜",
+                "skillLv": "58",
+                "item1": "純銀吊墜",
+                "item2": "水之結晶",
+                "item3": "水之結晶",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "鑽石戒指",
+                "skillLv": "60",
+                "item1": "鑽石",
+                "item2": "鑽石",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "冠軍腰帶",
+                "skillLv": "63",
+                "item1": "金",
+                "item2": "戰士之證",
+                "item3": "上質的毛皮",
+                "item4": "絲綢",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "鑽石胸針",
+                "skillLv": "64",
+                "item1": "鑽石",
+                "item2": "鑽石",
+                "item3": "鑽石",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "純銀戒指",
+                "skillLv": "65",
+                "item1": "銀",
+                "item2": "銀",
+                "item3": "銀",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "不戰十字架",
+                "skillLv": "68",
+                "item1": "銀",
+                "item2": "銀",
+                "item3": "漂亮的蜘蛛絲",
+                "item4": "漂亮的蜘蛛絲",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "黃金戒指",
+                "skillLv": "70",
+                "item1": "金",
+                "item2": "金",
+                "item3": "金",
+                "item4": "金",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "護身符",
+                "skillLv": "71",
+                "item1": "白金",
+                "item2": "白金",
+                "item3": "漂亮的蜘蛛絲",
+                "item4": "漂亮的蜘蛛絲",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "厚厚圍巾",
+                "skillLv": "72",
+                "item1": "軟綿綿棉",
+                "item2": "毛線球",
+                "item3": "毛線球",
+                "item4": "毛線球",
+                "item5": "毛線球",
+                "item6": "毛線球"
+            },
+            {
+                "name": "豪傑之證",
+                "skillLv": "73",
+                "item1": "金",
+                "item2": "魔人之角",
+                "item3": "龍牙",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "賢者之證",
+                "skillLv": "74",
+                "item1": "金",
+                "item2": "魔法師之粉",
+                "item3": "妖精之粉",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "白金戒指",
+                "skillLv": "75",
+                "item1": "白金",
+                "item2": "白金",
+                "item3": "白金",
+                "item4": "白金",
+                "item5": "白金",
+                "item6": ""
+            },
+            {
+                "name": "會心之證",
+                "skillLv": "78",
+                "item1": "會心戒指",
+                "item2": "狼牙",
+                "item3": "魔人之角",
+                "item4": "龍牙",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "鋼鐵的極意",
+                "skillLv": "90",
+                "item1": "白金",
+                "item2": "鑽石",
+                "item3": "龜殼",
+                "item4": "上質的毛皮",
+                "item5": "龍牙",
+                "item6": "壞掉的木箱"
+            },
+            {
+                "name": "必殺的極意",
+                "skillLv": "91",
+                "item1": "白金",
+                "item2": "鬥牛之角",
+                "item3": "狼牙",
+                "item4": "魔人之角",
+                "item5": "龍牙",
+                "item6": "骷髏"
+            },
+            {
+                "name": "魔道的極意",
+                "skillLv": "92",
+                "item1": "白金",
+                "item2": "魔法師之粉",
+                "item3": "浮游靈的頭巾",
+                "item4": "惡魔之血",
+                "item5": "小結晶",
+                "item6": "妖精之粉"
+            },
+            {
+                "name": "風之戒指",
+                "skillLv": "93",
+                "item1": "白金",
+                "item2": "風之結晶",
+                "item3": "風之結晶",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "地之戒指",
+                "skillLv": "94",
+                "item1": "白金",
+                "item2": "地之結晶",
+                "item3": "地之結晶",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "火之戒指",
+                "skillLv": "95",
+                "item1": "白金",
+                "item2": "火之結晶",
+                "item3": "火之結晶",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "水之戒指",
+                "skillLv": "96",
+                "item1": "白金",
+                "item2": "水之結晶",
+                "item3": "水之結晶",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "勇氣徽章",
+                "skillLv": "99",
+                "item1": "贈送徽章",
+                "item2": "戰士之證",
+                "item3": "骨膠",
+                "item4": "光之結晶",
+                "item5": "暗之結晶",
+                "item6": "愛之結晶"
+            }
+        ]
+    },
+    {
+        "category": "收集品",
+        "tab":"collection",
+        "list": [
+            {
+                "name": "毛線球",
+                "skillLv": "5",
+                "item1": "軟毛",
+                "item2": "軟毛",
+                "item3": "軟毛",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "毛線球",
+                "skillLv": "6",
+                "item1": "軟軟的毛",
+                "item2": "",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            },
+            {
+                "name": "毛線球",
+                "skillLv": "7",
+                "item1": "軟軟綿綿的毛",
+                "item2": "",
+                "item3": "",
+                "item4": "",
+                "item5": "",
+                "item6": ""
+            }
+        ]
+    }
+]

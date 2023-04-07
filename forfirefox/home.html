@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-hant-tw">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/tocas/tocas.min.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <script src="../js/tocas/tocas.min.js"></script>
+  <!-- <script src="../js/vue.js"></script> -->
+  <script src="../js/vue.min.js"></script>
+  <script src="./js/component_forfirefox.js"></script>
+  <title>符文工廠3 Wiki</title>
+</head>
+
+<body>
+  <div id="app" class="ts-container is-fluid">
+    <div class="ts-loading is-notched loading-box" :class="loadnone"></div>
+    <div class="ts-grid is-relaxed">
+      <div class="column mobile-:is-16-wide tablet-desktop:is-3-wide desktop+:is-2-wide">
+        <div class="ts-space"></div>
+        <div class="ts-header is-large is-heavy is-center-aligned" v-on:click="changePage('home')" title>符文工廠3 Wiki
+        </div>
+        <div class="ts-divider is-section"></div>
+        <div class="ts-menu ts-tab is-start-icon is-separated">
+          <details class="ts-accordion" v-on:click="detailsClose" v-for="(menu , index) in menu_list" :key="index">
+            <summary>{{menu.id}}</summary>
+            <a class="item is-accent" v-on:click="changePage(list.tab)" :data-tab="list.tab"
+              v-for="(list, index) in menu.list">
+              {{list.name}}
+            </a>
+          </details>
+        </div>
+        <div class="ts-space"></div>
+        <button class="ts-button is-fluid is-accent" data-toggle="report:is-visible">
+          問題回報
+        </button>
+      </div>
+
+      <!-- 右半空間 -->
+      <div class="column is-13-wide mobile-:is-16-wide">
+        <div class="ts-space is-huge mobile-:u-hidden"></div>
+        <div class="ts-segment" style="background: var(--ts-gray-50)">
+          <div class="ts-grid is-relaxed">
+            <div class="column is-fluid">
+              <div class="ts-center" v-show="page.find(el=>el.id == 'home').isActive">
+                <div class="ts-header is-large is-heavy is-icon">
+                  <div class="ts-icon is-cube-icon"></div>
+                  使用規範
+                </div>
+                <div class="ts-content is-padded is-center-aligned">
+                  <div class="ts-text">本網站所有資源皆來自於網路蒐集</div>
+                  <div class="ts-text" style="word-break: keep-all;">由於內容大多為舊NDS版，部分翻譯是舊民間漢化</div>
+                  <div class="ts-text">未來將會陸續更新</div>
+                  <div class="ts-divider is-section"></div>
+                  <div class="ts-text">未經許可不得擅自複製、二次發佈</div>
+                  <div class="ts-text">本網站是由對符文系列的愛推動而成</div>
+                  <div class="ts-text">不可用於商業用途</div>
+                  <div class="ts-divider is-section"></div>
+                  <div class="ts-text">使用 shift + 滾輪 可以橫向滾動表格</div>
+                  <div class="ts-divider is-section"></div>
+                  <div class="ts-space is-large"></div>
+                  <a href="https://asia.sega.com/rf3sp/cht/" target="_blank">
+                    <span> 符文工廠3 豪華版 官方網站 </span>
+                  </a>
+                  <div class="ts-space"></div>
+                </div>
+              </div>
+              <weapon-cap v-show="page.find(el=>el.id == 'weapon-cap').isActive"></weapon-cap>
+              <weapon-rec v-show="page.find(el=>el.id == 'weapon-rec').isActive"></weapon-rec>
+              <staff-mater v-show="page.find(el=>el.id == 'staff-mater').isActive"></staff-mater>
+              <farm-rec v-show="page.find(el=>el.id == 'farm-rec').isActive"></farm-rec>
+              <equi-mater v-show="page.find(el=>el.id == 'equi-mater').isActive"></equi-mater>
+              <decor-rec v-show="page.find(el=>el.id == 'decor-rec').isActive"></decor-rec>
+              <acce-cap v-show="page.find(el=>el.id == 'acce-cap').isActive"></acce-cap>
+              <shoe-cap v-show="page.find(el=>el.id == 'shoe-cap').isActive"></shoe-cap>
+              <het-cap v-show="page.find(el=>el.id == 'het-cap').isActive"></het-cap>
+              <shield-cap v-show="page.find(el=>el.id == 'shield-cap').isActive"></shield-cap>
+              <crop-info v-show="page.find(el=>el.id == 'crop-info').isActive"></crop-info>
+              <cooking-rec v-show="page.find(el=>el.id == 'cooking-rec').isActive"></cooking-rec>
+              <drug-rec v-show="page.find(el=>el.id == 'drug-rec').isActive"></drug-rec>
+              <fish-town v-show="page.find(el=>el.id == 'fish-town').isActive"></fish-town>
+              <fish-maze v-show="page.find(el=>el.id == 'fish-maze').isActive"></fish-maze>
+              <maze-data v-show="page.find(el=>el.id == 'maze-data').isActive"></maze-data>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ts-modal" data-name="report">
+      <div class="content" style="width: auto;min-width: 380px;">
+        <div class="ts-content is-dense">
+          <div class="ts-header">問題回報
+            <span class="ts-close" data-toggle="report:is-visible" style="margin-left: auto;"></span>
+          </div>
+        </div>
+        <div class="ts-divider"></div>
+        <div class="ts-content">
+          <div class="ts-image" style="width: 100%;">
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSfg5RjBC3SuN4IzEdSn58GNmXhhlgxM2ss9l7aoecMqh3HKSQ/viewform?embedded=true"
+              width="100%" height="749" frameborder="0" marginheight="0" marginwidth="0">
+              載入中…
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const RF3Wiki = new Vue({
+      el: '#app',
+      data: {
+        loadnone: "",
+        menu_list: [
+          {
+            "id": "人物相關",
+            "list": [
+              { "name": "花嫁資料列表", "tab": "hanayome" }
+            ]
+          },
+          {
+            "id": "裝備相關",
+            "list": [
+              { "name": "農具配方", "tab": "farm-rec" },
+              { "name": "武器配方", "tab": "weapon-rec" },
+              { "name": "裝飾台配方", "tab": "decor-rec" },
+              { "name": "武器能力", "tab": "weapon-cap" },
+              { "name": "飾品能力", "tab": "acce-cap" },
+              { "name": "鞋子能力", "tab": "shoe-cap" },
+              { "name": "頭盔能力", "tab": "het-cap" },
+              { "name": "盾能力", "tab": "shield-cap" },
+              { "name": "裝備強化素材", "tab": "equi-mater" },
+              { "name": "法杖強化素材", "tab": "staff-mater" }
+            ]
+          },
+          {
+            "id": "農作相關",
+            "list": [
+              { "name": "農作物資料", "tab": "crop-info" }
+            ]
+          },
+          {
+            "id": "料理、藥水相關",
+            "list": [
+              { "name": "料理配方與效果", "tab": "cooking-rec" },
+              { "name": "藥品配方", "tab": "drug-rec" }
+            ]
+          },
+          {
+            "id": "釣魚相關",
+            "list": [
+              { "name": "釣魚資料-小鎮", "tab": "fish-town" },
+              { "name": "釣魚資料-迷宮", "tab": "fish-maze" }
+            ]
+          },
+          {
+            "id": "迷宮相關",
+            "list": [
+              { "name": "迷宮資料", "tab": "maze-data" }
+            ]
+          }
+        ],
+        page: [
+          { id: 'home', isActive: true },
+          { id: 'hanayome', isActive: false },
+          { id: 'weapon-cap', isActive: false },
+          { id: 'weapon-rec', isActive: false },
+          { id: 'staff-mater', isActive: false },
+          { id: 'farm-rec', isActive: false },
+          { id: 'equi-mater', isActive: false },
+          { id: 'decor-rec', isActive: false },
+          { id: 'acce-cap', isActive: false },
+          { id: 'shoe-cap', isActive: false },
+          { id: 'het-cap', isActive: false },
+          { id: 'shield-cap', isActive: false },
+          { id: 'crop-info', isActive: false },
+          { id: 'cooking-rec', isActive: false },
+          { id: 'drug-rec', isActive: false },
+          { id: 'fish-town', isActive: false },
+          { id: 'fish-maze', isActive: false },
+          { id: 'maze-data', isActive: false }
+        ]
+      },
+      mounted() {
+        setTimeout(() => {
+          this.loadnone = 'u-hidden';
+        }, 2000);
+      },
+      methods: {
+        changePage(type) {
+          this.page.forEach(el => {
+            el.isActive = false
+          })
+          if (type == 'home') {
+            document.querySelectorAll('.ts-menu.ts-tab .item').forEach(el => {
+              el.classList = 'item'
+            });
+            document.querySelectorAll('.ts-accordion').forEach(el => {
+              el.removeAttribute('open')
+            });
+          }
+          this.page.find(el => el.id == type).isActive = true;
+        },
+        detailsClose() {
+          const details = document.querySelectorAll("details");
+          details.forEach((targetDetail) => {
+            targetDetail.addEventListener("click", () => {
+              details.forEach((detail) => {
+                if (detail !== targetDetail) {
+                  detail.removeAttribute("open");
+                }
+              });
+            });
+          });
+        },
+      }
+
+    })
+
+  </script>
+</body>
+
+</html>

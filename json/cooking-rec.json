@@ -1,6 +1,8 @@
 [
     {
         "category": "空手",
+        "tab":"emptyhanded",
+        "active": true,
         "list": [
             {
                 "name": "腌蕪菁(かぶの酢漬け)",
@@ -277,6 +279,7 @@
     },
     {
         "category": "菜刀",
+        "tab":"kitchenknife",
         "list": [
             {
                 "name": "烏賊刺身(イカさし)",
@@ -644,6 +647,7 @@
     },
     {
         "category": "平底鍋",
+        "tab":"pan",
         "list": [
             {
                 "name": "鹽烤巖魚(イワナの塩焼き)",
@@ -1745,6 +1749,7 @@
     },
     {
         "category": "烤箱",
+        "tab":"oven",
         "list": [
             {
                 "name": "餅乾/甜餅(クッキー)",
@@ -2296,6 +2301,7 @@
     },
     {
         "category": "蒸籠",
+        "tab":"steamer",
         "list": [
             {
                 "name": "糰子/丸子(だんご)",
@@ -2655,6 +2661,7 @@
     },
     {
         "category": "鍋子",
+        "tab":"pot",
         "list": [
             {
                 "name": "熱牛奶(ホットミルク)",
@@ -3289,6 +3296,7 @@
     },
     {
         "category": "攪拌機",
+        "tab":"blender",
         "list": [
             {
                 "name": "蛋黃醬(マヨネーズ)",
@@ -3803,6 +3811,7 @@
     },
     {
         "category": "失敗作",
+        "tab":"fail",
         "list": [
             {
                 "name": "失敗作",

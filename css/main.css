@@ -32,7 +32,7 @@ div[title]:hover {
 }
 
 .ts-table {
-  white-space: nowrap;
+  word-break: keep-all;
 }
 
 .ts-content .ts-segment {
@@ -41,4 +41,39 @@ div[title]:hover {
   overflow-x: auto;
   max-height: 56rem;
   padding: 0;
+}
+
+.loading-box {
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  background-color: transparent;
+}
+.loading-box::after {
+  font-size: 5rem;
+  line-height: 100vh;
+  max-width: 100vh;
+  max-height: 100vh;
+  background-color: transparent;
+}
+
+@media (prefers-color-scheme: dark) {
+  .loading-box {
+    background-color: var(--ts-gray-50);
+  }
+  .loading-box::after {
+    background-color: var(--ts-gray-50);
+  }
+}
+@media (prefers-color-scheme: light) {
+  .loading-box {
+    background-color: var(--ts-gray-50);
+  }
+  .loading-box::after {
+    background-color: var(--ts-gray-50);
+  }
 }/*# sourceMappingURL=main.css.map */

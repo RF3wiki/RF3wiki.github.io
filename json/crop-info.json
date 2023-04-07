@@ -1,6 +1,8 @@
 [
     {
-        "caegory": "春季",
+        "category": "春季",
+        "tab": "spring",
+        "active": true,
         "list": [
             {
                 "name": "サクラカブ(櫻色蕪菁)",
@@ -190,7 +192,8 @@
         ]
     },
     {
-        "caegory": "夏季",
+        "category": "夏季",
+        "tab": "summer",
         "list": [
             {
                 "name": "キュウリ(黃瓜)",
@@ -384,7 +387,8 @@
         ]
     },
     {
-        "caegory": "秋季",
+        "category": "秋季",
+        "tab": "autumn",
         "list": [
             {
                 "name": "サツマイモ(蕃薯)",
@@ -546,7 +550,8 @@
         ]
     },
     {
-        "caegory": "冬季",
+        "category": "冬季",
+        "tab": "winter",
         "list": [
             {
                 "name": "カブ(蕪菁)",
@@ -682,7 +687,8 @@
         ]
     },
     {
-        "caegory": "其他",
+        "category": "其他",
+        "tab": "other",
         "list": [
             {
                 "name": "牧草",
@@ -693,9 +699,7 @@
                 "cropBuy": "240",
                 "cropSell": "60",
                 "Lv10Sell": "",
-                "sp": [
-                    ""
-                ],
+                "sp": [],
                 "time": ""
             }
         ]

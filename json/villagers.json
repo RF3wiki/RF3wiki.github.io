@@ -1,6 +1,50 @@
 [
     {
-        "name": "",
+        "name": "威爾茲",
+        "tag": "Wells",
+        "favorite": [
+            "不求人",
+            "磅蛋糕",
+            "餃子",
+            "櫻桃草",
+            "燈草",
+            "藍色晶體",
+            "金剛砂花",
+            "鐵葉",
+            "四葉草",
+            "火花",
+            "綠色晶體",
+            "諾爾草",
+            "秋草",
+            "毛球草",
+            "紅色晶體",
+            "白色晶體"
+        ],
+        "like": [
+            "飯糰",
+            "鮭魚飯糰",
+            "醃菜",
+            "醃蘿蔔",
+            "烤飯糰",
+            "玩具草",
+            "粉紅貓"
+        ],
+        "Hate": [
+            "失敗",
+            "垃圾",
+            "雜草",
+            "枯草",
+            "石頭",
+            "樹枝",
+            "廢金屬",
+            "蛋糕",
+            "巧克力蛋糕",
+            "熱巧克力"
+        ],
+        "img": "../img/Wells.webp"
+    },
+    {
+        "name": "莫妮卡",
         "tag": "Monica",
         "favorite": [
             "手編帽子",
@@ -80,7 +124,7 @@
         "img": "../img/Monica.webp"
     },
     {
-        "name": "",
+        "name": "加基",
         "tag": "Gaius",
         "favorite": [
             "咖哩烏龍麵",
@@ -109,7 +153,7 @@
         "img": "../img/Gaius.webp"
     },
     {
-        "name": "",
+        "name": "格魯汀",
         "tag": "Blaise",
         "favorite": [
             "巧克力蛋糕",
@@ -139,7 +183,7 @@
         "img": "../img/Blaise.webp"
     },
     {
-        "name": "",
+        "name": "拉斯庫",
         "tag": "Rusk",
         "favorite": [
             "巧克力蛋糕",
@@ -175,7 +219,7 @@
         "img": "../img/Rusk.webp"
     },
     {
-        "name": "",
+        "name": "瑪祖莉",
         "tag": "Marjorie",
         "favorite": [
             "放鬆茶葉",
@@ -206,7 +250,7 @@
         "img": "../img/Marjorie.webp"
     },
     {
-        "name": "",
+        "name": "海澤爾",
         "tag": "Hazel",
         "favorite": [
             "鑽石胸針",
@@ -234,7 +278,7 @@
         "img": "../img/Hazel.webp"
     },
     {
-        "name": "",
+        "name": "頓查寇斯",
         "tag": "Sherman",
         "favorite": [
             "炸沙魚",
@@ -269,7 +313,7 @@
         "img": "../img/Sherman.webp"
     },
     {
-        "name": "",
+        "name": "艾莉莎",
         "tag": "Evelyn",
         "favorite": [
             "優質毛皮",
@@ -291,7 +335,7 @@
         "img": "../img/Evelyn.webp"
     },
     {
-        "name": "",
+        "name": "東雲",
         "tag": "Shino",
         "favorite": [
             "所有生魚片"
@@ -305,7 +349,7 @@
         "img": "../img/Shino.webp"
     },
     {
-        "name": "",
+        "name": "卡爾洛斯",
         "tag": "Carlos",
         "favorite": [
             "炸紅鯛魚",
@@ -334,7 +378,7 @@
         "img": "../img/Carlos.webp"
     },
     {
-        "name": "",
+        "name": "翁多爾法",
         "tag": "Ondorus",
         "favorite": [
             "戀愛預感",
@@ -362,7 +406,7 @@
         "img": "../img/Ondorus.webp"
     },
     {
-        "name": "",
+        "name": "傑杰",
         "tag": "Zaid",
         "favorite": [
             "天婦羅烏冬麵"

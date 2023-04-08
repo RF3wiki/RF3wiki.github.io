@@ -2,7 +2,7 @@
     {
         "id":"人物相關",
         "list":[
-            {"name":"花嫁資料" ,"tab":"hanayome"},
+            {"name":"花嫁資料","tab":"hanayome"},
             {"name":"城鎮村民","tab":"villagers"}
         ]
     },

@@ -1,26 +1,55 @@
-import weaponCap from '../json/weapon-cap.json' assert {type: "json"};
-import weaponRec from '../json/weapon-rec.json' assert {type: "json"};
-import staffMater from '../json/staff-mater.json' assert {type: "json"};
-import farmRec from '../json/farm-rec.json' assert {type: "json"};
-import equiMater from '../json/equi-mater.json' assert {type: "json"};
-import decorRec from '../json/decor-rec.json' assert {type: "json"};
-import acceCap from '../json/acce-cap.json' assert {type: "json"};
-import shoeCap from '../json/shoe-cap.json' assert {type: "json"};
-import hetCap from '../json/het-cap.json' assert {type: "json"};
-import shieldCap from '../json/shield-cap.json' assert {type: "json"};
-import cropInfo from '../json/crop-info.json' assert {type: "json"};
-import cookingRec from '../json/cooking-rec.json' assert {type: "json"};
-import drugRec from '../json/drug-rec.json' assert {type: "json"};
-import fishTown from '../json/fish-town.json' assert {type: "json"};
-import fishMaze from '../json/fish-maze.json' assert {type: "json"};
-import mazeData from '../json/maze-data.json' assert {type: "json"};
-import hanayome from '../json/hanayome.json' assert {type: "json"};
-import villagers from '../json/villagers.json' assert {type: "json"};
+Vue.component('home', {
+    template: `
+    <div class="ts-center">
+        <div class="ts-header is-large is-heavy is-icon">
+            <div class="ts-icon is-cube-icon"></div>
+            使用規範
+        </div>
+        <div class="ts-content is-padded is-center-aligned">
+            <div class="ts-text">本網站所有資源皆來自於網路蒐集</div>
+            <div class="ts-text" style="word-break: keep-all;">由於內容大多為舊NDS版，部分翻譯是舊民間漢化</div>
+            <div class="ts-text">未來將會陸續更新</div>
+            <div class="ts-divider is-section"></div>
+            <div class="ts-text">未經許可不得擅自複製、二次發佈</div>
+            <div class="ts-text">本網站是由對符文系列的愛推動而成</div>
+            <div class="ts-text">不可用於商業用途</div>
+            <div class="ts-divider is-section"></div>
+            <div class="ts-text">使用 shift + 滾輪 可以橫向滾動表格</div>
+            <div class="ts-divider is-section"></div>
+            <div class="ts-space is-large"></div>
+            <a href="https://asia.sega.com/rf3sp/cht/" target="_blank">
+            <span> 符文工廠3 豪華版 官方網站 </span>
+            </a>
+            <div class="ts-space"></div>
+        </div>
+    </div>
+    `
+});
+
+Vue.component('error-page', {
+    template: `
+    <div class="ts-center">
+        <div class="ts-header is-large is-heavy is-icon">
+            施工中
+        </div>
+    </div>
+    `
+});
 
 Vue.component('weapon-cap', {
     data() {
         return {
-            dataList: weaponCap,
+            dataList: null,
+        }
+    },
+    created() {
+        if (!this.dataList) {
+            fetch('../json/weapon-cap.json')
+                .then((res) => res.json())
+                .then((data) => {
+                    this.dataList = data;
+                })
+                .catch((error) => { console.warn(error) })
         }
     },
     template: ` 
@@ -64,7 +93,17 @@ Vue.component('weapon-cap', {
 Vue.component('weapon-rec', {
     data() {
         return {
-            dataList: weaponRec,
+            dataList: null,
+        }
+    },
+    created() {
+        if (!this.dataList) {
+            fetch('../json/weapon-rec.json')
+                .then((res) => res.json())
+                .then((data) => {
+                    this.dataList = data;
+                })
+                .catch((error) => { console.warn(error) })
         }
     },
     template: ` 
@@ -110,7 +149,17 @@ Vue.component('weapon-rec', {
 Vue.component('staff-mater', {
     data() {
         return {
-            dataList: staffMater,
+            dataList: null,
+        }
+    },
+    created() {
+        if (!this.dataList) {
+            fetch('../json/staff-mater.json')
+                .then((res) => res.json())
+                .then((data) => {
+                    this.dataList = data;
+                })
+                .catch((error) => { console.warn(error) })
         }
     },
     template: ` 
@@ -152,7 +201,17 @@ Vue.component('staff-mater', {
 Vue.component('farm-rec', {
     data() {
         return {
-            dataList: farmRec,
+            dataList: null,
+        }
+    },
+    created() {
+        if (!this.dataList) {
+            fetch('../json/farm-rec.json')
+                .then((res) => res.json())
+                .then((data) => {
+                    this.dataList = data;
+                })
+                .catch((error) => { console.warn(error) })
         }
     },
     template: ` 
@@ -198,7 +257,17 @@ Vue.component('farm-rec', {
 Vue.component('equi-mater', {
     data() {
         return {
-            dataList: equiMater,
+            dataList: null,
+        }
+    },
+    created() {
+        if (!this.dataList) {
+            fetch('../json/equi-mater.json')
+                .then((res) => res.json())
+                .then((data) => {
+                    this.dataList = data;
+                })
+                .catch((error) => { console.warn(error) })
         }
     },
     template: ` 
@@ -224,7 +293,6 @@ Vue.component('equi-mater', {
                 <tbody>
                     <tr v-for="(item, index) in dataList" :key="index">
                         <td>{{ item.name }}</td>
-                        <td>
                         <td class="ts-wrap" style="width:13rem;">
                             <div class="ts-chip is-spaced is-outlined" v-for="spantag in item.get">
                                 {{spantag}}
@@ -251,7 +319,17 @@ Vue.component('equi-mater', {
 Vue.component('decor-rec', {
     data() {
         return {
-            dataList: decorRec,
+            dataList: null,
+        }
+    },
+    created() {
+        if (!this.dataList) {
+            fetch('../json/decor-rec.json')
+                .then((res) => res.json())
+                .then((data) => {
+                    this.dataList = data;
+                })
+                .catch((error) => { console.warn(error) })
         }
     },
     template: ` 
@@ -297,7 +375,17 @@ Vue.component('decor-rec', {
 Vue.component('acce-cap', {
     data() {
         return {
-            dataList: acceCap,
+            dataList: null,
+        }
+    },
+    created() {
+        if (!this.dataList) {
+            fetch('../json/acce-cap.json')
+                .then((res) => res.json())
+                .then((data) => {
+                    this.dataList = data;
+                })
+                .catch((error) => { console.warn(error) })
         }
     },
     template: ` 
@@ -339,7 +427,17 @@ Vue.component('acce-cap', {
 Vue.component('shoe-cap', {
     data() {
         return {
-            dataList: shoeCap,
+            dataList: null,
+        }
+    },
+    created() {
+        if (!this.dataList) {
+            fetch('../json/shoe-cap.json')
+                .then((res) => res.json())
+                .then((data) => {
+                    this.dataList = data;
+                })
+                .catch((error) => { console.warn(error) })
         }
     },
     template: ` 
@@ -381,7 +479,17 @@ Vue.component('shoe-cap', {
 Vue.component('het-cap', {
     data() {
         return {
-            dataList: hetCap,
+            dataList: null,
+        }
+    },
+    created() {
+        if (!this.dataList) {
+            fetch('../json/het-cap.json')
+                .then((res) => res.json())
+                .then((data) => {
+                    this.dataList = data;
+                })
+                .catch((error) => { console.warn(error) })
         }
     },
     template: ` 
@@ -423,7 +531,17 @@ Vue.component('het-cap', {
 Vue.component('shield-cap', {
     data() {
         return {
-            dataList: shieldCap,
+            dataList: null,
+        }
+    },
+    created() {
+        if (!this.dataList) {
+            fetch('../json/shield-cap.json')
+                .then((res) => res.json())
+                .then((data) => {
+                    this.dataList = data;
+                })
+                .catch((error) => { console.warn(error) })
         }
     },
     template: ` 
@@ -465,7 +583,17 @@ Vue.component('shield-cap', {
 Vue.component('crop-info', {
     data() {
         return {
-            dataList: cropInfo,
+            dataList: null,
+        }
+    },
+    created() {
+        if (!this.dataList) {
+            fetch('../json/crop-info.json')
+                .then((res) => res.json())
+                .then((data) => {
+                    this.dataList = data;
+                })
+                .catch((error) => { console.warn(error) })
         }
     },
     template: ` 
@@ -519,7 +647,17 @@ Vue.component('crop-info', {
 Vue.component('cooking-rec', {
     data() {
         return {
-            dataList: cookingRec,
+            dataList: null,
+        }
+    },
+    created() {
+        if (!this.dataList) {
+            fetch('../json/cooking-rec.json')
+                .then((res) => res.json())
+                .then((data) => {
+                    this.dataList = data;
+                })
+                .catch((error) => { console.warn(error) })
         }
     },
     template: ` 
@@ -571,7 +709,17 @@ Vue.component('cooking-rec', {
 Vue.component('drug-rec', {
     data() {
         return {
-            dataList: drugRec,
+            dataList: null,
+        }
+    },
+    created() {
+        if (!this.dataList) {
+            fetch('../json/drug-rec.json')
+                .then((res) => res.json())
+                .then((data) => {
+                    this.dataList = data;
+                })
+                .catch((error) => { console.warn(error) })
         }
     },
     template: ` 
@@ -617,7 +765,17 @@ Vue.component('drug-rec', {
 Vue.component('fish-town', {
     data() {
         return {
-            dataList: fishTown,
+            dataList: null,
+        }
+    },
+    created() {
+        if (!this.dataList) {
+            fetch('../json/fish-town.json')
+                .then((res) => res.json())
+                .then((data) => {
+                    this.dataList = data;
+                })
+                .catch((error) => { console.warn(error) })
         }
     },
     template: ` 
@@ -672,7 +830,17 @@ Vue.component('fish-town', {
 Vue.component('fish-maze', {
     data() {
         return {
-            dataList: fishMaze,
+            dataList: null,
+        }
+    },
+    created() {
+        if (!this.dataList) {
+            fetch('../json/fish-maze.json')
+                .then((res) => res.json())
+                .then((data) => {
+                    this.dataList = data;
+                })
+                .catch((error) => { console.warn(error) })
         }
     },
     template: ` 
@@ -712,7 +880,17 @@ Vue.component('fish-maze', {
 Vue.component('maze-data', {
     data() {
         return {
-            dataList: mazeData,
+            dataList: null,
+        }
+    },
+    created() {
+        if (!this.dataList) {
+            fetch('../json/maze-data.json')
+                .then((res) => res.json())
+                .then((data) => {
+                    this.dataList = data;
+                })
+                .catch((error) => { console.warn(error) })
         }
     },
     template: ` 
@@ -784,7 +962,17 @@ Vue.component('maze-data', {
 Vue.component('hanayome', {
     data() {
         return {
-            dataList: hanayome,
+            dataList: null,
+        }
+    },
+    created() {
+        if (!this.dataList) {
+            fetch('../json/hanayome.json')
+                .then((res) => res.json())
+                .then((data) => {
+                    this.dataList = data;
+                })
+                .catch((error) => { console.warn(error) })
         }
     },
     template: ` 
@@ -839,7 +1027,17 @@ Vue.component('hanayome', {
 Vue.component('villagers', {
     data() {
         return {
-            dataList: villagers,
+            dataList: null,
+        }
+    },
+    created() {
+        if (!this.dataList) {
+            fetch('../json/villagers.json')
+                .then((res) => res.json())
+                .then((data) => {
+                    this.dataList = data;
+                })
+                .catch((error) => { console.warn(error) })
         }
     },
     template: ` 

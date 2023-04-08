@@ -77,7 +77,7 @@
             "石頭",
             "廢鐵"
         ],
-        "img": "../img/Monica.png"
+        "img": "../img/Monica.webp"
     },
     {
         "name": "",
@@ -106,7 +106,7 @@
             "樹枝",
             "石頭"
         ],
-        "img": "../img/Gaius.png"
+        "img": "../img/Gaius.webp"
     },
     {
         "name": "",
@@ -136,7 +136,7 @@
             "岩石",
             "廢金屬"
         ],
-        "img": "../img/Blaise.png"
+        "img": "../img/Blaise.webp"
     },
     {
         "name": "",
@@ -172,7 +172,7 @@
             "岩石",
             "廢金屬"
         ],
-        "img": "../img/Rusk.png"
+        "img": "../img/Rusk.webp"
     },
     {
         "name": "",
@@ -203,7 +203,7 @@
             "廢金屬",
             "中等乳酪"
         ],
-        "img": "../img/Marjorie.png"
+        "img": "../img/Marjorie.webp"
     },
     {
         "name": "",
@@ -231,7 +231,7 @@
             "石斑魚",
             "沙比目魚"
         ],
-        "img": "../img/Hazel.png"
+        "img": "../img/Hazel.webp"
     },
     {
         "name": "",
@@ -266,7 +266,7 @@
             "岩石",
             "廢金屬"
         ],
-        "img": "../img/Sherman.png"
+        "img": "../img/Sherman.webp"
     },
     {
         "name": "",
@@ -288,7 +288,7 @@
             "廢鐵",
             "蘑菇"
         ],
-        "img": "../img/Evelyn.png"
+        "img": "../img/Evelyn.webp"
     },
     {
         "name": "",
@@ -302,7 +302,7 @@
         "Hate": [
             "失敗物品，水果，垃圾，雜草，樹枝，岩石，廢鐵"
         ],
-        "img": "../img/Shino.png"
+        "img": "../img/Shino.webp"
     },
     {
         "name": "",
@@ -331,7 +331,7 @@
             "石頭",
             "廢鐵"
         ],
-        "img": "../img/Carlos.png"
+        "img": "../img/Carlos.webp"
     },
     {
         "name": "",
@@ -359,7 +359,7 @@
             "浣熊葉",
             "龍骨"
         ],
-        "img": "../img/Ondorus.png"
+        "img": "../img/Ondorus.webp"
     },
     {
         "name": "",
@@ -393,6 +393,6 @@
             "法式吐司",
             "烤蘋果"
         ],
-        "img": "../img/Zaid.png"
+        "img": "../img/Zaid.webp"
     }
 ]

@@ -9,7 +9,6 @@
     {
         "id":"任務相關",
         "list":[
-            {"name":"花嫁委託", "tab":"hanatask"},
             {"name":"一般委託", "tab":"villtask"}
         ]
     },

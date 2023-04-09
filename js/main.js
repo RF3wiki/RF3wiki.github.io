@@ -43,6 +43,6 @@ const RF3Wiki = new Vue({
                     });
                 });
             });
-        },
+        }
     }
 })

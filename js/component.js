@@ -1,28 +1,32 @@
 Vue.component('home', {
     template: `
-    <div class="ts-center">
-        <div class="ts-header is-large is-heavy is-icon">
-            <div class="ts-icon is-cube-icon"></div>
-            使用規範
-        </div>
-        <div class="ts-content is-padded is-center-aligned">
-            <div class="ts-text">本網站所有資源皆來自於網路蒐集</div>
-            <div class="ts-text" style="word-break: keep-all;">由於內容大多為舊NDS版，部分翻譯是舊民間漢化</div>
-            <div class="ts-text">未來將會陸續更新</div>
-            <div class="ts-divider is-section"></div>
-            <div class="ts-text">未經許可不得擅自複製、二次發佈</div>
-            <div class="ts-text">本網站是由對符文系列的愛推動而成</div>
-            <div class="ts-text">不可用於商業用途</div>
-            <div class="ts-divider is-section"></div>
-            <div class="ts-text">使用 shift + 滾輪 可以橫向滾動表格</div>
-            <div class="ts-divider is-section"></div>
-            <div class="ts-space is-large"></div>
-            <a href="https://asia.sega.com/rf3sp/cht/" target="_blank">
-            <span> 符文工廠3 豪華版 官方網站 </span>
-            </a>
-            <div class="ts-space"></div>
-        </div>
+<div class="ts-center">
+    <div class="ts-header is-large is-heavy is-icon">
+        <div class="ts-icon is-cube-icon"></div>
+        使用規範
     </div>
+    <div class="ts-content is-padded is-center-aligned">
+        <div class="ts-text">本網站所有資源皆來自於網路蒐集</div>
+        <div class="ts-text" style="word-break: keep-all;">由於內容大多為舊NDS版，部分翻譯是舊民間漢化</div>
+        <div class="ts-text">未來將會陸續更新</div>
+        <div class="ts-divider is-section"></div>
+        <div class="ts-text">未經許可不得擅自複製、二次發佈</div>
+        <div class="ts-text">本網站是由對符文系列的愛推動而成</div>
+        <div class="ts-text">不可用於商業用途</div>
+        <div class="ts-divider is-section"></div>
+        <div class="ts-text">使用 shift + 滾輪 可以橫向滾動表格</div>
+        <div class="ts-divider is-section"></div>
+        <div class="ts-space is-large"></div>
+        <a href="https://asia.sega.com/rf3sp/cht/" target="_blank">
+            <div class="ts-text is-external-link is-undecorated"> 符文工廠3 豪華版 官方網站 </div>
+        </a>
+        <div class="ts-space"></div>
+        <div class="ts-divider is-section"></div>
+        <a href="https://lunahtools.github.io/" target="_blank">
+            <div class="ts-text is-external-link is-undecorated is-secondary">@LunAh Eric 製作</div>
+        </a>
+    </div>
+</div>
     `
 });
 

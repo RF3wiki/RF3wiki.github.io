@@ -1015,7 +1015,7 @@ Vue.component('hanayome', {
                 {{it}}
                 </div>
             </div>
-            <div class="ts-text" v-show="item.tag=='Shara'">※樸素的花包括托伊藥草、月落草/月淚草、粉色貓咪、藍色妖姬4種，高級的花包括除上述4種花以外13種
+            <div class="ts-text" v-show="item.tag=='Shara'">※樸素的花包括托伊藥草、月落草/月淚草、粉紅貓、魅藍草4種，高級的花包括除上述4種花以外13種
             </div>
             </div>
         </div>
@@ -1097,3 +1097,60 @@ Vue.component('villagers', {
     `
 });
 
+Vue.component('all-item', {
+    data() {
+        return {
+            dataList: null,
+        }
+    },
+    created() {
+        if (!this.dataList) {
+            fetch('../json/all-item.json')
+                .then((res) => res.json())
+                .then((data) => {
+                    this.dataList = data;
+                })
+                .catch((error) => { console.warn(error) })
+        }
+    },
+    methods: {
+        hiddenSeg() {
+            const seglist = document.querySelectorAll('.allitem');
+            const tablist = document.querySelectorAll('.tablist');
+            seglist.forEach(el => {
+                el.classList.add('u-hidden');
+            })
+            tablist.forEach(el => {
+                el.classList.add('u-hidden');
+            })
+        }
+    },
+    template: ` 
+    <div class="ts-content">
+    <div class="ts-header">
+        ※ 資料量大，需載入一段時間
+    </div>
+    <div class="ts-tab is-pilled">
+        <button class="item is-accent" v-on:click="hiddenSeg" v-for="(det, index) in dataList" :data-tab="det.tab"
+            :data-toggle="det.tab + 'list' +':u-hidden'">
+            <!-- <input type="radio" name="allitem" :data-toggle="det.tab +':u-hidden'" /> -->
+            <div class="text"> {{det.id}}</div>
+        </button>
+    </div>
+    <div class="ts-space"></div>
+    <div v-for="(det, index) in dataList">
+        <div class="ts-tab is-pilled">
+            <button class="item is-accent tablist u-hidden" v-for="tab in det.data" :data-tab="tab.tab"
+                :data-name="det.tab + 'list'">
+                <div class="text"> {{tab.category}}</div>
+            </button>
+        </div>
+        <div class="ts-segment allitem" style="margin-top: .4rem;" v-for="tab in det.data" :data-name="tab.tab">
+            <div class="ts-list is-unordered">
+                <div v-for="item in tab.list" class="item">{{ item }}</div>
+            </div>
+        </div>
+    </div>
+</div>
+    `
+});

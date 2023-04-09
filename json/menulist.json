@@ -53,5 +53,11 @@
         "list": [
             {"name":"迷宮資料","tab":"maze-data"}
         ]
+    },
+    {
+        "id":"其他",
+        "list":[
+            {"name":"全出貨箱物品","tab":"all-item"}
+        ]
     }
 ]

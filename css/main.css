@@ -110,15 +110,7 @@ div[title]:hover {
   margin-right: 0;
 }
 
-.gotopbtn {
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  bottom: 1rem;
-  left: 0;
-  right: 0;
-  opacity: 0.4;
-  width: 20%;
-  margin: auto;
+.ts-close {
+  margin-left: auto;
+  padding: 0.9rem;
 }/*# sourceMappingURL=main.css.map */

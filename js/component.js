@@ -915,17 +915,7 @@ Vue.component('hanayome', {
         return {
             dataList: null,
             taskList: null,
-            nowTask: '',
             taskdata: {},
-            asd: [
-                {
-                    task: "",
-                    accept: "",
-                    location: "",
-                    content: "",
-                    reward: "",
-                }
-            ]
         };
     },
     created() {
@@ -936,8 +926,8 @@ Vue.component('hanayome', {
     },
     methods: {
         getTaskData(tag) {
-            this.scrollTop();
             this.taskdata = this.taskList.find(el => el.tag == tag);
+            this.scrollTop();
         },
         scrollTop() {
             const taskContent = document.querySelector('#taskContent');
@@ -1018,14 +1008,14 @@ Vue.component('hanayome', {
     <div class="ts-modal is-large" data-name="taskModal">
         <div class="content">
             <div class="ts-content is-dense">
-                <div class="ts-header">{{ taskdata.name }} 委託列表
-                    <span class="ts-close" data-toggle="taskModal:is-visible" style="margin-left: auto;" v-on:click="scrollTop"></span>
+                <div class="ts-header" style="align-items: center;">{{ taskdata.name }} 委託列表
+                    <span class="ts-close" data-toggle="taskModal:is-visible" v-on:click="scrollTop"></span>
                 </div>
             </div>
             <div class="ts-divider"></div>
             <div id="taskContent" class="ts-content" style="max-height: 70vh; overflow-y: auto;">
                 <div class="ts-box" style="padding: .4rem;" v-for="data in taskdata.list">
-                    <div class="ts-text">任務名：{{ data.task }}</div>
+                    <div class="ts-text">任務名稱：{{ data.task }}</div>
                     <div class="ts-text">接取條件：{{ data.accept }}</div>
                     <div class="ts-text">接取地點：{{ data.location }}</div>
                     <div class="ts-wrap" style="gap: 0;">

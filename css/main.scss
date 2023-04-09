@@ -19,6 +19,10 @@ img {
     -webkit-user-drag: none !important;
 }
 
+a {
+    text-decoration: none;
+}
+
 html {
     --ts-accent-color: #e55100;
     box-sizing: border-box;
@@ -132,7 +136,7 @@ div[title] {
     bottom: 1rem;
     left: 0;
     right: 0;
-    opacity: .4;
+    opacity: 0.4;
     width: 20%;
     margin: auto;
 }

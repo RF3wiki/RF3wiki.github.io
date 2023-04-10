@@ -28,10 +28,10 @@
         <div class="ts-menu ts-tab is-start-icon is-separated">
           <details class="ts-accordion" v-on:click="detailsClose" v-for="(menu , index) in menu_list" :key="index">
             <summary>{{menu.id}}</summary>
-            <a class="item is-accent" v-on:click="changePage(list.tab)" :data-tab="list.tab"
+            <button class="item is-accent" style="width: 100%;" v-on:click="changePage(list.tab)" :data-tab="list.tab"
               v-for="(list, index) in menu.list">
               {{list.name}}
-            </a>
+            </button>
           </details>
         </div>
         <div class="ts-space"></div>

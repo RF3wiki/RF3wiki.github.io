@@ -1114,43 +1114,53 @@ Vue.component('all-item', {
     },
     created() {
         if (!this.dataList) {
-            fetch('../json/all-item.json').then((res) => res.json()).then((data) => { this.dataList = data; }).catch((error) => { console.warn(error) });
+            fetch('../json/all-item-log.json').then((res) => res.json()).then((data) => { this.dataList = data; }).catch((error) => { console.warn(error) });
         };
     },
     methods: {
-        hiddenSeg() {
-            const seglist = document.querySelectorAll('.allitem');
-            const tablist = document.querySelectorAll('.tablist');
-            seglist.forEach(el => { el.classList.add('u-hidden'); });
-            tablist.forEach(el => { el.classList.add('u-hidden'); el.classList.remove('is-active') });
+        activateMain(index) {
+            this.dataList.forEach((tabOne) => {
+                tabOne.active = false;
+            });
+            this.dataList[index].active = true;
+        },
+        activateMinor(index, tabOne) {
+            tabOne.data.forEach((tabTwo) => {
+                tabTwo.active = false;
+            });
+            tabOne.data[index].active = true;
         }
     },
     template: ` 
 <div class="ts-content">
-    <div class="ts-header"> ※ 點選頁籤切換 </div>
+    <div class="ts-header"> ※ 點選頁籤切換，需載入一小段時間。 </div>
     <div class="ts-space is-small"></div>
-    <div class="ts-tab">
-        <button class="item is-accent" v-on:click="hiddenSeg" v-for="(det, index) in dataList" :data-tab="det.tab"
-            :data-toggle="det.tab + 'list' +':u-hidden'">
-            <div class="text"> {{det.id}}</div>
+    <div class="ts-tab mobile-:is-stacked">
+        <button class="item is-accent main-tab" v-for="(main, index) in dataList" :key="index"
+            :class="['item', { 'is-active': main.active }]" :data-tab="main.tab" v-on:click="activateMain(index)">
+            <div class="text"> {{ main.id }}</div>
         </button>
     </div>
     <div class="ts-space is-small"></div>
-    <div v-for="(det, index) in dataList">
-        <div class="ts-tab is-pilled">
-            <button class="item is-accent tablist u-hidden" v-for="tab in det.data" :data-tab="tab.tab"
-                :data-name="det.tab + 'list'">
-                <div class="text"> {{tab.category}}</div>
+    <div v-for="(main, index) in dataList" :key="index" :class="{ 'u-hidden': !main.active }" :data-name="main.tab">
+        <div class="ts-tab is-small is-secondary">
+            <button v-for="(minor, index) in main.data" :key="index" class="item is-accent minor-tab"
+                :class="['item', 'tablist', { 'is-active': minor.active }]" :data-tab="minor.tab"
+                v-on:click="activateMinor(index, main)">
+                <div class="text"> {{ minor.category }}</div>
             </button>
         </div>
-        <div class="ts-segment allitem" style="margin-top: .5rem;" v-for="tab in det.data" :data-name="tab.tab">
-            <div class="ts-space is-small"></div>
-            <div class="ts-list is-unordered">
-                <div v-for="item in tab.list" class="item">{{ item }}</div>
+        <div class="ts-space is-small"></div>
+        <div class="ts-segment" v-for="(minor, index) in main.data" :key="index" v-show="minor.active">
+            <div class="ts-grid mobile-:is-stacked" style="padding:.5rem;">
+                <div class="column is-4-wide" v-for="(item, index) in minor.list" :key="index">
+                    <div class="ts-text">{{ item.name }}</div>
+                </div>
             </div>
         </div>
     </div>
-</div>`
+</div>
+`
 });
 
 Vue.component('sell-log', {
@@ -1168,11 +1178,17 @@ Vue.component('sell-log', {
         };
     },
     methods: {
-        hiddenSeg() {
-            const seglist = document.querySelectorAll('.allitem');
-            const tablist = document.querySelectorAll('.tablist');
-            seglist.forEach(el => { el.classList.add('u-hidden'); });
-            tablist.forEach(el => { el.classList.add('u-hidden'); el.classList.remove('is-active') });
+        activateMain(index) {
+            this.dataList.forEach((tabOne) => {
+                tabOne.active = false;
+            });
+            this.dataList[index].active = true;
+        },
+        activateMinor(index, tabOne) {
+            tabOne.data.forEach((tabTwo) => {
+                tabTwo.active = false;
+            });
+            tabOne.data[index].active = true;
         },
         saveJson() {
             localStorage.setItem(this.localKey, JSON.stringify(this.dataList));
@@ -1180,26 +1196,28 @@ Vue.component('sell-log', {
     },
     template: ` 
 <div class="ts-content">
-    <div class="ts-header"> ※ 點選頁籤切換 </div>
+    <div class="ts-header">※ 點選頁籤切換，將自動存檔於瀏覽器。</div>
     <div class="ts-space is-small"></div>
-    <div class="ts-tab" logcategory>
-        <button class="item is-accent" v-on:click="hiddenSeg" v-for="(det, index) in dataList" :data-tab="det.tab"
-            :data-toggle="det.tab + 'list' +':u-hidden'">
-            <div class="text"> {{det.id}}</div>
+    <div class="ts-tab mobile-:is-stacked">
+        <button class="item is-accent main-tab" v-for="(main, index) in dataList" :key="index"
+            :class="['item', { 'is-active': main.active }]" :data-tab="main.tab" v-on:click="activateMain(index)">
+            <div class="text"> {{ main.id }}</div>
         </button>
     </div>
     <div class="ts-space is-small"></div>
-    <div v-for="(det, index) in dataList" v-bind="dataList">
-        <div class="ts-tab is-pilled" v-for="tab in det.data" :data-name="det.tab + 'list'">
-            <button class="item is-accent tablist u-hidden"  :data-tab="tab.tab" >
-                <div class="text"> {{tab.category}}</div>
+    <div v-for="(main, index) in dataList" :key="index" :class="{ 'u-hidden': !main.active }" :data-name="main.tab">
+        <div class="ts-tab is-small is-secondary">
+            <button v-for="(minor, index) in main.data" :key="index" class="item is-accent minor-tab"
+                :class="['item', 'tablist', { 'is-active': minor.active }]" :data-tab="minor.tab"
+                v-on:click="activateMinor(index, main)">
+                <div class="text"> {{ minor.category }}</div>
             </button>
         </div>
-        <div class="ts-segment allitem u-hidden" v-for="tab in det.data" :data-name="tab.tab">
-            <div class="ts-space is-small"></div>
+        <div class="ts-space is-small"></div>
+        <div class="ts-segment" v-for="(minor, index) in main.data" :key="index" v-show="minor.active">
             <div class="ts-grid mobile-:is-stacked" style="padding:.5rem;">
-                <div class="column is-4-wide" v-for="item in tab.list">
-                    <label class="ts-checkbox">
+                <div class="column is-4-wide" v-for="(item, index) in minor.list" :key="index">
+                    <label class="ts-checkbox is-kepall">
                         <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
                         {{ item.name }}
                     </label>

@@ -94,6 +94,7 @@
             {
                 "category": "種子 (43種)",
                 "tab": "seedTab",
+                "active":false,
                 "list": [
                     {
                         "name": "ほかほかの種 (火熱種子)",
@@ -272,6 +273,7 @@
             {
                 "category": "草花 (30種)",
                 "tab": "grassflowerTab",
+                "active":false,
                 "list": [
                     {
                         "name": "白水晶 (白水晶)",
@@ -398,6 +400,7 @@
             {
                 "category": "水果 (5種)",
                 "tab": "fruitTab",
+                "active":false,
                 "list": [
                     {
                         "name": "オレンジ (橘子)",
@@ -424,6 +427,7 @@
             {
                 "category": "蔬菜 (30種)",
                 "tab": "vegetableTab",
+                "active":false,
                 "list": [
                     {
                         "name": "きのこ (蘑菇)",
@@ -552,6 +556,7 @@
     {
         "id": "藥品類(共計24種)",
         "tab": "drugItem",
+        "active":false,
         "data": [
             {
                 "category": "秘藥 (5種)",
@@ -583,6 +588,7 @@
             {
                 "category": "回復瓶 (3種)",
                 "tab": "replybottleTab",
+                "active":false,
                 "list": [
                     {
                         "name": "神秘のポット (神秘瓶)",
@@ -601,6 +607,7 @@
             {
                 "category": "藥 (16種)",
                 "tab": "medicineTab",
+                "active":false,
                 "list": [
                     {
                         "name": "神ミックスハーブ (混合香料)",
@@ -673,6 +680,7 @@
     {
         "id": "裝備品類(共計269種)",
         "tab": "equipItem",
+        "active":false,
         "data": [
             {
                 "category": "農具",
@@ -812,6 +820,7 @@
             {
                 "category": "腳裝備 (21種)",
                 "tab": "footequipmentTab",
+                "active":false,
                 "list": [
                     {
                         "name": "フェアリーブーツ (妖精之靴)",
@@ -902,6 +911,7 @@
             {
                 "category": "頭裝備 (11種)",
                 "tab": "headgearTab",
+                "active":false,
                 "list": [
                     {
                         "name": "手編みのニット (手織帽)",
@@ -952,6 +962,7 @@
             {
                 "category": "盾 (17種)",
                 "tab": "shieldTab",
+                "active":false,
                 "list": [
                     {
                         "name": "かさ (傘)",
@@ -1026,6 +1037,7 @@
             {
                 "category": "雙劍 (31種)",
                 "tab": "doubleswordTab",
+                "active":false,
                 "list": [
                     {
                         "name": "ツインジャスティス (雙正義之刃)",
@@ -1156,6 +1168,7 @@
             {
                 "category": "杖 (14種)",
                 "tab": "rodTab",
+                "active":false,
                 "list": [
                     {
                         "name": "魔法の注射器 (魔法注射器)",
@@ -1218,6 +1231,7 @@
             {
                 "category": "斧 (25種)",
                 "tab": "axTab",
+                "active":false,
                 "list": [
                     {
                         "name": "デビルフィンガー (惡魔手指)",
@@ -1304,6 +1318,7 @@
             {
                 "category": "錘 (28種)",
                 "tab": "hammerTab",
+                "active":false,
                 "list": [
                     {
                         "name": "スプラッシュスター (飛濺之星)",
@@ -1422,6 +1437,7 @@
             {
                 "category": "槍 (33種)",
                 "tab": "gunTab",
+                "active":false,
                 "list": [
                     {
                         "name": "五節棍 (五節棍)",
@@ -1560,6 +1576,7 @@
             {
                 "category": "雙手劍 (34種)",
                 "tab": "twohandedswordTab",
+                "active":false,
                 "list": [
                     {
                         "name": "オロチ (大蛇)",
@@ -1702,6 +1719,7 @@
             {
                 "category": "單手劍 (33種)",
                 "tab": "onehandedswordTab",
+                "active":false,
                 "list": [
                     {
                         "name": "インビジブレード (隱形之劍)",
@@ -1842,6 +1860,7 @@
     {
         "id": "裝飾品類(共計59種)",
         "tab": "decorationsItem",
+        "active":false,
         "data": [
             {
                 "category": "飾品 (59種)",
@@ -2091,6 +2110,7 @@
     {
         "id": "食品類(共計186種)",
         "tab": "foodItem",
+        "active":false,
         "data": [
             {
                 "category": "材料 (18種)",
@@ -2174,6 +2194,7 @@
             {
                 "category": "空手料理 (14種)",
                 "tab": "emptycookingTab",
+                "active":false,
                 "list": [
                     {
                         "name": "カブヘブン (蕪菁大雜燴)",
@@ -2236,6 +2257,7 @@
             {
                 "category": "蒸鍋 (11種)",
                 "tab": "steamerTab",
+                "active":false,
                 "list": [
                     {
                         "name": "だんご (丸子)",
@@ -2286,6 +2308,7 @@
             {
                 "category": "攪拌機 (17種)",
                 "tab": "blenderTab",
+                "active":false,
                 "list": [
                     {
                         "name": "ホットジュース (熱果汁)",
@@ -2360,6 +2383,7 @@
             {
                 "category": "烤爐 (19種)",
                 "tab": "ovenTab",
+                "active":false,
                 "list": [
                     {
                         "name": "アップルパイ (蘋果派/蘋果餡餅)",
@@ -2442,6 +2466,7 @@
             {
                 "category": "鍋子 (28種)",
                 "tab": "potTab",
+                "active":false,
                 "list": [
                     {
                         "name": "巖石魚の煮付け (水煮巖石魚)",
@@ -2560,6 +2585,7 @@
             {
                 "category": "平底煎鍋 (52種)",
                 "tab": "fryingpanTab",
+                "active":false,
                 "list": [
                     {
                         "name": "焼き砂ヒラメ (烤沙比目魚)",
@@ -2774,6 +2800,7 @@
             {
                 "category": "菜刀 (25種)",
                 "tab": "kitchenknifeTab",
+                "active":false,
                 "list": [
                     {
                         "name": "エビのおさしみ (蝦肉刺身)",
@@ -2880,6 +2907,7 @@
             {
                 "category": "失敗作 (2種)",
                 "tab": "failTab",
+                "active":false,
                 "list": [
                     {
                         "name": "超失敗作 (超失敗作)",
@@ -2896,6 +2924,7 @@
     {
         "id": "水產品類(共計35種)",
         "tab": "aquaticItem",
+        "active":false,
         "data": [
             {
                 "category": "垃圾 (3種)",
@@ -2919,6 +2948,7 @@
             {
                 "category": "魚 (32種)",
                 "tab": "fishTab",
+                "active":false,
                 "list": [
                     {
                         "name": "巖石魚 (巖石魚)",
@@ -3055,6 +3085,7 @@
     {
         "id": "收集品類(共計90種)",
         "tab": "collectionItem",
+        "active":false,
         "data": [
             {
                 "category": "其他 (3種)",
@@ -3078,6 +3109,7 @@
             {
                 "category": "收集品 (87種)",
                 "tab": "collectionTab",
+                "active":false,
                 "list": [
                     {
                         "name": "火竜のうろこ (火龍之鱗)",

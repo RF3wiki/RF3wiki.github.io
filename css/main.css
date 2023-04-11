@@ -33,6 +33,19 @@ html {
   align-items: center;
 }
 
+.ts-tab .main-tab,
+.ts-tab .minor-tab {
+  padding-bottom: 0;
+}
+
+.flex-dc {
+  flex-direction: column;
+}
+
+.is-kepall {
+  word-break: keep-all;
+}
+
 div[title]:hover {
   box-shadow: 0 0.2rem 0 0 #e55100;
 }

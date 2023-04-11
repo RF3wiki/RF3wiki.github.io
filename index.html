@@ -52,7 +52,7 @@
       </div>
 
       <div class="column is-13-wide mobile-:is-16-wide">
-        <div class="ts-space is-huge desktop-:u-hidden" v-show="nowPage!='all-item'"></div>
+        <div class="ts-space is-huge desktop-:u-hidden" :class="spaceHug"></div>
         <div class="ts-segment" style="background: var(--ts-gray-50);">
           <div class="ts-grid is-relaxed">
             <div class="column is-fluid">
@@ -103,7 +103,16 @@
               <div class="indicator">
                 <span class="ts-icon"></span>
               </div>
-              <div class="content">微RWD支援</div>
+              <div class="content"></div>
+            </div>
+            <div class="item">
+              <div class="aside">
+                <div class="ts-text is-description">2023/04/11</div>
+              </div>
+              <div class="indicator">
+                <span class="ts-icon is-check-icon"></span>
+              </div>
+              <div class="content">新增出貨物品記錄功能</div>
             </div>
             <div class="item">
               <div class="aside">

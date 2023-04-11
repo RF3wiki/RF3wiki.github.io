@@ -41,6 +41,13 @@ div[title] {
     }
 }
 
+div[logcategory] {
+    .item {
+        padding-bottom: 0;
+        margin-bottom: 0.4rem;
+    }
+}
+
 .ts-table {
     // white-space: nowrap;
     word-break: keep-all;

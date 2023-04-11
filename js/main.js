@@ -7,18 +7,11 @@ const RF3Wiki = new Vue({
     },
     created() {
         if (!this.menu_list) {
-            fetch('../json/menulist.json')
-                .then((res) => res.json())
-                .then((data) => {
-                    this.menu_list = data;
-                })
-                .catch((error) => { console.warn(error) })
+            fetch('../json/menulist.json').then((res) => res.json()).then((data) => { this.menu_list = data; }).catch((error) => { console.warn(error) });
         }
     },
     mounted() {
-        setTimeout(() => {
-            this.loadnone = 'u-hidden';
-        }, 500);
+        this.loadnone = 'u-hidden';
     },
     methods: {
         changePage(type) {

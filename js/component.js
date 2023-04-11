@@ -1122,22 +1122,20 @@ Vue.component('all-item', {
             const seglist = document.querySelectorAll('.allitem');
             const tablist = document.querySelectorAll('.tablist');
             seglist.forEach(el => { el.classList.add('u-hidden'); });
-            tablist.forEach(el => { el.classList.add('u-hidden'); });
+            tablist.forEach(el => { el.classList.add('u-hidden'); el.classList.remove('is-active') });
         }
     },
     template: ` 
-    <div class="ts-content">
-    <div class="ts-header">
-        ※ 資料量大，需載入一段時間
-    </div>
-    <div class="ts-tab is-pilled">
+<div class="ts-content">
+    <div class="ts-header"> ※ 點選頁籤切換 </div>
+    <div class="ts-space is-small"></div>
+    <div class="ts-tab">
         <button class="item is-accent" v-on:click="hiddenSeg" v-for="(det, index) in dataList" :data-tab="det.tab"
             :data-toggle="det.tab + 'list' +':u-hidden'">
-            <!-- <input type="radio" name="allitem" :data-toggle="det.tab +':u-hidden'" /> -->
             <div class="text"> {{det.id}}</div>
         </button>
     </div>
-    <div class="ts-space"></div>
+    <div class="ts-space is-small"></div>
     <div v-for="(det, index) in dataList">
         <div class="ts-tab is-pilled">
             <button class="item is-accent tablist u-hidden" v-for="tab in det.data" :data-tab="tab.tab"
@@ -1145,11 +1143,70 @@ Vue.component('all-item', {
                 <div class="text"> {{tab.category}}</div>
             </button>
         </div>
-        <div class="ts-segment allitem" style="margin-top: .4rem;" v-for="tab in det.data" :data-name="tab.tab">
+        <div class="ts-segment allitem" style="margin-top: .5rem;" v-for="tab in det.data" :data-name="tab.tab">
+            <div class="ts-space is-small"></div>
             <div class="ts-list is-unordered">
                 <div v-for="item in tab.list" class="item">{{ item }}</div>
             </div>
         </div>
     </div>
 </div>`
+});
+
+Vue.component('sell-log', {
+    data() {
+        return {
+            dataList: null,
+            localKey: 'sellLogData'
+        };
+    },
+    created() {
+        if (localStorage.getItem(this.localKey)) {
+            this.dataList = JSON.parse(localStorage.getItem(this.localKey));
+        } else if (!this.dataList) {
+            fetch('../json/all-item-log.json').then((res) => res.json()).then((data) => { this.dataList = data; }).catch((error) => { console.warn(error) });
+        };
+    },
+    methods: {
+        hiddenSeg() {
+            const seglist = document.querySelectorAll('.allitem');
+            const tablist = document.querySelectorAll('.tablist');
+            seglist.forEach(el => { el.classList.add('u-hidden'); });
+            tablist.forEach(el => { el.classList.add('u-hidden'); el.classList.remove('is-active') });
+        },
+        saveJson() {
+            localStorage.setItem(this.localKey, JSON.stringify(this.dataList));
+        }
+    },
+    template: ` 
+<div class="ts-content">
+    <div class="ts-header"> ※ 點選頁籤切換 </div>
+    <div class="ts-space is-small"></div>
+    <div class="ts-tab" logcategory>
+        <button class="item is-accent" v-on:click="hiddenSeg" v-for="(det, index) in dataList" :data-tab="det.tab"
+            :data-toggle="det.tab + 'list' +':u-hidden'">
+            <div class="text"> {{det.id}}</div>
+        </button>
+    </div>
+    <div class="ts-space is-small"></div>
+    <div v-for="(det, index) in dataList" v-bind="dataList">
+        <div class="ts-tab is-pilled" v-for="tab in det.data" :data-name="det.tab + 'list'">
+            <button class="item is-accent tablist u-hidden"  :data-tab="tab.tab" >
+                <div class="text"> {{tab.category}}</div>
+            </button>
+        </div>
+        <div class="ts-segment allitem u-hidden" v-for="tab in det.data" :data-name="tab.tab">
+            <div class="ts-space is-small"></div>
+            <div class="ts-grid mobile-:is-stacked" style="padding:.5rem;">
+                <div class="column is-4-wide" v-for="item in tab.list">
+                    <label class="ts-checkbox">
+                        <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
+                        {{ item.name }}
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+`
 });

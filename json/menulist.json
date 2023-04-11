@@ -56,7 +56,8 @@
     {
         "id":"其他",
         "list":[
-            {"name":"全出貨箱物品","tab":"all-item"}
+            {"name":"全出貨箱物品","tab":"all-item"},
+            {"name":"出貨紀錄","tab":"sell-log"}
         ]
     }
 ]

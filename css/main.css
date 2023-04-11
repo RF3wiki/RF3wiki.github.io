@@ -37,6 +37,11 @@ div[title]:hover {
   box-shadow: 0 0.2rem 0 0 #e55100;
 }
 
+div[logcategory] .item {
+  padding-bottom: 0;
+  margin-bottom: 0.4rem;
+}
+
 .ts-table {
   word-break: keep-all;
 }

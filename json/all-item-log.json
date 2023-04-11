@@ -1,0 +1,3434 @@
+[
+    {
+        "id": "作物類(共計128種)",
+        "tab": "cropItem",
+        "active": true,
+        "data": [
+            {
+                "category": "特效種子 (20種)",
+                "tab": "effectSeedTab",
+                "active": true,
+                "list": [
+                    {
+                        "name": "すねたソラマメの種 (歪曲的蠶豆種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "マジックソラマメの種 (魔法蠶豆種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "腐ったバナナの種 (腐爛的香蕉種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "スッテンバナナの種 (香蕉皮種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "折れたハスの種 (破掉的蓮葉種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ハスライダーの種 (蓮葉種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "枯れた水場草の種 (枯掉的水廠草種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "水場草の種 (水廠草種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "枯れたサボテンの種 (枯掉的仙人掌種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "はにわサボテンの種 (土陶仙人掌種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "壊れたメロンの種 (壞掉的蜜瓜種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "爆弾メロンの種 (蜜瓜炸彈種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ダメジャックの種 (無力南瓜燈種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ジャックの種 (南瓜燈種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "止まった追風草の種 (停下的追風草種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "追風草の種 (追風草種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "やわい鋼身花の種 (癱軟的鋼身花種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "鋼身花の種 (鋼身花種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "しぼんだ剣草の種 (枯萎的劍草種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "剣草の種 (劍草種子)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "種子 (43種)",
+                "tab": "seedTab",
+                "list": [
+                    {
+                        "name": "ほかほかの種 (火熱種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "オトメロンの種 (少女甜瓜種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "金のカブの種 (金蕪菁種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "金のジャガイモの種 (金土豆種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "金のカボチャの種 (金南瓜種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "金のキャベツの種 (金捲心菜種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "白菜の種 (白菜種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ネギの種 (大蔥種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "大根の種 (蘿蔔種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サクラカブの種 (櫻色蕪菁種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "白水晶の種 (白水晶種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "赤水晶の種 (赤水晶種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "タンポイズンの種 (劇毒蒲公英種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "花紅葉の種 (花紅葉種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ツリー草の種 (樹形草種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "緑水晶の種 (綠水晶種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "野之花火の種 (原之焰火種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "クローバーの種 (三葉草種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "鉄千輪の種 (鐵千輪種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "金剛花の種 (金剛花種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "青水晶の種 (藍水晶種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ランプ草の種 (燈草種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サクラ草の種 (櫻草種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "牧草の種 (牧草種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "チャームブルーの種 (魅藍草種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ピーマンの種 (青椒種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ホウレン草の種 (菠菜種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サツマイモの種 (蕃薯種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ニンジンの種 (胡蘿蔔種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ナスの種 (茄子種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ピンクキャットの種 (粉紅貓種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "パイナップルの種 (菠蘿種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カボチャの種 (南瓜種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "タマネギの種 (洋蔥種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "トウモロコシの種 (玉米種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "トマトの種 (番茄種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "トイハーブの種 (托伊藥草種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ムーンドロップの種 (月落草種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "キャベツの種 (捲心菜種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "イチゴの種 (草莓種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "キュウリの種 (黃瓜種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ジャガイモの種 (土豆種子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カブの種 (蕪菁種子)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "草花 (30種)",
+                "tab": "grassflowerTab",
+                "list": [
+                    {
+                        "name": "白水晶 (白水晶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "赤水晶 (赤水晶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "タンポイズン (劇毒蒲公英)",
+                        "checked": false
+                    },
+                    {
+                        "name": "花紅葉 (花紅葉)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ツリー草 (樹形草)",
+                        "checked": false
+                    },
+                    {
+                        "name": "緑水晶 (綠水晶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "野之花火 (原之焰火)",
+                        "checked": false
+                    },
+                    {
+                        "name": "四つ葉のクローバー (四葉三葉草)",
+                        "checked": false
+                    },
+                    {
+                        "name": "鉄千輪 (鐵千輪)",
+                        "checked": false
+                    },
+                    {
+                        "name": "金剛花 (金剛花)",
+                        "checked": false
+                    },
+                    {
+                        "name": "青水晶 (青水晶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ランプ草 (燈草)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サクラ草 (櫻草)",
+                        "checked": false
+                    },
+                    {
+                        "name": "枯草 (枯草)",
+                        "checked": false
+                    },
+                    {
+                        "name": "雑草 (雜草)",
+                        "checked": false
+                    },
+                    {
+                        "name": "白い草 (白草)",
+                        "checked": false
+                    },
+                    {
+                        "name": "藍の草 (藍草)",
+                        "checked": false
+                    },
+                    {
+                        "name": "紫の草 (紫草)",
+                        "checked": false
+                    },
+                    {
+                        "name": "緑の草 (綠草)",
+                        "checked": false
+                    },
+                    {
+                        "name": "青い草 (青草)",
+                        "checked": false
+                    },
+                    {
+                        "name": "黃の草 (黃草)",
+                        "checked": false
+                    },
+                    {
+                        "name": "赤い草 (紅草)",
+                        "checked": false
+                    },
+                    {
+                        "name": "だいだい草 (橙草)",
+                        "checked": false
+                    },
+                    {
+                        "name": "黒い草 (黑草)",
+                        "checked": false
+                    },
+                    {
+                        "name": "毒消し草 (解毒草)",
+                        "checked": false
+                    },
+                    {
+                        "name": "薬草 (藥草)",
+                        "checked": false
+                    },
+                    {
+                        "name": "チャームブルー (魅藍草)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ピンクキャット (粉紅貓)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ムーンドロップ (月落草)",
+                        "checked": false
+                    },
+                    {
+                        "name": "トイハーブ (托伊藥草)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "水果 (5種)",
+                "tab": "fruitTab",
+                "list": [
+                    {
+                        "name": "オレンジ (橘子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "リンゴ (蘋果)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ブドウ (葡萄)",
+                        "checked": false
+                    },
+                    {
+                        "name": "パイナップル (菠蘿)",
+                        "checked": false
+                    },
+                    {
+                        "name": "イチゴ (草莓)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "蔬菜 (30種)",
+                "tab": "vegetableTab",
+                "list": [
+                    {
+                        "name": "きのこ (蘑菇)",
+                        "checked": false
+                    },
+                    {
+                        "name": "きのこ (蘑菇)",
+                        "checked": false
+                    },
+                    {
+                        "name": "きのこ (蘑菇)",
+                        "checked": false
+                    },
+                    {
+                        "name": "きのこ (蘑菇)",
+                        "checked": false
+                    },
+                    {
+                        "name": "きのこ (蘑菇)",
+                        "checked": false
+                    },
+                    {
+                        "name": "きのこ (蘑菇)",
+                        "checked": false
+                    },
+                    {
+                        "name": "金のカブ (金蕪菁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "金のジャガイモ (金土豆)",
+                        "checked": false
+                    },
+                    {
+                        "name": "金のカボチャ (金南瓜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "金のキャベツ (金捲心菜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "タケノコ (竹筍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ほかほかの実 (火熱果實)",
+                        "checked": false
+                    },
+                    {
+                        "name": "白菜 (白菜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ネギ (大蔥)",
+                        "checked": false
+                    },
+                    {
+                        "name": "大根 (蘿蔔)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カブ (蕪菁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ホウレン草 (菠菜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ピーマン (青椒)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ニンジン (胡蘿蔔)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ジャガイモ (土豆)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サツマイモ (蕃薯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ナス (茄子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "トマト (番茄)",
+                        "checked": false
+                    },
+                    {
+                        "name": "トウモロコシ (玉米)",
+                        "checked": false
+                    },
+                    {
+                        "name": "キュウリ (黃瓜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カボチャ (南瓜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "タマネギ (洋蔥)",
+                        "checked": false
+                    },
+                    {
+                        "name": "オトメロン (少女甜瓜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サクラカブ (櫻色蕪菁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "キャベツ (捲心菜)",
+                        "checked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "藥品類(共計24種)",
+        "tab": "drugItem",
+        "data": [
+            {
+                "category": "秘藥 (5種)",
+                "tab": "elixirTab",
+                "active": true,
+                "list": [
+                    {
+                        "name": "はげしくノビール (強烈肥料)",
+                        "checked": false
+                    },
+                    {
+                        "name": "すばやくノビール (快速肥料)",
+                        "checked": false
+                    },
+                    {
+                        "name": "よくノビール (好肥料)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ぐんぐんグリーン (進化之綠)",
+                        "checked": false
+                    },
+                    {
+                        "name": "中和剤 (中和劑)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "回復瓶 (3種)",
+                "tab": "replybottleTab",
+                "list": [
+                    {
+                        "name": "神秘のポット (神秘瓶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "いやしのポット (治療瓶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "回復のポット (回復瓶)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "藥 (16種)",
+                "tab": "medicineTab",
+                "list": [
+                    {
+                        "name": "神ミックスハーブ (混合香料)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サワードロップ (酸味料)",
+                        "checked": false
+                    },
+                    {
+                        "name": "スイートパウダー (甘甜粉)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ヘビースパイス (重口味調料)",
+                        "checked": false
+                    },
+                    {
+                        "name": "トロピカルーン (符文秘藥)",
+                        "checked": false
+                    },
+                    {
+                        "name": "無敵の秘薬 (無敵秘藥)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ラブ飲みドリンク (愛情飲料)",
+                        "checked": false
+                    },
+                    {
+                        "name": "超栄水 (營養水)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カゼグスリ (感冒藥)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ペラペラ丸 (解封丸)",
+                        "checked": false
+                    },
+                    {
+                        "name": "マヒロン (麻痹藥)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サッパリポイズン (清毒藥)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ハートドリンク (心靈飲料)",
+                        "checked": false
+                    },
+                    {
+                        "name": "バイタルグミ (生命果凍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "智力のサプリメント (智力補品)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ザ･プロテイン (蛋白質)",
+                        "checked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "裝備品類(共計269種)",
+        "tab": "equipItem",
+        "data": [
+            {
+                "category": "農具",
+                "tab": "farmtoolsTab",
+                "active": true,
+                "list": [
+                    {
+                        "name": "毛がりバサミ (毛剪)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ブラシ (刷子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "喜びのクワ (喜悅的鋤頭)",
+                        "checked": false
+                    },
+                    {
+                        "name": "輝きのクワ (光輝的鋤頭)",
+                        "checked": false
+                    },
+                    {
+                        "name": "熟練のクワ (熟練的鋤頭)",
+                        "checked": false
+                    },
+                    {
+                        "name": "丈夫なクワ (結實的鋤頭)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ボロのクワ (破爛的鋤頭)",
+                        "checked": false
+                    },
+                    {
+                        "name": "幸せのじょうろ (幸福的灑水壺)",
+                        "checked": false
+                    },
+                    {
+                        "name": "虹のじょうろ (彩虹的灑水壺)",
+                        "checked": false
+                    },
+                    {
+                        "name": "獅子のじょうろ (獅子的灑水壺)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ブリキのじょうろ (鐵皮的灑水壺)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ボロのじょうろ (破爛的灑水壺)",
+                        "checked": false
+                    },
+                    {
+                        "name": "名工カマイタチ (名匠的鐮刀)",
+                        "checked": false
+                    },
+                    {
+                        "name": "業物カマ (鋒利的鐮刀)",
+                        "checked": false
+                    },
+                    {
+                        "name": "上物のカマ (商品的鐮刀)",
+                        "checked": false
+                    },
+                    {
+                        "name": "鉄のカマ (鐵的鐮刀)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ボロのカマ (破爛的鐮刀)",
+                        "checked": false
+                    },
+                    {
+                        "name": "奇跡のオノ (奇蹟的斧子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "山守のオノ (守山的斧子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "伐採のオノ (砍伐的斧子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "まき割りのオノ (砍柴的斧子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ボロのオノ (破爛的斧子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "プラチナム (白金錘子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ゴールデンハンマー (金錘子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "シルバーハンマー (銀錘子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ブロンズハンマー (銅錘子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ボロハンマー (破爛的錘子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "御神木の釣竿 (御神木的釣竿)",
+                        "checked": false
+                    },
+                    {
+                        "name": "名人の釣竿 (名人的釣竿)",
+                        "checked": false
+                    },
+                    {
+                        "name": "中級者の釣竿 (中級者的釣竿)",
+                        "checked": false
+                    },
+                    {
+                        "name": "初心者の釣竿 (初心者的釣竿)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ボロの釣竿 (破爛的釣竿)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "腳裝備 (21種)",
+                "tab": "footequipmentTab",
+                "list": [
+                    {
+                        "name": "フェアリーブーツ (妖精之靴)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ボーンブーツ (骨靴)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ゴールドブーツ (金靴)",
+                        "checked": false
+                    },
+                    {
+                        "name": "シルバーブーツ (銀靴)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ロケットウイング (火箭之風)",
+                        "checked": false
+                    },
+                    {
+                        "name": "みずぐも (水云/水蜘蛛)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ステステスニーカー (跳步鞋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "スニーキングブーツ (潛行靴)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ぬめぬめブーツ (黏黏鞋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "シークレットシューズ (內增高鞋/特務靴)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ストライダーブーツ (飛龍靴/闊步靴)",
+                        "checked": false
+                    },
+                    {
+                        "name": "テツゲタシューズ (鐵屐鞋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ゴーストブーツ (幽靈靴)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ステップインブーツ (制動靴)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ピヨピヨサンダル (拖鞋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "スケートブーツ (滑冰鞋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "かんじき (雪地靴/踏雪靴)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ナイトブーツ (騎士靴)",
+                        "checked": false
+                    },
+                    {
+                        "name": "レザーブーツ (皮靴)",
+                        "checked": false
+                    },
+                    {
+                        "name": "へヴィブーツ (重鞋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フェザーブーツ (羽毛靴)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "頭裝備 (11種)",
+                "tab": "headgearTab",
+                "list": [
+                    {
+                        "name": "手編みのニット (手織帽)",
+                        "checked": false
+                    },
+                    {
+                        "name": "魔法石のイヤリング (魔法師的耳墜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "おはしな頭巾 (飛奔頭巾)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ブランドメガネ (名牌眼鏡)",
+                        "checked": false
+                    },
+                    {
+                        "name": "羽付き帽子 (羽毛帽)",
+                        "checked": false
+                    },
+                    {
+                        "name": "どすこいハチマキ (氣勢頭巾)",
+                        "checked": false
+                    },
+                    {
+                        "name": "魔女のピアス (魔女的耳環)",
+                        "checked": false
+                    },
+                    {
+                        "name": "おしゃれな帽子 (漂亮帽子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "集中のイヤリング (集中耳墜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "金のかんざし (金髮簪)",
+                        "checked": false
+                    },
+                    {
+                        "name": "銀のかんざし (銀髮簪)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "盾 (17種)",
+                "tab": "shieldTab",
+                "list": [
+                    {
+                        "name": "かさ (傘)",
+                        "checked": false
+                    },
+                    {
+                        "name": "さるのぬいぐるみ (猴子布偶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "マジカルシールド (魔力盾牌)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カイトシールド (高級盾牌)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ボーンシールド (骨盾)",
+                        "checked": false
+                    },
+                    {
+                        "name": "タートルシールド (海龜盾)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カオスシールド (混沌之盾)",
+                        "checked": false
+                    },
+                    {
+                        "name": "エレメンタルシールド (元素之盾)",
+                        "checked": false
+                    },
+                    {
+                        "name": "プリズムシールド (棱鏡之盾)",
+                        "checked": false
+                    },
+                    {
+                        "name": "マジックシールド (魔法之盾)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ルーンシールド (符文之盾)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ナイトシールド (騎士盾)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ヘヴィシールド (重盾)",
+                        "checked": false
+                    },
+                    {
+                        "name": "プラチナシールド (白金盾)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ラウンドシールド (圓盾)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ブロンズシールド (青銅盾)",
+                        "checked": false
+                    },
+                    {
+                        "name": "スモールシールド (小盾牌)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "雙劍 (31種)",
+                "tab": "doubleswordTab",
+                "list": [
+                    {
+                        "name": "ツインジャスティス (雙正義之刃)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ツインネッギ (雙蔥)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アクトリマッセ (雙勺)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ベリーゴージャス (巨豪華之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アーネストエッジ (狂熱之刃)",
+                        "checked": false
+                    },
+                    {
+                        "name": "プリーストセイバー (聖職之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ダブルまごの手 (雙瘙癢撓)",
+                        "checked": false
+                    },
+                    {
+                        "name": "シーフナイフ (盜賊匕首)",
+                        "checked": false
+                    },
+                    {
+                        "name": "エメラルドエッジ (綠寶石之刃)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アイアンエッジ (鋼鐵之刃)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ルーンエッジ (符文之刃)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カオスエッジ (混沌之刃)",
+                        "checked": false
+                    },
+                    {
+                        "name": "オルクスソード (冥王之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ブロークンウォール (毀滅之墻)",
+                        "checked": false
+                    },
+                    {
+                        "name": "デザートウィンド (甜美之風)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ハートオブファイア (火焰心)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ドラグーンクロー (龍爪)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フォースディバイド (原力分割)",
+                        "checked": false
+                    },
+                    {
+                        "name": "インバイトダクネス (噬魂者)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ディープブリザード (暴風雪)",
+                        "checked": false
+                    },
+                    {
+                        "name": "イフリート (火焰暴君)",
+                        "checked": false
+                    },
+                    {
+                        "name": "プラチナエッジ (白金雙刃)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ランペイジ (狂暴雙刃)",
+                        "checked": false
+                    },
+                    {
+                        "name": "雙鬼丸 (雙鬼丸)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サラマンダー (蠑螈雙劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ソニックダガー (音速短劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "斬鋼刃 (斬鋼刃)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フロストエッジ (冰之刃)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ウィンドエッジ (風之刃)",
+                        "checked": false
+                    },
+                    {
+                        "name": "スティールエッジ (鋼鐵雙刃)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ショートダガー (短劍)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "杖 (14種)",
+                "tab": "rodTab",
+                "list": [
+                    {
+                        "name": "魔法の注射器 (魔法注射器)",
+                        "checked": false
+                    },
+                    {
+                        "name": "バスケット (籃子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "魔法のほうき (魔法掃帚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "マジカルステッキ (魔法手杖)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ルーンスタッフ (符文之仗)",
+                        "checked": false
+                    },
+                    {
+                        "name": "マジックステッキ (魔術手杖)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ウィザードスタッフ (賢者之仗)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アースワンド (大地法杖)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ライトニングワンド (雷霆法杖)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アイスロッド (冰之杖)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フレアロッド (火之杖)",
+                        "checked": false
+                    },
+                    {
+                        "name": "シルバーロッド (銀仗)",
+                        "checked": false
+                    },
+                    {
+                        "name": "スタッフ (魔法杖)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ロッド (法杖)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "斧 (25種)",
+                "tab": "axTab",
+                "list": [
+                    {
+                        "name": "デビルフィンガー (惡魔手指)",
+                        "checked": false
+                    },
+                    {
+                        "name": "バジリスクファング (毒蜥之牙)",
+                        "checked": false
+                    },
+                    {
+                        "name": "バトルサイズ (戰鬥鐮刀)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ぺろぺろキャンディー (棒棒糖)",
+                        "checked": false
+                    },
+                    {
+                        "name": "本気なボロのオノ (認真的破斧子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "クレセントアックス改 (月牙斧改)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ポールアックス改 (刺斧改)",
+                        "checked": false
+                    },
+                    {
+                        "name": "セイントアックス (聖斧)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ダブルエッジ (雙刃戰斧)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ロックアックス (巖斧)",
+                        "checked": false
+                    },
+                    {
+                        "name": "トマホーク (砍斧)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フロストアックス (凍結戰斧)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ヒートアックス (熾熱戰斧)",
+                        "checked": false
+                    },
+                    {
+                        "name": "エクスキューショナー (劊子手)",
+                        "checked": false
+                    },
+                    {
+                        "name": "クレセントアックス (月牙斧)",
+                        "checked": false
+                    },
+                    {
+                        "name": "デモンズアックス (惡魔之斧)",
+                        "checked": false
+                    },
+                    {
+                        "name": "グレートアックス (改良斧)",
+                        "checked": false
+                    },
+                    {
+                        "name": "オールデール (奧魯迪爾)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ポールアックス (刺斧)",
+                        "checked": false
+                    },
+                    {
+                        "name": "バトルアックス (戰斧)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "錘 (28種)",
+                "tab": "hammerTab",
+                "list": [
+                    {
+                        "name": "スプラッシュスター (飛濺之星)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アイアンカッキーン (金屬球棒)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カッキーン (球棒)",
+                        "checked": false
+                    },
+                    {
+                        "name": "金剛 (金剛)",
+                        "checked": false
+                    },
+                    {
+                        "name": "力石 (力石)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フェイタルクラッシュ (命運粉碎者)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ピコピコハンマー (玩具錘)",
+                        "checked": false
+                    },
+                    {
+                        "name": "目覚めたボロハンマー (覺醒的破錘子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ギガントハンマー改 (巨錘改)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ウォーハンマー改 (重錘改)",
+                        "checked": false
+                    },
+                    {
+                        "name": "クリスタルハンマー (水晶錘)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ボーンハンマー (骨錘)",
+                        "checked": false
+                    },
+                    {
+                        "name": "グラヴィトンハンマー (大地之錘)",
+                        "checked": false
+                    },
+                    {
+                        "name": "スカイハンマー (天空錘)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アイスハンマー (冰之錘)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フレイムハンマー (火之錘)",
+                        "checked": false
+                    },
+                    {
+                        "name": "スパイクハンマー (尖刺鐵錘)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ミョルニル (粉碎之錘)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ギガントハンマー (巨錘)",
+                        "checked": false
+                    },
+                    {
+                        "name": "シュナーベル (輕錘)",
+                        "checked": false
+                    },
+                    {
+                        "name": "グレートハンマー (改良錘)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ウォーハンマー (重錘)",
+                        "checked": false
+                    },
+                    {
+                        "name": "バトルハンマー (戰鬥錘)",
+                        "checked": false
+                    },
+                    {
+                        "name": "プラチナム (白金錘子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ゴールデンハンマー (金錘子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "シルバーハンマー (銀錘子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ブロンズハンマー (銅錘子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ボロハンマー (破爛的錘子)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "槍 (33種)",
+                "tab": "gunTab",
+                "list": [
+                    {
+                        "name": "五節棍 (五節棍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "パイナ棒 (菠蘿棒)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ポイズンクイーン (猛毒女王)",
+                        "checked": false
+                    },
+                    {
+                        "name": "レギオン (刃靈)",
+                        "checked": false
+                    },
+                    {
+                        "name": "痛くなさそうな槍 (看起來不痛的槍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "マジカルランス (魔法長槍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ゲイボルグ (死翔槍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "竜の牙 (龍牙)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ピッチフォーク (投擲叉子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "トライデント (三叉戟)",
+                        "checked": false
+                    },
+                    {
+                        "name": "コルセスカ改 (三刃長槍改)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ランス改 (騎士長槍改)",
+                        "checked": false
+                    },
+                    {
+                        "name": "グングニル (奧丁神槍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ピオール (猛毒長槍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ベルヴァロース (貝爾巴羅斯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フェザーランス (羽毛長槍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ブリューナク (貫穿者)",
+                        "checked": false
+                    },
+                    {
+                        "name": "オーバーブレイク (破壞之王)",
+                        "checked": false
+                    },
+                    {
+                        "name": "如意棒 (金箍棒)",
+                        "checked": false
+                    },
+                    {
+                        "name": "メトゥス (梅托斯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "イセベルク (伊賽貝克)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ヘヴィランス (重騎士槍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フレアランス (火焰長槍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サイレントグレイブ (沉默墓碑)",
+                        "checked": false
+                    },
+                    {
+                        "name": "コルセスカ (三刃長槍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ポイズンスピア (劇毒長槍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "こんぼう (木棒)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ブラッドランス (血之長槍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ウォータースピア (水之槍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ハルバード (斬斧)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ニードルスピア (針槍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ランス (騎士長槍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "スピア (長槍)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "雙手劍 (34種)",
+                "tab": "twohandedswordTab",
+                "list": [
+                    {
+                        "name": "オロチ (大蛇)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カリバーン (石中劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ダーイコーン (大蘿蔔)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ベルゼビュート (希伯萊)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ブレイブハート (勇者心)",
+                        "checked": false
+                    },
+                    {
+                        "name": "デカッシュ (大魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サイコ (精神之刃)",
+                        "checked": false
+                    },
+                    {
+                        "name": "バルムンク (巴爾蒙之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "太刀 (太刀)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ビックナイフ (大匕首)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カッツバルケル (輕便雙手劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フランベルジュ改 (波形劍改)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ツーハンドソード改 (雙手大劍改)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フォースエレメント (元素之刃)",
+                        "checked": false
+                    },
+                    {
+                        "name": "月影 (月影)",
+                        "checked": false
+                    },
+                    {
+                        "name": "スノークラウン (冰雪之刃)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ボルカノン (熔巖之刃)",
+                        "checked": false
+                    },
+                    {
+                        "name": "シーカッター (裂海者)",
+                        "checked": false
+                    },
+                    {
+                        "name": "パニッシャー (斷罪者)",
+                        "checked": false
+                    },
+                    {
+                        "name": "バイオスマッシャー (生物粉碎者)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アースシェイド (大地之影)",
+                        "checked": false
+                    },
+                    {
+                        "name": "シャインブレード (閃光之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フランベルジュ (波形劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "名刀達刃 (名刀之刃)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ポイズンブレード (劇毒之刃)",
+                        "checked": false
+                    },
+                    {
+                        "name": "蒼眼ノ太刀 (蒼眼太刀)",
+                        "checked": false
+                    },
+                    {
+                        "name": "グランドスマッシャー (大地粉碎者)",
+                        "checked": false
+                    },
+                    {
+                        "name": "天ノ村雲ノ剣 (天叢云劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "グレートソード (改良長劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "斬々舞 (斬舞)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サイクロンブレード (旋風之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フレイムセイバー (火焰之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ツーハンドソード (雙手大劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "クレイモア (雙手劍)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "單手劍 (33種)",
+                "tab": "onehandedswordTab",
+                "list": [
+                    {
+                        "name": "インビジブレード (隱形之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ベジタブレード (蔬菜劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "スネークソード (蛇劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "レジェンドオブルーン (符文傳說)",
+                        "checked": false
+                    },
+                    {
+                        "name": "スプーン (勺子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ゴージャスソード (豪華之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "グラディウス (格拉迪烏斯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "デュランダル (迪蘭達爾)",
+                        "checked": false
+                    },
+                    {
+                        "name": "まごの手 (瘙癢撓)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カトラス (彎刀)",
+                        "checked": false
+                    },
+                    {
+                        "name": "プラチナソード改 (白金之劍改)",
+                        "checked": false
+                    },
+                    {
+                        "name": "スティールソード改 (鐵劍改)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ルーンブレード (符文之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カオスブレード (混沌之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "グランテール (格蘭蒂爾)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ガイアソード (大地之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "スターセイバー (星辰之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サンスパーダ (太陽劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ドラグスレイヤー (龍劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "スマッシュブレード (致命之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ソウルイーター (奪魂者)",
+                        "checked": false
+                    },
+                    {
+                        "name": "デスジュラード (死亡之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "レーヴァンテイン (災難之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "プラチナソード (白金之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ラックブレード (幸運之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "紅桜 (紅櫻)",
+                        "checked": false
+                    },
+                    {
+                        "name": "バーニングソード (燃燒之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "エリアルブレード (空舞之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ディフェンダー (防禦之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アクアソード (水之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ウインドソード (風之劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "スティールソード (鐵劍)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ブロードソード (長劍)",
+                        "checked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "裝飾品類(共計59種)",
+        "tab": "decorationsItem",
+        "data": [
+            {
+                "category": "飾品 (59種)",
+                "tab": "accessoriesTab",
+                "active": true,
+                "list": [
+                    {
+                        "name": "魔道の極意 (魔道的極意)",
+                        "checked": false
+                    },
+                    {
+                        "name": "鋼鉄の極意 (鋼鐵的極意)",
+                        "checked": false
+                    },
+                    {
+                        "name": "必殺の極意 (必殺的極意)",
+                        "checked": false
+                    },
+                    {
+                        "name": "もこもこのマフラー (厚厚圍巾)",
+                        "checked": false
+                    },
+                    {
+                        "name": "手編みのマフラー (手織圍巾)",
+                        "checked": false
+                    },
+                    {
+                        "name": "賢者の証 (賢者之證)",
+                        "checked": false
+                    },
+                    {
+                        "name": "豪傑の証 (豪傑之證)",
+                        "checked": false
+                    },
+                    {
+                        "name": "勇気のバッヂ (勇氣徽章)",
+                        "checked": false
+                    },
+                    {
+                        "name": "不戦のロザリオ (不戰十字架)",
+                        "checked": false
+                    },
+                    {
+                        "name": "シールドリング (護盾戒指)",
+                        "checked": false
+                    },
+                    {
+                        "name": "魔闘の呪符 (魔斗咒符)",
+                        "checked": false
+                    },
+                    {
+                        "name": "パワーグローブ (力量手套)",
+                        "checked": false
+                    },
+                    {
+                        "name": "おまけのバッヂ (贈送徽章)",
+                        "checked": false
+                    },
+                    {
+                        "name": "がんばり屋の軍手 (努力者勞動手套)",
+                        "checked": false
+                    },
+                    {
+                        "name": "丈夫な手袋 (結實的手套)",
+                        "checked": false
+                    },
+                    {
+                        "name": "チャンピオンベルト (冠軍腰帶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "タリスマン (護身符)",
+                        "checked": false
+                    },
+                    {
+                        "name": "クリティカセブン (會心之證)",
+                        "checked": false
+                    },
+                    {
+                        "name": "皮のベルト (皮腰帶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "お守り (護符)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ホーリーアミュレット (神聖護身符)",
+                        "checked": false
+                    },
+                    {
+                        "name": "大地のペンダント (大地吊墜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "雫のペンダント (水滴吊墜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "草原のペンダント (草原吊墜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "太陽のペンダント (太陽吊墜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "星のペンダント (星星吊墜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ハートのペンダント (心形吊墜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "シルバーペンダント (純銀吊墜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ルビーブローチ (紅寶石胸針)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ダイヤモンドブローチ (鑽石胸針)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サファイアブローチ (藍寶石胸針)",
+                        "checked": false
+                    },
+                    {
+                        "name": "エメラルドブローチ (綠寶石胸針)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アメジストブローチ (紫水晶胸針)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アクアマリンブローチ (水藍寶石胸針)",
+                        "checked": false
+                    },
+                    {
+                        "name": "プラチナの腕輪 (白金腕輪)",
+                        "checked": false
+                    },
+                    {
+                        "name": "金の腕輪 (金腕輪)",
+                        "checked": false
+                    },
+                    {
+                        "name": "銀の腕輪 (銀腕輪)",
+                        "checked": false
+                    },
+                    {
+                        "name": "銅の腕輪 (銅腕輪)",
+                        "checked": false
+                    },
+                    {
+                        "name": "安物の腕輪 (便宜的手環)",
+                        "checked": false
+                    },
+                    {
+                        "name": "マジックリング (魔力戒指)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ポイズンリング (劇毒戒指)",
+                        "checked": false
+                    },
+                    {
+                        "name": "パラライズリング (麻痹戒指)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サイレントリング (沉默戒指)",
+                        "checked": false
+                    },
+                    {
+                        "name": "クリティカルリング (會心戒指)",
+                        "checked": false
+                    },
+                    {
+                        "name": "プラチナリング (白金戒指)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ゴールドリング (黃金戒指)",
+                        "checked": false
+                    },
+                    {
+                        "name": "シルバーリング (純銀戒指)",
+                        "checked": false
+                    },
+                    {
+                        "name": "地の指輪 (地之戒指)",
+                        "checked": false
+                    },
+                    {
+                        "name": "水の指輪 (水之戒指)",
+                        "checked": false
+                    },
+                    {
+                        "name": "風の指輪 (風之戒指)",
+                        "checked": false
+                    },
+                    {
+                        "name": "火の指輪 (火之戒指)",
+                        "checked": false
+                    },
+                    {
+                        "name": "闇の指輪 (暗之戒指)",
+                        "checked": false
+                    },
+                    {
+                        "name": "幸せの指輪 (幸運戒指)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ルビーの指輪 (紅寶石戒指)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ダイヤモンドの指輪 (鑽石戒指)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サファイアの指輪 (藍寶石戒指)",
+                        "checked": false
+                    },
+                    {
+                        "name": "エメラルドの指輪 (綠寶石戒指)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アメジストの指輪 (紫水晶戒指)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アクアマリンの指輪 (水藍寶石戒指)",
+                        "checked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "食品類(共計186種)",
+        "tab": "foodItem",
+        "data": [
+            {
+                "category": "材料 (18種)",
+                "tab": "materialTab",
+                "active": true,
+                "list": [
+                    {
+                        "name": "だんご粉 (丸子粉)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カレー粉 (咖喱粉)",
+                        "checked": false
+                    },
+                    {
+                        "name": "油 (油)",
+                        "checked": false
+                    },
+                    {
+                        "name": "小麥粉 (小麥粉)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ハチミツ (蜂蜜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ヨーグルト (酸奶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "チーズ (奶酪)",
+                        "checked": false
+                    },
+                    {
+                        "name": "マヨネーズ (蛋黃醬)",
+                        "checked": false
+                    },
+                    {
+                        "name": "毎日ケンコー卵 (每日健康蛋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "良い卵 (優質蛋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "卵 (蛋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カルシウム満點牛乳 (鈣滿點牛奶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "良い牛乳 (優質牛奶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "牛乳 (牛奶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "エリ草 (艾麗草)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ワイン (紅酒)",
+                        "checked": false
+                    },
+                    {
+                        "name": "チョコレート (巧克力)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ごはん (米飯)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "空手料理 (14種)",
+                "tab": "emptycookingTab",
+                "list": [
+                    {
+                        "name": "カブヘブン (蕪菁大雜燴)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カブの紅白漬け (腌紅白蕪菁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "鮭のおにぎり (鮭魚飯糰)",
+                        "checked": false
+                    },
+                    {
+                        "name": "パン (麵包)",
+                        "checked": false
+                    },
+                    {
+                        "name": "おにぎり (飯糰)",
+                        "checked": false
+                    },
+                    {
+                        "name": "リラックス茶の葉 (放鬆茶葉)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アイスクリーム (冰激淋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ぶどうパン (葡萄麵包)",
+                        "checked": false
+                    },
+                    {
+                        "name": "たけのこごはん (竹筍飯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "きゅうりの酢漬け (醃黃瓜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "かぶの酢漬け (腌蕪菁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フルーツサンド (水果三明治)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サンドウィッチ (三明治)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サラダ (沙拉)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "蒸鍋 (11種)",
+                "tab": "steamerTab",
+                "list": [
+                    {
+                        "name": "だんご (丸子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "かぼちゃプリン (南瓜布丁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "プリン (布丁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "むしケーキ (蒸蛋糕)",
+                        "checked": false
+                    },
+                    {
+                        "name": "むしカステラ (蒸雞蛋糕/蒸鬆糕)",
+                        "checked": false
+                    },
+                    {
+                        "name": "むしぎょうざ (蒸餃)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カレーまん (咖喱包子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "中華まん (中華饅頭/包子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "しゅうまい (燒賣)",
+                        "checked": false
+                    },
+                    {
+                        "name": "チーズむしパン (奶酪蒸麵包)",
+                        "checked": false
+                    },
+                    {
+                        "name": "むしパン (蒸麵包)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "攪拌機 (17種)",
+                "tab": "blenderTab",
+                "list": [
+                    {
+                        "name": "ホットジュース (熱果汁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "戀の予感 (戀愛預感)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ゴールドジュース (黃金果汁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "バター (黃油)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ケチャップ (番茄醬)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ミックス・オ・レ (混合牛奶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ミックスジュース (混合果汁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "野菜・オ・レ (蔬菜牛奶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "野菜ジュース (蔬菜汁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フルーツ・オ・レ (果汁牛奶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フルーツジュース (新鮮果汁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "いちご牛乳 (草莓牛奶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "りんごジュース (蘋果汁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "オレンジジュース (橙汁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ぶどうジュース (葡萄汁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "トマトジュース (番茄汁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "パインジュース (菠蘿汁)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "烤爐 (19種)",
+                "tab": "ovenTab",
+                "list": [
+                    {
+                        "name": "アップルパイ (蘋果派/蘋果餡餅)",
+                        "checked": false
+                    },
+                    {
+                        "name": "チーズケーキ (芝士蛋糕/奶酪蛋糕)",
+                        "checked": false
+                    },
+                    {
+                        "name": "チョコレートケーキ (巧克力蛋糕)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ケーキ (蛋糕)",
+                        "checked": false
+                    },
+                    {
+                        "name": "チョコクッキー (巧克力餅乾/巧克力甜餅)",
+                        "checked": false
+                    },
+                    {
+                        "name": "クッキー (餅乾/甜餅)",
+                        "checked": false
+                    },
+                    {
+                        "name": "スイートポテト (紅薯點心)",
+                        "checked": false
+                    },
+                    {
+                        "name": "シーフードグラタン (海鮮奶汁烤菜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "グラタン (奶汁烤菜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "シーフードドリア (海鮮多利亞/海鮮烤飯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ドリア (多利亞/烤飯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "シーフードピザ (海鮮披薩)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ピザ (披薩)",
+                        "checked": false
+                    },
+                    {
+                        "name": "バターロール (黃油麵包捲)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ジャムパン (果醬麵包)",
+                        "checked": false
+                    },
+                    {
+                        "name": "トースト (吐司)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きいも (烤蕃薯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きおにぎり (烤飯糰)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きとうもろこし (烤玉米)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "鍋子 (28種)",
+                "tab": "potTab",
+                "list": [
+                    {
+                        "name": "巖石魚の煮付け (水煮巖石魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "寄せ鍋 (火鍋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "みそ田楽 (蘿蔔燉湯/味增田樂)",
+                        "checked": false
+                    },
+                    {
+                        "name": "リラックスティー (放鬆茶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "至高のカレー (至高咖喱)",
+                        "checked": false
+                    },
+                    {
+                        "name": "究極のカレー (究極咖喱)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カレーライス (咖喱飯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "シチュー (燉菜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "たまごどん (蛋蓋飯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "天どん (天婦羅飯/天蓋飯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "牛乳がゆ (牛奶粥)",
+                        "checked": false
+                    },
+                    {
+                        "name": "おかゆ (粥)",
+                        "checked": false
+                    },
+                    {
+                        "name": "天ぷらうどん (天婦羅烏冬面)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カレーうどん (咖喱湯麵)",
+                        "checked": false
+                    },
+                    {
+                        "name": "うどん (烏冬/湯麵)",
+                        "checked": false
+                    },
+                    {
+                        "name": "チーズフォンデュ (奶酪火鍋/乾酪鍋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "オレンジマーマレード (橘皮果醬)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ぶどうジャム (葡萄果醬)",
+                        "checked": false
+                    },
+                    {
+                        "name": "りんごジャム (蘋果果醬)",
+                        "checked": false
+                    },
+                    {
+                        "name": "いちごジャム (草莓果醬)",
+                        "checked": false
+                    },
+                    {
+                        "name": "水ぎょうざ (水餃)",
+                        "checked": false
+                    },
+                    {
+                        "name": "大學いも (大學芋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ゆでタマゴ (煮雞蛋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "おひたし (涼拌菜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "かぼちゃの煮つけ (煮南瓜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ぶどう酒 (葡萄酒)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ホットチョコレート (熱巧克力)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ホットミルク (熱牛奶)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "平底煎鍋 (52種)",
+                "tab": "fryingpanTab",
+                "list": [
+                    {
+                        "name": "焼き砂ヒラメ (烤沙比目魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "エビの姿焼き (整烤鮮蝦)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ロブスターの姿焼き (整烤龍蝦)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きフグ (烤河豚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きフーイン (烤螢烏賊)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きジャマイカ (烤斑烏賊)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きイカ (烤烏賊)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼き紅葉 (烤紅葉魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きカレイ (烤鰈魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きヒラメ (烤比目魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サンマの塩焼き (鹽烤秋刀魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サヨリの塩焼き (鹽烤針魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "めざし (沙丁魚串)",
+                        "checked": false
+                    },
+                    {
+                        "name": "マグロの照り焼き (照燒金槍魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ワカサギの塩焼き (鹽烤公魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ブリの照り焼き (照燒鰤魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きサバ (烤鯖魚/烤鮐魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "土佐造り (鰹魚片)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きトキメキタイ (烤心跳鯛魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きカガヤキタイ (烤閃光鯛魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "メジナの塩焼き (鹽烤斑鲅魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "タイの焼きもの (烤鯛魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ギンブナの姿焼き (整烤銀鯽魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ヘラブナの姿焼き (整烤鯽魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "イトウの姿焼き (整烤哲羅魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "塩ジャケ (鹽烤鮭魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ウグイの塩焼き (鹽烤雅羅魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ヤマメの塩焼き (鹽烤真鱒魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きドグニジマス (烤毒虹鱒)",
+                        "checked": false
+                    },
+                    {
+                        "name": "イワナの塩焼き (鹽烤巖魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アマゴの塩焼き (鹽烤鱒魚/鹽烤天魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ドライカレー (咖喱炒飯/干咖喱)",
+                        "checked": false
+                    },
+                    {
+                        "name": "リゾット (意式菜飯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ぎょうざ (餃子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ホットケーキ (煎餅/烤餅)",
+                        "checked": false
+                    },
+                    {
+                        "name": "天ぷら (天婦羅)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きうどん (烏冬燒/烤麵條)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ドーナツ (麵包圈/甜甜圈)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フレンチトースト (法式吐司/奶油吐司)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カレーパン (咖喱麵包)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きりんご (烤蘋果)",
+                        "checked": false
+                    },
+                    {
+                        "name": "オムライス (蛋包飯/蛋炒飯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "オムレツ (煎蛋/菜肉蛋卷)",
+                        "checked": false
+                    },
+                    {
+                        "name": "卵焼き (蛋包捲/煎雞蛋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "なす田楽 (醬烤茄子/淋汁茄子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "コーンフレーク (玉米片)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ポップコーン (爆玉米花)",
+                        "checked": false
+                    },
+                    {
+                        "name": "コロッケ (炸土豆球/炸肉餅)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フライドポテト (炸薯條)",
+                        "checked": false
+                    },
+                    {
+                        "name": "お好み焼き (雜菜煎餅)",
+                        "checked": false
+                    },
+                    {
+                        "name": "チャーハン (炒飯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "野菜いため (蔬菜雜燴/炒蔬菜)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "菜刀 (25種)",
+                "tab": "kitchenknifeTab",
+                "list": [
+                    {
+                        "name": "エビのおさしみ (蝦肉刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ロブスターのおさしみ (龍蝦刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フグさし (河豚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フーインイカさし (螢烏賊刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ジャマイカさし (斑烏賊刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "イカさし (烏賊刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "色づくおさしみ (紅葉魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カレイのおさしみ (鰈魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ヒラメのおさしみ (比目魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サンマのおさしみ (秋刀魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サヨリのおさしみ (針魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "イワシのおさしみ (鰯魚刺身/沙丁魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "大トロ (大肥金槍魚/大舌頭)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ブリのおさしみ (鰤魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カツオのおさしみ (鰹魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "メジナのおさしみ (斑鲅魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "トキメクおさしみ (心跳刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カガヤクおさしみ (閃光刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "タイのおさしみ (鯛魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "イトウのおさしみ (哲羅魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ヤマメのおさしみ (真鱒魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サケのおさしみ (鮭魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ドクニジマウさし (虹色魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "イワナのおさしみ (巖魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アマゴのおさしみ (鱒魚刺身/天魚刺身)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "失敗作 (2種)",
+                "tab": "failTab",
+                "list": [
+                    {
+                        "name": "超失敗作 (超失敗作)",
+                        "checked": false
+                    },
+                    {
+                        "name": "失敗作 (失敗作)",
+                        "checked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "水產品類(共計35種)",
+        "tab": "aquaticItem",
+        "data": [
+            {
+                "category": "垃圾 (3種)",
+                "tab": "RubbishTab",
+                "active": true,
+                "list": [
+                    {
+                        "name": "レアなあきかん (稀有的空罐子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ながぐつ (長靴)",
+                        "checked": false
+                    },
+                    {
+                        "name": "あきかん (空罐子)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "魚 (32種)",
+                "tab": "fishTab",
+                "list": [
+                    {
+                        "name": "巖石魚 (巖石魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "砂ヒラメ (沙比目魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ワカサギ (公魚) [冬]",
+                        "checked": false
+                    },
+                    {
+                        "name": "ロブスター (龍蝦) [夏]",
+                        "checked": false
+                    },
+                    {
+                        "name": "フーインイカ (螢烏賊) [春]",
+                        "checked": false
+                    },
+                    {
+                        "name": "ヤマメ (真鱒魚) [春]",
+                        "checked": false
+                    },
+                    {
+                        "name": "モミジヒラメ (紅葉比目魚) [秋]",
+                        "checked": false
+                    },
+                    {
+                        "name": "メジナ (斑鲅魚) [冬]",
+                        "checked": false
+                    },
+                    {
+                        "name": "マグロ (金槍魚) [冬]",
+                        "checked": false
+                    },
+                    {
+                        "name": "ヘラブナ (鯽魚) [夏]",
+                        "checked": false
+                    },
+                    {
+                        "name": "ブリ (鰤魚) [冬]",
+                        "checked": false
+                    },
+                    {
+                        "name": "フグ (河豚) [冬]",
+                        "checked": false
+                    },
+                    {
+                        "name": "ヒラメ (比目魚) [冬]",
+                        "checked": false
+                    },
+                    {
+                        "name": "ドグニジマス (毒虹鱒魚/虹色魚) [冬]",
+                        "checked": false
+                    },
+                    {
+                        "name": "トキメキタイ (心跳鯛魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "タイ (鯛魚) [秋]",
+                        "checked": false
+                    },
+                    {
+                        "name": "エビ (蝦) [夏]",
+                        "checked": false
+                    },
+                    {
+                        "name": "ジャマイカ (斑烏賊/南國章魚) [夏]",
+                        "checked": false
+                    },
+                    {
+                        "name": "サンマ (秋刀魚) [秋]",
+                        "checked": false
+                    },
+                    {
+                        "name": "サヨリ (針魚) [春]",
+                        "checked": false
+                    },
+                    {
+                        "name": "サバ (鯖魚/鮐魚) [秋]",
+                        "checked": false
+                    },
+                    {
+                        "name": "サケ (鮭魚) [秋]",
+                        "checked": false
+                    },
+                    {
+                        "name": "ギンブナ (銀鮒魚) [春]",
+                        "checked": false
+                    },
+                    {
+                        "name": "カレイ (鰈魚) [夏]",
+                        "checked": false
+                    },
+                    {
+                        "name": "カツオ (鰹魚) [秋]",
+                        "checked": false
+                    },
+                    {
+                        "name": "カガヤキタイ (銀鯛) [冬]",
+                        "checked": false
+                    },
+                    {
+                        "name": "ウグイ (雅羅魚) [夏]",
+                        "checked": false
+                    },
+                    {
+                        "name": "イワナ (巖魚) [夏]",
+                        "checked": false
+                    },
+                    {
+                        "name": "イワシ (鰯魚/沙丁魚) [夏]",
+                        "checked": false
+                    },
+                    {
+                        "name": "イトウ (哲羅魚) [冬]",
+                        "checked": false
+                    },
+                    {
+                        "name": "イカ (烏賊)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アマゴ (鱒魚) [春]",
+                        "checked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "收集品類(共計90種)",
+        "tab": "collectionItem",
+        "data": [
+            {
+                "category": "其他 (3種)",
+                "tab": "otherTab",
+                "active": true,
+                "list": [
+                    {
+                        "name": "木材 (木材)",
+                        "checked": false
+                    },
+                    {
+                        "name": "枝 (樹枝)",
+                        "checked": false
+                    },
+                    {
+                        "name": "石 (石頭)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "收集品 (87種)",
+                "tab": "collectionTab",
+                "list": [
+                    {
+                        "name": "火竜のうろこ (火龍之鱗)",
+                        "checked": false
+                    },
+                    {
+                        "name": "地竜のうろこ (地龍之鱗)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ゴーレムの石版 (怪力石版/格勒姆石版)",
+                        "checked": false
+                    },
+                    {
+                        "name": "歌の小ビン (歌之小瓶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "電気の結晶 (電氣結晶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "動く枝 (動枝)",
+                        "checked": false
+                    },
+                    {
+                        "name": "水竜の羽びれ (水龍的羽鰭)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ヌッシーのうろこ (魚主之鱗/努西之鱗)",
+                        "checked": false
+                    },
+                    {
+                        "name": "グリモアのうろこ (格利莫亞之鱗)",
+                        "checked": false
+                    },
+                    {
+                        "name": "キメラのしっぽ (奇美拉之尾)",
+                        "checked": false
+                    },
+                    {
+                        "name": "グレートな胸毛 (豪邁胸毛)",
+                        "checked": false
+                    },
+                    {
+                        "name": "氷の鼻 (冰之鼻)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アンモナイト (鸚鵡螺化石)",
+                        "checked": false
+                    },
+                    {
+                        "name": "氷壁のかけら (冰壁的碎片)",
+                        "checked": false
+                    },
+                    {
+                        "name": "獅子の青毛 (獅子的藍毛)",
+                        "checked": false
+                    },
+                    {
+                        "name": "獅子の赤毛 (獅子的紅毛)",
+                        "checked": false
+                    },
+                    {
+                        "name": "竜の骨 (龍骨)",
+                        "checked": false
+                    },
+                    {
+                        "name": "たぬきの葉っぱ (貍貓樹葉)",
+                        "checked": false
+                    },
+                    {
+                        "name": "愛の結晶 (愛之結晶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "闇の結晶 (暗之結晶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "光の結晶 (光之結晶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "モコ綿 (軟綿綿棉)",
+                        "checked": false
+                    },
+                    {
+                        "name": "小さな結晶 (小結晶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "妖精の粉 (妖精之粉)",
+                        "checked": false
+                    },
+                    {
+                        "name": "壊れた木箱 (壞掉的木箱)",
+                        "checked": false
+                    },
+                    {
+                        "name": "壊れた柄 (壞掉的柄)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ドクロ (骷髏)",
+                        "checked": false
+                    },
+                    {
+                        "name": "浮遊霊の頭巾 (浮幽靈的頭巾)",
+                        "checked": false
+                    },
+                    {
+                        "name": "火の結晶 (火之結晶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カメのこうら (龜殼)",
+                        "checked": false
+                    },
+                    {
+                        "name": "水の結晶 (水之結晶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "古代魚の骨 (古代魚之骨)",
+                        "checked": false
+                    },
+                    {
+                        "name": "丈夫なツル (結實的藤)",
+                        "checked": false
+                    },
+                    {
+                        "name": "植物の莖 (植物的莖)",
+                        "checked": false
+                    },
+                    {
+                        "name": "毒の粉 (毒粉)",
+                        "checked": false
+                    },
+                    {
+                        "name": "キノコの胞子 (蘑菇孢子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "植物の根 (植物的根)",
+                        "checked": false
+                    },
+                    {
+                        "name": "毛皮 (毛皮)",
+                        "checked": false
+                    },
+                    {
+                        "name": "風の結晶 (風之結晶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "鳥の羽 (鳥之羽)",
+                        "checked": false
+                    },
+                    {
+                        "name": "闘牛の角 (鬥牛之角)",
+                        "checked": false
+                    },
+                    {
+                        "name": "上質の毛皮 (上質的毛皮)",
+                        "checked": false
+                    },
+                    {
+                        "name": "狼の牙 (狼牙)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ドラゴンの牙 (龍牙)",
+                        "checked": false
+                    },
+                    {
+                        "name": "豹の爪 (豹爪)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サソリのはさみ (蝎子的鉗)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サソリの尻尾 (蝎子的尾巴)",
+                        "checked": false
+                    },
+                    {
+                        "name": "強固な角 (堅固的角)",
+                        "checked": false
+                    },
+                    {
+                        "name": "キレイな蟲の皮 (漂亮的蟲皮)",
+                        "checked": false
+                    },
+                    {
+                        "name": "キレイなクモ糸 (漂亮的蜘蛛絲)",
+                        "checked": false
+                    },
+                    {
+                        "name": "丈夫なクモ糸 (結實的蜘蛛絲)",
+                        "checked": false
+                    },
+                    {
+                        "name": "昆蟲のアゴ (昆蟲的下顎)",
+                        "checked": false
+                    },
+                    {
+                        "name": "蟲の皮 (蟲皮)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ハンマーの破片 (錘子的碎片)",
+                        "checked": false
+                    },
+                    {
+                        "name": "巨人の手袋 (巨人的手套)",
+                        "checked": false
+                    },
+                    {
+                        "name": "巨人の爪 (巨人之爪)",
+                        "checked": false
+                    },
+                    {
+                        "name": "バイキングの肩當て (維京護肩)",
+                        "checked": false
+                    },
+                    {
+                        "name": "魔力の結晶 (魔力之結晶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "魔法使いの粉 (魔法師之粉)",
+                        "checked": false
+                    },
+                    {
+                        "name": "悪魔の血 (惡魔之血)",
+                        "checked": false
+                    },
+                    {
+                        "name": "魔人の角 (魔人之角)",
+                        "checked": false
+                    },
+                    {
+                        "name": "地の結晶 (地之結晶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "射手の発火薬 (射手的火藥)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ゴブリンの包帯 (哥布林的繃帶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "にかわ (骨膠)",
+                        "checked": false
+                    },
+                    {
+                        "name": "戦士の証 (戰士之證)",
+                        "checked": false
+                    },
+                    {
+                        "name": "さびた矢尻 (生鏽的箭頭)",
+                        "checked": false
+                    },
+                    {
+                        "name": "シルクの布 (絲綢)",
+                        "checked": false
+                    },
+                    {
+                        "name": "海賊ゴブリンの布 (海盜哥布林的布)",
+                        "checked": false
+                    },
+                    {
+                        "name": "オークのボロ布 (獸人的破布)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アクアマリン (海藍寶石)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アメジスト (紫水晶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サファイア (藍寶石)",
+                        "checked": false
+                    },
+                    {
+                        "name": "エメラルド (綠寶石)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ルビー (紅寶石)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ダイヤモンド (鑽石)",
+                        "checked": false
+                    },
+                    {
+                        "name": "プラチナ (白金)",
+                        "checked": false
+                    },
+                    {
+                        "name": "金 (金)",
+                        "checked": false
+                    },
+                    {
+                        "name": "銀 (銀)",
+                        "checked": false
+                    },
+                    {
+                        "name": "銅 (銅)",
+                        "checked": false
+                    },
+                    {
+                        "name": "鉄 (鐵)",
+                        "checked": false
+                    },
+                    {
+                        "name": "クズ鉄 (鐵屑)",
+                        "checked": false
+                    },
+                    {
+                        "name": "毛糸玉 (毛線球)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ふわふわモフモフ毛 (軟軟綿綿的毛)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ふわふわ毛 (軟軟的毛)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ふわ毛 (軟毛)",
+                        "checked": false
+                    },
+                    {
+                        "name": "牧草 (牧草)",
+                        "checked": false
+                    }
+                ]
+            }
+        ]
+    }
+]

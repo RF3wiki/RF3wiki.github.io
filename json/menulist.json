@@ -1,6 +1,7 @@
 [
     {
         "id":"人物相關",
+        "mobileTab":"human",
         "list":[
             {"name":"花嫁資料","tab":"hanayome"},
             {"name":"城鎮村民","tab":"villagers"}
@@ -8,6 +9,7 @@
     },
     {
         "id":"任務相關",
+        "mobileTab":"task",
         "list":[
             {"name":"委託列表", "tab":"task-list"},
             {"name":"討伐與任務列表", "tab":"easy-kill-task"}
@@ -15,6 +17,7 @@
     },
     {
         "id": "裝備相關",
+        "mobileTab":"equi",
         "list": [
             {"name":"農具配方","tab":"farm-rec"},
             {"name":"武器配方","tab":"weapon-rec"},
@@ -30,12 +33,14 @@
     },
     {
         "id": "農作相關",
+        "mobileTab":"crop",
         "list": [
             {"name":"農作物資料","tab":"crop-info"} 
         ]
     },
     {
         "id": "料理、藥水相關",
+        "mobileTab":"cooking",
         "list": [
             {"name":"料理配方與效果","tab":"cooking-rec"},
             {"name":"藥品配方","tab":"drug-rec"} 
@@ -43,6 +48,7 @@
     },
     {
         "id": "釣魚相關",
+        "mobileTab":"fish",
         "list": [
             {"name":"釣魚資料-小鎮","tab":"fish-town"},
             {"name":"釣魚資料-迷宮","tab":"fish-maze"}
@@ -50,12 +56,14 @@
     },
     {
         "id": "迷宮相關",
+        "mobileTab":"maze",
         "list": [
             {"name":"迷宮資料","tab":"maze-data"}
         ]
     },
     {
         "id":"其他",
+        "mobileTab":"orter",
         "list":[
             {"name":"全出貨箱物品","tab":"all-item"},
             {"name":"出貨紀錄","tab":"sell-log"}

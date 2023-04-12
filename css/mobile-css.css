@@ -1,0 +1,80 @@
+.mobile-menu-btn {
+  z-index: 98;
+  position: fixed;
+  bottom: 3rem;
+  right: 0.4rem;
+  transform: translate(0, 130%);
+  transition: 0.5s;
+}
+.mobile-menu-btn .ts-wrap {
+  gap: 0.4rem;
+  margin-bottom: 0.4rem;
+  flex-direction: column-reverse;
+}
+@media (prefers-color-scheme: dark) {
+  .mobile-menu-btn .ts-wrap button {
+    background-color: var(--ts-gray-500);
+  }
+}
+@media (prefers-color-scheme: light) {
+  .mobile-menu-btn .ts-wrap button {
+    color: var(--ts-gray-500);
+    background-color: var(--ts-gray-50);
+  }
+}
+
+.mobile-menu-box {
+  z-index: 98;
+  position: fixed;
+  bottom: 3.5rem;
+  right: 10rem;
+  transform: translate(0, 300%);
+  transition: 0.5s;
+}
+.mobile-menu-box .ts-wrap {
+  gap: 0.4rem;
+}
+@media (prefers-color-scheme: dark) {
+  .mobile-menu-box button {
+    background-color: var(--ts-gray-500);
+  }
+}
+@media (prefers-color-scheme: light) {
+  .mobile-menu-box button {
+    color: var(--ts-gray-500);
+    background-color: var(--ts-gray-50);
+  }
+}
+
+.mobile-menu-active {
+  transform: translate(0, 0);
+  transition: 0.5s;
+}
+
+.mobile-btn {
+  z-index: 98;
+  position: fixed;
+  bottom: 0.4rem;
+  right: 0.4rem;
+}
+
+.mask {
+  opacity: 0.6;
+  bottom: 0;
+  color: var(--ts-gray-50);
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 97;
+}
+@media (prefers-color-scheme: dark) {
+  .mask {
+    background: var(--ts-gray-50);
+  }
+}
+@media (prefers-color-scheme: light) {
+  .mask {
+    background: var(--ts-gray-800);
+  }
+}/*# sourceMappingURL=mobile-css.css.map */

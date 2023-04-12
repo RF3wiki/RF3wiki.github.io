@@ -4,7 +4,8 @@ const RF3Wiki = new Vue({
         loadnone: "",
         nowPage: "home",
         menu_list: null,
-        spaceHug: ''
+        spaceHug: '',
+        mobileMenuOpen: false
     },
     created() {
         if (!this.menu_list) {
@@ -15,7 +16,7 @@ const RF3Wiki = new Vue({
         this.loadnone = 'u-hidden';
     },
     methods: {
-        changePage(type) {
+        changePage(type, mobile) {
             if (type == 'home') {
                 document.querySelectorAll('.ts-menu.ts-tab .item').forEach(el => {
                     el.classList = 'item is-accent'
@@ -24,7 +25,14 @@ const RF3Wiki = new Vue({
                     el.removeAttribute('open')
                 });
             }
+
+            mobile ? this.removeMobileMenu() : '';
             Vue.component(type) ? this.nowPage = type : this.nowPage = 'error-page';
+        },
+        removeMobileMenu() {
+            this.mobileMenuOpen = !this.mobileMenuOpen
+            document.querySelector('.mobile-menu-box').classList.remove("mobile-menu-active");
+            document.querySelector('.mobile-menu-btn').classList.remove("mobile-menu-active");
         },
         detailsClose() {
             const details = document.querySelectorAll("details");

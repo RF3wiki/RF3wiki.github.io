@@ -14,6 +14,7 @@
   <meta name="keywords" content="符文工廠3 Wiki,符文工廠3,Rune Factory,Rune Factory 3,ルーンファクトリー3,符文工廠,符文工廠 豪華版,Wiki">
   <link rel="stylesheet" href="./css/tocas/tocas.min.css">
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/mobile-css.css">
   <script src="./js/tocas/tocas.min.js"></script>
   <!-- <script src="./js/vue.js"></script> -->
   <script src="./js/vue.min.js"></script>
@@ -22,10 +23,40 @@
 </head>
 
 <body>
-  <div id="app" class="ts-container is-fluid">
+  <div id="app" class="ts-container is-fluid mobile-:ts-center">
     <div class="ts-loading is-notched loading-box" :class="loadnone"></div>
+
+    <div class="mobile-menu-box tablet+:u-hidden" :class="[mobileMenuOpen?'mobile-menu-active':'']">
+      <div class="ts-wrap ts-tab is-vertical" :data-name="menu.mobileTab" v-for="(menu , index) in menu_list">
+        <button v-on:click="changePage(list.tab , true)" :data-tab="list.tab" v-for="(list, index) in menu.list"
+          class="item is-accent is-icon is-outlined">{{list.name}}</button>
+      </div>
+    </div>
+
+    <div class="mobile-menu-btn tablet+:u-hidden" :class="[mobileMenuOpen?'mobile-menu-active':'']">
+      <div class="ts-wrap ts-tab">
+        <button class="ts-button is-small is-accent" data-toggle="report:is-visible">
+          問題回報
+        </button>
+        <button class="ts-button is-small is-accent" data-toggle="updatalog:is-visible">
+          <div class="ts-text">更新紀錄</div>
+        </button>
+        <button class="item is-accent is-icon" v-on:click="changePage('home', true)" title="首頁"> 首頁 </button>
+        <button v-for="(menu , index) in menu_list" :data-tab="menu.mobileTab" class="item is-accent is-icon">
+          {{menu.id}} </button>
+      </div>
+    </div>
+    <div class="mobile-btn tablet+:u-hidden">
+      <div class="ts-wrap" style="align-items: flex-end;margin-bottom: 0;">
+        <button class="ts-button is-accent is-circular is-icon" :class="[mobileMenuOpen?'':'is-outlined']"
+          data-name="mobileMenu" v-on:click="mobileMenuOpen = !mobileMenuOpen" title="選單">
+          <div class="ts-icon is-bars-icon"></div>
+        </button>
+      </div>
+    </div>
+    <div class="mask" v-show="mobileMenuOpen"></div>
     <div class="ts-grid is-relaxed">
-      <div class="column mobile-:is-16-wide tablet-desktop:is-3-wide desktop+:is-2-wide">
+      <div class="column mobile-:u-hidden tablet-desktop:is-3-wide desktop+:is-2-wide">
         <div class="ts-space"></div>
         <div class="ts-header is-large is-heavy is-center-aligned" v-on:click="changePage('home')" title>符文工廠3 Wiki
         </div>
@@ -65,7 +96,7 @@
     </div>
 
     <div class="ts-modal" data-name="report">
-      <div class="content" style="width: auto;min-width:50rem;">
+      <div class="content" style="width: auto;min-width:24rem;">
         <div class="ts-content is-dense">
           <div class="ts-header">問題回報
             <span class="ts-close" data-toggle="report:is-visible" style="margin-left: auto;"></span>

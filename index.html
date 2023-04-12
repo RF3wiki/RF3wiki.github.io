@@ -25,7 +25,6 @@
   <div id="app" class="ts-container is-fluid">
     <div class="ts-loading is-notched loading-box" :class="loadnone"></div>
     <div class="ts-grid is-relaxed">
-
       <div class="column mobile-:is-16-wide tablet-desktop:is-3-wide desktop+:is-2-wide">
         <div class="ts-space"></div>
         <div class="ts-header is-large is-heavy is-center-aligned" v-on:click="changePage('home')" title>符文工廠3 Wiki
@@ -94,9 +93,8 @@
         </div>
         <div class="ts-divider"></div>
         <div class="ts-content">
-
           <div class="ts-timeline">
-            <div class="item">
+            <!-- <div class="item">
               <div class="aside">
                 <div class="ts-text is-description">預計更新</div>
               </div>
@@ -104,6 +102,15 @@
                 <span class="ts-icon"></span>
               </div>
               <div class="content"></div>
+            </div> -->
+            <div class="item">
+              <div class="aside">
+                <div class="ts-text is-description">2023/04/12</div>
+              </div>
+              <div class="indicator">
+                <span class="ts-icon is-check-icon"></span>
+              </div>
+              <div class="content">新增委託、任務、討伐列表</div>
             </div>
             <div class="item">
               <div class="aside">
@@ -137,7 +144,7 @@
                 <div class="ts-text is-description">2023/04/07</div>
               </div>
               <div class="indicator">
-                <span class="ts-icon is-code-commit-icon"></span>
+                <span class="ts-icon is-check-icon"></span>
               </div>
               <div class="content">增加火狐瀏覽器支援<br>部分資料修正</div>
             </div>
@@ -146,15 +153,15 @@
                 <div class="ts-text is-description">2023/04/06</div>
               </div>
               <div class="indicator">
-                <span class="ts-icon is-code-commit-icon"></span>
+                <span class="ts-icon is-check-icon"></span>
               </div>
               <div class="content">初版架構</div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
+
   </div>
   <script src="./js/main.js"></script>
 </body>

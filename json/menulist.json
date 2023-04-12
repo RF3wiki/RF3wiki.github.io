@@ -9,7 +9,8 @@
     {
         "id":"任務相關",
         "list":[
-            {"name":"一般委託", "tab":"villtask"}
+            {"name":"委託列表", "tab":"task-list"},
+            {"name":"討伐與任務列表", "tab":"easy-kill-task"}
         ]
     },
     {

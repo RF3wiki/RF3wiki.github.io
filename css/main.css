@@ -64,7 +64,17 @@ div[logcategory] .item {
   overflow-y: auto;
   overflow-x: auto;
   max-height: 56rem;
-  padding: 0;
+}
+
+.task .ts-segment {
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+.task .ts-segment:first-child {
+  margin-top: 0;
+}
+.task .ts-segment:last-child {
+  margin-bottom: 0;
 }
 
 .loading-box {

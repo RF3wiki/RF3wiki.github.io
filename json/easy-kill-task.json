@@ -1,0 +1,519 @@
+[
+    {
+        "name": "希雅(シア)",
+        "tag": "Shara",
+        "active": true,
+        "easyTask": [
+            {
+                "taskName": "お花栽培セット配ってます♪(配送花栽培套組♪)",
+                "location": "告示牌",
+                "content": "與她對話"
+            },
+            {
+                "taskName": "落しものをしてしまって……(我的東西掉了……)",
+                "location": "告示牌",
+                "content": "去春之森林幫她找進化之綠(調查點會有提示)，或者直接買個給她"
+            },
+            {
+                "taskName": "貴重な種を落としてしまいました(珍貴的種子丟了)",
+                "location": "告示牌",
+                "content": "去秋之谷幫她找種子，地點隨機，調查點會有提示"
+            }
+        ],
+        "killTask": []
+    },
+    {
+        "name": "多娜(トゥーナ)",
+        "tag": "Raven",
+        "active": false,
+        "easyTask": [
+            {
+                "taskName": "だれでもいいから(隨便來個人)",
+                "location": "告示牌",
+                "content": "接收給你的禮物"
+            },
+            {
+                "taskName": "探しもの(找東西)",
+                "location": "告示牌",
+                "content": "帶她一起去找指定物品"
+            },
+            {
+                "taskName": "アンケート(徵詢意見)",
+                "location": "信箱",
+                "content": "回答她的問題"
+            }
+        ],
+        "killTask": []
+    },
+    {
+        "name": "瑪莉歐(マリオン)",
+        "tag": "Marian",
+        "active": false,
+        "easyTask": [
+            {
+                "taskName": "雑用募集中!(雜役募集中！)",
+                "location": "告示牌",
+                "content": "給她指定的藥・草・花"
+            },
+            {
+                "taskName": "協力者募集中!(協力者募集中！)",
+                "location": "告示牌",
+                "content": "給她指定的藥・草・花"
+            },
+            {
+                "taskName": "共同研究者募集中!(共同研究者募集中！)",
+                "location": "告示牌",
+                "content": "給她指定的藥・草・花"
+            }
+        ],
+        "killTask": []
+    },
+    {
+        "name": "小可拉(ショコラ)",
+        "tag": "Collette",
+        "active": false,
+        "easyTask": [
+            {
+                "taskName": "試食サービス中！(試吃服務中！)",
+                "location": "告示牌",
+                "content": "在她給出的菜單中選1個來吃"
+            },
+            {
+                "taskName": "うー、お腹すいたー(唔、肚子餓了)",
+                "location": "告示牌",
+                "content": "給她3個她指定的料理"
+            },
+            {
+                "taskName": "スーパーお腹すいたー(肚子超級餓)",
+                "location": "告示牌",
+                "content": "給她5個她指定的料理"
+            }
+        ],
+        "killTask": []
+    },
+    {
+        "name": "伊奧(イオン)",
+        "tag": "Carmen",
+        "active": false,
+        "easyTask": [
+            {
+                "taskName": "師匠から愛をこめて(飽含著師傅的愛)",
+                "location": "告示牌",
+                "content": "給她指定的人物送去指定的魚"
+            },
+            {
+                "taskName": "師匠と弟子のふしぎな関系(師傅與弟子的不尋常的關係)",
+                "location": "告示牌",
+                "content": "給她指定的魚食材或料理"
+            }
+        ],
+        "killTask": [
+            {
+                "taskName": "師匠に乾杯(和師傅乾杯)",
+                "location": "告示牌",
+                "content": "討伐指定數量的指定怪物"
+            }
+        ]
+    },
+    {
+        "name": "佩露夏(ペルシャ)",
+        "tag": "Pia",
+        "active": false,
+        "easyTask": [
+            {
+                "taskName": "困ったよー(好睏擾)",
+                "location": "告示牌",
+                "content": "給她草"
+            },
+            {
+                "taskName": "お魚さんのためにっ!(爲了小魚！)",
+                "location": "告示牌",
+                "content": "給她指定的物品"
+            },
+            {
+                "taskName": "困っているのです(我有麻煩了)",
+                "location": "信箱",
+                "content": "帶她一起去討伐指定魔物"
+            }
+        ],
+        "killTask": []
+    },
+    {
+        "name": "達利婭(ダリア)",
+        "tag": "Daria",
+        "active": false,
+        "easyTask": [
+            {
+                "taskName": "調達上手な助手1名募集(招募募集調配的助手1名)",
+                "location": "信箱",
+                "content": "給她指定數量的物品"
+            },
+            {
+                "taskName": "鍛えてもらいたい助手1名募集(募集想鍛鍊一下的助手1名)",
+                "location": "信箱",
+                "content": "給她製作一個她指定的首飾裝飾品"
+            },
+            {
+                "taskName": "料理上手な助手1名募集(募集擅長料理的助手1名)",
+                "location": "信箱",
+                "content": "給她指定的料理"
+            }
+        ],
+        "killTask": []
+    },
+    {
+        "name": "咲耶(さくや)",
+        "tag": "Sakuya",
+        "active": false,
+        "easyTask": [
+            {
+                "taskName": "おみやげやでー(禮物～)",
+                "location": "信箱",
+                "content": "給她礦石類素材，然後從3個箱子里選一個作為報酬"
+            },
+            {
+                "taskName": "おみやげー(土特產～)",
+                "location": "信箱",
+                "content": "給她豹爪，然後從3個箱子里選一個作為報酬"
+            },
+            {
+                "taskName": "おみやげ買うてきたで～(買土特產了～)",
+                "location": "信箱",
+                "content": "給她指定金額的錢，然後從無臭和腥臭兩個箱子中隨機挑選禮物"
+            }
+        ],
+        "killTask": []
+    },
+    {
+        "name": "索菲婭(ソフィア)",
+        "tag": "Sofia",
+        "active": false,
+        "easyTask": [
+            {
+                "taskName": "探し物はないの(不想找東西)",
+                "location": "告示牌",
+                "content": "給她指定首飾的材料"
+            },
+            {
+                "taskName": "お愿いはないの(沒事拜託你)",
+                "location": "告示牌",
+                "content": "給她指定數量的指定食材"
+            }
+        ],
+        "killTask": [
+            {
+                "taskName": "ゴブリンアーチャーを応援して(給哥布林射手加油吧)",
+                "location": "信箱",
+                "content": "帶她一起去秋之谷討伐5只哥布林射手"
+            }
+        ]
+    },
+    {
+        "name": "卡琳(カリン)",
+        "tag": "Karina",
+        "active": false,
+        "easyTask": [
+            {
+                "taskName": "卡琳：バイトのバイト(打工的打工)",
+                "location": "告示牌",
+                "content": "給她指定的物品"
+            },
+            {
+                "taskName": "卡琳：バイトのバ……(打工的打……)",
+                "location": "告示牌",
+                "content": "給她指定的物品"
+            },
+            {
+                "taskName": "卡琳：バイ……(打……)",
+                "location": "告示牌",
+                "content": "給她指定的物品"
+            }
+        ],
+        "killTask": []
+    },
+    {
+        "name": "克璐璐法(クルルファ)",
+        "tag": "Kuruna",
+        "active": false,
+        "easyTask": [
+            {
+                "taskName": "フクジローが……(福次郎……)",
+                "location": "貓頭鷹",
+                "content": "在夏之沙漠尋找她的貓頭鷹福次郎，隨機場景出現，找到之後調查貓頭鷹即可"
+            },
+            {
+                "taskName": "助けて下さい！(請幫幫我！)",
+                "location": "貓頭鷹",
+                "content": "整理傑杰的帳篷，把地上的東西都撿起來，然後向克璐璐法報告"
+            },
+            {
+                "taskName": "私のケーキが……(我的蛋糕……)",
+                "location": "貓頭鷹",
+                "content": "去到翁多爾法的帳篷，看見很多軟綿綿/莫可莫可，調查每一隻，直到發現犯人掉落蛋糕，然後把蛋糕交給克璐璐法"
+            }
+        ],
+        "killTask": []
+    },
+    {
+        "name": "威爾茲(ウェルズ)",
+        "tag": "Wells",
+        "active": false,
+        "easyTask": [],
+        "killTask": [
+            {
+                "taskName": "困ったな……(真困擾阿……)",
+                "location": "信箱",
+                "content": "各種類魔物的討伐"
+            }
+        ]
+    },
+    {
+        "name": "莫妮卡(モニカ)",
+        "tag": "Monica",
+        "active": false,
+        "easyTask": [
+            {
+                "taskName": "手伝って～～!!(幫個忙～～！！)",
+                "location": "告示牌",
+                "content": "給她她指定料理的材料"
+            },
+            {
+                "taskName": "大変なの……(出大事了……)",
+                "location": "告示牌",
+                "content": "給她她指定料理"
+            },
+            {
+                "taskName": "游ぼ～～♪(來玩吧～～♪)",
+                "location": "告示牌",
+                "content": "陪她玩尋寶遊戲，寶物就藏在廣場右下長椅、或者花屋正面草叢、或者旅館前的橋、或者湖邊的墻"
+            }
+        ],
+        "killTask": []
+    },
+    {
+        "name": "加基(ガジ)",
+        "tag": "Gaius",
+        "active": false,
+        "easyTask": [
+            {
+                "taskName": "バイト募集(打工募集)",
+                "location": "告示牌",
+                "content": "給他指定的物品"
+            }
+        ],
+        "killTask": [
+            {
+                "taskName": "モンスターボックスに困ってるんダ(怪物寶箱真令人困擾啊)",
+                "location": "告示牌",
+                "content": "討伐怪物寶箱"
+            },
+            {
+                "taskName": "カブカブリに困ってるんダ(蕪菁幽靈真令人困擾啊)",
+                "location": "告示牌",
+                "content": "討伐蕪菁幽靈"
+            }
+        ]
+    },
+    {
+        "name": "格魯汀(グルテン)",
+        "tag": "Blaise",
+        "active": false,
+        "easyTask": [
+            {
+                "taskName": "素材を切らしてしまって……(素材缺少中……)",
+                "location": "告示牌",
+                "content": "給他指定的物品"
+            },
+            {
+                "taskName": "おすそ分けいたします(分給大家吧)",
+                "location": "告示牌",
+                "content": "接受他的禮物"
+            },
+            {
+                "taskName": "新作料理が出來ました(新作料理出來了)",
+                "location": "告示牌",
+                "content": "與他對話獲得試吃料理"
+            }
+        ],
+        "killTask": []
+    },
+    {
+        "name": "拉斯庫(ラスク)",
+        "tag": "Rusk",
+        "active": false,
+        "easyTask": [
+            {
+                "taskName": "作りすぎちゃった(做太多了)",
+                "location": "告示牌",
+                "content": "與他對話，獲得料理"
+            },
+            {
+                "taskName": "材料が切れちゃった(材料不夠了)",
+                "location": "告示牌",
+                "content": "給他指定的材料"
+            },
+            {
+                "taskName": "甘いものが食べたいな(好想吃甜的東西)",
+                "location": "告示牌",
+                "content": "給他指定的甜品料理"
+            }
+        ],
+        "killTask": []
+    },
+    {
+        "name": "瑪祖莉(マージョリー)",
+        "tag": "Marjorie",
+        "active": false,
+        "easyTask": [
+            {
+                "taskName": "労働力募集(勞動力募集)",
+                "location": "告示牌",
+                "content": "給她她指定的藥草花類"
+            },
+            {
+                "taskName": "新しい薬を(新藥)",
+                "location": "告示牌",
+                "content": "給她指定村民討厭的東西"
+            },
+            {
+                "taskName": "薬の材料を(藥的材料)",
+                "location": "告示牌",
+                "content": "給她她指定物品的材料"
+            }
+        ],
+        "killTask": []
+    },
+    {
+        "name": "海澤爾(ヘーゼル)",
+        "tag": "Hazel",
+        "active": false,
+        "easyTask": [
+            {
+                "taskName": "誰か取って來ておくれ(誰去拿一下)",
+                "location": "告示牌",
+                "content": "給她她指定的物品"
+            },
+            {
+                "taskName": "仕入れの手伝い(幫忙採購/幫忙進貨)",
+                "location": "告示牌",
+                "content": "給她她指定數量的指定物品"
+            }
+        ],
+        "killTask": [
+            {
+                "taskName": "積荷が屆かないんだ(堆積的貨物送不出去)",
+                "location": "信箱",
+                "content": "討伐指定數量的指定怪物"
+            }
+        ]
+    },
+    {
+        "name": "頓查寇斯(ドンチャコス)",
+        "tag": "Sherman",
+        "active": false,
+        "easyTask": [
+            {
+                "taskName": "緊急指令ではありまセン！(是緊急指令！)",
+                "location": "告示牌",
+                "content": "給他指定料理的材料"
+            },
+            {
+                "taskName": "助けナイで下さい……(請幫幫我……)",
+                "location": "告示牌",
+                "content": "給他一份用鍋子作的料理"
+            },
+            {
+                "taskName": "マズイ料理を募集しまセン(難吃料理募集)",
+                "location": "告示牌",
+                "content": "給他指定的料理"
+            }
+        ],
+        "killTask": []
+    },
+    {
+        "name": "艾莉莎(エリザ)",
+        "tag": "Evelyn",
+        "active": false,
+        "easyTask": [
+            {
+                "taskName": "探しています(尋找東西)",
+                "location": "告示牌",
+                "content": "給她魚"
+            },
+            {
+                "taskName": "お愿いします(拜託您了)",
+                "location": "告示牌",
+                "content": "給她蔬菜"
+            },
+            {
+                "taskName": "募集しています(招募中)",
+                "location": "告示牌",
+                "content": "給她她指定村民喜歡的東西"
+            }
+        ],
+        "killTask": []
+    },
+    {
+        "name": "東雲(しののめ)",
+        "tag": "Shino",
+        "active": false,
+        "easyTask": [],
+        "killTask": [
+            {
+                "taskName": "修行ですえ(修行)",
+                "location": "告示牌",
+                "content": "各種類魔物的討伐"
+            }
+        ]
+    },
+    {
+        "name": "卡爾洛斯(カルロス)",
+        "tag": "Carlos",
+        "active": false,
+        "easyTask": [
+            {
+                "taskName": "もってけ!兄弟!(拿去吧！兄弟！)",
+                "location": "告示牌",
+                "content": "將他指定的物品交給指定的人物"
+            },
+            {
+                "taskName": "おーい!兄弟!(喂！兄弟！)",
+                "location": "信箱",
+                "content": "給他指定的物品"
+            }
+        ],
+        "killTask": [
+            {
+                "taskName": "討て！兄弟！(討伐！兄弟！)",
+                "location": "告示牌",
+                "content": "在他指定的地點討伐指定數量的指定魔物"
+            }
+        ]
+    },
+    {
+        "name": "翁多爾法(オンドルファ)",
+        "tag": "Ondorus",
+        "active": false,
+        "easyTask": [],
+        "killTask": [
+            {
+                "taskName": "腕のたつ方へ(尋技藝高超者)",
+                "location": "貓頭鷹",
+                "content": "各種類魔物的討伐"
+            }
+        ]
+    },
+    {
+        "name": "傑杰(ゼゼ)",
+        "tag": "Zaid",
+        "active": false,
+        "easyTask": [],
+        "killTask": [
+            {
+                "taskName": "力を貸してくレ!(幫我出份力！)",
+                "location": "貓頭鷹",
+                "content": "各種類魔物的討伐"
+            }
+        ]
+    }
+]

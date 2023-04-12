@@ -1228,3 +1228,123 @@ Vue.component('sell-log', {
 </div>
 `
 });
+
+Vue.component('task-list', {
+    data() {
+        return {
+            dataList: null,
+        };
+    },
+    created() {
+        if (!this.dataList) {
+            fetch('../json/task-list.json').then((res) => res.json()).then((data) => { this.dataList = data; }).catch((error) => { console.warn(error) });
+        };
+    },
+    methods: {
+        activateMain(index) {
+            this.dataList.forEach((tabOne) => {
+                tabOne.active = false;
+            });
+            this.dataList[index].active = true;
+        }
+    },
+    template: ` 
+<div class="ts-content">
+    <div class="ts-header"></div>
+    <div class="ts-space is-small"></div>
+    <div class="ts-tab mobile-:is-stacked">
+        <button class="item is-accent main-tab" v-for="(main, index) in dataList"
+            :class="['item', { 'is-active': main.active }]" :data-tab="main.tag" v-on:click="activateMain(index)">
+            <div class="text"> {{ main.name }}</div>
+        </button>
+    </div>
+    <div class="ts-space is-small"></div>
+    <div class="ts-segment">
+        <div class="ts-wrap is-vertical" v-for="(main, index) in dataList" :data-name="main.tag">
+            <div class="item" v-for="ta in main.list">
+                <div class="ts-segment">
+                    <div class="ts-text">任務名稱：{{ta.task}}</div>
+                    <div class="ts-wrap is-top-aligned" style="gap: 0;">
+                        <div class="ts-text">接受條件：</div>
+                        <div class="ts-text" style="word-break: keep-all;" v-html="ta.accept"></div>
+                    </div>
+                    <div class="ts-text">接受地點：{{ta.location}}</div>
+                    <div class="ts-divider is-section"></div>
+                    <div class="ts-wrap is-top-aligned" style="gap: 0;">
+                        <div class="ts-text">任務內容：</div>
+                        <div class="ts-text" style="word-break: keep-all;" v-html="ta.content"></div>
+                    </div>
+                    <div class="ts-divider is-section"></div>
+                    <div class="ts-wrap is-top-aligned" style="gap: 0;">
+                        <div class="ts-text">任務報酬：</div>
+                        <div class="ts-text">
+                            <span class="ts-chip is-end-spaced" v-for="re in ta.reward"> {{re}} </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+`
+});
+
+Vue.component('easy-kill-task', {
+    data() {
+        return {
+            dataList: null,
+        };
+    },
+    created() {
+        if (!this.dataList) {
+            fetch('../json/easy-kill-task.json').then((res) => res.json()).then((data) => { this.dataList = data; }).catch((error) => { console.warn(error) });
+        };
+    },
+    methods: {
+        activateMain(index) {
+            this.dataList.forEach((tabOne) => {
+                tabOne.active = false;
+            });
+            this.dataList[index].active = true;
+        }
+    },
+    template: ` 
+<div class="ts-content">
+    <div class="ts-header"></div>
+    <div class="ts-space is-small"></div>
+    <div class="ts-tab mobile-:is-stacked">
+        <button class="item is-accent main-tab" v-for="(main, index) in dataList"
+            :class="['item', { 'is-active': main.active }]" :data-tab="main.tag" v-on:click="activateMain(index)">
+            <div class="text"> {{ main.name }}</div>
+        </button>
+    </div>
+    <div class="ts-space is-small"></div>
+    <div class="ts-segment" v-for="task in dataList" :data-name="task.tag">
+        <div class="ts-grid is-2-columns mobile-:is-stacked">
+            <div class="column task" v-show="task.easyTask.length>0">
+                <div class="ts-header">普通任務</div>
+                <div class="ts-segment" v-for="es in task.easyTask">
+                    <div class="ts-text">任務名稱： {{es.taskName}} </div>
+                    <div class="ts-text">接受地點： {{es.location}} </div>
+                    <div class="ts-wrap is-top-aligned" style="gap: 0;">
+                        <div class="ts-text">任務內容：</div>
+                        <div class="ts-text" style="word-break: keep-all;" v-html="es.content"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="column task" v-show="task.killTask.length>0">
+                <div class="ts-header">討伐任務</div>
+                <div class="ts-segment" v-for="ki in task.killTask">
+                    <div class="ts-text">任務名稱： {{ki.taskName}} </div>
+                    <div class="ts-text">接受地點： {{ki.location}} </div>
+                    <div class="ts-wrap is-top-aligned" style="gap: 0;">
+                        <div class="ts-text">任務內容：</div>
+                        <div class="ts-text" style="word-break: keep-all;" v-html="ki.content"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+`
+});

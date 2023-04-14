@@ -29,7 +29,6 @@ Vue.component('home', {
 </div>
 `
 });
-
 Vue.component('error-page', {
   template: `
 <div class="ts-center">
@@ -39,7 +38,6 @@ Vue.component('error-page', {
 </div>
 `
 });
-
 Vue.component('weapon-cap', {
   data() {
     return {
@@ -80,7 +78,6 @@ Vue.component('weapon-cap', {
 </div>
 `
 });
-
 Vue.component('weapon-rec', {
   data() {
     return {
@@ -128,7 +125,6 @@ Vue.component('weapon-rec', {
 </div>
 `
 });
-
 Vue.component('staff-mater', {
   data() {
     return {
@@ -151,34 +147,54 @@ Vue.component('staff-mater', {
     </button>
   </div>
   <div class="ts-space"></div>
-  <div class="ts-segment" :data-name="lists.tab" v-for="(lists, i) in dataList">
-    <table class="ts-table">
-      <thead>
-        <tr>
-          <th>名稱</th>
-          <th>Lv1屬性</th>
-          <th>Lv1</th>
-          <th>Lv2屬性</th>
-          <th>Lv2</th>
-          <th>Lv3屬性</th>
-          <th>Lv3</th>
-          <th>速度</th>
-          <th>參考</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="(item, index) in lists.list" :key="index">
-          <td>{{ item.name }}</td>
-          <td v-for="(data , index) in item.data" :kry="index">
-            {{data}}</td>
-        </tr>
-      </tbody>
-    </table>
+  <div class="ts-segment mobile-:p-0" :data-name="lists.tab" v-for="(lists, i) in dataList">
+    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-4-columns">
+      <div class="column ts-box is-accent is-bottom-indicated" v-for="(item, index) in lists.list" :key="index">
+        <div class="ts-content">
+          <div class="ts-header is-icon">名稱：{{ item.name }}</div>
+          <div class="ts-space"></div>
+          <div class="ts-grid is-middle-aligned is-center-aligned">
+            <div class="column is-5-wide">
+              <div class="ts-text">Lv1屬性：{{item.Lv1attr}}</div>
+            </div>
+            <div class="column is-fluid">
+              <div class="ts-text">效果：{{item.Lv1}}</div>
+            </div>
+          </div>
+          <div class="ts-divider"></div>
+          <div class="ts-grid is-middle-aligned is-center-aligned">
+            <div class="column is-5-wide">
+              <div class="ts-text">Lv2屬性：{{item.Lv2attr}}</div>
+            </div>
+            <div class="column is-fluid">
+              <div class="ts-text">效果：{{item.Lv2}}</div>
+            </div>
+          </div>
+          <div class="ts-divider"></div>
+          <div class="ts-grid is-middle-aligned is-center-aligned">
+            <div class="column is-5-wide">
+              <div class="ts-text">Lv1屬性：{{item.Lv3attr}}</div>
+            </div>
+            <div class="column is-fluid">
+              <div class="ts-text">效果：{{item.Lv3}}</div>
+            </div>
+          </div>
+          <div class="ts-divider"></div>
+          <div class="ts-grid is-middle-aligned is-center-aligned">
+            <div class="column is-5-wide">
+              <div class="ts-text">速度：{{item.speed}}</div>
+            </div>
+            <div class="column is-fluid">
+              <div class="ts-text">參考：{{item.notion}}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `
 });
-
 Vue.component('farm-rec', {
   data() {
     return {
@@ -226,7 +242,6 @@ Vue.component('farm-rec', {
 </div>
 `
 });
-
 Vue.component('equi-mater', {
   data() {
     return {
@@ -243,49 +258,33 @@ Vue.component('equi-mater', {
   template: `
 <div class="ts-content">
   <div class="ts-segment mobile-:p-0">
-    <table class="ts-table">
-      <thead>
-        <tr>
-          <th>名稱</th>
-          <th>取得</th>
-          <th>難度</th>
-          <th>屬性</th>
-          <th>攻擊</th>
-          <th>防禦</th>
-          <th>魔攻</th>
-          <th>魔防</th>
-          <th>力量</th>
-          <th>體力</th>
-          <th>智力</th>
-          <th>特殊能力</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="(item, index) in dataList" :key="index">
-          <td>{{ item.name }}</td>
-          <td class="ts-wrap" style="width:13rem;">
+    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-4-columns">
+      <div class="column ts-box is-accent is-bottom-indicated" v-for="(item, index) in dataList" :key="index">
+        <div class="ts-content">
+          <div class="ts-text">名稱：{{ item.name }}</div>
+          <div class="ts-wrap g-0">
+            <div class="ts-text">取得：</div>
             <div class="ts-chip is-spaced is-outlined" v-for="spantag in item.get">
               {{spantag}}
             </div>
-          </td>
-          <td>{{ item.difficulty }}</td>
-          <td>{{ item.attr }}</td>
-          <td>{{ item.atk }}</td>
-          <td>{{ item.def }}</td>
-          <td>{{ item.matk }}</td>
-          <td>{{ item.mdef }}</td>
-          <td>{{ item.str }}</td>
-          <td>{{ item.vit }}</td>
-          <td>{{ item.int }}</td>
-          <td>{{ item.sp }}</td>
-        </tr>
-      </tbody>
-    </table>
+          </div>
+          <div class="ts-text">難度：{{ item.difficulty }}</div>
+          <div class="ts-text">屬性：{{ item.attr }}</div>
+          <div class="ts-text">攻擊：{{ item.atk }}</div>
+          <div class="ts-text">防禦：{{ item.def }}</div>
+          <div class="ts-text">魔攻：{{ item.matk }}</div>
+          <div class="ts-text">魔防：{{ item.mdef }}</div>
+          <div class="ts-text">力量：{{ item.str }}</div>
+          <div class="ts-text">體力：{{ item.vit }}</div>
+          <div class="ts-text">智力：{{ item.int }}</div>
+          <div class="ts-text">特殊能力：{{ item.sp }}</div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `
 });
-
 Vue.component('decor-rec', {
   data() {
     return {
@@ -309,7 +308,6 @@ Vue.component('decor-rec', {
   </div>
   <div class="ts-space"></div>
   <div class="ts-segment" :data-name="lists.tab" v-for="(lists, i) in dataList">
-
     <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-4-columns">
       <div class="column ts-box is-accent is-bottom-indicated" v-for="(item, index) in lists.list" :key="index">
         <div class="ts-content">
@@ -334,7 +332,6 @@ Vue.component('decor-rec', {
 </div>
 `
 });
-
 Vue.component('acce-cap', {
   data() {
     return {
@@ -371,7 +368,6 @@ Vue.component('acce-cap', {
 </div>
 `
 });
-
 Vue.component('shoe-cap', {
   data() {
     return {
@@ -410,7 +406,6 @@ Vue.component('shoe-cap', {
 </div>
 `
 });
-
 Vue.component('het-cap', {
   data() {
     return {
@@ -449,7 +444,6 @@ Vue.component('het-cap', {
 </div>
 `
 });
-
 Vue.component('shield-cap', {
   data() {
     return {
@@ -488,7 +482,6 @@ Vue.component('shield-cap', {
 </div>
 `
 });
-
 Vue.component('crop-info', {
   data() {
     return {
@@ -512,7 +505,7 @@ Vue.component('crop-info', {
   </div>
   <div class="ts-space"></div>
   <div class="ts-segment mobile-:p-0" :data-name="lists.tab" v-for="(lists, i) in dataList">
-    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-4-columns" >
+    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-4-columns">
       <div class="column ts-box is-accent is-bottom-indicated" v-for="(item, index) in lists.list" :key="index">
         <div class="ts-content">
           <div class="ts-text">名稱：{{ item.name }}</div>
@@ -536,7 +529,6 @@ Vue.component('crop-info', {
 </div>
 `
 });
-
 Vue.component('cooking-rec', {
   data() {
     return {
@@ -561,8 +553,7 @@ Vue.component('cooking-rec', {
   </div>
   <div class="ts-space"></div>
   <div class="ts-segment mobile-:p-0" :data-name="lists.tab" v-for="(lists, i) in dataList">
-
-    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-4-columns">
+    <div class="ts-grid mobile-:is-1-columns tablet:is-2-columns desktop+:is-4-columns">
       <div class="column ts-box is-accent is-bottom-indicated" v-for="(item, index) in lists.list" :key="index">
         <div class="ts-content">
           <div class="ts-text">名稱：{{ item.name }}</div>
@@ -587,7 +578,6 @@ Vue.component('cooking-rec', {
 </div>
 `
 });
-
 Vue.component('drug-rec', {
   data() {
     return {
@@ -605,7 +595,6 @@ Vue.component('drug-rec', {
   template: `
 <div class="ts-content">
   <div class="ts-segment mobile-:p-0">
-
     <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-4-columns">
       <div class="column ts-box is-accent is-bottom-indicated" v-for="(item, index) in dataList" :key="index">
         <div class="ts-content">
@@ -643,7 +632,6 @@ Vue.component('drug-rec', {
 </div>
 `
 });
-
 Vue.component('fish-town', {
   data() {
     return {
@@ -668,46 +656,53 @@ Vue.component('fish-town', {
   </div>
   <div class="ts-space"></div>
   <div class="ts-segment" :data-name="lists.tab" v-for="(lists, i) in dataList">
-    <table class="ts-table">
-      <thead>
-        <tr>
-          <th style="width:25%;">春天</th>
-          <th style="width:25%;">夏天</th>
-          <th style="width:25%;">秋天</th>
-          <th style="width:25%;">冬天</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>
-            <div class="ts-list is-unordered">
-              <div class="item" v-for="item in lists.data.spring">{{item}}</div>
+    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns">
+      <div class="column">
+        <fieldset class="ts-fieldset">
+          <legend>春天</legend>
+          <div class="ts-list is-unordered">
+            <div class="item" v-for="item in lists.data.spring">
+              {{item}}
             </div>
-          </td>
-          <td>
-            <div class="ts-list is-unordered">
-              <div class="item" v-for="item in lists.data.summer">{{item}}</div>
+          </div>
+        </fieldset>
+      </div>
+      <div class="column">
+        <fieldset class="ts-fieldset">
+          <legend>夏天</legend>
+          <div class="ts-list is-unordered">
+            <div class="item" v-for="item in lists.data.summer">
+              {{item}}
             </div>
-          </td>
-          <td>
-            <div class="ts-list is-unordered">
-              <div class="item" v-for="item in lists.data.autumn">{{item}}</div>
+          </div>
+        </fieldset>
+      </div>
+      <div class="column">
+        <fieldset class="ts-fieldset">
+          <legend>秋天</legend>
+          <div class="ts-list is-unordered">
+            <div class="item" v-for="item in lists.data.autumn">
+              {{item}}
             </div>
-          </td>
-          <td>
-            <div class="ts-list is-unordered">
-              <div class="item" v-for="item in lists.data.east">{{item}}</div>
+          </div>
+        </fieldset>
+      </div>
+      <div class="column">
+        <fieldset class="ts-fieldset">
+          <legend>冬天</legend>
+          <div class="ts-list is-unordered">
+            <div class="item" v-for="item in lists.data.east">
+              {{item}}
             </div>
-          </td>
-
-        </tr>
-      </tbody>
-    </table>
+          </div>
+        </fieldset>
+      </div>
+    </div>
   </div>
+</div>
 </div>
 `
 });
-
 Vue.component('fish-maze', {
   data() {
     return {
@@ -733,31 +728,20 @@ Vue.component('fish-maze', {
   </div>
   <div class="ts-space"></div>
   <div class="ts-segment" :data-name="lists.tab" v-for="(lists, i) in dataList">
-    <table class="ts-table">
-      <thead>
-        <tr>
-          <th style="max-width:10rem;">名稱</th>
-          <th style="max-width:15rem;">可釣的魚</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="(item, index) in lists.list" :key="index">
-          <td>{{ item.name }}</td>
-          <td>
-            <div class="ts-wrap">
-              <div class="ts-chip is-spaced is-outlined" v-for="it in item.data">
-                {{it}}
-              </div>
-            </div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns">
+      <div class="column" v-for="(item, index) in lists.list" :key="index">
+        <fieldset class="ts-fieldset">
+          <legend>{{ item.name }}</legend>
+          <div class="ts-list is-unordered">
+            <div class="item" v-for="it in item.data">{{it}}</div>
+          </div>
+        </fieldset>
+      </div>
+    </div>
   </div>
 </div>
 `
 });
-
 Vue.component('maze-data', {
   data() {
     return {
@@ -774,16 +758,19 @@ Vue.component('maze-data', {
   },
   template: `
 <div class="ts-content">
-  <div class="ts-list is-unordered">
-    <div class="item ts-text">以下怪物資料包含怪物名稱、抗性、喜愛物、掉落物品、可採集的出產品、以及出現區域</div>
-    <div class="item ts-text">送東西給魔物有機率可以捕獲魔物，花草/木材/農具/首飾/農作物/水果/素材/料理等等</div>
-    <div class="item ts-text">魔物頭上會出現愛心標誌，成功了可以取名字，失敗了愛心變骷髏，可以重複贈送</div>
-    <div class="item ts-text">送魔物喜愛物品，或者在送物品之前用刷子撫摸魔物出現高興的音符標誌，能夠提高抓怪物的成功率</div>
-    <div class="item ts-text">莫可莫可的出產物品，不僅會掉落在怪物小屋內，也可以使用毛剪去剪</div>
-    <div class="item ts-text">牛奶、蛋、蜂蜜出產物的品質等級等於飼養怪物的好感度等級+1</div>
-    <div class="item ts-text">可騎乘同伴魔物，按A可以上下坐騎，XYB進行攻擊</div>
-    <div class="item ts-text">關於魔物對各屬性的抗性說明：+4是吸收，+3是無效，+2是1/8倍，+1是減半，-1是1.5倍，-2是3倍</div>
-  </div>
+  <details class="ts-accordion">
+    <summary>說明</summary>
+    <div class="ts-list is-unordered">
+      <div class="item ts-text">以下怪物資料包含怪物名稱、抗性、喜愛物、掉落物品、可採集的出產品、以及出現區域</div>
+      <div class="item ts-text">送東西給魔物有機率可以捕獲魔物，花草/木材/農具/首飾/農作物/水果/素材/料理等等</div>
+      <div class="item ts-text">魔物頭上會出現愛心標誌，成功了可以取名字，失敗了愛心變骷髏，可以重複贈送</div>
+      <div class="item ts-text">送魔物喜愛物品，或者在送物品之前用刷子撫摸魔物出現高興的音符標誌，能夠提高抓怪物的成功率</div>
+      <div class="item ts-text">莫可莫可的出產物品，不僅會掉落在怪物小屋內，也可以使用毛剪去剪</div>
+      <div class="item ts-text">牛奶、蛋、蜂蜜出產物的品質等級等於飼養怪物的好感度等級+1</div>
+      <div class="item ts-text">可騎乘同伴魔物，按A可以上下坐騎，XYB進行攻擊</div>
+      <div class="item ts-text">關於魔物對各屬性的抗性說明：+4是吸收，+3是無效，+2是1/8倍，+1是減半，-1是1.5倍，-2是3倍</div>
+    </div>
+  </details>
   <div class="ts-space"></div>
   <div class="ts-tab is-pilled" style="justify-content: center;">
     <button class="item is-accent" v-for="(lists, i) in dataList" :data-tab="lists.tab"
@@ -792,64 +779,64 @@ Vue.component('maze-data', {
     </button>
   </div>
   <div class="ts-space"></div>
-  <div class="ts-segment" :data-name="lists.tab" v-for="(lists, i) in dataList">
-    <table class="ts-table">
-      <thead>
-        <tr>
-          <th>名字</th>
-          <th>抗性</th>
-          <th>喜好</th>
-          <th>採集</th>
-          <th>掉落</th>
-          <th>地區</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="(item, index) in lists.data" :key="index">
-          <td>{{ item.name }}</td>
-          <td>
-            <div class="ts-wrap">
-              <div class="ts-chip is-spaced is-outlined" v-for="de in item.defattr">
-                {{de}}
+  <div class="ts-segment mobile-:maze-mobile-seg" :data-name="lists.tab" v-for="(lists, i) in dataList">
+    <div class="ts-grid mobile-:is-1-columns tablet:is-2-columns desktop+:is-3-columns">
+      <div class="column" v-for="(item, index) in lists.data" :key="index">
+        <fieldset class="ts-fieldset">
+          <legend>{{ item.name }}</legend>
+          <div class="ts-content">
+            <div class="ts-wrap g-0">
+              <div class="ts-text">抗性：</div>
+              <div class="ts-wrap is-compact">
+                <div class="ts-chip is-kepall is-spaced is-outlined" v-for="de in item.defattr">
+                  {{de}}
+                </div>
               </div>
             </div>
-          </td>
-          <td>
-            <div class="ts-wrap">
-              <div class="ts-chip is-spaced is-outlined" v-for="lo in item.lover">
-                {{lo}}
+            <div class="ts-divider is-section"></div>
+            <div class="ts-wrap g-0">
+              <div class="ts-text">喜好：</div>
+              <div class="ts-wrap is-compact">
+                <div class="ts-chip is-kepall is-spaced is-outlined" v-for="lo in item.lover">
+                  {{lo}}
+                </div>
               </div>
             </div>
-          </td>
-          <td>
-            <div class="ts-wrap">
-              <div class="ts-chip is-spaced is-outlined" v-for="dr in item.dropitem">
-                {{dr}}
+            <div class="ts-divider is-section"></div>
+            <div class="ts-wrap g-0">
+              <div class="ts-text">採集：</div>
+              <div class="ts-wrap is-compact">
+                <div class="ts-chip is-kepall is-spaced is-outlined" v-for="dr in item.dropitem">
+                  {{dr}}
+                </div>
               </div>
             </div>
-          </td>
-          <td>
-            <div class="ts-wrap">
-              <div class="ts-chip is-spaced is-outlined" v-for="ge in item.getitem">
-                {{ge}}
+            <div class="ts-divider is-section"></div>
+            <div class="ts-wrap g-0">
+              <div class="ts-text">掉落：</div>
+              <div class="ts-wrap is-compact">
+                <div class="ts-chip is-kepall is-spaced is-outlined" v-for="ge in item.getitem">
+                  {{ge}}
+                </div>
               </div>
             </div>
-          </td>
-          <td>
-            <div class="ts-wrap">
-              <div class="ts-chip is-spaced is-outlined" v-for="ar in item.area">
-                {{ar}}
+            <div class="ts-divider is-section"></div>
+            <div class="ts-wrap g-0">
+              <div class="ts-text">地區：</div>
+              <div class="ts-wrap is-compact">
+                <div class="ts-chip is-kepall is-spaced is-outlined" v-for="ar in item.area">
+                  {{ar}}
+                </div>
               </div>
             </div>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+          </div>
+        </fieldset>
+      </div>
+    </div>
   </div>
 </div>
 `
 });
-
 Vue.component('hanayome', {
   data() {
     return {
@@ -885,7 +872,7 @@ Vue.component('hanayome', {
   template: `
 <div class="ts-content mobile-:p-0">
   <details class="ts-accordion">
-    <summary>送禮規則</summary>
+    <summary>說明</summary>
     <div class="ts-list is-unordered" style="margin-top: .4rem;margin-bottom: .4rem;padding: .4rem;">
       <div class="item ts-text">結婚必要條件 → 花嫁愛情度10心、完成花嫁9個依賴任務、雙人床(雜貨店15000G+木材80個購買)、訂婚戒指</div>
       <div class="item ts-text">提高愛情度的方法 → 就是每天的對話、每天送最愛/喜歡/一般的3種禮物、使用對方喜歡的香水味道、達成任務、與她約會等</div>
@@ -914,61 +901,66 @@ Vue.component('hanayome', {
             <div class="ts-image is-covered">
               <img :src="item.img">
             </div>
-            <div class="ts-segment">
+            <div class="ts-segment border-0">
               <div class="ts-header">
                 <div class="ts-text">{{ item.name }} </div>
-                <button class="ts-button is-short is-small is-accent" data-toggle="taskModal:is-visible"
-                  style="margin-left: .4rem;" v-on:click="getTaskData(item.tag)">委託列表</button>
+                <button class="ts-button is-short is-dense is-small is-accent" data-toggle="taskModal:is-visible"
+                  style="margin-left: .8rem;" v-on:click="getTaskData(item.tag)">委託列表</button>
               </div>
               <div class="ts-text is-secondary">CV.{{ item.cv }} </div>
               <div class="ts-text" v-html="item.summary"></div>
               <div class="ts-text"> 生日 {{ item.Birthday }} </div>
               <div class="ts-text"> 居住地 {{ item.residence }} </div>
-              <div class="ts-wrap is-vertical">
-                <div class="ts-grid ts-segment border-0">
-                  <div class="column"> 香水 </div>
-                  <div class="column">
-                    <div class="ts-wrap is-compact">
-                      <div class="ts-chip is-outlined" v-for="it in item.perfume"> {{ it }} </div>
-                    </div>
+              <div class="ts-divider is-section"></div>
+              <div class="ts-grid ts-segment border-0 p-0">
+                <div class="column"> 香水 </div>
+                <div class="column">
+                  <div class="ts-wrap is-compact">
+                    <div class="ts-chip is-outlined" v-for="it in item.perfume"> {{ it }} </div>
                   </div>
                 </div>
-                <div class="ts-text" v-show="item.tag=='Shara'">
-                  ※樸素的花包括托伊藥草、月落草/月淚草、粉紅貓、魅藍草4種，高級的花包括除上述4種花以外13種
-                </div>
-                <div class="ts-grid ts-segment border-0">
-                  <div class="column">
-                    <div class="ts-text">最愛</div>
-                  </div>
-                  <div class="column">
-                    <div class="ts-wrap is-compact">
-                      <div class="ts-chip is-outlined" v-for="it in item.favorite"> {{ it }} </div>
-                    </div>
+              </div>
+              <div class="ts-divider is-section"></div>
+              <div class="ts-grid ts-segment border-0 p-0">
+                <div class="column"> 便當 </div>
+                <div class="column">
+                  <div class="ts-wrap is-compact">
+                    <div class="ts-chip is-outlined" v-for="it in item.bento"> {{ it }} </div>
                   </div>
                 </div>
-                <div class="ts-grid ts-segment border-0">
-                  <div class="column"> 喜歡 </div>
-                  <div class="column">
-                    <div class="ts-wrap is-compact">
-                      <div class="ts-chip is-outlined" v-for="it in item.like"> {{ it }} </div>
-                    </div>
-                  </div>
+              </div>
+              <div class="ts-text" v-show="item.tag=='Shara'">
+                <div class="ts-divider is-section"></div>
+                ※樸素的花包括托伊藥草、月落草/月淚草、粉紅貓、魅藍草4種，高級的花包括除上述4種花以外13種
+              </div>
+            </div>
+          </div>
+          <div class="ts-wrap is-vertical g-0">
+            <div class="ts-grid ts-segment border-0 p-0">
+              <div class="column">
+                <div class="ts-text">最愛</div>
+              </div>
+              <div class="column">
+                <div class="ts-wrap is-compact">
+                  <div class="ts-chip is-outlined" v-for="it in item.favorite"> {{ it }} </div>
                 </div>
-                <div class="ts-grid ts-segment border-0">
-                  <div class="column"> 討厭 </div>
-                  <div class="column">
-                    <div class="ts-wrap is-compact">
-                      <div class="ts-chip is-outlined" v-for="it in item.Hate"> {{ it }} </div>
-                    </div>
-                  </div>
+              </div>
+            </div>
+            <div class="ts-divider is-section"></div>
+            <div class="ts-grid ts-segment border-0 p-0">
+              <div class="column"> 喜歡 </div>
+              <div class="column">
+                <div class="ts-wrap is-compact">
+                  <div class="ts-chip is-outlined" v-for="it in item.like"> {{ it }} </div>
                 </div>
-                <div class="ts-grid ts-segment border-0">
-                  <div class="column"> 便當 </div>
-                  <div class="column">
-                    <div class="ts-wrap is-compact">
-                      <div class="ts-chip is-outlined" v-for="it in item.bento"> {{ it }} </div>
-                    </div>
-                  </div>
+              </div>
+            </div>
+            <div class="ts-divider is-section"></div>
+            <div class="ts-grid ts-segment border-0 p-0">
+              <div class="column"> 討厭 </div>
+              <div class="column">
+                <div class="ts-wrap is-compact">
+                  <div class="ts-chip is-outlined" v-for="it in item.Hate"> {{ it }} </div>
                 </div>
               </div>
             </div>
@@ -990,13 +982,13 @@ Vue.component('hanayome', {
               <div class="ts-text">接取地點：{{ data.location }}</div>
               <div class="ts-wrap g-0">
                 <div class="ts-text">任務內容：</div>
-                <div class="ts-text" style="word-break: keep-all;" v-html="data.content"></div>
+                <div class="ts-text" v-html="data.content"></div>
               </div>
-              <div class="ts-divider"></div>
-              <div class="ts-wrap">
-                <div class="ts-text">報酬</div>
-                <div class="ts-list is-unordered">
-                  <div class="item" v-for="re in data.reward">{{ re }}</div>
+              <div class="ts-divider is-section"></div>
+              <div class="ts-wrap g-0">
+                <div class="ts-text">報酬：</div>
+                <div class="ts-wrap is-compact">
+                  <div class="ts-chip is-outlined" v-for="re in data.reward"> {{re}} </div>
                 </div>
               </div>
             </div>
@@ -1008,7 +1000,6 @@ Vue.component('hanayome', {
 </div>
 `
 });
-
 Vue.component('villagers', {
   data() {
     return {
@@ -1036,12 +1027,12 @@ Vue.component('villagers', {
             <div class="ts-image is-covered">
               <img :src="item.img" style="width:10rem;height: auto;">
             </div>
-            <div class="ts-segment">
+            <div class="ts-segment border-0">
               <div class="ts-header">
                 <div class="ts-text">{{item.name}}</div>
               </div>
-              <div class="ts-wrap is-vertical">
-                <div class="ts-grid ts-segment border-0 is-1-columns">
+              <div class="ts-wrap is-vertical g-0">
+                <div class="ts-grid ts-segment border-0 mobile-:p-0 is-1-columns">
                   <div class="column"> 最愛 </div>
                   <div class="column">
                     <div class="ts-wrap is-compact">
@@ -1049,7 +1040,8 @@ Vue.component('villagers', {
                     </div>
                   </div>
                 </div>
-                <div class="ts-grid ts-segment border-0 is-1-columns">
+                <div class="ts-divider is-section"></div>
+                <div class="ts-grid ts-segment border-0 mobile-:p-0 is-1-columns">
                   <div class="column"> 喜歡 </div>
                   <div class="column">
                     <div class="ts-wrap is-compact">
@@ -1057,7 +1049,8 @@ Vue.component('villagers', {
                     </div>
                   </div>
                 </div>
-                <div class="ts-grid ts-segment border-0 is-1-columns">
+                <div class="ts-divider is-section"></div>
+                <div class="ts-grid ts-segment border-0 mobile-:p-0 is-1-columns">
                   <div class="column"> 討厭 </div>
                   <div class="column">
                     <div class="ts-wrap is-compact">
@@ -1075,7 +1068,6 @@ Vue.component('villagers', {
 </div>
 `
 });
-
 Vue.component('all-item', {
   data() {
     return {
@@ -1134,7 +1126,6 @@ Vue.component('all-item', {
 </div>
 `
 });
-
 Vue.component('sell-log', {
   data() {
     return {
@@ -1202,7 +1193,6 @@ Vue.component('sell-log', {
 </div>
 `
 });
-
 Vue.component('task-list', {
   data() {
     return {
@@ -1265,7 +1255,6 @@ Vue.component('task-list', {
 </div>
 `
 });
-
 Vue.component('easy-kill-task', {
   data() {
     return {

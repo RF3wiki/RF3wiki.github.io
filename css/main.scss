@@ -55,6 +55,19 @@ body {
     word-break: keep-all;
 }
 
+.is-t-center {
+    text-align: center;
+}
+
+.box-sha-buttom {
+    box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.14), 0 1px 8px 0 rgba(0, 0, 0, 0.12);
+}
+
+.maze-mobile-seg {
+    padding: 0;
+    border: 0;
+}
+
 div[title] {
     &:hover {
         box-shadow: 0 0.2rem 0 0 #e55100;
@@ -152,7 +165,6 @@ div[logcategory] {
 .ts-segment {
     .ts-box,
     .ts-wrap {
-        align-content: center;
         .ts-image {
             img {
                 width: 20rem;

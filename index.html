@@ -23,37 +23,8 @@
 </head>
 
 <body>
-  <div id="app" class="ts-container is-fluid mobile-:ts-center">
+  <div id="app" class="ts-container is-fluid">
     <div class="ts-loading is-notched loading-box" :class="loadnone"></div>
-
-    <div class="mobile-menu-box tablet+:u-hidden" :class="[mobileMenuOpen?'mobile-menu-active':'']">
-      <div class="ts-wrap ts-tab is-vertical" :data-name="menu.mobileTab" v-for="(menu , index) in menu_list">
-        <button v-on:click="changePage(list.tab , true)" :data-tab="list.tab" v-for="(list, index) in menu.list"
-          class="item is-accent is-icon is-outlined">{{list.name}}</button>
-      </div>
-    </div>
-
-    <div class="mobile-menu-btn tablet+:u-hidden" :class="[mobileMenuOpen?'mobile-menu-active':'']">
-      <div class="ts-wrap ts-tab">
-        <button class="ts-button is-small is-accent" data-toggle="report:is-visible">
-          問題回報
-        </button>
-        <button class="ts-button is-small is-accent" data-toggle="updatalog:is-visible">
-          <div class="ts-text">更新紀錄</div>
-        </button>
-        <button class="item is-accent is-icon" v-on:click="changePage('home', true)" title="首頁"> 首頁 </button>
-        <button v-for="(menu , index) in menu_list" :data-tab="menu.mobileTab" class="item is-accent is-icon">
-          {{menu.id}} </button>
-      </div>
-    </div>
-    <div class="mobile-btn tablet+:u-hidden">
-      <div class="ts-wrap" style="align-items: flex-end;margin-bottom: 0;">
-        <button class="ts-button is-accent is-circular is-icon" :class="[mobileMenuOpen?'':'is-outlined']"
-          data-name="mobileMenu" v-on:click="mobileMenuOpen = !mobileMenuOpen" title="選單">
-          <div class="ts-icon is-bars-icon"></div>
-        </button>
-      </div>
-    </div>
     <div class="mask" v-show="mobileMenuOpen"></div>
     <div class="ts-grid is-relaxed">
       <div class="column mobile-:u-hidden tablet-desktop:is-3-wide desktop+:is-2-wide">
@@ -61,29 +32,31 @@
         <div class="ts-header is-large is-heavy is-center-aligned" v-on:click="changePage('home')" title>符文工廠3 Wiki
         </div>
         <div class="ts-divider is-section"></div>
-        <div class="ts-menu ts-tab is-start-icon is-separated">
+        <div class="ts-menu menu-ctrl ts-tab is-start-icon is-separated">
+          <div class="ts-space"></div>
           <details class="ts-accordion" v-on:click="detailsClose" v-for="(menu , index) in menu_list" :key="index">
             <summary>{{menu.id}}</summary>
             <button class="item is-accent" style="width: 100%;" v-on:click="changePage(list.tab)" :data-tab="list.tab"
               v-for="(list, index) in menu.list">
-              {{list.name}}
+              <div class="ts-text">{{list.name}}</div>
             </button>
           </details>
-        </div>
-        <div class="ts-space"></div>
-        <div class="ts-wrap is-vertical is-center-aligned is-middle-aligned">
-          <button class="ts-button is-small is-accent" data-toggle="report:is-visible">
-            問題回報
-          </button>
-          <button class="ts-button is-small is-accent" data-toggle="updatalog:is-visible">
-            <div class="ts-text">更新紀錄</div>
-          </button>
+          <div class="ts-space"></div>
+          <div class="ts-wrap is-vertical is-center-aligned is-middle-aligned">
+            <button class="ts-button is-small is-accent" data-toggle="report:is-visible">
+              <div class="ts-text">問題回報</div>
+            </button>
+            <button class="ts-button is-small is-accent" data-toggle="updatalog:is-visible">
+              <div class="ts-text">更新紀錄</div>
+            </button>
+          </div>
         </div>
       </div>
 
       <div class="column is-13-wide mobile-:is-16-wide">
-        <div class="ts-space is-huge desktop-:u-hidden" :class="spaceHug"></div>
-        <div class="ts-segment" style="background: var(--ts-gray-50);">
+        <div class="ts-space is-huge desktop-:u-hidden"></div>
+        <div class="mobile-:ts-space"></div>
+        <div class="ts-segment mobile-:p-0">
           <div class="ts-grid is-relaxed">
             <div class="column is-fluid">
               <keep-alive>
@@ -92,6 +65,40 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="mobile-menu-box tablet+:u-hidden" :class="[mobileMenuOpen?'mobile-menu-active':'']">
+      <div class="ts-wrap ts-tab is-vertical" :data-name="menu.mobileTab" v-for="(menu , index) in menu_list">
+        <button v-on:click="changePage(list.tab , true)" :data-tab="list.tab" v-for="(list, index) in menu.list"
+          class="item is-accent is-icon is-outlined">
+          <div class="ts-text">{{list.name}}</div>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu-btn tablet+:u-hidden" :class="[mobileMenuOpen?'mobile-menu-active':'']">
+      <div class="ts-wrap ts-tab">
+        <button class="item is-accent is-icon" data-toggle="report:is-visible">
+          <div class="ts-text">問題回報</div>
+        </button>
+        <button class="item is-accent is-icon" data-toggle="updatalog:is-visible">
+          <div class="ts-text">更新紀錄</div>
+        </button>
+        <button v-for="(menu , index) in menu_list" :data-tab="menu.mobileTab" class="item is-accent is-icon">
+          <div class="ts-text"> {{menu.id}} </div>
+        </button>
+        <button class="item is-accent is-icon" v-on:click="changePage('home', true)" title="首頁"> 首頁 </button>
+
+      </div>
+    </div>
+
+    <div class="mobile-btn tablet+:u-hidden">
+      <div class="ts-wrap" style="align-items: flex-end;margin-bottom: 0;">
+        <button class="ts-button is-accent is-circular is-icon" :class="[mobileMenuOpen?'':'is-outlined']"
+          data-name="mobileMenu" v-on:click="mobileMenuOpen = !mobileMenuOpen" title="選單">
+          <div class="ts-icon is-bars-icon"></div>
+        </button>
       </div>
     </div>
 

@@ -28,6 +28,11 @@ html {
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: auto;
+}
+
 .ts-menu .item {
   justify-content: flex-start;
   align-items: center;
@@ -61,9 +66,23 @@ div[logcategory] .item {
 
 .ts-content .ts-segment {
   box-sizing: border-box;
-  overflow-y: auto;
   overflow-x: auto;
-  max-height: 56rem;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.g-0 {
+  gap: 0;
+}
+
+.mw-75 {
+  max-width: 75%;
+}
+
+.border-0 {
+  border: 0;
 }
 
 .task .ts-segment {
@@ -111,20 +130,14 @@ div[logcategory] .item {
     background-color: var(--ts-gray-50);
   }
 }
-.ts-segment .ts-box {
-  margin-top: 0.4rem;
-  margin-bottom: 0.4rem;
-  align-items: center;
+.ts-segment .ts-box,
+.ts-segment .ts-wrap {
+  align-content: center;
 }
-.ts-segment .ts-box:first-child {
-  margin-top: 0;
-}
-.ts-segment .ts-box:last-child {
-  margin-bottom: 0;
-}
-.ts-segment .ts-box .ts-image img {
+.ts-segment .ts-box .ts-image img,
+.ts-segment .ts-wrap .ts-image img {
   width: 20rem;
-  height: 100%;
+  height: auto;
 }
 
 .ts-text .ts-chip {
@@ -141,4 +154,13 @@ div[logcategory] .item {
 .ts-close {
   margin-left: auto;
   padding: 0.9rem;
+}
+
+.menu-ctrl {
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  bottom: auto;
+  right: 0;
+  margin-left: auto;
 }/*# sourceMappingURL=main.css.map */

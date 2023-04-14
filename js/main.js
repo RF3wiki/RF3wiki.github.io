@@ -4,7 +4,6 @@ const RF3Wiki = new Vue({
         loadnone: "",
         nowPage: "home",
         menu_list: null,
-        spaceHug: '',
         mobileMenuOpen: false
     },
     created() {

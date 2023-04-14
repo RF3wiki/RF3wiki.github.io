@@ -28,6 +28,11 @@ html {
     box-sizing: border-box;
 }
 
+html,
+body {
+    height: auto;
+}
+
 .ts-menu {
     .item {
         justify-content: flex-start;
@@ -71,11 +76,27 @@ div[logcategory] {
 .ts-content {
     .ts-segment {
         box-sizing: border-box;
-        overflow-y: auto;
         overflow-x: auto;
-        max-height: 56rem;
+        // overflow-y: auto;
+        // max-height: 56rem;
         // padding: 0;
     }
+}
+
+.p-0 {
+    padding: 0;
+}
+
+.g-0 {
+    gap: 0;
+}
+
+.mw-75 {
+    max-width: 75%;
+}
+
+.border-0 {
+    border: 0;
 }
 
 .task {
@@ -129,22 +150,13 @@ div[logcategory] {
 }
 
 .ts-segment {
-    .ts-box {
-        margin-top: 0.4rem;
-        margin-bottom: 0.4rem;
-        align-items: center;
-
-        &:first-child {
-            margin-top: 0;
-        }
-        &:last-child {
-            margin-bottom: 0;
-        }
-
+    .ts-box,
+    .ts-wrap {
+        align-content: center;
         .ts-image {
             img {
                 width: 20rem;
-                height: 100%;
+                height: auto;
             }
         }
     }
@@ -167,4 +179,14 @@ div[logcategory] {
 .ts-close {
     margin-left: auto;
     padding: 0.9rem;
+}
+
+.menu-ctrl {
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    bottom: auto;
+    right: 0;
+    // width: 3rem;
+    margin-left: auto;
 }

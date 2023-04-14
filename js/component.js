@@ -63,7 +63,7 @@ Vue.component('weapon-cap', {
   </div>
   <div class="ts-space"></div>
   <div class="ts-segment mobile-:p-0" :data-name="lists.tab" v-for="(lists, i) in dataList">
-    <div class="ts-grid is-spaced-around mobile-:is-1-columns tablet+:is-3-columns">
+    <div class="ts-grid is-spaced-around mobile-:is-1-columns tablet+:is-2-columns desktop+:is-4-columns">
       <div class="column ts-box is-accent is-bottom-indicated" v-for="(item, index) in lists.list" :key="index">
         <div class="ts-content">
           <div class="ts-text">名稱：{{ item.name }}</div>
@@ -310,7 +310,7 @@ Vue.component('decor-rec', {
   <div class="ts-space"></div>
   <div class="ts-segment" :data-name="lists.tab" v-for="(lists, i) in dataList">
 
-    <div class="ts-grid mobile-:is-1-columns tablet+:is-3-columns desktop+:is-4-columns">
+    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-4-columns">
       <div class="column ts-box is-accent is-bottom-indicated" v-for="(item, index) in lists.list" :key="index">
         <div class="ts-content">
           <div class="ts-text">名稱：{{ item.name }}</div>
@@ -351,34 +351,22 @@ Vue.component('acce-cap', {
   template: `
 <div class="ts-content">
   <div class="ts-segment mobile-:p-0">
-    <table class="ts-table" style=" white-space: initial;">
-      <thead>
-        <tr>
-          <th>名稱</th>
-          <th>屬性</th>
-          <th>特殊能力</th>
-          <th>特殊效果</th>
-          <th>買價</th>
-          <th>賣價</th>
-          <th>資訊</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="(item, index) in dataList" :key="index">
-          <td>{{ item.name }}</td>
-          <td>{{ item.attr }}</td>
-          <td class="ts-wrap" style="width:13rem;">
+    <div class="ts-grid is-spaced-around mobile-:is-1-columns tablet+:is-2-columns desktop+:is-4-columns">
+      <div class="column ts-box is-accent is-bottom-indicated" v-for="(item, index) in dataList" :key="index">
+        <div class="ts-content">
+          <div class="ts-text">名稱：{{ item.name }}</div>
+          <div class="ts-text">屬性：{{ item.attr }}</div>
+          <div class="ts-wrap g-0">
+            <div class="ts-text">特殊能力：</div>
             <div class="ts-chip is-spaced is-outlined" v-for="sp in item.sp">
               {{ sp }}
             </div>
-          </td>
-          <td>{{ item.se }}</td>
-          <td>{{ item.buy }}</td>
-          <td>{{ item.sell }}</td>
-          <td>{{ item.notion }}</td>
-        </tr>
-      </tbody>
-    </table>
+          </div>
+          <div class="ts-text">買價：{{ item.buy }}</div>
+          <div class="ts-text">賣價：{{ item.sell }}</div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `
@@ -400,34 +388,24 @@ Vue.component('shoe-cap', {
   template: `
 <div class="ts-content">
   <div class="ts-segment mobile-:p-0">
-    <table class="ts-table" style=" white-space: initial;">
-      <thead>
-        <tr>
-          <th>名稱</th>
-          <th>防禦</th>
-          <th>魔防</th>
-          <th>特殊能力</th>
-          <th>特殊效果</th>
-          <th>買價</th>
-          <th>賣價</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="(item, index) in dataList" :key="index">
-          <td>{{ item.name }}</td>
-          <td>{{ item.def }}</td>
-          <td>{{ item.mdef }}</td>
-          <td class="ts-wrap" style="width:13rem;">
+    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-4-columns">
+      <div class="column ts-box is-accent is-bottom-indicated" v-for="(item, index) in dataList" :key="index">
+        <div class="ts-content">
+          <div class="ts-text">名稱：{{ item.name }}</div>
+          <div class="ts-text">防禦：{{ item.def }}</div>
+          <div class="ts-text">魔防：{{ item.mdef }}</div>
+          <div class="ts-wrap g-0">
+            <div class="ts-text">特殊能力：</div>
             <div class="ts-chip is-spaced is-outlined" v-for="sp in item.sp">
               {{ sp }}
             </div>
-          </td>
-          <td>{{ item.se }}</td>
-          <td>{{ item.buy }}</td>
-          <td>{{ item.sell }}</td>
-        </tr>
-      </tbody>
-    </table>
+          </div>
+          <div class="ts-text">特殊效果：{{ item.se }}</div>
+          <div class="ts-text">買價：{{ item.buy }}</div>
+          <div class="ts-text">賣價：{{ item.sell }}</div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `
@@ -449,34 +427,24 @@ Vue.component('het-cap', {
   template: `
 <div class="ts-content">
   <div class="ts-segment mobile-:p-0">
-    <table class="ts-table" style=" white-space: initial;">
-      <thead>
-        <tr>
-          <th>名稱</th>
-          <th>防禦</th>
-          <th>魔防</th>
-          <th>特殊能力</th>
-          <th>特殊效果</th>
-          <th>買價</th>
-          <th>賣價</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="(item, index) in dataList" :key="index">
-          <td>{{ item.name }}</td>
-          <td>{{ item.def }}</td>
-          <td>{{ item.mdef }}</td>
-          <td class="ts-wrap" style="width:13rem;">
+    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-4-columns">
+      <div class="column ts-box is-accent is-bottom-indicated" v-for="(item, index) in dataList" :key="index">
+        <div class="ts-content">
+          <div class="ts-text">名稱：{{ item.name }}</div>
+          <div class="ts-text">防禦：{{ item.def }}</div>
+          <div class="ts-text">魔防：{{ item.mdef }}</div>
+          <div class="ts-wrap g-0">
+            <div class="ts-text">特殊能力：</div>
             <div class="ts-chip is-spaced is-outlined" v-for="sp in item.sp">
               {{ sp }}
             </div>
-          </td>
-          <td>{{ item.se }}</td>
-          <td>{{ item.buy }}</td>
-          <td>{{ item.sell }}</td>
-        </tr>
-      </tbody>
-    </table>
+          </div>
+          <div class="ts-text">特殊效果：{{ item.se }}</div>
+          <div class="ts-text">買價：{{ item.buy }}</div>
+          <div class="ts-text">賣價：{{ item.sell }}</div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `
@@ -498,34 +466,24 @@ Vue.component('shield-cap', {
   template: `
 <div class="ts-content">
   <div class="ts-segment mobile-:p-0">
-    <table class="ts-table" style=" white-space: initial;">
-      <thead>
-        <tr>
-          <th>名稱</th>
-          <th>防禦</th>
-          <th>屬性</th>
-          <th>特殊能力</th>
-          <th>特殊效果</th>
-          <th>買價</th>
-          <th>賣價</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="(item, index) in dataList" :key="index">
-          <td>{{ item.name }}</td>
-          <td>{{ item.def }}</td>
-          <td>{{ item.attr }}</td>
-          <td class="ts-wrap" style="width:13rem;">
+    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-4-columns">
+      <div class="column ts-box is-accent is-bottom-indicated" v-for="(item, index) in dataList" :key="index">
+        <div class="ts-content">
+          <div class="ts-text">名稱：{{ item.name }}</div>
+          <div class="ts-text">防禦：{{ item.def }}</div>
+          <div class="ts-text">屬性：{{ item.attr }}</div>
+          <div class="ts-wrap g-0">
+            <div class="ts-text">特殊能力：</div>
             <div class="ts-chip is-spaced is-outlined" v-for="sp in item.sp">
               {{ sp }}
             </div>
-          </td>
-          <td>{{ item.se }}</td>
-          <td>{{ item.buy }}</td>
-          <td>{{ item.sell }}</td>
-        </tr>
-      </tbody>
-    </table>
+          </div>
+          <div class="ts-text">特殊效果：{{ item.se }}</div>
+          <div class="ts-text">買價：{{ item.buy }}</div>
+          <div class="ts-text">賣價：{{ item.sell }}</div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `
@@ -672,7 +630,7 @@ Vue.component('drug-rec', {
 <div class="ts-content">
   <div class="ts-segment mobile-:p-0">
 
-    <div class="ts-grid mobile-:is-1-columns tablet+:is-3-columns desktop+:is-4-columns">
+    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-4-columns">
       <div class="column ts-box is-accent is-bottom-indicated" v-for="(item, index) in dataList" :key="index">
         <div class="ts-content">
           <div class="ts-text">名稱：{{ item.name }}</div>

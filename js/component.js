@@ -511,41 +511,27 @@ Vue.component('crop-info', {
     </button>
   </div>
   <div class="ts-space"></div>
-  <div class="ts-segment" :data-name="lists.tab" v-for="(lists, i) in dataList">
-    <table class="ts-table">
-      <thead>
-        <tr>
-          <th>名稱</th>
-          <th>種子買價</th>
-          <th>種子賣價</th>
-          <th>成長天數</th>
-          <th>連作</th>
-          <th>作物買價</th>
-          <th>作物賣價</th>
-          <th>Lv10賣價</th>
-          <th>特殊能力</th>
-          <th>時間</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="(item, index) in lists.list" :key="index">
-          <td>{{ item.name }}</td>
-          <td>{{ item.seedBuy }}</td>
-          <td>{{ item.seedSell }}</td>
-          <td>{{ item.matureDay }}</td>
-          <td>{{ item.crop }}</td>
-          <td>{{ item.cropBuy }}</td>
-          <td>{{ item.cropSell }}</td>
-          <td>{{ item.Lv10Sell }}</td>
-          <td class="ts-wrap" style="width:13rem;">
+  <div class="ts-segment mobile-:p-0" :data-name="lists.tab" v-for="(lists, i) in dataList">
+    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-4-columns" >
+      <div class="column ts-box is-accent is-bottom-indicated" v-for="(item, index) in lists.list" :key="index">
+        <div class="ts-content">
+          <div class="ts-text">名稱：{{ item.name }}</div>
+          <div class="ts-text">種子買價：{{ item.seedBuy }}</div>
+          <div class="ts-text">成長天數：{{ item.seedSell }}</div>
+          <div class="ts-text">連作：{{ item.seedSell }}</div>
+          <div class="ts-text">作物買價：{{ item.seedSell }}</div>
+          <div class="ts-text">作物賣價：{{ item.seedSell }}</div>
+          <div class="ts-text">Lv10賣價：{{ item.seedSell }}</div>
+          <div class="ts-text">持續時間：{{ item.time }}</div>
+          <div class="ts-wrap g-0">
+            <div class="ts-text">特殊能力：</div>
             <div class="ts-chip is-spaced is-outlined" v-for="sp in item.sp">
               {{sp}}
             </div>
-          </td>
-          <td>{{ item.time }}</td>
-        </tr>
-      </tbody>
-    </table>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `
@@ -574,39 +560,29 @@ Vue.component('cooking-rec', {
     </button>
   </div>
   <div class="ts-space"></div>
-  <div class="ts-segment" :data-name="lists.tab" v-for="(lists, i) in dataList">
-    <table class="ts-table">
-      <thead>
-        <tr>
-          <th style="max-width:10rem;">名稱</th>
-          <th>等級</th>
-          <th style="max-width:15rem;">材料</th>
-          <th>特殊能力</th>
-          <th>時間</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="(item, index) in lists.list" :key="index">
-          <td>{{ item.name }}</td>
-          <td>{{ item.skillLv }}</td>
-          <td>
-            <div class="ts-wrap" style="max-width:15rem;">
-              <div class="ts-chip is-spaced is-outlined" v-for="it in item.item">
-                {{it}}
-              </div>
+  <div class="ts-segment mobile-:p-0" :data-name="lists.tab" v-for="(lists, i) in dataList">
+
+    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-4-columns">
+      <div class="column ts-box is-accent is-bottom-indicated" v-for="(item, index) in lists.list" :key="index">
+        <div class="ts-content">
+          <div class="ts-text">名稱：{{ item.name }}</div>
+          <div class="ts-text">等級：{{ item.skillLv }}</div>
+          <div class="ts-text">持續時間：{{ item.time }}</div>
+          <div class="ts-wrap g-0">
+            <div class="ts-text">材料：</div>
+            <div class="ts-chip is-spaced is-outlined" v-for="it in item.item">
+              {{it}}
             </div>
-          </td>
-          <td>
-            <div class="ts-wrap" style="max-width: 20rem;">
-              <div class="ts-chip is-spaced is-outlined" v-for="sp in item.sp">
-                {{sp}}
-              </div>
+          </div>
+          <div class="ts-wrap g-0">
+            <div class="ts-text">特殊能力：</div>
+            <div class="ts-chip is-spaced is-outlined" v-for="sp in item.sp">
+              {{sp}}
             </div>
-          </td>
-          <td>{{ item.time }}</td>
-        </tr>
-      </tbody>
-    </table>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 `

@@ -578,6 +578,51 @@ Vue.component('cooking-rec', {
 </div>
 `
 });
+Vue.component('no-cooking-cap', {
+  data() {
+    return {
+      dataList: null,
+    };
+  },
+  created() {
+    if (!this.dataList) {
+      fetch('../json/no-cooking-cap.json')
+        .then((res) => res.json())
+        .then((data) => { this.dataList = data; })
+        .catch((error) => { console.warn(error) });
+    }
+  },
+  template: `
+<div class="ts-content">
+  <div class="ts-tab is-pilled" style="justify-content: center;">
+    <button class="item is-accent" v-for="(lists, i) in dataList" :data-tab="lists.tab"
+      :class="[lists.active?'is-active':'']">
+      {{ lists.category }}
+    </button>
+  </div>
+  <div class="ts-space"></div>
+  <div class="ts-segment mobile-:p-0" :data-name="lists.tab" v-for="(lists, i) in dataList">
+    <div class="ts-grid mobile-:is-1-columns tablet:is-2-columns desktop+:is-4-columns">
+      <div class="column ts-box is-accent is-bottom-indicated" v-for="(item, index) in lists.list" :key="index">
+        <div class="ts-content">
+          <div class="ts-text">名稱：{{ item.name }}</div>
+          <div class="ts-text">買價：{{ item.buy }}</div>
+          <div class="ts-text">賣價：{{ item.sell }}</div>
+          <div class="ts-text">持續時間：{{ item.time }}</div>
+          <div class="ts-wrap g-0">
+            <div class="ts-text">效果：</div>
+            <div class="ts-chip is-spaced is-outlined" v-for="sp in item.sp">
+              {{sp}}
+            </div>
+          </div>
+          <div class="ts-text">說明：{{item.notion}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`
+});
 Vue.component('drug-rec', {
   data() {
     return {

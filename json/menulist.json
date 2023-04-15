@@ -42,6 +42,7 @@
         "id": "料理、藥水相關",
         "mobileTab":"cooking",
         "list": [
+            {"name":"非料理類效果","tab":"no-cooking-cap"},
             {"name":"料理配方與效果","tab":"cooking-rec"},
             {"name":"藥品配方","tab":"drug-rec"} 
     ]

@@ -1,7 +1,4 @@
 * {
-  -webkit-user-select: none !important;
-     -moz-user-select: none !important;
-          user-select: none !important;
   box-sizing: border-box;
 }
 *::-webkit-scrollbar {

@@ -855,7 +855,7 @@
                         "checked": false
                     },
                     {
-                        "name": "ぬめぬめブーツ (黏黏鞋)",
+                        "name": "ぬめぬめブーツ (光滑靴)",
                         "checked": false
                     },
                     {
@@ -922,7 +922,7 @@
                         "checked": false
                     },
                     {
-                        "name": "おはしな頭巾 (飛奔頭巾)",
+                        "name": "おはしな頭巾 (防災頭巾)",
                         "checked": false
                     },
                     {
@@ -1223,7 +1223,7 @@
                         "checked": false
                     },
                     {
-                        "name": "ロッド (法杖)",
+                        "name": "ロッド (魔杖)",
                         "checked": false
                     }
                 ]
@@ -1782,7 +1782,7 @@
                         "checked": false
                     },
                     {
-                        "name": "ガイアソード (大地之劍)",
+                        "name": "ガイアソード (大地劍)",
                         "checked": false
                     },
                     {
@@ -2146,7 +2146,7 @@
                         "checked": false
                     },
                     {
-                        "name": "マヨネーズ (蛋黃醬)",
+                        "name": "マヨネーズ (美乃滋)",
                         "checked": false
                     },
                     {
@@ -2323,7 +2323,7 @@
                         "checked": false
                     },
                     {
-                        "name": "バター (黃油)",
+                        "name": "バター (奶油)",
                         "checked": false
                     },
                     {
@@ -2335,7 +2335,7 @@
                         "checked": false
                     },
                     {
-                        "name": "ミックスジュース (混合果汁)",
+                        "name": "ミックスジュース (綜合果汁)",
                         "checked": false
                     },
                     {
@@ -2347,7 +2347,7 @@
                         "checked": false
                     },
                     {
-                        "name": "フルーツ・オ・レ (果汁牛奶)",
+                        "name": "フルーツ・オ・レ (水果歐雷)",
                         "checked": false
                     },
                     {
@@ -2406,7 +2406,7 @@
                         "checked": false
                     },
                     {
-                        "name": "クッキー (餅乾/甜餅)",
+                        "name": "クッキー (餅乾)",
                         "checked": false
                     },
                     {
@@ -2438,7 +2438,7 @@
                         "checked": false
                     },
                     {
-                        "name": "バターロール (黃油麵包捲)",
+                        "name": "バターロール (奶油麵包捲)",
                         "checked": false
                     },
                     {
@@ -2776,7 +2776,7 @@
                         "checked": false
                     },
                     {
-                        "name": "コロッケ (炸馬鈴薯球/炸肉餅)",
+                        "name": "コロッケ (可樂餅)",
                         "checked": false
                     },
                     {
@@ -3196,7 +3196,7 @@
                         "checked": false
                     },
                     {
-                        "name": "モコ綿 (軟綿綿棉)",
+                        "name": "モコ綿 (摩可棉)",
                         "checked": false
                     },
                     {
@@ -3444,15 +3444,15 @@
                         "checked": false
                     },
                     {
-                        "name": "ふわふわモフモフ毛 (軟軟綿綿的毛)",
+                        "name": "ふわふわモフモフ毛 (毛絨軟軟毛)",
                         "checked": false
                     },
                     {
-                        "name": "ふわふわ毛 (軟軟的毛)",
+                        "name": "ふわふわ毛 (軟絨毛)",
                         "checked": false
                     },
                     {
-                        "name": "ふわ毛 (軟毛)",
+                        "name": "ふわ毛 (軟軟毛)",
                         "checked": false
                     },
                     {

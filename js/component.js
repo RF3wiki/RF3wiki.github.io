@@ -765,7 +765,7 @@ Vue.component('maze-data', {
       <div class="item ts-text">送東西給魔物有機率可以捕獲魔物，花草/木材/農具/首飾/農作物/水果/素材/料理等等</div>
       <div class="item ts-text">魔物頭上會出現愛心標誌，成功了可以取名字，失敗了愛心變骷髏，可以重複贈送</div>
       <div class="item ts-text">送魔物喜愛物品，或者在送物品之前用刷子撫摸魔物出現高興的音符標誌，能夠提高抓怪物的成功率</div>
-      <div class="item ts-text">莫可莫可的出產物品，不僅會掉落在怪物小屋內，也可以使用毛剪去剪</div>
+      <div class="item ts-text">摩可摩可的出產物品，不僅會掉落在怪物小屋內，也可以使用毛剪去剪</div>
       <div class="item ts-text">牛奶、蛋、蜂蜜出產物的品質等級等於飼養怪物的好感度等級+1</div>
       <div class="item ts-text">可騎乘同伴魔物，按A可以上下坐騎，XYB進行攻擊</div>
       <div class="item ts-text">關於魔物對各屬性的抗性說明：+4是吸收，+3是無效，+2是1/8倍，+1是減半，-1是1.5倍，-2是3倍</div>

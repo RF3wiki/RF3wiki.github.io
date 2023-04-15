@@ -173,7 +173,7 @@ Vue.component('staff-mater', {
           <div class="ts-divider"></div>
           <div class="ts-grid is-middle-aligned is-center-aligned">
             <div class="column is-5-wide">
-              <div class="ts-text">Lv1屬性：{{item.Lv3attr}}</div>
+              <div class="ts-text">Lv3屬性：{{item.Lv3attr}}</div>
             </div>
             <div class="column is-fluid">
               <div class="ts-text">效果：{{item.Lv3}}</div>

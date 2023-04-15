@@ -5,7 +5,7 @@
         "active": true,
         "list": [
             {
-                "name": "サクラカブ(櫻色蕪菁)",
+                "name": "サクラカブ(櫻蕪菁)",
                 "seedBuy": "80",
                 "seedSell": "8",
                 "matureDay": "3(1)",
@@ -20,7 +20,7 @@
                 "time": "3"
             },
             {
-                "name": "キャベツ(捲心菜)",
+                "name": "高麗菜",
                 "seedBuy": "100",
                 "seedSell": "10",
                 "matureDay": "6(2)",
@@ -83,7 +83,7 @@
                 "time": "3"
             },
             {
-                "name": "金のキャベツ(金捲心菜)",
+                "name": "金高麗菜",
                 "seedBuy": "230",
                 "seedSell": "23",
                 "matureDay": "14(5)",
@@ -99,7 +99,7 @@
                 "time": "3"
             },
             {
-                "name": "トイハーブ(托伊藥草)",
+                "name": "托伊藥草",
                 "seedBuy": "60",
                 "seedSell": "6",
                 "matureDay": "2(1)",
@@ -406,7 +406,7 @@
                 "time": "3"
             },
             {
-                "name": "ジャガイモ(土豆/馬鈴薯)",
+                "name": "ジャガイモ(馬鈴薯/馬鈴薯)",
                 "seedBuy": "90",
                 "seedSell": "9",
                 "matureDay": "3(1)",
@@ -469,7 +469,7 @@
                 "time": "3"
             },
             {
-                "name": "金のジャガイモ(金土豆)",
+                "name": "金のジャガイモ(金馬鈴薯)",
                 "seedBuy": "250",
                 "seedSell": "25",
                 "matureDay": "6(2)",

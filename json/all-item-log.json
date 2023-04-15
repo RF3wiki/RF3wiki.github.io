@@ -109,7 +109,7 @@
                         "checked": false
                     },
                     {
-                        "name": "金のジャガイモの種 (金土豆種子)",
+                        "name": "金のジャガイモの種 (金馬鈴薯種子)",
                         "checked": false
                     },
                     {
@@ -117,7 +117,7 @@
                         "checked": false
                     },
                     {
-                        "name": "金のキャベツの種 (金捲心菜種子)",
+                        "name": "金高麗菜種子",
                         "checked": false
                     },
                     {
@@ -133,7 +133,7 @@
                         "checked": false
                     },
                     {
-                        "name": "サクラカブの種 (櫻色蕪菁種子)",
+                        "name": "サクラカブの種 (櫻蕪菁種子)",
                         "checked": false
                     },
                     {
@@ -249,7 +249,7 @@
                         "checked": false
                     },
                     {
-                        "name": "キャベツの種 (捲心菜種子)",
+                        "name": "高麗菜種子",
                         "checked": false
                     },
                     {
@@ -261,7 +261,7 @@
                         "checked": false
                     },
                     {
-                        "name": "ジャガイモの種 (土豆種子)",
+                        "name": "ジャガイモの種 (馬鈴薯種子)",
                         "checked": false
                     },
                     {
@@ -328,11 +328,11 @@
                         "checked": false
                     },
                     {
-                        "name": "枯草 (枯草)",
+                        "name": "枯草",
                         "checked": false
                     },
                     {
-                        "name": "雑草 (雜草)",
+                        "name": "雜草",
                         "checked": false
                     },
                     {
@@ -356,27 +356,27 @@
                         "checked": false
                     },
                     {
-                        "name": "黃の草 (黃草)",
+                        "name": "黃草",
                         "checked": false
                     },
                     {
-                        "name": "赤い草 (紅草)",
+                        "name": "紅草",
                         "checked": false
                     },
                     {
-                        "name": "だいだい草 (橙草)",
+                        "name": "苦橙草",
                         "checked": false
                     },
                     {
-                        "name": "黒い草 (黑草)",
+                        "name": "黑草",
                         "checked": false
                     },
                     {
-                        "name": "毒消し草 (解毒草)",
+                        "name": "解毒草",
                         "checked": false
                     },
                     {
-                        "name": "薬草 (藥草)",
+                        "name": "藥草",
                         "checked": false
                     },
                     {
@@ -392,7 +392,7 @@
                         "checked": false
                     },
                     {
-                        "name": "トイハーブ (托伊藥草)",
+                        "name": "托伊藥草",
                         "checked": false
                     }
                 ]
@@ -458,7 +458,7 @@
                         "checked": false
                     },
                     {
-                        "name": "金のジャガイモ (金土豆)",
+                        "name": "金のジャガイモ (金馬鈴薯)",
                         "checked": false
                     },
                     {
@@ -466,7 +466,7 @@
                         "checked": false
                     },
                     {
-                        "name": "金のキャベツ (金捲心菜)",
+                        "name": "金高麗菜",
                         "checked": false
                     },
                     {
@@ -506,7 +506,7 @@
                         "checked": false
                     },
                     {
-                        "name": "ジャガイモ (土豆)",
+                        "name": "ジャガイモ (馬鈴薯)",
                         "checked": false
                     },
                     {
@@ -542,11 +542,11 @@
                         "checked": false
                     },
                     {
-                        "name": "サクラカブ (櫻色蕪菁)",
+                        "name": "サクラカブ (櫻蕪菁)",
                         "checked": false
                     },
                     {
-                        "name": "キャベツ (捲心菜)",
+                        "name": "高麗菜",
                         "checked": false
                     }
                 ]
@@ -2776,7 +2776,7 @@
                         "checked": false
                     },
                     {
-                        "name": "コロッケ (炸土豆球/炸肉餅)",
+                        "name": "コロッケ (炸馬鈴薯球/炸肉餅)",
                         "checked": false
                     },
                     {
@@ -2803,7 +2803,7 @@
                 "active":false,
                 "list": [
                     {
-                        "name": "エビのおさしみ (蝦肉刺身)",
+                        "name": "エビのおさしみ (蝦的生魚片)",
                         "checked": false
                     },
                     {
@@ -2823,7 +2823,7 @@
                         "checked": false
                     },
                     {
-                        "name": "イカさし (烏賊刺身)",
+                        "name": "イカさし (烏賊生魚片)",
                         "checked": false
                     },
                     {
@@ -3035,7 +3035,7 @@
                         "checked": false
                     },
                     {
-                        "name": "サケ (鮭魚) [秋]",
+                        "name": "鉤吻鮭 [秋]",
                         "checked": false
                     },
                     {

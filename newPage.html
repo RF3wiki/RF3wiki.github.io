@@ -2,213 +2,213 @@
 <html lang="zh-hant-tw">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="符文工廠3 Wiki" />
-    <meta name="twitter:title" content="符文工廠3 Wiki" />
-    <meta name="description" content="符文工廠3 Wiki" />
-    <meta property="og:description" content="符文工廠3 Wiki" />
-    <meta name="twitter:description" content="符文工廠3 Wiki" />
-    <meta property="og:type" content="tools" />
-    <meta name="keywords" content="符文工廠3 Wiki,符文工廠3,Rune Factory,Rune Factory 3,ルーンファクトリー3,符文工廠,符文工廠 豪華版,Wiki">
-    <link rel="stylesheet" href="./css/tocas/tocas.min.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/mobile-css.css">
-    <script src="./js/tocas/tocas.min.js"></script>
-    <!-- <script src="./js/vue.js"></script> -->
-    <script src="./js/vue.min.js"></script>
-    <script src="./js/component.js"></script>
-    <title>符文工廠3 Wiki</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="符文工廠3 Wiki" />
+  <meta name="twitter:title" content="符文工廠3 Wiki" />
+  <meta name="description" content="符文工廠3 Wiki" />
+  <meta property="og:description" content="符文工廠3 Wiki" />
+  <meta name="twitter:description" content="符文工廠3 Wiki" />
+  <meta property="og:type" content="tools" />
+  <meta name="keywords" content="符文工廠3 Wiki,符文工廠3,Rune Factory,Rune Factory 3,ルーンファクトリー3,符文工廠,符文工廠 豪華版,Wiki">
+  <link rel="stylesheet" href="./css/tocas/tocas.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/mobile-css.css">
+  <script src="./js/tocas/tocas.min.js"></script>
+  <!-- <script src="./js/vue.js"></script> -->
+  <script src="./js/vue.min.js"></script>
+  <script src="./js/component.js"></script>
+  <title>符文工廠3 Wiki</title>
 </head>
 
 <body>
-    <div id="app" class="ts-container is-fluid">
-        <div class="ts-loading is-notched loading-box" :class="loadnone"></div>
-        <div class="mask" v-show="mobileMenuOpen"></div>
-        <div class="ts-grid is-relaxed">
-            <div class="column mobile-:u-hidden tablet-desktop:is-3-wide desktop+:is-2-wide">
-                <div class="ts-space"></div>
-                <div class="ts-header is-large is-heavy is-center-aligned" v-on:click="changePage('home')" title>符文工廠3
-                    Wiki
-                </div>
-                <div class="ts-divider is-section"></div>
-                <div class="ts-menu menu-ctrl ts-tab is-start-icon is-separated">
-                    <div class="ts-space"></div>
-                    <label class="ts-switch is-small">
-                        <input type="checkbox" v-model="isNewPage" />
-                        以新視窗開啟
-                    </label>
-                    <div class="ts-space is-small"></div>
-                    <details class="ts-accordion" v-on:click="detailsClose" v-for="(menu , index) in menu_list"
-                        :key="index">
-                        <summary>{{menu.id}}</summary>
-                        <button class="item is-accent" style="width: 100%;" v-on:click="changePage(list.tab)"
-                            :data-tab="list.tab" v-for="(list, index) in menu.list">
-                            <div class="ts-text">{{list.name}}</div>
-                        </button>
-                    </details>
-                    <div class="ts-space"></div>
-                    <div class="ts-wrap is-vertical is-center-aligned is-middle-aligned">
-                        <button class="ts-button is-small is-accent" data-toggle="report:is-visible">
-                            <div class="ts-text">問題回報</div>
-                        </button>
-                        <button class="ts-button is-small is-accent" data-toggle="updatalog:is-visible">
-                            <div class="ts-text">更新紀錄</div>
-                        </button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="column is-13-wide mobile-:is-16-wide">
-                <div class="ts-space is-huge desktop-:u-hidden"></div>
-                <div class="mobile-:ts-space"></div>
-                <div class="ts-segment mobile-:p-0">
-                    <div class="ts-grid is-relaxed">
-                        <div class="column is-fluid">
-                            <keep-alive>
-                                <component :is="nowPage"></component>
-                            </keep-alive>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  <div id="app" class="ts-container is-fluid">
+    <div class="ts-loading is-notched loading-box" :class="loadnone"></div>
+    <div class="mask" v-show="mobileMenuOpen"></div>
+    <div class="ts-grid is-relaxed">
+      <div class="column mobile-:u-hidden tablet-desktop:is-3-wide desktop+:is-2-wide">
+        <div class="ts-space"></div>
+        <div class="ts-header is-large is-heavy is-center-aligned" v-on:click="changePage('home',false)" title>
+          符文工廠3
+          Wiki
         </div>
-
-        <div class="mobile-menu-box tablet+:u-hidden" :class="[mobileMenuOpen?'mobile-menu-active':'']">
-            <div class="ts-wrap ts-tab is-vertical" :data-name="menu.mobileTab" v-for="(menu , index) in menu_list">
-                <button v-on:click="changePage(list.tab , true)" :data-tab="list.tab" v-for="(list, index) in menu.list"
-                    class="item is-accent is-icon is-outlined">
-                    <div class="ts-text">{{list.name}}</div>
-                </button>
-            </div>
+        <div class="ts-divider is-section"></div>
+        <div class="ts-menu menu-ctrl ts-tab is-start-icon is-separated">
+          <div class="ts-space"></div>
+          <label class="ts-switch is-small">
+            <input type="checkbox" v-model="isNewPage" />
+            以新視窗開啟
+          </label>
+          <div class="ts-space is-small"></div>
+          <details class="ts-accordion" v-on:click="detailsClose" v-for="(menu , index) in menu_list" :key="index">
+            <summary>{{menu.id}}</summary>
+            <button class="item is-accent" style="width: 100%;" v-on:click="changePage(list.tab,false)"
+              :data-tab="list.tab" v-for="(list, index) in menu.list">
+              <div class="ts-text">{{list.name}}</div>
+            </button>
+          </details>
+          <div class="ts-space"></div>
+          <div class="ts-wrap is-vertical is-center-aligned is-middle-aligned">
+            <button class="ts-button is-small is-accent" data-toggle="report:is-visible">
+              <div class="ts-text">問題回報</div>
+            </button>
+            <button class="ts-button is-small is-accent" data-toggle="updatalog:is-visible">
+              <div class="ts-text">更新紀錄</div>
+            </button>
+          </div>
         </div>
+      </div>
 
-        <div class="mobile-menu-btn tablet+:u-hidden" :class="[mobileMenuOpen?'mobile-menu-active':'']">
-            <div class="ts-wrap ts-tab">
-                <button class="item is-accent is-icon" data-toggle="report:is-visible">
-                    <div class="ts-text">問題回報</div>
-                </button>
-                <button class="item is-accent is-icon" data-toggle="updatalog:is-visible">
-                    <div class="ts-text">更新紀錄</div>
-                </button>
-                <button v-for="(menu , index) in menu_list" :data-tab="menu.mobileTab" class="item is-accent is-icon">
-                    <div class="ts-text"> {{menu.id}} </div>
-                </button>
-                <button class="item is-accent is-icon" v-on:click="changePage('home', true)" title="首頁"> 首頁 </button>
-
+      <div class="column is-13-wide mobile-:is-16-wide">
+        <div class="ts-space is-huge desktop-:u-hidden"></div>
+        <div class="mobile-:ts-space"></div>
+        <div class="ts-segment mobile-:p-0">
+          <div class="ts-grid is-relaxed">
+            <div class="column is-fluid">
+              <keep-alive>
+                <component :is="nowPage"></component>
+              </keep-alive>
             </div>
+          </div>
         </div>
-
-        <div class="mobile-btn tablet+:u-hidden">
-            <div class="ts-wrap" style="align-items: flex-end;margin-bottom: 0;">
-                <button class="ts-button is-accent is-circular is-icon" :class="[mobileMenuOpen?'':'is-outlined']"
-                    data-name="mobileMenu" v-on:click="mobileMenuOpen = !mobileMenuOpen" title="選單">
-                    <div class="ts-icon is-bars-icon"></div>
-                </button>
-            </div>
-        </div>
-
-        <div class="ts-modal" data-name="report">
-            <div class="content" style="width: auto;min-width:24rem;">
-                <div class="ts-content is-dense">
-                    <div class="ts-header">問題回報
-                        <span class="ts-close" data-toggle="report:is-visible" style="margin-left: auto;"></span>
-                    </div>
-                </div>
-                <div class="ts-divider"></div>
-                <div class="ts-content">
-                    <div class="ts-image" style="width: 100%;">
-                        <iframe
-                            src="https://docs.google.com/forms/d/e/1FAIpQLSfg5RjBC3SuN4IzEdSn58GNmXhhlgxM2ss9l7aoecMqh3HKSQ/viewform?embedded=true"
-                            width="100%" height="749" frameborder="0" marginheight="0" marginwidth="0">
-                            載入中…
-                        </iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="ts-modal" data-name="updatalog">
-            <div class="content" style="width: auto;">
-                <div class="ts-content is-dense">
-                    <div class="ts-header">更新紀錄
-                        <span class="ts-close" data-toggle="updatalog:is-visible" style="margin-left: auto;"></span>
-                    </div>
-                </div>
-                <div class="ts-divider"></div>
-                <div class="ts-content">
-                    <div class="ts-timeline">
-                        <div class="item">
-                            <div class="aside">
-                                <div class="ts-text is-description">2023/04/14</div>
-                            </div>
-                            <div class="indicator">
-                                <span class="ts-icon is-check-icon"></span>
-                            </div>
-                            <div class="content">RWD 優化</div>
-                        </div>
-                        <div class="item">
-                            <div class="aside">
-                                <div class="ts-text is-description">2023/04/12</div>
-                            </div>
-                            <div class="indicator">
-                                <span class="ts-icon is-check-icon"></span>
-                            </div>
-                            <div class="content">新增委託、任務、討伐列表</div>
-                        </div>
-                        <div class="item">
-                            <div class="aside">
-                                <div class="ts-text is-description">2023/04/11</div>
-                            </div>
-                            <div class="indicator">
-                                <span class="ts-icon is-check-icon"></span>
-                            </div>
-                            <div class="content">新增出貨物品記錄功能</div>
-                        </div>
-                        <div class="item">
-                            <div class="aside">
-                                <div class="ts-text is-description">2023/04/09</div>
-                            </div>
-                            <div class="indicator">
-                                <span class="ts-icon is-check-icon"></span>
-                            </div>
-                            <div class="content">新增花嫁任務列表</div>
-                        </div>
-                        <div class="item">
-                            <div class="aside">
-                                <div class="ts-text is-description">2023/04/08</div>
-                            </div>
-                            <div class="indicator">
-                                <span class="ts-icon is-check-icon"></span>
-                            </div>
-                            <div class="content">架構大修<br>修正火狐瀏覽器支援</div>
-                        </div>
-                        <div class="item">
-                            <div class="aside">
-                                <div class="ts-text is-description">2023/04/07</div>
-                            </div>
-                            <div class="indicator">
-                                <span class="ts-icon is-check-icon"></span>
-                            </div>
-                            <div class="content">增加火狐瀏覽器支援<br>部分資料修正</div>
-                        </div>
-                        <div class="item">
-                            <div class="aside">
-                                <div class="ts-text is-description">2023/04/06</div>
-                            </div>
-                            <div class="indicator">
-                                <span class="ts-icon is-check-icon"></span>
-                            </div>
-                            <div class="content">初版架構</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+      </div>
     </div>
-    <script src="./js/main.js"></script>
+
+    <div class="mobile-menu-box tablet+:u-hidden" :class="[mobileMenuOpen?'mobile-menu-active':'']">
+      <div class="ts-wrap ts-tab is-vertical" :data-name="menu.mobileTab" v-for="(menu , index) in menu_list">
+        <button v-on:click="changePage(list.tab , true)" :data-tab="list.tab" v-for="(list, index) in menu.list"
+          class="item is-accent is-icon is-outlined">
+          <div class="ts-text">{{list.name}}</div>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu-btn tablet+:u-hidden" :class="[mobileMenuOpen?'mobile-menu-active':'']">
+      <div class="ts-wrap ts-tab">
+        <button class="item is-accent is-icon" data-toggle="report:is-visible">
+          <div class="ts-text">問題回報</div>
+        </button>
+        <button class="item is-accent is-icon" data-toggle="updatalog:is-visible">
+          <div class="ts-text">更新紀錄</div>
+        </button>
+        <button v-for="(menu , index) in menu_list" :data-tab="menu.mobileTab" class="item is-accent is-icon">
+          <div class="ts-text"> {{menu.id}} </div>
+        </button>
+        <button class="item is-accent is-icon" v-on:click="changePage('home', true)" title="首頁"> 首頁 </button>
+
+      </div>
+    </div>
+
+    <div class="mobile-btn tablet+:u-hidden">
+      <div class="ts-wrap" style="align-items: flex-end;margin-bottom: 0;">
+        <button class="ts-button is-accent is-circular is-icon" :class="[mobileMenuOpen?'':'is-outlined']"
+          data-name="mobileMenu" v-on:click="mobileMenuOpen = !mobileMenuOpen" title="選單">
+          <div class="ts-icon is-bars-icon"></div>
+        </button>
+      </div>
+    </div>
+
+    <div class="ts-modal" data-name="report">
+      <div class="content" style="width: auto;min-width:24rem;">
+        <div class="ts-content is-dense">
+          <div class="ts-header">問題回報
+            <span class="ts-close" data-toggle="report:is-visible" style="margin-left: auto;"></span>
+          </div>
+        </div>
+        <div class="ts-divider"></div>
+        <div class="ts-content">
+          <div class="ts-image" style="width: 100%;">
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSfg5RjBC3SuN4IzEdSn58GNmXhhlgxM2ss9l7aoecMqh3HKSQ/viewform?embedded=true"
+              width="100%" height="749" frameborder="0" marginheight="0" marginwidth="0">
+              載入中…
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ts-modal" data-name="updatalog">
+      <div class="content" style="width: auto;">
+        <div class="ts-content is-dense">
+          <div class="ts-header">更新紀錄
+            <span class="ts-close" data-toggle="updatalog:is-visible" style="margin-left: auto;"></span>
+          </div>
+        </div>
+        <div class="ts-divider"></div>
+        <div class="ts-content">
+          <div class="ts-timeline">
+            <div class="item">
+              <div class="aside">
+                <div class="ts-text is-description">2023/04/14</div>
+              </div>
+              <div class="indicator">
+                <span class="ts-icon is-check-icon"></span>
+              </div>
+              <div class="content">RWD 優化</div>
+            </div>
+            <div class="item">
+              <div class="aside">
+                <div class="ts-text is-description">2023/04/12</div>
+              </div>
+              <div class="indicator">
+                <span class="ts-icon is-check-icon"></span>
+              </div>
+              <div class="content">新增委託、任務、討伐列表</div>
+            </div>
+            <div class="item">
+              <div class="aside">
+                <div class="ts-text is-description">2023/04/11</div>
+              </div>
+              <div class="indicator">
+                <span class="ts-icon is-check-icon"></span>
+              </div>
+              <div class="content">新增出貨物品記錄功能</div>
+            </div>
+            <div class="item">
+              <div class="aside">
+                <div class="ts-text is-description">2023/04/09</div>
+              </div>
+              <div class="indicator">
+                <span class="ts-icon is-check-icon"></span>
+              </div>
+              <div class="content">新增花嫁任務列表</div>
+            </div>
+            <div class="item">
+              <div class="aside">
+                <div class="ts-text is-description">2023/04/08</div>
+              </div>
+              <div class="indicator">
+                <span class="ts-icon is-check-icon"></span>
+              </div>
+              <div class="content">架構大修<br>修正火狐瀏覽器支援</div>
+            </div>
+            <div class="item">
+              <div class="aside">
+                <div class="ts-text is-description">2023/04/07</div>
+              </div>
+              <div class="indicator">
+                <span class="ts-icon is-check-icon"></span>
+              </div>
+              <div class="content">增加火狐瀏覽器支援<br>部分資料修正</div>
+            </div>
+            <div class="item">
+              <div class="aside">
+                <div class="ts-text is-description">2023/04/06</div>
+              </div>
+              <div class="indicator">
+                <span class="ts-icon is-check-icon"></span>
+              </div>
+              <div class="content">初版架構</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>

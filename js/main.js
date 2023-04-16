@@ -10,17 +10,17 @@ const RF3Wiki = new Vue({
         pageData: {}
     },
     created() {
-        if (localStorage.getItem(this.newPageKey)) {
-            this.pageData = JSON.parse(localStorage.getItem(this.newPageKey));
-            this.nowPage = this.pageData.targerPage;
-            this.isNewPage = this.pageData.isNewPage;
-            this.changePage(this.nowPage, this.pageData.isMobile);
-        }
         if (!this.menu_list) {
             fetch('../json/menulist.json').then((res) => res.json()).then((data) => { this.menu_list = data; }).catch((error) => { console.warn(error) });
         }
     },
     mounted() {
+        if (window.location.href.includes('?')) {
+            let targter = window.location.href.split('?')[1].split('&');
+            this.pageData = { nowPage: targter[0], isNewPage: targter[1] };
+            console.log(window.location.href.split('?')[1].split('&'));
+            this.changePage(this.pageData.nowPage);
+        }
         this.loadnone = 'u-hidden';
     },
     methods: {
@@ -36,10 +36,9 @@ const RF3Wiki = new Vue({
                 }
                 mobile ? this.removeMobileMenu() : '';
                 Vue.component(type) ? this.nowPage = type : this.nowPage = 'error-page';
+                this.isNewPage = this.pageData.isNewPage;
             } else {
-                let pageData = { targerPage: type, isMobile: mobile, isNewPage: this.isNewPage };
-                localStorage.setItem(this.newPageKey, JSON.stringify(pageData));
-                window.open('./newPage.html', '_blank');
+                window.open(`./newPage.html?${type}&${this.isNewPage}`, '_blank');
             }
         },
         removeMobileMenu() {
@@ -54,7 +53,7 @@ const RF3Wiki = new Vue({
                     details.forEach((detail) => {
                         if (detail !== targetDetail) {
                             detail.removeAttribute("open");
-                        }
+                        };
                     });
                 });
             });

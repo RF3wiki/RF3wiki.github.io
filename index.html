@@ -43,7 +43,7 @@
           <details class="ts-accordion" v-on:click="detailsClose" v-for="(menu , index) in menu_list" :key="index">
             <summary>{{menu.id}}</summary>
             <button class="item is-accent" style="width: 100%;" v-on:click="changePage(list.tab, false)"
-              :data-tab="list.tab" v-for="(list, index) in menu.list">
+              :data-tab="list.tab" v-if="list.isShow" v-for="(list, index) in menu.list">
               <div class="ts-text">{{list.name}}</div>
             </button>
           </details>
@@ -76,7 +76,7 @@
 
     <div class="mobile-menu-box tablet+:u-hidden" :class="[mobileMenuOpen?'mobile-menu-active':'']">
       <div class="ts-wrap ts-tab is-vertical" :data-name="menu.mobileTab" v-for="(menu , index) in menu_list">
-        <button v-on:click="changePage(list.tab , true)" :data-tab="list.tab" v-for="(list, index) in menu.list"
+        <button v-on:click="changePage(list.tab , true)" :data-tab="list.tab" v-for="(list, index) in menu.list" v-if="list.isShow"
           class="item is-accent is-icon is-outlined">
           <div class="ts-text">{{list.name}}</div>
         </button>

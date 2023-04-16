@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-hant-tw">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <div id="app">
+        <div class="container">
+            <div class="row"></div>
+        </div>
+    </div>
+
+    <script>
+        get();
+        const newJSON = [];
+        function get() {
+
+            fetch('../json/staff-mater.json')
+                .then((res) => res.json())
+                .then((data) => {
+                    data.forEach(cc => {
+                        let cat = {
+                            category: cc.category,
+                            tab: cc.tab,
+                            active: cc.active,
+                            list: []
+                        }
+
+                        cc.list.forEach(dd => {
+                            let newdd = {
+                                name:dd.name,
+                                Lv1attr: dd.data.Lv1attr,
+                                Lv1: dd.data.Lv1,
+                                Lv2attr: dd.data.Lv2attr,
+                                Lv2: dd.data.Lv2,
+                                Lv3attr: dd.data.Lv3attr,
+                                Lv3: dd.data.Lv3,
+                                speed: dd.data.speed,
+                                notion: dd.data.notion
+                            }
+                            cat.list.push(newdd)
+                        });
+                        newJSON.push(cat);
+                    });
+                    console.log(newJSON);
+                });
+
+            // fetch('./json/drug-rec.json')
+            //     .then((res) => res.json())
+            //     .then((data) => {
+            //         data.forEach(item => {
+            //             let newObj = {
+            //                 name: item.name,
+            //                 skillLv: item.skillLv,
+            //                 list: [],
+            //                 sp: item.sp
+            //             }
+            //             let newli = [];
+            //             item.item1 != '' ? newli.push(item.item1) : '';
+            //             item.item2 != '' ? newli.push(item.item2) : '';
+            //             item.item3 != '' ? newli.push(item.item3) : '';
+            //             item.item4 != '' ? newli.push(item.item4) : '';
+            //             item.item5 != '' ? newli.push(item.item5) : '';
+            //             item.item6 != '' ? newli.push(item.item6) : '';
+            //             newObj.list = newli;
+            //             newJSON.push(newObj);
+            //         });
+            //         console.log(newJSON);
+            //     })
+
+
+            // fetch('./json/drug-rec.json')
+            //     .then((res) => res.json())
+            //     .then((data) => {
+            //         data.forEach(ca => {
+            //             let newList = {
+            //                 category: ca.category,
+            //                 tab: ca.tab,
+            //                 active: ca.active,
+            //                 list: []
+            //             }
+
+            //             ca.list.forEach(item => {
+            //                 let newItem = {
+            //                     name: item.name,
+            //                     skillLv: item.skillLv,
+            //                     item: []
+            //                 }
+            //                 let list = [];
+            //                 item.item1 != '' ? list.push(item.item1) : '';
+            //                 item.item2 != '' ? list.push(item.item2) : '';
+            //                 item.item3 != '' ? list.push(item.item3) : '';
+            //                 item.item4 != '' ? list.push(item.item4) : '';
+            //                 item.item5 != '' ? list.push(item.item5) : '';
+            //                 item.item6 != '' ? list.push(item.item6) : '';
+
+            //                 newItem.item = list;
+            //                 newList.list.push(newItem);
+            //             })
+            //             newJSON.push(newList);
+            //         })
+            //         console.log(newJSON);
+
+            //     })
+            //     .catch((error) => { console.warn(error) });
+        }
+    </script>
+</body>
+
+</html>

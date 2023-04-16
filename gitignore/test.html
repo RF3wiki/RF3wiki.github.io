@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-hant-tw">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/tocas/tocas.css">
+    <script src="./js/tocas/tocas.js"></script>
+    <script src="./js/vue.js"></script>
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <div id="app">
+        <div class="container">
+            <div class="row"></div>
+        </div>
+    </div>
+
+    <script type="module">
+        import allitem from '../json/all-item-log.json' assert { type: 'json' };
+        let newJson = []
+
+        allitem.forEach(el => {
+            const newID = {
+                id: el.id,
+                tab: el.tab,
+                active: el.active,
+                data: []
+            }
+            let newData = {};
+            el.data.forEach(da => {
+                newData = {
+                    category: da.category,
+                    tab: da.tab,
+                    active: da.active,
+                    list: []
+                }
+                da.list.forEach(item => {
+                    let li = { name: item, checked: false };
+                    newData.list.push(li);
+                })
+                newID.data.push(newData);
+            })
+            newJson.push(newID)
+        });
+
+        console.log(JSON.stringify(newJson));
+        
+
+
+    </script>
+    <script>
+        const NewVue = new Vue({
+            el: '#app',
+            data: {
+
+            },
+            watch: {
+
+            },
+            created() {
+
+            },
+            methods: {
+
+            }
+        })
+    </script>
+</body>
+
+</html>

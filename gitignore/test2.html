@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-hant-tw">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/tocas/tocas.min.css">
+  <script src="./js/tocas/tocas.min.js"></script>
+  <script src="./js/vue.js"></script>
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+
+  <!-- <div class="ts-container is-fluid">
+    <div tab1 class="ts-tab is-pilled"></div>
+  </div>
+  <div class="ts-segment"></div> -->
+
+  <!-- <script>
+    const tab1 = qs('div[tab1]');
+    const cont = qs('.ts-container');
+    const biseg = qs('.ts-segment');
+
+    list.forEach(tabOne => {
+      const tab1Btn = ce('button');
+      tab1Btn.innerText = tabOne.id
+      tab1Btn.classList = 'item'
+      tabOne.active ? tab1Btn.classList.add('is-active') : '';
+      tab1Btn.setAttribute('data-tab', tabOne.tab);
+      tab1Btn.setAttribute('onclick', 'hiddenSeg()');
+      tab1.append(tab1Btn);
+
+      const tab2 = ce('div');
+      tab2.classList = 'ts-tab is-pilled';
+      tab2.setAttribute('data-name', tabOne.tab);
+      tabOne.data.forEach(tabTow => {
+        const tab2Btn = ce('button');
+        tab2Btn.innerText = tabTow.category;
+        tab2Btn.classList = 'item tablist';
+        tabTow.active ? tab2Btn.classList.add('is-active') : '';
+        tab2Btn.setAttribute('data-tab', tabTow.tab);
+        tab2.append(tab2Btn);
+        const seg = ce('div');
+        seg.classList = 'ts-segment allitem ';
+        seg.setAttribute('data-name', tabTow.tab);
+
+        tabTow.list.forEach(list => {
+          const lab = ce('div');
+          lab.classList = 'ts-text'
+          lab.innerText = list.name;
+          seg.append(lab);
+        })
+        biseg.append(seg)
+      })
+      cont.append(tab2);
+    })
+    hiddenSeg();
+
+    function hiddenSeg() {
+      const seglist = document.querySelectorAll('.allitem');
+      const tablist = document.querySelectorAll('.tablist');
+      seglist.forEach(el => { el.classList.add('u-hidden'); });
+      tablist.forEach(el => { el.classList.remove('is-active') });
+    }
+
+    function ce(tag) {
+      return document.createElement(tag);
+    }
+
+    function qs(tag) {
+      return document.querySelector(tag);
+    }
+  </script>  -->
+
+  <div id="app">
+    <!-- <template> -->
+    <div class="ts-container is-fluid">
+      <div class="ts-tab is-pilled">
+        <button v-for="(tabOne, index) in list" :key="index" :class="['item', { 'is-active': tabOne.active }]" :data-tab="tabOne.tab" v-on:click="activateTabOne(index)">
+          {{ tabOne.id }}
+        </button>
+      </div>
+      <div class="ts-segment allitem" v-for="(tabOne, index) in list" :key="index" :class="{ 'u-hidden': !tabOne.active }" :data-name="tabOne.tab">
+      <div class="ts-tab is-pilled">
+          <button v-for="(tabTwo, index) in tabOne.data" :key="index" :class="['item', 'tablist', { 'is-active': tabTwo.active }]" :data-tab="tabTwo.tab" v-on:click="activateTabTwo(index, tabOne)">
+            {{ tabTwo.category }}
+          </button>
+        </div>
+        <div class="ts-segment ts-text" v-for="(tabTwo, index) in tabOne.data" :key="index" v-show="tabTwo.active">
+          <div v-for="(item, index) in tabTwo.list" :key="index">
+            {{ item.name }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- </template> -->
+  </div>
+
+  <script>
+    const NewVue = new Vue({
+      el: '#app',
+      data() {
+        return {
+          list: null,
+          list2: [{ id: "tab1", tab: "tab1", active: true, data: [{ category: "category1", tab: "tab1_1", active: true, list: [{ name: "item1" }, { name: "item2" }, { name: "item3" },], }, { category: "category2", tab: "tab1_2", active: false, list: [{ name: "item4" }, { name: "item5" }, { name: "item6" },], },], }, { id: "tab2", tab: "tab2", active: false, data: [{ category: "category3", tab: "tab2_1", active: true, list: [{ name: "item7" }, { name: "item8" }, { name: "item9" },], }, { category: "category4", tab: "tab2_2", active: false, list: [{ name: "item10" }, { name: "item11" }, { name: "item12" },], },], },],
+          list3: [{ "id": "tab1", "tab": "tab1", "active": true, "data": [{ "category": "category1", "tab": "tab1_1", "active": true, "list": [{ "name": "item1" }, { "name": "item2" }, { "name": "item3" }] }, { "category": "category2", "tab": "tab1_2", "active": false, "list": [{ "name": "item4" }, { "name": "item5" }, { "name": "item6" }] }] }, { "id": "tab2", "tab": "tab2", "active": false, "data": [{ "category": "category3", "tab": "tab2_1", "active": true, "list": [{ "name": "item7" }, { "name": "item8" }, { "name": "item9" }] }, { "category": "category4", "tab": "tab2_2", "active": false, "list": [{ "name": "item10" }, { "name": "item11" }, { "name": "item12" }] }] }],
+        }
+      },
+      created() {
+        fetch('../json/all-item-log.json').then((res) => res.json()).then((data) => { this.list = data; }).catch((error) => { console.warn(error) });
+      },
+      methods: {
+        activateMain(index) {
+          this.list.forEach((tabOne) => {
+            tabOne.active = false;
+          });
+          this.list[index].active = true;
+        },
+        activateMinor(index, tabOne) {
+          tabOne.data.forEach((tabTwo) => {
+            tabTwo.active = false;
+          });
+          tabOne.data[index].active = true;
+        },
+      }
+    })
+  </script>
+</body>
+
+</html>

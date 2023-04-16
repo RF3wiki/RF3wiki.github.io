@@ -3,71 +3,71 @@
         "id":"人物相關",
         "mobileTab":"human",
         "list":[
-            {"name":"花嫁資料","tab":"hanayome"},
-            {"name":"城鎮村民","tab":"villagers"}
-        ]
+            {"name":"花嫁資料","tab":"hanayome","isShow":true},
+            {"name":"城鎮村民","tab":"villagers","isShow":true}
+        ],"isShow":true
     },
     {
         "id":"任務相關",
         "mobileTab":"task",
         "list":[
-            {"name":"委託列表", "tab":"task-list"},
-            {"name":"討伐與任務列表", "tab":"easy-kill-task"}
+            {"name":"委託列表", "tab":"task-list","isShow":true},
+            {"name":"討伐與任務列表", "tab":"easy-kill-task","isShow":true}
         ]
     },
     {
         "id": "裝備相關",
         "mobileTab":"equi",
         "list": [
-            {"name":"農具配方","tab":"farm-rec"},
-            {"name":"武器配方","tab":"weapon-rec"},
-            {"name":"裝飾台配方","tab":"decor-rec"},
-            {"name":"武器能力","tab":"weapon-cap"},
-            {"name":"飾品能力","tab":"acce-cap"},
-            {"name":"鞋子能力","tab":"shoe-cap"},
-            {"name":"頭盔能力","tab":"het-cap"},
-            {"name":"盾能力","tab":"shield-cap"},
-            {"name":"裝備強化素材","tab":"equi-mater"},
-            {"name":"法杖強化素材","tab":"staff-mater"}
+            {"name":"農具配方","tab":"farm-rec","isShow":true},
+            {"name":"武器配方","tab":"weapon-rec","isShow":true},
+            {"name":"裝飾台配方","tab":"decor-rec","isShow":true},
+            {"name":"武器能力","tab":"weapon-cap","isShow":true},
+            {"name":"飾品能力","tab":"acce-cap","isShow":true},
+            {"name":"鞋子能力","tab":"shoe-cap","isShow":true},
+            {"name":"頭盔能力","tab":"het-cap","isShow":true},
+            {"name":"盾能力","tab":"shield-cap","isShow":true},
+            {"name":"裝備強化素材","tab":"equi-mater","isShow":true},
+            {"name":"法杖強化素材","tab":"staff-mater","isShow":true}
         ]
     },
     {
         "id": "農作相關",
         "mobileTab":"crop",
         "list": [
-            {"name":"農作物資料","tab":"crop-info"} 
+            {"name":"農作物資料","tab":"crop-info","isShow":true} 
         ]
     },
     {
         "id": "料理、藥水相關",
         "mobileTab":"cooking",
         "list": [
-            {"name":"非料理類效果","tab":"no-cooking-cap"},
-            {"name":"料理配方與效果","tab":"cooking-rec"},
-            {"name":"藥品配方","tab":"drug-rec"} 
+            {"name":"非料理類效果","tab":"no-cooking-cap","isShow":true},
+            {"name":"料理配方與效果","tab":"cooking-rec","isShow":true},
+            {"name":"藥品配方","tab":"drug-rec","isShow":true} 
     ]
     },
     {
         "id": "釣魚相關",
         "mobileTab":"fish",
         "list": [
-            {"name":"釣魚資料-小鎮","tab":"fish-town"},
-            {"name":"釣魚資料-迷宮","tab":"fish-maze"}
+            {"name":"釣魚資料-小鎮","tab":"fish-town","isShow":true},
+            {"name":"釣魚資料-迷宮","tab":"fish-maze","isShow":true}
         ]
     },
     {
         "id": "迷宮相關",
         "mobileTab":"maze",
         "list": [
-            {"name":"迷宮資料","tab":"maze-data"}
+            {"name":"迷宮資料","tab":"maze-data","isShow":true}
         ]
     },
     {
         "id":"其他",
         "mobileTab":"orter",
         "list":[
-            {"name":"全出貨箱物品","tab":"all-item"},
-            {"name":"出貨紀錄","tab":"sell-log"}
+            {"name":"全出貨箱物品","tab":"all-item","isShow":false},
+            {"name":"出貨紀錄","tab":"sell-log","isShow":true}
         ]
     }
 ]

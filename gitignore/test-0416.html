@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="module">
+
+        import shieldECP from './0416/盾.json' assert {type: 'json'};
+        import hetECP from './0416/帽子.json' assert {type: 'json'};
+        import showECP from './0416/鞋子.json' assert {type: 'json'};
+        import acceECP from './0416/飾品.json' assert {type: 'json'};
+
+        import weapCP from "../json/weapon-cap.json" assert {type: 'json'};
+        import weapRC from "../json/weapon-rec.json" assert {type: 'json'};
+        import weapCR from "../json/weapon-cap_rec.json" assert {type: 'json'};
+
+        import decorRC from "../json/decor-rec.json" assert {type: 'json'};
+        import shieldCP from "../json/shield-cap.json" assert {type: 'json'};
+        import hetCP from "../json/het-cap.json" assert {type: 'json'};
+        import showCP from "../json/shoe-cap.json" assert {type: 'json'};
+        import acceCP from "../json/acce-cap.json" assert {type: 'json'};
+
+
+        const newWeap = [];
+        const newAcc = [];
+        const newShieldECP = [];
+        const newSetECP = [];
+        const newShowECP = [];
+        const newScceECP = [];
+
+        shieldECP.forEach((el, index) => {
+            let newItem = {
+                name: el.name,
+                skillLv: el.skillLv,
+                list: [],
+                attr: el.attr,
+                def: el.def,
+                sp: el.sp,
+                sell: el.sell,
+                buy: el.buy,
+                notion: el.notion
+            }
+            el.item1 ? newItem.list.push(el.item1) : ''
+            el.item2 ? newItem.list.push(el.item2) : ''
+            el.item3 ? newItem.list.push(el.item3) : ''
+            el.item4 ? newItem.list.push(el.item4) : ''
+            el.item5 ? newItem.list.push(el.item5) : ''
+            el.item6 ? newItem.list.push(el.item6) : ''
+            newShieldECP.push(newItem);
+        })
+        hetECP.forEach((el, index) => {
+            let newItem = {
+                name: el.name,
+                skillLv: el.skillLv,
+                list: [],
+                def: el.def,
+                mdef: el.mdef,
+                sp: el.sp,
+                buy: el.buy,
+                sell: el.sell
+            }
+            el.item1 ? newItem.list.push(el.item1) : ''
+            el.item2 ? newItem.list.push(el.item2) : ''
+            el.item3 ? newItem.list.push(el.item3) : ''
+            el.item4 ? newItem.list.push(el.item4) : ''
+            el.item5 ? newItem.list.push(el.item5) : ''
+            el.item6 ? newItem.list.push(el.item6) : ''
+            newSetECP.push(newItem);
+        })
+        showECP.forEach((el, index) => {
+            let newItem = {
+                name: el.name,
+                list: [],
+                skillLv: el.skillLv,
+                def: el.def,
+                mdef: el.mdef,
+                buy: el.buy,
+                sell: el.sell,
+                notion: el.notion
+            }
+            el.item1 ? newItem.list.push(el.item1) : ''
+            el.item2 ? newItem.list.push(el.item2) : ''
+            el.item3 ? newItem.list.push(el.item3) : ''
+            el.item4 ? newItem.list.push(el.item4) : ''
+            el.item5 ? newItem.list.push(el.item5) : ''
+            el.item6 ? newItem.list.push(el.item6) : ''
+            newShowECP.push(newItem);
+
+        })
+        acceECP.forEach((el, index) => {
+            let newItem = {
+                name: el.name,
+                skillLv: el.skillLv,
+                list: [],
+                attr: el.attr,
+                sp: el.sp,
+                buy: el.buy,
+                sell: el.sell,
+                notion: el.notion,
+            }
+            el.item1 ? newItem.list.push(el.item1) : ''
+            el.item2 ? newItem.list.push(el.item2) : ''
+            el.item3 ? newItem.list.push(el.item3) : ''
+            el.item4 ? newItem.list.push(el.item4) : ''
+            el.item5 ? newItem.list.push(el.item5) : ''
+            el.item6 ? newItem.list.push(el.item6) : ''
+            newScceECP.push(newItem);
+        })
+
+        decorRC.forEach((el, index) => {
+            let newCat = {
+                category: el.category,
+                tab: el.tab,
+                active: null,
+                list: []
+            }
+            el.list.forEach((li, i) => {
+                let newList = {
+                    
+                }
+                
+                console.log(newShieldECP[index]);
+                console.log(newSetECP[index]);
+                console.log(newShowECP[index]);
+                console.log(newScceECP[index]);
+            })
+            el.active ? newCat.active = el.active : newCat.active = false;
+            console.log(newCat);
+        });
+
+
+        weapCP.forEach((el, index) => {
+            let newCat = {
+                category: el.category,
+                tab: el.tab,
+                active: null,
+                list: []
+            }
+            el.active ? newCat.active = el.active : newCat.active = false;
+            el.list.forEach((li, i) => {
+                let newList = {
+                    name: "",
+                    checked: false,
+                    attr: "",
+                    atk: 0,
+                    matk: 0,
+                    list: [],
+                    skillLv: "",
+                    sp: [],
+                    se: [],
+                    buy: 0,
+                    sell: 0,
+                    notion1: "",
+                }
+                newList.list = weapCR[index].list[i].list.length < 1 ? weapRC[index].list[i].list : weapCR[index].list[i].list;
+                newList.notion1 = newList.notion1 ? weapRC[index].list[i].notion1 : '';
+                newList.name = li.name ? li.name : weapCR[index].list[i].name;
+                newList.attr = li.attr ? li.attr : weapCR[index].list[i].attr;
+                newList.atk = li.atk ? li.atk : weapCR[index].list[i].atk;
+                newList.matk = li.matk ? li.matk ? li.matk : weapCR[index].list[i].matk : 0;
+                newList.skillLv = li.skillLv ? li.skillLv : weapCR[index].list[i].skillLv;
+                newList.sp = li.sp ? li.sp : weapCR[index].list[i].sp;
+                newList.se = li.se ? li.se : weapCR[index].list[i].se;
+                newList.buy = li.buy ? li.buy : weapCR[index].list[i].buy;
+                newList.sell = li.sell ? li.sell : weapCR[index].list[i].sell;
+                newCat.list.push(newList)
+            })
+            newWeap.push(newCat);
+        });
+        // console.log(newWeap);
+    </script>
+</body>
+
+</html>

@@ -68,7 +68,12 @@ Vue.component('weapon-cap', {
           <div class="ts-text">屬性：{{ item.attr }}</div>
           <div class="ts-text">攻擊：{{ item.atk }}</div>
           <div class="ts-text" v-show="lists.tab=='staff'">魔攻：{{ item.matk }}</div>
-          <div class="ts-text">特殊能力：{{ item.sp }}</div>
+          <div class="ts-wrap g-0">
+            <div class="ts-text">特殊能力：</div>
+            <div class="ts-chip is-spaced is-outlined" v-for="sp in item.sp">
+              {{ sp }}
+            </div>
+          </div>
           <div class="ts-text">特殊效果：{{ item.se }}</div>
           <div class="ts-text">買價：{{ item.buy }}</div>
           <div class="ts-text">賣價：{{ item.sell }}</div>
@@ -1114,64 +1119,64 @@ Vue.component('villagers', {
 </div>
 `
 });
-Vue.component('all-item', {
-  data() {
-    return {
-      dataList: null,
-    };
-  },
-  created() {
-    if (!this.dataList) {
-      fetch('../json/all-item-log.json').then((res) => res.json())
-        .then((data) => { this.dataList = data; })
-        .catch((error) => { console.warn(error) });
-    };
-  },
-  methods: {
-    activateMain(index) {
-      this.dataList.forEach((tabOne) => {
-        tabOne.active = false;
-      });
-      this.dataList[index].active = true;
-    },
-    activateMinor(index, tabOne) {
-      tabOne.data.forEach((tabTwo) => {
-        tabTwo.active = false;
-      });
-      tabOne.data[index].active = true;
-    }
-  },
-  template: `
-<div class="tablet+:ts-content">
-  <div class="ts-header"> ※ 點選頁籤切換，需載入一小段時間。 </div>
-  <div class="ts-space is-small"></div>
-  <div class="ts-tab mobile-:is-stacked">
-    <button class="item is-accent main-tab" v-for="(main, index) in dataList" :key="index"
-      :class="['item', { 'is-active': main.active }]" :data-tab="main.tab" v-on:click="activateMain(index)">
-      <div class="text"> {{ main.id }}</div>
-    </button>
-  </div>
-  <div class="ts-space is-small"></div>
-  <div v-for="(main, index) in dataList" :key="index" :class="{ 'u-hidden': !main.active }" :data-name="main.tab">
-    <div class="ts-tab is-small is-secondary">
-      <button v-for="(minor, index) in main.data" :key="index" class="item is-accent minor-tab"
-        :class="['item', 'tablist', { 'is-active': minor.active }]" :data-tab="minor.tab"
-        v-on:click="activateMinor(index, main)">
-        <div class="text"> {{ minor.category }}</div>
-      </button>
-    </div>
-    <div class="ts-space is-small"></div>
-    <div class="ts-segment" v-for="(minor, index) in main.data" :key="index" v-show="minor.active">
-      <div class="ts-grid mobile-:is-stacked" style="padding:.5rem;">
-        <div class="column is-4-wide" v-for="(item, index) in minor.list" :key="index">
-          <div class="ts-text">{{ item.name }}</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-`
-});
+// Vue.component('all-item', {
+//   data() {
+//     return {
+//       dataList: null,
+//     };
+//   },
+//   created() {
+//     if (!this.dataList) {
+//       fetch('../json/all-item-log.json').then((res) => res.json())
+//         .then((data) => { this.dataList = data; })
+//         .catch((error) => { console.warn(error) });
+//     };
+//   },
+//   methods: {
+//     activateMain(index) {
+//       this.dataList.forEach((tabOne) => {
+//         tabOne.active = false;
+//       });
+//       this.dataList[index].active = true;
+//     },
+//     activateMinor(index, tabOne) {
+//       tabOne.data.forEach((tabTwo) => {
+//         tabTwo.active = false;
+//       });
+//       tabOne.data[index].active = true;
+//     }
+//   },
+//   template: `
+// <div class="tablet+:ts-content">
+//   <div class="ts-header"> ※ 點選頁籤切換，需載入一小段時間。(數量僅供參考)</div>
+//   <div class="ts-space is-small"></div>
+//   <div class="ts-tab mobile-:is-stacked">
+//     <button class="item is-accent main-tab" v-for="(main, index) in dataList" :key="index"
+//       :class="['item', { 'is-active': main.active }]" :data-tab="main.tab" v-on:click="activateMain(index)">
+//       <div class="text"> {{ main.id }}</div>
+//     </button>
+//   </div>
+//   <div class="ts-space is-small"></div>
+//   <div v-for="(main, index) in dataList" :key="index" :class="{ 'u-hidden': !main.active }" :data-name="main.tab">
+//     <div class="ts-tab is-small is-secondary">
+//       <button v-for="(minor, index) in main.data" :key="index" class="item is-accent minor-tab"
+//         :class="['item', 'tablist', { 'is-active': minor.active }]" :data-tab="minor.tab"
+//         v-on:click="activateMinor(index, main)">
+//         <div class="text"> {{ minor.category }}</div>
+//       </button>
+//     </div>
+//     <div class="ts-space is-small"></div>
+//     <div class="ts-segment" v-for="(minor, index) in main.data" :key="index" v-show="minor.active">
+//       <div class="ts-grid mobile-:is-stacked" style="padding:.5rem;">
+//         <div class="column is-4-wide" v-for="(item, index) in minor.list" :key="index">
+//           <div class="ts-text" :dd="index +1">{{ item.name }}</div>
+//         </div>
+//       </div>
+//     </div>
+//   </div>
+// </div>
+// `
+// });
 Vue.component('sell-log', {
   data() {
     return {
@@ -1207,7 +1212,7 @@ Vue.component('sell-log', {
   },
   template: `
 <div class="tablet+:ts-content">
-  <div class="ts-header">※ 點選頁籤切換，將自動存檔於瀏覽器。</div>
+  <div class="ts-header">※ 點選頁籤切換，將自動存檔於瀏覽器。(數量僅供參考)</div>
   <div class="ts-space is-small"></div>
   <div class="ts-tab mobile-:is-stacked">
     <button class="item is-accent main-tab" v-for="(main, index) in dataList" :key="index"
@@ -1228,10 +1233,20 @@ Vue.component('sell-log', {
     <div class="ts-segment" v-for="(minor, index) in main.data" :key="index" v-show="minor.active">
       <div class="ts-grid mobile-:is-stacked" style="padding:.5rem;">
         <div class="column is-4-wide" v-for="(item, index) in minor.list" :key="index">
-          <label class="ts-checkbox is-kepall">
-            <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
-            {{ item.name }}
-          </label>
+          <div class="ts-segment">
+            <label class="ts-checkbox is-kepall">
+              <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
+              {{ item.name }}
+            </label>
+            <div class="ts-text">測試：</div>
+            <div class="ts-wrap is-compact">
+              <div class="ts-text">S：</div>
+              <div class="ts-chip is-outlined">F</div>
+              <div class="ts-chip is-outlined">G</div>
+              <div class="ts-chip is-outlined">H</div>
+              <div class="ts-chip is-outlined">E</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

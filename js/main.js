@@ -4,9 +4,18 @@ const RF3Wiki = new Vue({
         loadnone: "",
         nowPage: "home",
         menu_list: null,
-        mobileMenuOpen: false
+        mobileMenuOpen: false,
+        isNewPage: false,
+        newPageKey: 'newPage',
+        pageData: {}
     },
     created() {
+        if (localStorage.getItem(this.newPageKey)) {
+            this.pageData = JSON.parse(localStorage.getItem(this.newPageKey));
+            this.nowPage = this.pageData.targerPage;
+            this.isNewPage = this.pageData.isNewPage;
+            this.changePage(this.nowPage, this.pageData.isMobile);
+        }
         if (!this.menu_list) {
             fetch('../json/menulist.json').then((res) => res.json()).then((data) => { this.menu_list = data; }).catch((error) => { console.warn(error) });
         }
@@ -16,17 +25,22 @@ const RF3Wiki = new Vue({
     },
     methods: {
         changePage(type, mobile) {
-            if (type == 'home') {
-                document.querySelectorAll('.ts-menu.ts-tab .item').forEach(el => {
-                    el.classList = 'item is-accent'
-                });
-                document.querySelectorAll('.ts-accordion').forEach(el => {
-                    el.removeAttribute('open')
-                });
+            if (!this.isNewPage) {
+                if (type == 'home') {
+                    document.querySelectorAll('.ts-menu.ts-tab .item').forEach(el => {
+                        el.classList = 'item is-accent';
+                    });
+                    document.querySelectorAll('.ts-accordion').forEach(el => {
+                        el.removeAttribute('open');
+                    });
+                }
+                mobile ? this.removeMobileMenu() : '';
+                Vue.component(type) ? this.nowPage = type : this.nowPage = 'error-page';
+            } else {
+                let pageData = { targerPage: type, isMobile: mobile, isNewPage: this.isNewPage };
+                localStorage.setItem(this.newPageKey, JSON.stringify(pageData));
+                window.open('./newPage.html', '_blank');
             }
-
-            mobile ? this.removeMobileMenu() : '';
-            Vue.component(type) ? this.nowPage = type : this.nowPage = 'error-page';
         },
         removeMobileMenu() {
             this.mobileMenuOpen = !this.mobileMenuOpen

@@ -34,10 +34,15 @@
         <div class="ts-divider is-section"></div>
         <div class="ts-menu menu-ctrl ts-tab is-start-icon is-separated">
           <div class="ts-space"></div>
+          <label class="ts-switch is-small">
+            <input type="checkbox" v-model="isNewPage" />
+            以新視窗開啟
+          </label>
+          <div class="ts-space is-small"></div>
           <details class="ts-accordion" v-on:click="detailsClose" v-for="(menu , index) in menu_list" :key="index">
             <summary>{{menu.id}}</summary>
-            <button class="item is-accent" style="width: 100%;" v-on:click="changePage(list.tab)" :data-tab="list.tab"
-              v-for="(list, index) in menu.list">
+            <button class="item is-accent" style="width: 100%;" v-on:click="changePage(list.tab, false)"
+              :data-tab="list.tab" v-for="(list, index) in menu.list">
               <div class="ts-text">{{list.name}}</div>
             </button>
           </details>

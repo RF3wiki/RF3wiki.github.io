@@ -61,12 +61,13 @@ Vue.component('weapon-cap', {
   </div>
   <div class="ts-space"></div>
   <div class="ts-segment mobile-:p-0" :data-name="lists.tab" v-for="(lists, i) in dataList">
-    <div class="ts-grid is-spaced-around mobile-:is-1-columns tablet+:is-2-columns desktop+:is-4-columns">
+    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-4-columns">
       <div class="column ts-box is-accent is-bottom-indicated" v-for="(item, index) in lists.list" :key="index">
         <div class="ts-content">
           <div class="ts-text">名稱：{{ item.name }}</div>
           <div class="ts-text">屬性：{{ item.attr }}</div>
           <div class="ts-text">攻擊：{{ item.atk }}</div>
+          <div class="ts-text" v-show="lists.tab=='staff'">魔攻：{{ item.matk }}</div>
           <div class="ts-text">特殊能力：{{ item.sp }}</div>
           <div class="ts-text">特殊效果：{{ item.se }}</div>
           <div class="ts-text">買價：{{ item.buy }}</div>
@@ -348,7 +349,7 @@ Vue.component('acce-cap', {
   template: `
 <div class="ts-content">
   <div class="ts-segment mobile-:p-0">
-    <div class="ts-grid is-spaced-around mobile-:is-1-columns tablet+:is-2-columns desktop+:is-4-columns">
+    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-4-columns">
       <div class="column ts-box is-accent is-bottom-indicated" v-for="(item, index) in dataList" :key="index">
         <div class="ts-content">
           <div class="ts-text">名稱：{{ item.name }}</div>

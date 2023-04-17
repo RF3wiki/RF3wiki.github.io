@@ -1233,20 +1233,10 @@ Vue.component('sell-log', {
     <div class="ts-segment" v-for="(minor, index) in main.data" :key="index" v-show="minor.active">
       <div class="ts-grid mobile-:is-stacked" style="padding:.5rem;">
         <div class="column is-4-wide" v-for="(item, index) in minor.list" :key="index">
-          <div class="ts-segment">
-            <label class="ts-checkbox is-kepall">
-              <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
-              {{ item.name }}
-            </label>
-            <div class="ts-text">測試：</div>
-            <div class="ts-wrap is-compact">
-              <div class="ts-text">S：</div>
-              <div class="ts-chip is-outlined">F</div>
-              <div class="ts-chip is-outlined">G</div>
-              <div class="ts-chip is-outlined">H</div>
-              <div class="ts-chip is-outlined">E</div>
-            </div>
-          </div>
+          <label class="ts-checkbox is-kepall">
+            <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
+            {{ item.name }}
+          </label>
         </div>
       </div>
     </div>

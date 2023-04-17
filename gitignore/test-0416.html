@@ -26,7 +26,66 @@
         import showCP from "../json/shoe-cap.json" assert {type: 'json'};
         import acceCP from "../json/acce-cap.json" assert {type: 'json'};
 
+        import drugRC from "../json/drug-rec.json" assert {type: 'json'};
+        import dAll from "./drugAllItem.json" assert {type: 'json'};
 
+        drugRC.sort((a, b) => {
+            if (a.name < b.name) {
+                return -1;
+            }
+        });
+        dAll.forEach((el, index) => {
+            el.list.sort((a, b) => {
+                if (a.skillLv < b.skillLv) {
+                    return -1
+                }
+            })
+        })
+        drugRC.sort((a, b) => {
+            if (a.name < b.name) {
+                return -1;
+            }
+        });
+
+        const newDrug = [];
+        drugRC.forEach((el, index) => {
+            let _temp = el.name;
+            let newlist = {
+                name: el.name,
+                checked: el.checked,
+                list: [
+                    {
+                        skillLv: 0,
+                        formula: []
+                    }
+                ],
+                sp: []
+            }
+            let _makelist = []
+            // console.log(newlist);
+        });
+
+        const transformedData = [];
+
+        drugRC.forEach(item => {
+            const existingItem = transformedData.find(transformedItem => transformedItem.name === item.name);
+            const formula = { skillLv: item.skillLv, formula: item.list };
+            if (!existingItem) {
+                transformedData.push({
+                    name: item.name,
+                    checked: false,
+                    list: [formula],
+                    sp: item.sp
+                });
+            } else {
+                existingItem.list.push(formula);
+            }
+        });
+
+        console.log(transformedData);
+
+
+        /*
         const newWeap = [];
         const newAcc = [];
         const newShieldECP = [];
@@ -112,7 +171,6 @@
             el.item6 ? newItem.list.push(el.item6) : ''
             newScceECP.push(newItem);
         })
-        // console.log(decorRC);
 
         // decorRC[0].list[index]; 盾
         // decorRC[1].list[index]; 頭
@@ -259,6 +317,8 @@
             })
             newWeap.push(newCat);
         });
+*/
+
     </script>
 </body>
 

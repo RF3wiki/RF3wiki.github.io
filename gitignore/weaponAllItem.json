@@ -1,8 +1,363 @@
 [
     {
+        "category": "農具",
+        "tab": "farmtoolsTab",
+        "active": true,
+        "list": [
+            {
+                "category": "錘子",
+                "tab": "hammer",
+                "active": true,
+                "list": [
+                    {
+                        "name": "破錘子",
+                        "checked": false,
+                        "skillLv": "5",
+                        "item": [
+                            "鐵屑",
+                            "鐵屑",
+                            "鐵",
+                            "鐵",
+                            "鐵"
+                        ]
+                    },
+                    {
+                        "name": "青銅錘",
+                        "checked": false,
+                        "skillLv": "15",
+                        "item": [
+                            "破錘子",
+                            "銅",
+                            "銅",
+                            "銅"
+                        ]
+                    },
+                    {
+                        "name": "銀錘子",
+                        "checked": false,
+                        "skillLv": "30",
+                        "item": [
+                            "青銅錘",
+                            "銀",
+                            "銀",
+                            "銀"
+                        ]
+                    },
+                    {
+                        "name": "金錘子",
+                        "checked": false,
+                        "skillLv": "60",
+                        "item": [
+                            "銀錘子",
+                            "金",
+                            "金",
+                            "金",
+                            "金"
+                        ]
+                    },
+                    {
+                        "name": "白金錘子",
+                        "checked": false,
+                        "skillLv": "80",
+                        "item": [
+                            "金錘子",
+                            "白金",
+                            "白金",
+                            "白金",
+                            "白金",
+                            "白金"
+                        ]
+                    }
+                ]
+            },
+            {
+                "category": "斧頭",
+                "tab": "axe",
+                "list": [
+                    {
+                        "name": "破斧",
+                        "checked": false,
+                        "skillLv": "5",
+                        "item": [
+                            "鐵屑",
+                            "鐵屑",
+                            "鐵",
+                            "鐵"
+                        ]
+                    },
+                    {
+                        "name": "砍柴用斧 (まき割りのオノ)",
+                        "checked": false,
+                        "skillLv": "15",
+                        "item": [
+                            "破斧",
+                            "銅",
+                            "銅"
+                        ]
+                    },
+                    {
+                        "name": "砍伐的斧子",
+                        "checked": false,
+                        "skillLv": "30",
+                        "item": [
+                            "砍柴用斧",
+                            "銀",
+                            "銀"
+                        ]
+                    },
+                    {
+                        "name": "守山的斧子",
+                        "checked": false,
+                        "skillLv": "60",
+                        "item": [
+                            "砍樹之斧",
+                            "金",
+                            "金",
+                            "金"
+                        ]
+                    },
+                    {
+                        "name": "奇蹟的斧子",
+                        "checked": false,
+                        "skillLv": "80",
+                        "item": [
+                            "守山之斧",
+                            "白金",
+                            "白金",
+                            "白金",
+                            "白金"
+                        ]
+                    }
+                ]
+            },
+            {
+                "category": "鐮刀",
+                "tab": "sickle",
+                "list": [
+                    {
+                        "name": "破鐮刀",
+                        "checked": false,
+                        "skillLv": "5",
+                        "item": [
+                            "鐵屑",
+                            "鐵屑",
+                            "鐵"
+                        ]
+                    },
+                    {
+                        "name": "鐵鐮刀",
+                        "checked": false,
+                        "skillLv": "15",
+                        "item": [
+                            "破鐮刀",
+                            "銅"
+                        ]
+                    },
+                    {
+                        "name": "商品的鐮刀",
+                        "checked": false,
+                        "skillLv": "30",
+                        "item": [
+                            "鐵鐮刀",
+                            "銀"
+                        ]
+                    },
+                    {
+                        "name": "鋒利的鐮刀",
+                        "checked": false,
+                        "skillLv": "60",
+                        "item": [
+                            "商品鐮刀",
+                            "金",
+                            "金"
+                        ]
+                    },
+                    {
+                        "name": "名匠的鐮刀",
+                        "checked": false,
+                        "skillLv": "80",
+                        "item": [
+                            "鋒利的鐮刀",
+                            "白金",
+                            "白金"
+                        ]
+                    }
+                ]
+            },
+            {
+                "category": "灑水壺",
+                "tab": "wateringcan",
+                "list": [
+                    {
+                        "name": "破爛的灑水壺",
+                        "checked": false,
+                        "skillLv": "5",
+                        "item": [
+                            "鐵屑",
+                            "鐵"
+                        ]
+                    },
+                    {
+                        "name": "馬口鐵澆水器",
+                        "checked": false,
+                        "skillLv": "15",
+                        "item": [
+                            "破灑水壺",
+                            "銅",
+                            "銅"
+                        ]
+                    },
+                    {
+                        "name": "獅子灑水壺",
+                        "checked": false,
+                        "skillLv": "30",
+                        "item": [
+                            "馬口鐵澆水器",
+                            "銀",
+                            "銀"
+                        ]
+                    },
+                    {
+                        "name": "彩虹灑水壺",
+                        "checked": false,
+                        "skillLv": "60",
+                        "item": [
+                            "獅子灑水壺",
+                            "金",
+                            "金"
+                        ]
+                    },
+                    {
+                        "name": "幸福灑水壺",
+                        "checked": false,
+                        "skillLv": "80",
+                        "item": [
+                            "彩虹灑水壺",
+                            "白金",
+                            "白金"
+                        ]
+                    }
+                ]
+            },
+            {
+                "category": "鋤頭",
+                "tab": "hoe",
+                "list": [
+                    {
+                        "name": "破爛的鋤頭",
+                        "checked": false,
+                        "skillLv": "5",
+                        "item": [
+                            "鐵屑",
+                            "鐵",
+                            "鐵"
+                        ]
+                    },
+                    {
+                        "name": "結實的鋤頭",
+                        "checked": false,
+                        "skillLv": "15",
+                        "item": [
+                            "破鋤頭",
+                            "銅",
+                            "銅"
+                        ]
+                    },
+                    {
+                        "name": "熟練的鋤頭",
+                        "checked": false,
+                        "skillLv": "30",
+                        "item": [
+                            "結實的鋤頭",
+                            "銀",
+                            "銀"
+                        ]
+                    },
+                    {
+                        "name": "光輝的鋤頭",
+                        "checked": false,
+                        "skillLv": "60",
+                        "item": [
+                            "熟練的鋤頭",
+                            "金",
+                            "金",
+                            "金"
+                        ]
+                    },
+                    {
+                        "name": "喜悅的鋤頭",
+                        "checked": false,
+                        "skillLv": "80",
+                        "item": [
+                            "光輝的鋤頭",
+                            "白金",
+                            "白金",
+                            "白金",
+                            "白金"
+                        ]
+                    }
+                ]
+            },
+            {
+                "category": "釣竿",
+                "tab": "fishingrod",
+                "list": [
+                    {
+                        "name": "破釣竿",
+                        "checked": false,
+                        "skillLv": "5",
+                        "item": [
+                            "木材",
+                            "結實的蜘蛛絲"
+                        ]
+                    },
+                    {
+                        "name": "初學者的釣竿",
+                        "checked": false,
+                        "skillLv": "15",
+                        "item": [
+                            "破釣竿",
+                            "漂亮的蜘蛛絲"
+                        ]
+                    },
+                    {
+                        "name": "中級者的釣竿",
+                        "checked": false,
+                        "skillLv": "30",
+                        "item": [
+                            "初學者的釣竿",
+                            "海盜哥布林的布"
+                        ]
+                    },
+                    {
+                        "name": "名人的釣竿",
+                        "checked": false,
+                        "skillLv": "60",
+                        "item": [
+                            "中級者釣竿",
+                            "龜殼",
+                            "龜殼"
+                        ]
+                    },
+                    {
+                        "name": "御神木的釣竿",
+                        "checked": false,
+                        "skillLv": "80",
+                        "item": [
+                            "名人釣竿",
+                            "古代魚之骨",
+                            "古代魚之骨",
+                            "古代魚之骨"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "category": "單手劍(片手剣)",
         "tab": "sword",
-        "active": true,
+        "active": false,
         "list": [
             {
                 "name": "闊劍 (ブロードソード)",

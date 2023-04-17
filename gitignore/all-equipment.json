@@ -1,1473 +1,361 @@
 [
     {
-        "id": "作物類(共計128種)",
-        "tab": "cropItem",
-        "active": true,
-        "data": [
-            {
-                "category": "特效種子 (20種)",
-                "tab": "effectSeedTab",
-                "active": true,
-                "list": [
-                    {
-                        "name": "すねたソラマメの種 (歪曲的蠶豆種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "マジックソラマメの種 (魔法蠶豆種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "腐ったバナナの種 (腐爛的香蕉種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "スッテンバナナの種 (香蕉皮種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "折れたハスの種 (破掉的蓮葉種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ハスライダーの種 (蓮葉種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "枯れた水場草の種 (枯掉的水廠草種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "水場草の種 (水廠草種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "枯れたサボテンの種 (枯掉的仙人掌種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "はにわサボテンの種 (土陶仙人掌種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "壊れたメロンの種 (壞掉的蜜瓜種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "爆弾メロンの種 (蜜瓜炸彈種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ダメジャックの種 (無力南瓜燈種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ジャックの種 (南瓜燈種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "止まった追風草の種 (停下的追風草種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "追風草の種 (追風草種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "やわい鋼身花の種 (癱軟的鋼身花種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "鋼身花の種 (鋼身花種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "しぼんだ剣草の種 (枯萎的劍草種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "剣草の種 (劍草種子)",
-                        "checked": false
-                    }
-                ]
-            },
-            {
-                "category": "種子 (43種)",
-                "tab": "seedTab",
-                "active": false,
-                "list": [
-                    {
-                        "name": "ほかほかの種 (火熱種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "オトメロンの種 (少女甜瓜種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "金のカブの種 (金蕪菁種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "金のジャガイモの種 (金馬鈴薯種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "金のカボチャの種 (金南瓜種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "金高麗菜種子",
-                        "checked": false
-                    },
-                    {
-                        "name": "白菜の種 (白菜種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ネギの種 (大蔥種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "大根の種 (蘿蔔種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "サクラカブの種 (櫻蕪菁種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "白水晶の種 (白水晶種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "赤水晶の種 (赤水晶種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "タンポイズンの種 (劇毒蒲公英種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "花紅葉の種 (花紅葉種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ツリー草の種 (樹形草種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "緑水晶の種 (綠水晶種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "野之花火の種 (原之焰火種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "クローバーの種 (三葉草種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "鉄千輪の種 (鐵千輪種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "金剛花の種 (金剛花種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "青水晶の種 (藍水晶種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ランプ草の種 (燈草種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "サクラ草の種 (櫻草種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "牧草の種 (牧草種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "チャームブルーの種 (魅藍草種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ピーマンの種 (青椒種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ホウレン草の種 (菠菜種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "サツマイモの種 (蕃薯種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ニンジンの種 (胡蘿蔔種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ナスの種 (茄子種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ピンクキャットの種 (粉紅貓種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "パイナップルの種 (鳳梨種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "カボチャの種 (南瓜種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "タマネギの種 (洋蔥種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "トウモロコシの種 (玉米種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "トマトの種 (番茄種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "トイハーブの種 (托伊藥草種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ムーンドロップの種 (月落草種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "高麗菜種子",
-                        "checked": false
-                    },
-                    {
-                        "name": "イチゴの種 (草莓種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "キュウリの種 (黃瓜種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ジャガイモの種 (馬鈴薯種子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "カブの種 (蕪菁種子)",
-                        "checked": false
-                    }
-                ]
-            },
-            {
-                "category": "草花 (30種)",
-                "tab": "grassflowerTab",
-                "active": false,
-                "list": [
-                    {
-                        "name": "白水晶 (白水晶)",
-                        "checked": false
-                    },
-                    {
-                        "name": "赤水晶 (赤水晶)",
-                        "checked": false
-                    },
-                    {
-                        "name": "タンポイズン (劇毒蒲公英)",
-                        "checked": false
-                    },
-                    {
-                        "name": "花紅葉 (花紅葉)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ツリー草 (樹形草)",
-                        "checked": false
-                    },
-                    {
-                        "name": "緑水晶 (綠水晶)",
-                        "checked": false
-                    },
-                    {
-                        "name": "野之花火 (原之焰火)",
-                        "checked": false
-                    },
-                    {
-                        "name": "四つ葉のクローバー (四葉三葉草)",
-                        "checked": false
-                    },
-                    {
-                        "name": "鉄千輪 (鐵千輪)",
-                        "checked": false
-                    },
-                    {
-                        "name": "金剛花 (金剛花)",
-                        "checked": false
-                    },
-                    {
-                        "name": "青水晶 (青水晶)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ランプ草 (燈草)",
-                        "checked": false
-                    },
-                    {
-                        "name": "サクラ草 (櫻草)",
-                        "checked": false
-                    },
-                    {
-                        "name": "枯草",
-                        "checked": false
-                    },
-                    {
-                        "name": "雜草",
-                        "checked": false
-                    },
-                    {
-                        "name": "白い草 (白草)",
-                        "checked": false
-                    },
-                    {
-                        "name": "藍の草 (藍草)",
-                        "checked": false
-                    },
-                    {
-                        "name": "紫の草 (紫草)",
-                        "checked": false
-                    },
-                    {
-                        "name": "緑の草 (綠草)",
-                        "checked": false
-                    },
-                    {
-                        "name": "青い草 (青草)",
-                        "checked": false
-                    },
-                    {
-                        "name": "黃草",
-                        "checked": false
-                    },
-                    {
-                        "name": "紅草",
-                        "checked": false
-                    },
-                    {
-                        "name": "苦橙草",
-                        "checked": false
-                    },
-                    {
-                        "name": "黑草",
-                        "checked": false
-                    },
-                    {
-                        "name": "解毒草",
-                        "checked": false
-                    },
-                    {
-                        "name": "藥草",
-                        "checked": false
-                    },
-                    {
-                        "name": "チャームブルー (魅藍草)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ピンクキャット (粉紅貓)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ムーンドロップ (月落草)",
-                        "checked": false
-                    },
-                    {
-                        "name": "托伊藥草",
-                        "checked": false
-                    }
-                ]
-            },
-            {
-                "category": "水果 (5種)",
-                "tab": "fruitTab",
-                "active": false,
-                "list": [
-                    {
-                        "name": "オレンジ (橘子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "リンゴ (蘋果)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ブドウ (葡萄)",
-                        "checked": false
-                    },
-                    {
-                        "name": "パイナップル (鳳梨)",
-                        "checked": false
-                    },
-                    {
-                        "name": "イチゴ (草莓)",
-                        "checked": false
-                    }
-                ]
-            },
-            {
-                "category": "蔬菜 (30種)",
-                "tab": "vegetableTab",
-                "active": false,
-                "list": [
-                    {
-                        "name": "きのこ (蘑菇)",
-                        "checked": false
-                    },
-                    {
-                        "name": "きのこ (蘑菇)",
-                        "checked": false
-                    },
-                    {
-                        "name": "きのこ (蘑菇)",
-                        "checked": false
-                    },
-                    {
-                        "name": "きのこ (蘑菇)",
-                        "checked": false
-                    },
-                    {
-                        "name": "きのこ (蘑菇)",
-                        "checked": false
-                    },
-                    {
-                        "name": "きのこ (蘑菇)",
-                        "checked": false
-                    },
-                    {
-                        "name": "金のカブ (金蕪菁)",
-                        "checked": false
-                    },
-                    {
-                        "name": "金のジャガイモ (金馬鈴薯)",
-                        "checked": false
-                    },
-                    {
-                        "name": "金のカボチャ (金南瓜)",
-                        "checked": false
-                    },
-                    {
-                        "name": "金高麗菜",
-                        "checked": false
-                    },
-                    {
-                        "name": "タケノコ (竹筍)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ほかほかの実 (火熱果實)",
-                        "checked": false
-                    },
-                    {
-                        "name": "白菜 (白菜)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ネギ (大蔥)",
-                        "checked": false
-                    },
-                    {
-                        "name": "大根 (蘿蔔)",
-                        "checked": false
-                    },
-                    {
-                        "name": "カブ (蕪菁)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ホウレン草 (菠菜)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ピーマン (青椒)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ニンジン (胡蘿蔔)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ジャガイモ (馬鈴薯)",
-                        "checked": false
-                    },
-                    {
-                        "name": "サツマイモ (蕃薯)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ナス (茄子)",
-                        "checked": false
-                    },
-                    {
-                        "name": "トマト (番茄)",
-                        "checked": false
-                    },
-                    {
-                        "name": "トウモロコシ (玉米)",
-                        "checked": false
-                    },
-                    {
-                        "name": "キュウリ (黃瓜)",
-                        "checked": false
-                    },
-                    {
-                        "name": "カボチャ (南瓜)",
-                        "checked": false
-                    },
-                    {
-                        "name": "タマネギ (洋蔥)",
-                        "checked": false
-                    },
-                    {
-                        "name": "オトメロン (少女甜瓜)",
-                        "checked": false
-                    },
-                    {
-                        "name": "サクラカブ (櫻蕪菁)",
-                        "checked": false
-                    },
-                    {
-                        "name": "高麗菜",
-                        "checked": false
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "藥品類(共計24種)",
-        "tab": "drugItem",
-        "active": false,
-        "data": [
-            {
-                "category": "秘藥 (5種)",
-                "tab": "elixirTab",
-                "active": true,
-                "list": [
-                    {
-                        "name": "はげしくノビール (強烈肥料)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "42",
-                                "formula": [
-                                    "黃草",
-                                    "黃草",
-                                    "紅草",
-                                    "紅草"
-                                ]
-                            },
-                            {
-                                "skillLv": "52",
-                                "formula": [
-                                    "櫻草"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "加快作物成長速度"
-                        ]
-                    },
-                    {
-                        "name": "すばやくノビール (快速肥料)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "28",
-                                "formula": [
-                                    "青草",
-                                    "青草",
-                                    "紅草",
-                                    "紅草"
-                                ]
-                            },
-                            {
-                                "skillLv": "36",
-                                "formula": [
-                                    "魅藍草"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "加快作物成長速度"
-                        ]
-                    },
-                    {
-                        "name": "よくノビール (好肥料)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "11",
-                                "formula": [
-                                    "綠草",
-                                    "綠草",
-                                    "紅草",
-                                    "紅草"
-                                ]
-                            },
-                            {
-                                "skillLv": "22",
-                                "formula": [
-                                    "月淚草"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "加快作物成長速度"
-                        ]
-                    },
-                    {
-                        "name": "ぐんぐんグリーン (進化之綠)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "30",
-                                "formula": [
-                                    "結實的藤",
-                                    "結實的藤",
-                                    "古代魚之骨",
-                                    "地之結晶"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "提升作物等級"
-                        ]
-                    },
-                    {
-                        "name": "中和剤 (中和劑)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "17",
-                                "formula": [
-                                    "魅藍草",
-                                    "解毒草"
-                                ]
-                            },
-                            {
-                                "skillLv": "29",
-                                "formula": [
-                                    "解毒草",
-                                    "解毒草",
-                                    "解毒草"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "田地凈化毒沼"
-                        ]
-                    }
-                ]
-            },
-            {
-                "category": "回復瓶 (3種)",
-                "tab": "replybottleTab",
-                "active": false,
-                "list": [
-                    {
-                        "name": "回復のポット (回復瓶)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "4",
-                                "formula": [
-                                    "藥草",
-                                    "藥草"
-                                ]
-                            },
-                            {
-                                "skillLv": "14",
-                                "formula": [
-                                    "托伊藥草"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "HP+500"
-                        ]
-                    },
-                    {
-                        "name": "いやしのポット (治療瓶)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "20",
-                                "formula": [
-                                    "藥草",
-                                    "藥草",
-                                    "藥草"
-                                ]
-                            },
-                            {
-                                "skillLv": "40",
-                                "formula": [
-                                    "樹形草"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "HP+1000"
-                        ]
-                    },
-                    {
-                        "name": "神秘のポット (神秘瓶)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "40",
-                                "formula": [
-                                    "藥草",
-                                    "藥草",
-                                    "青草",
-                                    "青草"
-                                ]
-                            },
-                            {
-                                "skillLv": "60",
-                                "formula": [
-                                    "鐵千輪"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "HP+2000"
-                        ]
-                    }
-                ]
-            },
-            {
-                "category": "藥 (16種)",
-                "tab": "medicineTab",
-                "active": false,
-                "list": [
-                    {
-                        "name": "スイートパウダー (甘甜粉)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "9",
-                                "formula": [
-                                    "蘋果",
-                                    "蘋果"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "智力+4"
-                        ]
-                    },
-                    {
-                        "name": "ザ･プロテイン (蛋白質)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "43",
-                                "formula": [
-                                    "赤水晶",
-                                    "貍貓樹葉",
-                                    "結實的藤",
-                                    "魔法師之粉",
-                                    "菠菜"
-                                ]
-                            },
-                            {
-                                "skillLv": "57",
-                                "formula": [
-                                    "赤水晶"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "力量最大值+1"
-                        ]
-                    },
-                    {
-                        "name": "ハートドリンク (心靈飲料)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "41",
-                                "formula": [
-                                    "綠水晶",
-                                    "龍骨",
-                                    "結實的藤",
-                                    "魔法師之粉",
-                                    "鐵千輪"
-                                ]
-                            },
-                            {
-                                "skillLv": "55",
-                                "formula": [
-                                    "綠水晶"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "HP最大值+10"
-                        ]
-                    },
-                    {
-                        "name": "ラブ飲みドリンク (愛情飲料)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "52",
-                                "formula": [
-                                    "少女甜瓜",
-                                    "少女甜瓜",
-                                    "草莓",
-                                    "葡萄酒",
-                                    "蜂蜜",
-                                    "魔法師之粉"
-                                ]
-                            },
-                            {
-                                "skillLv": "73",
-                                "formula": [
-                                    "金剛花"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "送禮提升對方好感度",
-                            "RP回復+50%"
-                        ]
-                    },
-                    {
-                        "name": "カゼグスリ (感冒藥)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "21",
-                                "formula": [
-                                    "大蔥",
-                                    "青椒",
-                                    "綠草",
-                                    "苦橙草"
-                                ]
-                            },
-                            {
-                                "skillLv": "27",
-                                "formula": [
-                                    "原之焰火"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "感冒狀態解除",
-                            "HP+1000"
-                        ]
-                    },
-                    {
-                        "name": "智力のサプリメント (智力補品)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "45",
-                                "formula": [
-                                    "白水晶",
-                                    "冰壁碎片",
-                                    "結實的藤",
-                                    "魔法師之粉",
-                                    "茄子"
-                                ]
-                            },
-                            {
-                                "skillLv": "59",
-                                "formula": [
-                                    "白水晶"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "智力最大值+1"
-                        ]
-                    },
-                    {
-                        "name": "神ミックスハーブ (混合香料)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "35",
-                                "formula": [
-                                    "月淚草",
-                                    "托伊藥草",
-                                    "粉紅貓",
-                                    "魅藍草"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "RP上限+25%"
-                        ]
-                    },
-                    {
-                        "name": "無敵の秘薬 (無敵秘藥)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "61",
-                                "formula": [
-                                    "營養水",
-                                    "花紅葉",
-                                    "南瓜",
-                                    "金南瓜"
-                                ]
-                            },
-                            {
-                                "skillLv": "82",
-                                "formula": [
-                                    "營養水",
-                                    "花紅葉"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "解除所有異常狀態",
-                            "HP回復+100%",
-                            "RP回復+100%",
-                            "HP上限+25%",
-                            "RP上限+25%",
-                            "力量+10%",
-                            "體力+25%",
-                            "智力+10%"
-                        ]
-                    },
-                    {
-                        "name": "バイタルグミ (生命果凍)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "48",
-                                "formula": [
-                                    "青水晶",
-                                    "獅子的紅毛",
-                                    "獅子的藍毛",
-                                    "結實的藤",
-                                    "魔法師之粉"
-                                ]
-                            },
-                            {
-                                "skillLv": "62",
-                                "formula": [
-                                    "青水晶"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "體力最大值+1"
-                        ]
-                    },
-                    {
-                        "name": "トロピカルーン (符文秘藥)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "91",
-                                "formula": [
-                                    "四葉草",
-                                    "四葉草",
-                                    "四葉草",
-                                    "原之焰火",
-                                    "原之焰火",
-                                    "美乃滋"
-                                ]
-                            },
-                            {
-                                "skillLv": "98",
-                                "formula": [
-                                    "四葉草"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "等級+1"
-                        ]
-                    },
-                    {
-                        "name": "ペラペラ丸 (解封丸)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "16",
-                                "formula": [
-                                    "紫草",
-                                    "青草"
-                                ]
-                            },
-                            {
-                                "skillLv": "76",
-                                "formula": [
-                                    "燈草"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "封印狀態解除",
-                            "HP+500"
-                        ]
-                    },
-                    {
-                        "name": "サッパリポイズン (解毒藥)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "8",
-                                "formula": [
-                                    "解毒草",
-                                    "解毒草"
-                                ]
-                            },
-                            {
-                                "skillLv": "82",
-                                "formula": [
-                                    "劇毒蒲公英"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "毒狀態解除",
-                            "HP+300"
-                        ]
-                    },
-                    {
-                        "name": "超栄水 (超營養水)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "46",
-                                "formula": [
-                                    "燈草",
-                                    "重口味調料",
-                                    "酸奶",
-                                    "奶酪",
-                                    "惡魔之血",
-                                    "咖喱粉"
-                                ]
-                            },
-                            {
-                                "skillLv": "66",
-                                "formula": [
-                                    "花紅葉"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "全部狀態異常解除",
-                            "RP回復+75%",
-                            "HP上限-90%",
-                            "力量+50",
-                            "體力+50",
-                            "智力+50"
-                        ]
-                    },
-                    {
-                        "name": "サワードロップ (酸味料)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "15",
-                                "formula": [
-                                    "橘子",
-                                    "黃草"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "體力+4"
-                        ]
-                    },
-                    {
-                        "name": "ヘビースパイス (重口味調料)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "12",
-                                "formula": [
-                                    "紅草",
-                                    "紅草"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "力量+4"
-                        ]
-                    },
-                    {
-                        "name": "マヒロン (麻痹藥)",
-                        "checked": false,
-                        "list": [
-                            {
-                                "skillLv": "14",
-                                "formula": [
-                                    "黃草",
-                                    "黃草"
-                                ]
-                            },
-                            {
-                                "skillLv": "31",
-                                "formula": [
-                                    "粉紅貓"
-                                ]
-                            }
-                        ],
-                        "sp": [
-                            "麻痹狀態解除",
-                            "HP+500"
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "id": "裝備品類(共計274種)",
+        "id": "裝備品類",
         "tab": "equipItem",
         "active": false,
         "data": [
             {
-                "category": "農具 (32種)",
-                "tab": "farmtoolsTab",
+                "category": "農具",
+                "tab": "farmToolsTab",
                 "active": true,
                 "list": [
                     {
-                        "name": "破爛的鋤頭",
-                        "checked": false,
-                        "skillLv": "5",
-                        "item": [
-                            "鐵屑",
-                            "鐵",
-                            "鐵"
+                        "category": "錘子",
+                        "tab": "hammer",
+                        "active": true,
+                        "list": [
+                            {
+                                "name": "破錘子",
+                                "checked": false,
+                                "skillLv": "5",
+                                "item": [
+                                    "鐵屑",
+                                    "鐵屑",
+                                    "鐵",
+                                    "鐵",
+                                    "鐵"
+                                ]
+                            },
+                            {
+                                "name": "青銅錘",
+                                "checked": false,
+                                "skillLv": "15",
+                                "item": [
+                                    "破錘子",
+                                    "銅",
+                                    "銅",
+                                    "銅"
+                                ]
+                            },
+                            {
+                                "name": "銀錘子",
+                                "checked": false,
+                                "skillLv": "30",
+                                "item": [
+                                    "青銅錘",
+                                    "銀",
+                                    "銀",
+                                    "銀"
+                                ]
+                            },
+                            {
+                                "name": "金錘子",
+                                "checked": false,
+                                "skillLv": "60",
+                                "item": [
+                                    "銀錘子",
+                                    "金",
+                                    "金",
+                                    "金",
+                                    "金"
+                                ]
+                            },
+                            {
+                                "name": "白金錘子",
+                                "checked": false,
+                                "skillLv": "80",
+                                "item": [
+                                    "金錘子",
+                                    "白金",
+                                    "白金",
+                                    "白金",
+                                    "白金",
+                                    "白金"
+                                ]
+                            }
                         ]
                     },
                     {
-                        "name": "結實的鋤頭",
-                        "checked": false,
-                        "skillLv": "15",
-                        "item": [
-                            "破鋤頭",
-                            "銅",
-                            "銅"
+                        "category": "斧頭",
+                        "tab": "axe",
+                        "list": [
+                            {
+                                "name": "破斧",
+                                "checked": false,
+                                "skillLv": "5",
+                                "item": [
+                                    "鐵屑",
+                                    "鐵屑",
+                                    "鐵",
+                                    "鐵"
+                                ]
+                            },
+                            {
+                                "name": "砍柴用斧 (まき割りのオノ)",
+                                "checked": false,
+                                "skillLv": "15",
+                                "item": [
+                                    "破斧",
+                                    "銅",
+                                    "銅"
+                                ]
+                            },
+                            {
+                                "name": "砍伐的斧子",
+                                "checked": false,
+                                "skillLv": "30",
+                                "item": [
+                                    "砍柴用斧",
+                                    "銀",
+                                    "銀"
+                                ]
+                            },
+                            {
+                                "name": "守山的斧子",
+                                "checked": false,
+                                "skillLv": "60",
+                                "item": [
+                                    "砍樹之斧",
+                                    "金",
+                                    "金",
+                                    "金"
+                                ]
+                            },
+                            {
+                                "name": "奇蹟的斧子",
+                                "checked": false,
+                                "skillLv": "80",
+                                "item": [
+                                    "守山之斧",
+                                    "白金",
+                                    "白金",
+                                    "白金",
+                                    "白金"
+                                ]
+                            }
                         ]
                     },
                     {
-                        "name": "熟練的鋤頭",
-                        "checked": false,
-                        "skillLv": "30",
-                        "item": [
-                            "結實的鋤頭",
-                            "銀",
-                            "銀"
+                        "category": "鐮刀",
+                        "tab": "sickle",
+                        "list": [
+                            {
+                                "name": "破鐮刀",
+                                "checked": false,
+                                "skillLv": "5",
+                                "item": [
+                                    "鐵屑",
+                                    "鐵屑",
+                                    "鐵"
+                                ]
+                            },
+                            {
+                                "name": "鐵鐮刀",
+                                "checked": false,
+                                "skillLv": "15",
+                                "item": [
+                                    "破鐮刀",
+                                    "銅"
+                                ]
+                            },
+                            {
+                                "name": "商品的鐮刀",
+                                "checked": false,
+                                "skillLv": "30",
+                                "item": [
+                                    "鐵鐮刀",
+                                    "銀"
+                                ]
+                            },
+                            {
+                                "name": "鋒利的鐮刀",
+                                "checked": false,
+                                "skillLv": "60",
+                                "item": [
+                                    "商品鐮刀",
+                                    "金",
+                                    "金"
+                                ]
+                            },
+                            {
+                                "name": "名匠的鐮刀",
+                                "checked": false,
+                                "skillLv": "80",
+                                "item": [
+                                    "鋒利的鐮刀",
+                                    "白金",
+                                    "白金"
+                                ]
+                            }
                         ]
                     },
                     {
-                        "name": "光輝的鋤頭",
-                        "checked": false,
-                        "skillLv": "60",
-                        "item": [
-                            "熟練的鋤頭",
-                            "金",
-                            "金",
-                            "金"
+                        "category": "灑水壺",
+                        "tab": "wateringcan",
+                        "list": [
+                            {
+                                "name": "破爛的灑水壺",
+                                "checked": false,
+                                "skillLv": "5",
+                                "item": [
+                                    "鐵屑",
+                                    "鐵"
+                                ]
+                            },
+                            {
+                                "name": "馬口鐵澆水器",
+                                "checked": false,
+                                "skillLv": "15",
+                                "item": [
+                                    "破灑水壺",
+                                    "銅",
+                                    "銅"
+                                ]
+                            },
+                            {
+                                "name": "獅子灑水壺",
+                                "checked": false,
+                                "skillLv": "30",
+                                "item": [
+                                    "馬口鐵澆水器",
+                                    "銀",
+                                    "銀"
+                                ]
+                            },
+                            {
+                                "name": "彩虹灑水壺",
+                                "checked": false,
+                                "skillLv": "60",
+                                "item": [
+                                    "獅子灑水壺",
+                                    "金",
+                                    "金"
+                                ]
+                            },
+                            {
+                                "name": "幸福灑水壺",
+                                "checked": false,
+                                "skillLv": "80",
+                                "item": [
+                                    "彩虹灑水壺",
+                                    "白金",
+                                    "白金"
+                                ]
+                            }
                         ]
                     },
                     {
-                        "name": "喜悅的鋤頭",
-                        "checked": false,
-                        "skillLv": "80",
-                        "item": [
-                            "光輝的鋤頭",
-                            "白金",
-                            "白金",
-                            "白金",
-                            "白金"
+                        "category": "鋤頭",
+                        "tab": "hoe",
+                        "list": [
+                            {
+                                "name": "破爛的鋤頭",
+                                "checked": false,
+                                "skillLv": "5",
+                                "item": [
+                                    "鐵屑",
+                                    "鐵",
+                                    "鐵"
+                                ]
+                            },
+                            {
+                                "name": "結實的鋤頭",
+                                "checked": false,
+                                "skillLv": "15",
+                                "item": [
+                                    "破鋤頭",
+                                    "銅",
+                                    "銅"
+                                ]
+                            },
+                            {
+                                "name": "熟練的鋤頭",
+                                "checked": false,
+                                "skillLv": "30",
+                                "item": [
+                                    "結實的鋤頭",
+                                    "銀",
+                                    "銀"
+                                ]
+                            },
+                            {
+                                "name": "光輝的鋤頭",
+                                "checked": false,
+                                "skillLv": "60",
+                                "item": [
+                                    "熟練的鋤頭",
+                                    "金",
+                                    "金",
+                                    "金"
+                                ]
+                            },
+                            {
+                                "name": "喜悅的鋤頭",
+                                "checked": false,
+                                "skillLv": "80",
+                                "item": [
+                                    "光輝的鋤頭",
+                                    "白金",
+                                    "白金",
+                                    "白金",
+                                    "白金"
+                                ]
+                            }
                         ]
                     },
                     {
-                        "name": "破錘子",
-                        "checked": false,
-                        "skillLv": "5",
-                        "item": [
-                            "鐵屑",
-                            "鐵屑",
-                            "鐵",
-                            "鐵",
-                            "鐵"
+                        "category": "釣竿",
+                        "tab": "fishingrod",
+                        "list": [
+                            {
+                                "name": "破釣竿",
+                                "checked": false,
+                                "skillLv": "5",
+                                "item": [
+                                    "木材",
+                                    "結實的蜘蛛絲"
+                                ]
+                            },
+                            {
+                                "name": "初學者的釣竿",
+                                "checked": false,
+                                "skillLv": "15",
+                                "item": [
+                                    "破釣竿",
+                                    "漂亮的蜘蛛絲"
+                                ]
+                            },
+                            {
+                                "name": "中級者的釣竿",
+                                "checked": false,
+                                "skillLv": "30",
+                                "item": [
+                                    "初學者的釣竿",
+                                    "海盜哥布林的布"
+                                ]
+                            },
+                            {
+                                "name": "名人的釣竿",
+                                "checked": false,
+                                "skillLv": "60",
+                                "item": [
+                                    "中級者釣竿",
+                                    "龜殼",
+                                    "龜殼"
+                                ]
+                            },
+                            {
+                                "name": "御神木的釣竿",
+                                "checked": false,
+                                "skillLv": "80",
+                                "item": [
+                                    "名人釣竿",
+                                    "古代魚之骨",
+                                    "古代魚之骨",
+                                    "古代魚之骨"
+                                ]
+                            }
                         ]
-                    },
-                    {
-                        "name": "青銅錘",
-                        "checked": false,
-                        "skillLv": "15",
-                        "item": [
-                            "破錘子",
-                            "銅",
-                            "銅",
-                            "銅"
-                        ]
-                    },
-                    {
-                        "name": "銀錘子",
-                        "checked": false,
-                        "skillLv": "30",
-                        "item": [
-                            "青銅錘",
-                            "銀",
-                            "銀",
-                            "銀"
-                        ]
-                    },
-                    {
-                        "name": "金錘子",
-                        "checked": false,
-                        "skillLv": "60",
-                        "item": [
-                            "銀錘子",
-                            "金",
-                            "金",
-                            "金",
-                            "金"
-                        ]
-                    },
-                    {
-                        "name": "白金錘子",
-                        "checked": false,
-                        "skillLv": "80",
-                        "item": [
-                            "金錘子",
-                            "白金",
-                            "白金",
-                            "白金",
-                            "白金",
-                            "白金"
-                        ]
-                    },
-                    {
-                        "name": "破斧",
-                        "checked": false,
-                        "skillLv": "5",
-                        "item": [
-                            "鐵屑",
-                            "鐵屑",
-                            "鐵",
-                            "鐵"
-                        ]
-                    },
-                    {
-                        "name": "砍柴用斧 (まき割りのオノ)",
-                        "checked": false,
-                        "skillLv": "15",
-                        "item": [
-                            "破斧",
-                            "銅",
-                            "銅"
-                        ]
-                    },
-                    {
-                        "name": "砍伐的斧子",
-                        "checked": false,
-                        "skillLv": "30",
-                        "item": [
-                            "砍柴用斧",
-                            "銀",
-                            "銀"
-                        ]
-                    },
-                    {
-                        "name": "守山的斧子",
-                        "checked": false,
-                        "skillLv": "60",
-                        "item": [
-                            "砍樹之斧",
-                            "金",
-                            "金",
-                            "金"
-                        ]
-                    },
-                    {
-                        "name": "奇蹟的斧子",
-                        "checked": false,
-                        "skillLv": "80",
-                        "item": [
-                            "守山之斧",
-                            "白金",
-                            "白金",
-                            "白金",
-                            "白金"
-                        ]
-                    },
-                    {
-                        "name": "破爛的灑水壺",
-                        "checked": false,
-                        "skillLv": "5",
-                        "item": [
-                            "鐵屑",
-                            "鐵"
-                        ]
-                    },
-                    {
-                        "name": "馬口鐵澆水器",
-                        "checked": false,
-                        "skillLv": "15",
-                        "item": [
-                            "破灑水壺",
-                            "銅",
-                            "銅"
-                        ]
-                    },
-                    {
-                        "name": "獅子灑水壺",
-                        "checked": false,
-                        "skillLv": "30",
-                        "item": [
-                            "馬口鐵澆水器",
-                            "銀",
-                            "銀"
-                        ]
-                    },
-                    {
-                        "name": "彩虹灑水壺",
-                        "checked": false,
-                        "skillLv": "60",
-                        "item": [
-                            "獅子灑水壺",
-                            "金",
-                            "金"
-                        ]
-                    },
-                    {
-                        "name": "幸福灑水壺",
-                        "checked": false,
-                        "skillLv": "80",
-                        "item": [
-                            "彩虹灑水壺",
-                            "白金",
-                            "白金"
-                        ]
-                    },
-                    {
-                        "name": "破鐮刀",
-                        "checked": false,
-                        "skillLv": "5",
-                        "item": [
-                            "鐵屑",
-                            "鐵屑",
-                            "鐵"
-                        ]
-                    },
-                    {
-                        "name": "鐵鐮刀",
-                        "checked": false,
-                        "skillLv": "15",
-                        "item": [
-                            "破鐮刀",
-                            "銅"
-                        ]
-                    },
-                    {
-                        "name": "商品的鐮刀",
-                        "checked": false,
-                        "skillLv": "30",
-                        "item": [
-                            "鐵鐮刀",
-                            "銀"
-                        ]
-                    },
-                    {
-                        "name": "鋒利的鐮刀",
-                        "checked": false,
-                        "skillLv": "60",
-                        "item": [
-                            "商品鐮刀",
-                            "金",
-                            "金"
-                        ]
-                    },
-                    {
-                        "name": "名匠的鐮刀",
-                        "checked": false,
-                        "skillLv": "80",
-                        "item": [
-                            "鋒利的鐮刀",
-                            "白金",
-                            "白金"
-                        ]
-                    },
-                    {
-                        "name": "破釣竿",
-                        "checked": false,
-                        "skillLv": "5",
-                        "item": [
-                            "木材",
-                            "結實的蜘蛛絲"
-                        ]
-                    },
-                    {
-                        "name": "初學者的釣竿",
-                        "checked": false,
-                        "skillLv": "15",
-                        "item": [
-                            "破釣竿",
-                            "漂亮的蜘蛛絲"
-                        ]
-                    },
-                    {
-                        "name": "中級者的釣竿",
-                        "checked": false,
-                        "skillLv": "30",
-                        "item": [
-                            "初學者的釣竿",
-                            "海盜哥布林的布"
-                        ]
-                    },
-                    {
-                        "name": "名人的釣竿",
-                        "checked": false,
-                        "skillLv": "60",
-                        "item": [
-                            "中級者釣竿",
-                            "龜殼",
-                            "龜殼"
-                        ]
-                    },
-                    {
-                        "name": "御神木的釣竿",
-                        "checked": false,
-                        "skillLv": "80",
-                        "item": [
-                            "名人釣竿",
-                            "古代魚之骨",
-                            "古代魚之骨",
-                            "古代魚之骨"
-                        ]
-                    },
-                    {
-                        "name": "毛がりバサミ (毛剪)",
-                        "checked": false
-                    },
-                    {
-                        "name": "ブラシ (刷子)",
-                        "checked": false
                     }
                 ]
             },
@@ -7477,5 +6365,35 @@
                 ]
             }
         ]
+    },
+    {
+        "id": "作物類(共計128種)",
+        "tab": "cropItem",
+        "active": true,
+        "data": []
+    },
+    {
+        "id": "藥品類(共計24種)",
+        "tab": "drugItem",
+        "active": false,
+        "data": []
+    },
+    {
+        "id": "食品類(共計186種)",
+        "tab": "foodItem",
+        "active": false,
+        "data": []
+    },
+    {
+        "id": "水產品類(共計35種)",
+        "tab": "aquaticItem",
+        "active": false,
+        "data": []
+    },
+    {
+        "id": "收集品類(共計90種)",
+        "tab": "collectionItem",
+        "active": false,
+        "data": []
     }
 ]

@@ -1,11 +1,11 @@
 [
     {
-        "id": "作物類(共計128種)",
+        "id": "作物類",
         "tab": "cropItem",
         "active": true,
         "data": [
             {
-                "category": "特效種子 (20種)",
+                "category": "特效種子",
                 "tab": "effectSeedTab",
                 "active": true,
                 "list": [
@@ -92,7 +92,7 @@
                 ]
             },
             {
-                "category": "種子 (43種)",
+                "category": "種子",
                 "tab": "seedTab",
                 "active": false,
                 "list": [
@@ -169,7 +169,7 @@
                         "checked": false
                     },
                     {
-                        "name": "鉄千輪の種 (鐵千輪種子)",
+                        "name": "鐵千輪の種 (鐵千輪種子)",
                         "checked": false
                     },
                     {
@@ -271,7 +271,7 @@
                 ]
             },
             {
-                "category": "草花 (30種)",
+                "category": "草花",
                 "tab": "grassflowerTab",
                 "active": false,
                 "list": [
@@ -308,7 +308,7 @@
                         "checked": false
                     },
                     {
-                        "name": "鉄千輪 (鐵千輪)",
+                        "name": "鐵千輪 (鐵千輪)",
                         "checked": false
                     },
                     {
@@ -398,7 +398,7 @@
                 ]
             },
             {
-                "category": "水果 (5種)",
+                "category": "水果",
                 "tab": "fruitTab",
                 "active": false,
                 "list": [
@@ -425,7 +425,7 @@
                 ]
             },
             {
-                "category": "蔬菜 (30種)",
+                "category": "蔬菜",
                 "tab": "vegetableTab",
                 "active": false,
                 "list": [
@@ -554,12 +554,12 @@
         ]
     },
     {
-        "id": "食品類(共計186種)",
+        "id": "食品類",
         "tab": "foodItem",
         "active": false,
         "data": [
             {
-                "category": "材料 (18種)",
+                "category": "材料",
                 "tab": "materialTab",
                 "active": true,
                 "list": [
@@ -638,7 +638,7 @@
                 ]
             },
             {
-                "category": "空手料理 (14種)",
+                "category": "空手料理",
                 "tab": "emptycookingTab",
                 "active": false,
                 "list": [
@@ -701,7 +701,7 @@
                 ]
             },
             {
-                "category": "蒸鍋 (11種)",
+                "category": "蒸鍋",
                 "tab": "steamerTab",
                 "active": false,
                 "list": [
@@ -752,7 +752,7 @@
                 ]
             },
             {
-                "category": "攪拌機 (17種)",
+                "category": "攪拌機",
                 "tab": "blenderTab",
                 "active": false,
                 "list": [
@@ -827,7 +827,7 @@
                 ]
             },
             {
-                "category": "烤爐 (19種)",
+                "category": "烤爐",
                 "tab": "ovenTab",
                 "active": false,
                 "list": [
@@ -910,7 +910,7 @@
                 ]
             },
             {
-                "category": "鍋子 (28種)",
+                "category": "鍋子",
                 "tab": "potTab",
                 "active": false,
                 "list": [
@@ -1029,7 +1029,7 @@
                 ]
             },
             {
-                "category": "平底煎鍋 (52種)",
+                "category": "平底煎鍋",
                 "tab": "fryingpanTab",
                 "active": false,
                 "list": [
@@ -1244,7 +1244,7 @@
                 ]
             },
             {
-                "category": "菜刀 (25種)",
+                "category": "菜刀",
                 "tab": "kitchenknifeTab",
                 "active": false,
                 "list": [
@@ -1351,7 +1351,7 @@
                 ]
             },
             {
-                "category": "失敗作 (2種)",
+                "category": "失敗作",
                 "tab": "failTab",
                 "active": false,
                 "list": [
@@ -1368,12 +1368,12 @@
         ]
     },
     {
-        "id": "水產品類(共計35種)",
+        "id": "水產品類",
         "tab": "aquaticItem",
         "active": false,
         "data": [
             {
-                "category": "垃圾 (3種)",
+                "category": "垃圾",
                 "tab": "RubbishTab",
                 "active": true,
                 "list": [
@@ -1392,7 +1392,7 @@
                 ]
             },
             {
-                "category": "魚 (32種)",
+                "category": "魚",
                 "tab": "fishTab",
                 "active": false,
                 "list": [
@@ -1529,12 +1529,12 @@
         ]
     },
     {
-        "id": "藥品類(共計24種)",
+        "id": "藥品類",
         "tab": "drugItem",
         "active": false,
         "data": [
             {
-                "category": "秘藥 (5種)",
+                "category": "秘藥",
                 "tab": "elixirTab",
                 "active": true,
                 "list": [
@@ -1655,7 +1655,7 @@
                 ]
             },
             {
-                "category": "回復瓶 (3種)",
+                "category": "回復瓶",
                 "tab": "replybottleTab",
                 "active": false,
                 "list": [
@@ -1731,7 +1731,7 @@
                 ]
             },
             {
-                "category": "藥 (16種)",
+                "category": "藥",
                 "tab": "medicineTab",
                 "active": false,
                 "list": [
@@ -2116,12 +2116,12 @@
         ]
     },
     {
-        "id": "裝備品類(共計274種)",
+        "id": "裝備品類",
         "tab": "equipItem",
         "active": false,
         "data": [
             {
-                "category": "農具 (32種)",
+                "category": "農具",
                 "tab": "farmtoolsTab",
                 "active": true,
                 "list": [
@@ -2458,7 +2458,7 @@
                         "atk": 5,
                         "matk": 0,
                         "list": [
-                            "鉄"
+                            "鐵"
                         ],
                         "skillLv": 4,
                         "sp": [],
@@ -2475,8 +2475,8 @@
                         "matk": 0,
                         "list": [
                             "闊劍 (ブロードソード)",
-                            "鉄",
-                            "鉄"
+                            "鐵",
+                            "鐵"
                         ],
                         "skillLv": 8,
                         "sp": [],
@@ -2493,8 +2493,8 @@
                         "matk": 0,
                         "list": [
                             "礦石劍 (スティールソード)",
-                            "鉄",
-                            "鉄"
+                            "鐵",
+                            "鐵"
                         ],
                         "skillLv": 12,
                         "sp": [
@@ -2570,7 +2570,7 @@
                         "matk": 0,
                         "list": [
                             "闊劍 (ブロードソード)",
-                            "鉄",
+                            "鐵",
                             "サソリのはさみ"
                         ],
                         "skillLv": 26,
@@ -2651,7 +2651,7 @@
                         "atk": 50,
                         "matk": 0,
                         "list": [
-                            "鉄",
+                            "鐵",
                             "キレイなクモ糸"
                         ],
                         "skillLv": 34,
@@ -2731,7 +2731,7 @@
                         "matk": 0,
                         "list": [
                             "闊劍 (ブロードソード)",
-                            "鉄",
+                            "鐵",
                             "金",
                             "射手の発火薬",
                             "射手の発火薬"
@@ -3146,8 +3146,8 @@
                         "atk": 6,
                         "matk": 0,
                         "list": [
-                            "鉄",
-                            "鉄"
+                            "鐵",
+                            "鐵"
                         ],
                         "skillLv": 5,
                         "sp": [],
@@ -3164,8 +3164,8 @@
                         "matk": 0,
                         "list": [
                             "ショートダガー",
-                            "鉄",
-                            "鉄"
+                            "鐵",
+                            "鐵"
                         ],
                         "skillLv": 9,
                         "sp": [],
@@ -3182,8 +3182,8 @@
                         "matk": 0,
                         "list": [
                             "スティールエッジ",
-                            "鉄",
-                            "鉄"
+                            "鐵",
+                            "鐵"
                         ],
                         "skillLv": 13,
                         "sp": [
@@ -3278,7 +3278,7 @@
                         "matk": 0,
                         "list": [
                             "ショートダガー",
-                            "鉄",
+                            "鐵",
                             "サソリのはさみ"
                         ],
                         "skillLv": 28,
@@ -3339,8 +3339,8 @@
                         "atk": 72,
                         "matk": 0,
                         "list": [
-                            "鉄",
-                            "鉄",
+                            "鐵",
+                            "鐵",
                             "キレイなクモ糸"
                         ],
                         "skillLv": 33,
@@ -3459,7 +3459,7 @@
                         "matk": 0,
                         "list": [
                             "ショートダガー",
-                            "鉄",
+                            "鐵",
                             "金",
                             "射手の発火薬",
                             "射手の発火薬"
@@ -3789,9 +3789,9 @@
                         "atk": 11,
                         "matk": 0,
                         "list": [
-                            "鉄",
-                            "鉄",
-                            "鉄"
+                            "鐵",
+                            "鐵",
+                            "鐵"
                         ],
                         "skillLv": 5,
                         "sp": [],
@@ -3808,8 +3808,8 @@
                         "matk": 0,
                         "list": [
                             "クレイモア",
-                            "鉄",
-                            "鉄"
+                            "鐵",
+                            "鐵"
                         ],
                         "skillLv": 8,
                         "sp": [],
@@ -3826,8 +3826,8 @@
                         "matk": 0,
                         "list": [
                             "ツーハンドソード",
-                            "鉄",
-                            "鉄"
+                            "鐵",
+                            "鐵"
                         ],
                         "skillLv": 15,
                         "sp": [
@@ -3846,8 +3846,8 @@
                         "matk": 0,
                         "list": [
                             "クレイモア",
-                            "鉄",
-                            "鉄",
+                            "鐵",
+                            "鐵",
                             "銅"
                         ],
                         "skillLv": 18,
@@ -3865,7 +3865,7 @@
                         "matk": 0,
                         "list": [
                             "クレイモア",
-                            "鉄",
+                            "鐵",
                             "海賊ゴブリンの布",
                             "巨人の爪"
                         ],
@@ -4995,10 +4995,10 @@
                         "atk": 10,
                         "matk": 0,
                         "list": [
-                            "鉄",
-                            "鉄",
-                            "鉄",
-                            "鉄"
+                            "鐵",
+                            "鐵",
+                            "鐵",
+                            "鐵"
                         ],
                         "skillLv": 6,
                         "sp": [],
@@ -5413,11 +5413,11 @@
                         "atk": 10,
                         "matk": 0,
                         "list": [
-                            "鉄",
-                            "鉄",
-                            "鉄",
-                            "鉄",
-                            "鉄"
+                            "鐵",
+                            "鐵",
+                            "鐵",
+                            "鐵",
+                            "鐵"
                         ],
                         "skillLv": 7,
                         "sp": [],
@@ -5452,7 +5452,7 @@
                         "matk": 0,
                         "list": [
                             "バトルハンマー",
-                            "鉄",
+                            "鐵",
                             "銅",
                             "銅"
                         ],
@@ -5471,8 +5471,8 @@
                         "matk": 0,
                         "list": [
                             "バトルハンマー",
-                            "鉄",
-                            "鉄",
+                            "鐵",
+                            "鐵",
                             "銅",
                             "銅",
                             "銅"
@@ -5492,7 +5492,7 @@
                         "matk": 0,
                         "list": [
                             "ウォーハンマー",
-                            "鉄",
+                            "鐵",
                             "銅",
                             "銅"
                         ],
@@ -5532,9 +5532,9 @@
                         "matk": 0,
                         "list": [
                             "カッキーン",
-                            "鉄",
-                            "鉄",
-                            "鉄"
+                            "鐵",
+                            "鐵",
+                            "鐵"
                         ],
                         "skillLv": 32,
                         "sp": [],
@@ -5634,7 +5634,7 @@
                         "matk": 0,
                         "list": [
                             "バトルハンマー",
-                            "鉄",
+                            "鐵",
                             "金",
                             "金",
                             "闘牛の角"
@@ -6087,7 +6087,7 @@
             {
                 "category": "盾牌",
                 "tab": "shield",
-                "active": true,
+                "active": false,
                 "list": [
                     {
                         "name": "小盾牌",
@@ -6179,7 +6179,7 @@
                         ],
                         "sell": 1120,
                         "buy": 7200,
-                        "notion": "鉄を重ね合わせて作った盾。大きくてとても頑丈でクリティカルを受けにくい。重すぎて、すぐに腕が痛くなるのが欠点。"
+                        "notion": "鐵を重ね合わせて作った盾。大きくてとても頑丈でクリティカルを受けにくい。重すぎて、すぐに腕が痛くなるのが欠点。"
                     },
                     {
                         "name": "魔法之盾",
@@ -7892,7 +7892,7 @@
                     {
                         "name": "會心之證",
                         "checked": false,
-                        "jpName": "鋼鉄の極意",
+                        "jpName": "鋼鐵の極意",
                         "skillLv": 78,
                         "list": [
                             "會心戒指",
@@ -8078,7 +8078,7 @@
                 ]
             },
             {
-                "category": "其他 (3種)",
+                "category": "其他",
                 "tab": "otherTab",
                 "active": false,
                 "list": [
@@ -8097,7 +8097,7 @@
                 ]
             },
             {
-                "category": "收集品 (87種)",
+                "category": "收集品",
                 "tab": "collectionTab",
                 "active": false,
                 "list": [
@@ -8422,11 +8422,11 @@
                         "checked": false
                     },
                     {
-                        "name": "鉄 (鐵)",
+                        "name": "鐵 (鐵)",
                         "checked": false
                     },
                     {
-                        "name": "クズ鉄 (鐵屑)",
+                        "name": "クズ鐵 (鐵屑)",
                         "checked": false
                     },
                     {

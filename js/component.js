@@ -1248,7 +1248,9 @@ Vue.component('sell-logV2', {
   data() {
     return {
       dataList: null,
-      localKey: 'sellLogData'
+      localKey: 'sellLogData',
+      weaponData: ["sword", "doublesword", "twosword","staff", "longgun", "tomahawk", "warhammer","shield","hatEquipmentTab","shoeEquipmentTab","accessoriesTab"],
+
     };
   },
   created() {
@@ -1300,10 +1302,50 @@ Vue.component('sell-logV2', {
     <div class="ts-segment" v-for="(minor, index) in main.data" :key="index" v-show="minor.active">
       <div class="ts-grid mobile-:is-stacked" style="padding:.5rem;">
         <div class="column is-4-wide" v-for="(item, index) in minor.list" :key="index">
-          <label class="ts-checkbox is-kepall">
-            <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
-            {{ item.name }}
-          </label>
+          <div class="ts-segment">
+            <label class="ts-checkbox is-kepall">
+              <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
+              {{ item.name }}
+            </label>
+            <details v-if="minor.tab == 'farmtoolsTab' " class="ts-accordion">
+              <summary>詳細資料</summary>
+              <div class="ts-text">技能等級：{{item.skillLv}}</div>
+              <div class="ts-wrap g-0">
+                <div class="ts-text">材料：</div>
+                <div class="ts-wrap is-compact">
+                  <div class="ts-chip is-outlined" v-for="it in item.item"> {{it}} </div>
+                </div>
+              </div>
+            </details>
+            <details v-if="weaponData.includes(minor.tab)" class="ts-accordion">
+              <summary>詳細資料</summary>
+              <div class="ts-text" v-show="item.jpName?true:false">{{item.jpName}}</div>
+              <div class="ts-text">技能等級：{{item.skillLv}}</div>
+              <div class="ts-text" v-show="item.attr?true:false">屬性：{{item.attr}}</div>
+              <div class="ts-text" v-show="item.atk?true:false">攻擊：{{item.atk}}</div>
+              <div class="ts-text" v-show="item.matk?true:false">魔攻：{{item.matk}}</div>
+              <div class="ts-wrap g-0">
+                <div class="ts-text">材料：</div>
+                <div class="ts-wrap is-compact">
+                  <div class="ts-chip is-outlined" v-for="it in item.list"> {{it}} </div>
+                </div>
+              </div>
+              <div class="ts-wrap g-0" v-show="item.sp?item.sp.length > 0:''">
+                <div class="ts-text">特殊能力：</div>
+                <div class="ts-wrap is-compact">
+                  <div class="ts-chip is-outlined" v-for="it in item.sp"> {{it}} </div>
+                </div>
+              </div>
+              <div class="ts-wrap g-0" v-show="item.se?item.se.length > 0:''">
+                <div class="ts-text">特殊效果：</div>
+                <div class="ts-wrap is-compact">
+                  <div class="ts-chip is-outlined" v-for="it in item.se"> {{it}} </div>
+                </div>
+              </div>
+              <div class="ts-text">買價：{{item.buy}}</div>
+              <div class="ts-text">賣價：{{item.sell}}</div>
+            </details>
+          </div>
         </div>
       </div>
     </div>

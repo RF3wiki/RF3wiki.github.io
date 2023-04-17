@@ -18,7 +18,6 @@ const RF3Wiki = new Vue({
         if (window.location.href.includes('?')) {
             let targter = window.location.href.split('?')[1].split('&');
             this.pageData = { nowPage: targter[0], isNewPage: targter[1] };
-            console.log(window.location.href.split('?')[1].split('&'));
             this.changePage(this.pageData.nowPage);
         }
         this.loadnone = 'u-hidden';

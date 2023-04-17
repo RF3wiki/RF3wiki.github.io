@@ -30,7 +30,7 @@
         const newWeap = [];
         const newAcc = [];
         const newShieldECP = [];
-        const newSetECP = [];
+        const newhetECP = [];
         const newShowECP = [];
         const newScceECP = [];
 
@@ -71,7 +71,7 @@
             el.item4 ? newItem.list.push(el.item4) : ''
             el.item5 ? newItem.list.push(el.item5) : ''
             el.item6 ? newItem.list.push(el.item6) : ''
-            newSetECP.push(newItem);
+            newhetECP.push(newItem);
         })
         showECP.forEach((el, index) => {
             let newItem = {
@@ -112,7 +112,101 @@
             el.item6 ? newItem.list.push(el.item6) : ''
             newScceECP.push(newItem);
         })
+        // console.log(decorRC);
 
+        // decorRC[0].list[index]; 盾
+        // decorRC[1].list[index]; 頭
+        // decorRC[2].list[index]; 鞋
+        // decorRC[3].list[index]; 飾
+        // decorRC[4].list[index]; 收集
+
+        const newDecorJson = [];
+        const 盾 = [];
+        const 頭 = [];
+        const 鞋 = [];
+        const 飾 = [];
+        const 收集 = [];
+        const 集合 = [];
+        newShieldECP.forEach((el, index) => {
+            let newList = {
+                name: decorRC[0].list[index].name,
+                checked: false,
+                jpName: el.name,
+                skillLv: decorRC[0].list[index].skillLv,
+                list: decorRC[0].list[index].item,
+                attr: el.attr,
+                def: el.def,
+                sp: el.sp,
+                sell: el.sell,
+                buy: el.buy,
+                notion: el.notion,
+            }
+            盾.push(newList);
+        })
+
+        newhetECP.forEach((el, index) => {
+            let newList = {
+                name: decorRC[1].list[index].name,
+                checked: false,
+                jpName: el.name,
+                skillLv: decorRC[1].list[index].skillLv,
+                list: decorRC[1].list[index].item,
+                def: el.def,
+                mdef: el.mdef,
+                sp: el.sp,
+                buy: el.buy,
+                sell: el.sell,
+            }
+            頭.push(newList);
+        })
+
+        newShowECP.forEach((el, index) => {
+            decorRC[2].list[index]
+            let newList = {
+                name: decorRC[2].list[index].name,
+                checked: false,
+                jpName: el.name,
+                skillLv: decorRC[2].list[index].skillLv,
+                list: decorRC[2].list[index].item,
+                def: el.def,
+                mdef: el.mdef,
+                buy: el.buy,
+                sell: el.sell,
+                notion: el.notion,
+            }
+            鞋.push(newList);
+        })
+
+        newScceECP.forEach((el, index) => {
+            let newList = {
+                name: decorRC[3].list[index].name,
+                checked: false,
+                jpName: el.name,
+                skillLv: decorRC[3].list[index].skillLv,
+                list: decorRC[3].list[index].item,
+                attr: el.attr,
+                sp: el.sp,
+                buy: el.buy,
+                sell: el.sell,
+                notion: el.notion,
+            }
+            飾.push(newList);
+        })
+
+        集合.push(盾)
+        集合.push(頭)
+        集合.push(鞋)
+        集合.push(飾)
+        const newDEC4 = [];
+        decorRC[4].list.forEach((el, index) => {
+            let newCat = {
+                name: el.name,
+                checked: false,
+                skillLv: el.skillLv,
+                list: el.item
+            }
+            newDEC4.push(newCat)
+        })
         decorRC.forEach((el, index) => {
             let newCat = {
                 category: el.category,
@@ -120,20 +214,12 @@
                 active: null,
                 list: []
             }
-            el.list.forEach((li, i) => {
-                let newList = {
-                    
-                }
-                
-                console.log(newShieldECP[index]);
-                console.log(newSetECP[index]);
-                console.log(newShowECP[index]);
-                console.log(newScceECP[index]);
-            })
-            el.active ? newCat.active = el.active : newCat.active = false;
-            console.log(newCat);
-        });
 
+            newCat.list = 集合[index] ? 集合[index] : newDEC4
+            el.active ? newCat.active = el.active : newCat.active = false;
+            newDecorJson.push(newCat)
+        });
+        console.log(newDecorJson);
 
         weapCP.forEach((el, index) => {
             let newCat = {
@@ -173,7 +259,6 @@
             })
             newWeap.push(newCat);
         });
-        // console.log(newWeap);
     </script>
 </body>
 

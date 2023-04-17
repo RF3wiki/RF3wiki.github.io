@@ -554,6 +554,981 @@
         ]
     },
     {
+        "id": "食品類(共計186種)",
+        "tab": "foodItem",
+        "active": false,
+        "data": [
+            {
+                "category": "材料 (18種)",
+                "tab": "materialTab",
+                "active": true,
+                "list": [
+                    {
+                        "name": "だんご粉 (丸子粉)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カレー粉 (咖喱粉)",
+                        "checked": false
+                    },
+                    {
+                        "name": "油 (油)",
+                        "checked": false
+                    },
+                    {
+                        "name": "小麥粉 (小麥粉)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ハチミツ (蜂蜜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ヨーグルト (酸奶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "チーズ (奶酪)",
+                        "checked": false
+                    },
+                    {
+                        "name": "マヨネーズ (美乃滋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "毎日ケンコー卵 (每日健康蛋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "良い卵 (優質蛋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "卵 (蛋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カルシウム満點牛乳 (鈣滿點牛奶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "良い牛乳 (優質牛奶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "牛乳 (牛奶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "エリ草 (艾麗草)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ワイン (紅酒)",
+                        "checked": false
+                    },
+                    {
+                        "name": "チョコレート (巧克力)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ごはん (米飯)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "空手料理 (14種)",
+                "tab": "emptycookingTab",
+                "active": false,
+                "list": [
+                    {
+                        "name": "カブヘブン (蕪菁大雜燴)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カブの紅白漬け (腌紅白蕪菁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "鮭のおにぎり (鮭魚飯糰)",
+                        "checked": false
+                    },
+                    {
+                        "name": "パン (麵包)",
+                        "checked": false
+                    },
+                    {
+                        "name": "おにぎり (飯糰)",
+                        "checked": false
+                    },
+                    {
+                        "name": "リラックス茶の葉 (放鬆茶葉)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アイスクリーム (冰淇淋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ぶどうパン (葡萄麵包)",
+                        "checked": false
+                    },
+                    {
+                        "name": "たけのこごはん (竹筍飯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "きゅうりの酢漬け (醃黃瓜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "かぶの酢漬け (腌蕪菁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フルーツサンド (水果三明治)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サンドウィッチ (三明治)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サラダ (沙拉)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "蒸鍋 (11種)",
+                "tab": "steamerTab",
+                "active": false,
+                "list": [
+                    {
+                        "name": "だんご (丸子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "かぼちゃプリン (南瓜布丁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "プリン (布丁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "むしケーキ (蒸蛋糕)",
+                        "checked": false
+                    },
+                    {
+                        "name": "むしカステラ (蒸雞蛋糕/蒸鬆糕)",
+                        "checked": false
+                    },
+                    {
+                        "name": "むしぎょうざ (蒸餃)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カレーまん (咖喱包子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "中華まん (中華饅頭/包子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "しゅうまい (燒賣)",
+                        "checked": false
+                    },
+                    {
+                        "name": "チーズむしパン (奶酪蒸麵包)",
+                        "checked": false
+                    },
+                    {
+                        "name": "むしパン (蒸麵包)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "攪拌機 (17種)",
+                "tab": "blenderTab",
+                "active": false,
+                "list": [
+                    {
+                        "name": "ホットジュース (熱果汁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "戀の予感 (戀愛預感)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ゴールドジュース (黃金果汁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "バター (奶油)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ケチャップ (番茄醬)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ミックス・オ・レ (混合牛奶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ミックスジュース (綜合果汁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "野菜・オ・レ (蔬菜牛奶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "野菜ジュース (蔬菜汁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フルーツ・オ・レ (水果歐雷)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フルーツジュース (新鮮果汁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "いちご牛乳 (草莓牛奶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "りんごジュース (蘋果汁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "オレンジジュース (橙汁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ぶどうジュース (葡萄汁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "トマトジュース (番茄汁)",
+                        "checked": false
+                    },
+                    {
+                        "name": "パインジュース (鳳梨汁)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "烤爐 (19種)",
+                "tab": "ovenTab",
+                "active": false,
+                "list": [
+                    {
+                        "name": "アップルパイ (蘋果派/蘋果餡餅)",
+                        "checked": false
+                    },
+                    {
+                        "name": "チーズケーキ (芝士蛋糕/奶酪蛋糕)",
+                        "checked": false
+                    },
+                    {
+                        "name": "チョコレートケーキ (巧克力蛋糕)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ケーキ (蛋糕)",
+                        "checked": false
+                    },
+                    {
+                        "name": "チョコクッキー (巧克力餅乾/巧克力甜餅)",
+                        "checked": false
+                    },
+                    {
+                        "name": "クッキー (餅乾)",
+                        "checked": false
+                    },
+                    {
+                        "name": "スイートポテト (紅薯點心)",
+                        "checked": false
+                    },
+                    {
+                        "name": "シーフードグラタン (海鮮奶汁烤菜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "グラタン (奶汁烤菜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "シーフードドリア (海鮮多利亞/海鮮烤飯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ドリア (多利亞/烤飯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "シーフードピザ (海鮮披薩)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ピザ (披薩)",
+                        "checked": false
+                    },
+                    {
+                        "name": "バターロール (奶油麵包捲)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ジャムパン (果醬麵包)",
+                        "checked": false
+                    },
+                    {
+                        "name": "トースト (吐司)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きいも (烤蕃薯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きおにぎり (烤飯糰)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きとうもろこし (烤玉米)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "鍋子 (28種)",
+                "tab": "potTab",
+                "active": false,
+                "list": [
+                    {
+                        "name": "巖石魚の煮付け (水煮巖石魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "寄せ鍋 (火鍋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "みそ田楽 (味增田樂燒)",
+                        "checked": false
+                    },
+                    {
+                        "name": "リラックスティー (放鬆茶)",
+                        "checked": false
+                    },
+                    {
+                        "name": "至高のカレー (至高咖喱)",
+                        "checked": false
+                    },
+                    {
+                        "name": "究極のカレー (究極咖喱)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カレーライス (咖喱飯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "シチュー (燉菜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "たまごどん (蛋蓋飯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "天どん (天婦羅飯/天蓋飯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "牛乳がゆ (牛奶粥)",
+                        "checked": false
+                    },
+                    {
+                        "name": "おかゆ (粥)",
+                        "checked": false
+                    },
+                    {
+                        "name": "天ぷらうどん (天婦羅烏冬面)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カレーうどん (咖喱湯麵)",
+                        "checked": false
+                    },
+                    {
+                        "name": "うどん (烏冬/湯麵)",
+                        "checked": false
+                    },
+                    {
+                        "name": "チーズフォンデュ (奶酪火鍋/乾酪鍋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "オレンジマーマレード (橘皮果醬)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ぶどうジャム (葡萄果醬)",
+                        "checked": false
+                    },
+                    {
+                        "name": "りんごジャム (蘋果果醬)",
+                        "checked": false
+                    },
+                    {
+                        "name": "いちごジャム (草莓果醬)",
+                        "checked": false
+                    },
+                    {
+                        "name": "水ぎょうざ (水餃)",
+                        "checked": false
+                    },
+                    {
+                        "name": "大學いも (大學芋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ゆでタマゴ (煮雞蛋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "おひたし (涼拌菜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "かぼちゃの煮つけ (煮南瓜)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ぶどう酒 (葡萄酒)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ホットチョコレート (熱巧克力)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ホットミルク (熱牛奶)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "平底煎鍋 (52種)",
+                "tab": "fryingpanTab",
+                "active": false,
+                "list": [
+                    {
+                        "name": "焼き砂ヒラメ (烤沙比目魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "エビの姿焼き (整烤鮮蝦)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ロブスターの姿焼き (整烤龍蝦)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きフグ (烤河豚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きフーイン (烤螢烏賊)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きジャマイカ (烤斑烏賊)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きイカ (烤烏賊)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼き紅葉 (烤紅葉魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きカレイ (烤鰈魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きヒラメ (烤比目魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サンマの塩焼き (鹽烤秋刀魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サヨリの塩焼き (鹽烤針魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "めざし (沙丁魚串)",
+                        "checked": false
+                    },
+                    {
+                        "name": "マグロの照り焼き (照燒金槍魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ワカサギの塩焼き (鹽烤公魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ブリの照り焼き (照燒鰤魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きサバ (烤鯖魚/烤鮐魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "土佐造り (鰹魚片)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きトキメキタイ (烤心跳鯛魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きカガヤキタイ (烤閃光鯛魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "メジナの塩焼き (鹽烤斑鲅魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "タイの焼きもの (烤鯛魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ギンブナの姿焼き (整烤銀鯽魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ヘラブナの姿焼き (整烤鯽魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "イトウの姿焼き (整烤哲羅魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "塩ジャケ (鹽烤鮭魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ウグイの塩焼き (鹽烤雅羅魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ヤマメの塩焼き (鹽烤山女鱒)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きドグニジマス (烤毒虹鱒)",
+                        "checked": false
+                    },
+                    {
+                        "name": "イワナの塩焼き (鹽烤巖魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アマゴの塩焼き (鹽烤鱒魚/鹽烤天魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ドライカレー (咖喱炒飯/干咖喱)",
+                        "checked": false
+                    },
+                    {
+                        "name": "リゾット (意式菜飯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ぎょうざ (餃子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ホットケーキ (煎餅/烤餅)",
+                        "checked": false
+                    },
+                    {
+                        "name": "天ぷら (天婦羅)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きうどん (烏冬燒/烤麵條)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ドーナツ (麵包圈/甜甜圈)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フレンチトースト (法式吐司/奶油吐司)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カレーパン (咖喱麵包)",
+                        "checked": false
+                    },
+                    {
+                        "name": "焼きりんご (烤蘋果)",
+                        "checked": false
+                    },
+                    {
+                        "name": "オムライス (蛋包飯/蛋炒飯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "オムレツ (煎蛋/菜肉蛋卷)",
+                        "checked": false
+                    },
+                    {
+                        "name": "卵焼き (蛋包捲/煎雞蛋)",
+                        "checked": false
+                    },
+                    {
+                        "name": "なす田楽 (醬烤茄子/淋汁茄子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "コーンフレーク (玉米片)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ポップコーン (爆玉米花)",
+                        "checked": false
+                    },
+                    {
+                        "name": "コロッケ (可樂餅)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フライドポテト (炸薯條)",
+                        "checked": false
+                    },
+                    {
+                        "name": "お好み焼き (雜菜煎餅)",
+                        "checked": false
+                    },
+                    {
+                        "name": "チャーハン (炒飯)",
+                        "checked": false
+                    },
+                    {
+                        "name": "野菜いため (蔬菜雜燴/炒蔬菜)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "菜刀 (25種)",
+                "tab": "kitchenknifeTab",
+                "active": false,
+                "list": [
+                    {
+                        "name": "エビのおさしみ (蝦的生魚片)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ロブスターのおさしみ (龍蝦刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フグさし (河豚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "フーインイカさし (螢烏賊刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ジャマイカさし (斑烏賊刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "イカさし (烏賊生魚片)",
+                        "checked": false
+                    },
+                    {
+                        "name": "色づくおさしみ (紅葉魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カレイのおさしみ (鰈魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ヒラメのおさしみ (比目魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サンマのおさしみ (秋刀魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サヨリのおさしみ (針魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "イワシのおさしみ (沙丁魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "大トロ (大肥金槍魚/大舌頭)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ブリのおさしみ (鰤魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カツオのおさしみ (鰹魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "メジナのおさしみ (斑鲅魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "トキメクおさしみ (心跳刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "カガヤクおさしみ (閃光刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "タイのおさしみ (鯛魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "イトウのおさしみ (哲羅魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ヤマメのおさしみ (山女鱒刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "サケのおさしみ (鮭魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ドクニジマウさし (虹色魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "イワナのおさしみ (巖魚刺身)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アマゴのおさしみ (鱒魚刺身/天魚刺身)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "失敗作 (2種)",
+                "tab": "failTab",
+                "active": false,
+                "list": [
+                    {
+                        "name": "超失敗作 (超失敗作)",
+                        "checked": false
+                    },
+                    {
+                        "name": "失敗作 (失敗作)",
+                        "checked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "水產品類(共計35種)",
+        "tab": "aquaticItem",
+        "active": false,
+        "data": [
+            {
+                "category": "垃圾 (3種)",
+                "tab": "RubbishTab",
+                "active": true,
+                "list": [
+                    {
+                        "name": "レアなあきかん (稀有的空罐子)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ながぐつ (長靴)",
+                        "checked": false
+                    },
+                    {
+                        "name": "あきかん (空罐子)",
+                        "checked": false
+                    }
+                ]
+            },
+            {
+                "category": "魚 (32種)",
+                "tab": "fishTab",
+                "active": false,
+                "list": [
+                    {
+                        "name": "巖石魚 (巖石魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "砂ヒラメ (沙比目魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "ワカサギ (公魚) [冬]",
+                        "checked": false
+                    },
+                    {
+                        "name": "ロブスター (龍蝦) [夏]",
+                        "checked": false
+                    },
+                    {
+                        "name": "フーインイカ (螢烏賊) [春]",
+                        "checked": false
+                    },
+                    {
+                        "name": "ヤマメ (山女鱒) [春]",
+                        "checked": false
+                    },
+                    {
+                        "name": "モミジヒラメ (紅葉比目魚) [秋]",
+                        "checked": false
+                    },
+                    {
+                        "name": "メジナ (斑鲅魚) [冬]",
+                        "checked": false
+                    },
+                    {
+                        "name": "マグロ (金槍魚) [冬]",
+                        "checked": false
+                    },
+                    {
+                        "name": "ヘラブナ (鯽魚) [夏]",
+                        "checked": false
+                    },
+                    {
+                        "name": "ブリ (鰤魚) [冬]",
+                        "checked": false
+                    },
+                    {
+                        "name": "フグ (河豚) [冬]",
+                        "checked": false
+                    },
+                    {
+                        "name": "ヒラメ (比目魚) [冬]",
+                        "checked": false
+                    },
+                    {
+                        "name": "ドグニジマス (毒虹鱒魚/虹色魚) [冬]",
+                        "checked": false
+                    },
+                    {
+                        "name": "トキメキタイ (心跳鯛魚)",
+                        "checked": false
+                    },
+                    {
+                        "name": "タイ (鯛魚) [秋]",
+                        "checked": false
+                    },
+                    {
+                        "name": "エビ (蝦) [夏]",
+                        "checked": false
+                    },
+                    {
+                        "name": "ジャマイカ (斑烏賊/南國章魚) [夏]",
+                        "checked": false
+                    },
+                    {
+                        "name": "サンマ (秋刀魚) [秋]",
+                        "checked": false
+                    },
+                    {
+                        "name": "サヨリ (針魚) [春]",
+                        "checked": false
+                    },
+                    {
+                        "name": "サバ (鯖魚/鮐魚) [秋]",
+                        "checked": false
+                    },
+                    {
+                        "name": "鉤吻鮭 [秋]",
+                        "checked": false
+                    },
+                    {
+                        "name": "ギンブナ (銀鮒魚) [春]",
+                        "checked": false
+                    },
+                    {
+                        "name": "カレイ (鰈魚) [夏]",
+                        "checked": false
+                    },
+                    {
+                        "name": "カツオ (鰹魚) [秋]",
+                        "checked": false
+                    },
+                    {
+                        "name": "カガヤキタイ (銀鯛) [冬]",
+                        "checked": false
+                    },
+                    {
+                        "name": "ウグイ (雅羅魚) [夏]",
+                        "checked": false
+                    },
+                    {
+                        "name": "イワナ (巖魚) [夏]",
+                        "checked": false
+                    },
+                    {
+                        "name": "イワシ (沙丁魚) [夏]",
+                        "checked": false
+                    },
+                    {
+                        "name": "イトウ (哲羅魚) [冬]",
+                        "checked": false
+                    },
+                    {
+                        "name": "イカ (烏賊)",
+                        "checked": false
+                    },
+                    {
+                        "name": "アマゴ (鱒魚) [春]",
+                        "checked": false
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "id": "藥品類(共計24種)",
         "tab": "drugItem",
         "active": false,
@@ -7077,27 +8052,27 @@
                     {
                         "name": "毛線球",
                         "checked": false,
-                        "skillLv": 5,
                         "list": [
-                            "軟軟毛",
-                            "軟軟毛",
-                            "軟軟毛"
-                        ]
-                    },
-                    {
-                        "name": "毛線球",
-                        "checked": false,
-                        "skillLv": 6,
-                        "list": [
-                            "軟絨毛"
-                        ]
-                    },
-                    {
-                        "name": "毛線球",
-                        "checked": false,
-                        "skillLv": 7,
-                        "list": [
-                            "毛絨軟軟毛"
+                            {
+                                "skillLv": 5,
+                                "formula": [
+                                    "軟軟毛",
+                                    "軟軟毛",
+                                    "軟軟毛"
+                                ]
+                            },
+                            {
+                                "skillLv": 6,
+                                "formula": [
+                                    "軟絨毛"
+                                ]
+                            },
+                            {
+                                "skillLv": 7,
+                                "formula": [
+                                    "毛絨軟軟毛"
+                                ]
+                            }
                         ]
                     }
                 ]
@@ -7105,7 +8080,7 @@
             {
                 "category": "其他 (3種)",
                 "tab": "otherTab",
-                "active": true,
+                "active": false,
                 "list": [
                     {
                         "name": "木材 (木材)",

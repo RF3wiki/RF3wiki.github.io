@@ -1244,6 +1244,73 @@ Vue.component('sell-log', {
 </div>
 `
 });
+Vue.component('sell-logV2', {
+  data() {
+    return {
+      dataList: null,
+      localKey: 'sellLogData'
+    };
+  },
+  created() {
+    if (localStorage.getItem(this.localKey)) {
+      this.dataList = JSON.parse(localStorage.getItem(this.localKey));
+    } else if (!this.dataList) {
+      fetch('../json/all-item-logV2.json').then((res) => res.json())
+        .then((data) => { this.dataList = data; })
+        .catch((error) => { console.warn(error) });
+    };
+  },
+  methods: {
+    activateMain(index) {
+      this.dataList.forEach((tabOne) => {
+        tabOne.active = false;
+      });
+      this.dataList[index].active = true;
+    },
+    activateMinor(index, tabOne) {
+      tabOne.data.forEach((tabTwo) => {
+        tabTwo.active = false;
+      });
+      tabOne.data[index].active = true;
+    },
+    saveJson() {
+      localStorage.setItem(this.localKey, JSON.stringify(this.dataList));
+    }
+  },
+  template: `
+<div class="tablet+:ts-content">
+  <div class="ts-header">※ 點選頁籤切換，將自動存檔於瀏覽器。(數量僅供參考)</div>
+  <div class="ts-space is-small"></div>
+  <div class="ts-tab mobile-:is-stacked">
+    <button class="item is-accent main-tab" v-for="(main, index) in dataList" :key="index"
+      :class="['item', { 'is-active': main.active }]" :data-tab="main.tab" v-on:click="activateMain(index)">
+      <div class="text"> {{ main.id }}</div>
+    </button>
+  </div>
+  <div class="ts-space is-small"></div>
+  <div v-for="(main, index) in dataList" :key="index" :class="{ 'u-hidden': !main.active }" :data-name="main.tab">
+    <div class="ts-tab is-small is-secondary">
+      <button v-for="(minor, index) in main.data" :key="index" class="item is-accent minor-tab"
+        :class="['item', 'tablist', { 'is-active': minor.active }]" :data-tab="minor.tab"
+        v-on:click="activateMinor(index, main)">
+        <div class="text"> {{ minor.category }}</div>
+      </button>
+    </div>
+    <div class="ts-space is-small"></div>
+    <div class="ts-segment" v-for="(minor, index) in main.data" :key="index" v-show="minor.active">
+      <div class="ts-grid mobile-:is-stacked" style="padding:.5rem;">
+        <div class="column is-4-wide" v-for="(item, index) in minor.list" :key="index">
+          <label class="ts-checkbox is-kepall">
+            <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
+            {{ item.name }}
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`
+});
 Vue.component('task-list', {
   data() {
     return {

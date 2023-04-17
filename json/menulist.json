@@ -67,7 +67,8 @@
         "mobileTab":"orter",
         "list":[
             {"name":"全出貨箱物品","tab":"all-item","isShow":false},
-            {"name":"出貨紀錄","tab":"sell-log","isShow":true}
+            {"name":"出貨紀錄","tab":"sell-log","isShow":true},
+            {"name":"出貨紀錄V2","tab":"sell-logV2","isShow":true}
         ]
     }
 ]

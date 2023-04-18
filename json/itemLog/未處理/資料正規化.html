@@ -56,11 +56,11 @@
 
         const json = [
             { data: equipItem, newData: NewequipItem, finally: newID },
-            { data: cropItem, newData: NewcropItem, finally: newID },
-            { data: foodItem, newData: NewfoodItem, finally: newID },
-            { data: aquaticItem, newData: NewaquaticItem, finally: newID },
-            { data: drugItem, newData: NewdrugItem, finally: newID },
-            { data: collectionItem, newData: NewcollectionItem, finally: newID },
+            // { data: cropItem, newData: NewcropItem, finally: newID },
+            // { data: foodItem, newData: NewfoodItem, finally: newID },
+            // { data: aquaticItem, newData: NewaquaticItem, finally: newID },
+            // { data: drugItem, newData: NewdrugItem, finally: newID },
+            // { data: collectionItem, newData: NewcollectionItem, finally: newID },
         ];
 
         json.forEach(el => {
@@ -92,20 +92,24 @@
                         makeItem: item.item ? item.item : null,
                         skillLv: item.skillLv ? item.skillLv : null,
                         formulaList: null,
-                            // {
-                            //     skillLv: null,
-                            //     formula: null
-                            // }
+                        // {
+                        //     skillLv: null,
+                        //     formula: null
+                        // }
                         getItemSrc: null,
                         buy: item.buy ? item.buy : null,
                         sell: item.sell ? item.sell : null,
                         notion: item.notion ? item.notion : null
+                    }
+                    if (el.tab == "shoeEquipmentTab") {
+                        document.body.innerHTML += `${item.name.split('(')[0]} <br>`
                     }
                     removeNull(newItem.equiData)
                     removeNull(newItem)
 
                     newJson.list.push(newItem)
                 })
+                document.body.innerHTML += ` <br>`
                 finalJSON.data.push(newJson);
             });
             finalArray.push(finalJSON);

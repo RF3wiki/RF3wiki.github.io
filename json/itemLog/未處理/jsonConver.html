@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-hant-tw">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Hello, world!</title>
+</head>
+
+<body>
+
+    <div id="app">
+        <div class="container">
+            <div class="row"></div>
+        </div>
+    </div>
+    <script type="module">
+        import col from './收集.json' assert {type: 'json'}   //收集
+        import staff from './杖.json' assert {type: 'json'}  //杖
+        import axe from './斧.json' assert {type: 'json'}  //斧
+        import shield from './盾.json' assert {type: 'json'}  //盾
+        import sword from './單手劍.json' assert {type: 'json'}   //單手劍
+        import farm from './農具.json' assert {type: 'json'}   //農具
+        import acc from './飾品.json' assert {type: 'json'}   //飾品
+        import spear from './槍.json' assert {type: 'json'}  //槍
+        import shoe from './鞋.json' assert {type: 'json'}  //鞋
+        import hammer from './錘.json' assert {type: 'json'}  //錘
+        import head from './頭.json' assert {type: 'json'}  //頭
+        import hsword from './雙手劍.json' assert {type: 'json'}   //雙手劍
+        import dualwield from './雙劍.json' assert {type: 'json'}   //雙劍
+        const colNew = [];
+        const staffNew = [];
+        const axeNew = [];
+        const shieldNew = [];
+        const swordNew = [];
+        const farmNew = [];
+        const accNew = [];
+        const spearNew = [];
+        const shoeNew = [];
+        const hammerNew = [];
+        const headNew = [];
+        const hswordNew = [];
+        const dualwieldNew = [];
+        const newJson = [];
+        getforEach(col, colNew, newJson);
+        getforEach(staff, staffNew, newJson);
+        getforEach(axe, axeNew, newJson);
+        getforEach(shield, shieldNew, newJson);
+        getforEach(sword, swordNew, newJson);
+        getforEach(farm, farmNew, newJson);
+        getforEach(acc, accNew, newJson);
+        getforEach(spear, spearNew, newJson);
+        getforEach(shoe, shoeNew, newJson);
+        getforEach(hammer, hammerNew, newJson);
+        getforEach(head, headNew, newJson);
+        getforEach(hsword, hswordNew, newJson);
+        getforEach(dualwield, dualwieldNew, newJson);
+        console.log(newJson);
+
+        function getforEach(obj, target, endJSON) {
+            obj.forEach(el => {
+                let newItem = {
+                    name: el.name,
+                    jpName: el.jpName,
+                    attr: el.attr ? el.attr : null,
+                    atk: el.atk ? el.atk : null,
+                    matk: el.matk ? el.matk : null,
+                    def: el.def ? el.def : null,
+                    mdef: el.mdef ? el.mdef : null,
+                    sp: el.sp ? el.sp.split('，') : [],
+                    se: el.se,
+                    notion: el.notion,
+                    skillLv: el.skillLv,
+                    item: [],
+                    buy: el.buy,
+                    sell: el.sell,
+                }
+
+                el.item1 != '' ? newItem.item.push(el.item1) : '';
+                el.item2 != '' ? newItem.item.push(el.item2) : '';
+                el.item3 != '' ? newItem.item.push(el.item3) : '';
+                el.item4 != '' ? newItem.item.push(el.item4) : '';
+                el.item5 != '' ? newItem.item.push(el.item5) : '';
+                el.item6 != '' ? newItem.item.push(el.item6) : '';
+                target.push(newItem);
+            });
+            endJSON.push(target);
+        }
+    </script>
+
+</body>
+
+</html>

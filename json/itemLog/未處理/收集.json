@@ -1,0 +1,35 @@
+[
+	{
+		"name": "毛線球",
+		"jpName": "毛糸玉",
+		"skillLv": "5",
+		"item1": "軟毛",
+		"item2": "軟毛",
+		"item3": "軟毛",
+		"item4": "",
+		"item5": "",
+		"item6": ""
+	},
+	{
+		"name": "毛線球",
+		"jpName": "毛糸玉",
+		"skillLv": "6",
+		"item1": "軟軟的毛",
+		"item2": "",
+		"item3": "",
+		"item4": "",
+		"item5": "",
+		"item6": ""
+	},
+	{
+		"name": "毛線球",
+		"jpName": "毛糸玉",
+		"skillLv": "7",
+		"item1": "軟軟綿綿的毛",
+		"item2": "",
+		"item3": "",
+		"item4": "",
+		"item5": "",
+		"item6": ""
+	}
+]

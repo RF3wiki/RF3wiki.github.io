@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="module">
+        import equipItem from './equipItem.json' assert {type: 'json'};
+        import cropItem from './cropItem.json' assert {type: 'json'};
+        import foodItem from './foodItem.json' assert {type: 'json'};
+        import aquaticItem from './aquaticItem.json' assert {type: 'json'};
+        import drugItem from './drugItem.json' assert {type: 'json'};
+        import collectionItem from './collectionItem.json' assert {type: 'json'};
+        const newID = [];
+        const NewequipItem = {
+            id: '裝備品類',
+            tabId: 'equipItem',
+            active: false,
+            data: []
+        };
+        const NewcropItem = {
+            id: '作物類',
+            tabId: 'equipItem',
+            active: false,
+            data: []
+        };
+        const NewfoodItem = {
+            id: '食品類',
+            tabId: 'equipItem',
+            active: false,
+            data: []
+        };
+        const NewaquaticItem = {
+            id: '水產品類',
+            tabId: 'equipItem',
+            active: false,
+            data: []
+        };
+        const NewdrugItem = {
+            id: '藥品類',
+            tabId: 'equipItem',
+            active: false,
+            data: []
+        };
+        const NewcollectionItem = {
+            id: '收集品類',
+            tabId: 'equipItem',
+            active: false,
+            data: []
+        };
+
+        const json = [
+            { data: equipItem, newData: NewequipItem, finally: newID },
+            { data: cropItem, newData: NewcropItem, finally: newID },
+            { data: foodItem, newData: NewfoodItem, finally: newID },
+            { data: aquaticItem, newData: NewaquaticItem, finally: newID },
+            { data: drugItem, newData: NewdrugItem, finally: newID },
+            { data: collectionItem, newData: NewcollectionItem, finally: newID },
+        ];
+
+        json.forEach(el => {
+            getNewJSON(el.data, el.newData, el.finally);
+        });
+
+        function getNewJSON(json, finalJSON, finalArray) {
+            json.forEach((el, index) => {
+                let newJson = {
+                    category: el.category,
+                    categoryTab: el.tab,
+                    active: false,
+                    list: []
+                }
+                el.list.forEach(item => {
+                    let newItem = {
+                        name: item.name,
+                        jpName: item.jpName ? item.jpName : null,
+                        checked: false,
+                        equiData: {
+                            attr: item.attr ? item.attr : null,
+                            atk: item.atk ? item.atk : null,
+                            matk: item.matk ? item.matk : null,
+                            def: item.def ? item.def : null,
+                            mdef: item.mdef ? item.mdef : null
+                        },
+                        sp: item.sp ? item.sp : null,
+                        se: item.se ? item.se : null,
+                        makeItem: item.item ? item.item : null,
+                        skillLv: item.skillLv ? item.skillLv : null,
+                        formulaList: null,
+                            // {
+                            //     skillLv: null,
+                            //     formula: null
+                            // }
+                        getItemSrc: null,
+                        buy: item.buy ? item.buy : null,
+                        sell: item.sell ? item.sell : null,
+                        notion: item.notion ? item.notion : null
+                    }
+                    removeNull(newItem.equiData)
+                    removeNull(newItem)
+
+                    newJson.list.push(newItem)
+                })
+                finalJSON.data.push(newJson);
+            });
+            finalArray.push(finalJSON);
+        }
+
+        function removeNull(target) {
+            Object.keys(target).forEach(function (key) {
+                if (target[key] === null) {
+                    delete target[key];
+                }
+            });
+        }
+
+        console.log(newID);
+        // downloadFile(newID, 'test');
+    </script>
+
+    <script>
+        function downloadFile(target, fileName) {
+            const data = JSON.stringify(target);
+            let blob = new Blob([data], {
+                type: "application/json",
+            });
+            var href = URL.createObjectURL(blob);
+            var link = document.createElement("a");
+            document.body.appendChild(link);
+            link.href = href;
+            link.download = fileName;
+            link.click();
+        }
+    </script>
+</body>
+
+</html>

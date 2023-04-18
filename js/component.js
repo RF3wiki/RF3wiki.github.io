@@ -1476,6 +1476,72 @@ Vue.component('easy-kill-task', {
 `
 });
 
+let itemLogTemplate = `
+<div class="tablet+:ts-content">
+  <div class="ts-tab is-pilled" style="justify-content: center;">
+    <button class="item is-accent" v-for="(lists, i) in dataList" :data-tab="lists.tab"
+      :class="[lists.active?'is-active':'']">
+      {{ lists.category }}
+    </button>
+  </div>
+  <div class="ts-space"></div>
+  <div itemlogseg class="ts-segment logSegTag" :data-name="lists.tab" v-for="(lists, i) in dataList">
+    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-3-columns">
+      <div class="column" v-for="item in lists.list">
+        <label class="ts-checkbox is-kepall">
+          <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
+          {{ item.name }}
+        </label>
+        <details itemlogdetails v-if="item.item?true:false" class="ts-accordion" v-on:click="detailsClose">
+          <summary>
+            <div class="ts-text is-description">詳細資料</div>
+          </summary>
+          <div class="ts-box is-bottom-indicated is-accent">
+            <div class="ts-content">
+              <div class="ts-text" v-if="item.jpName?true:false">{{item.jpName}}</div>
+              <div class="ts-text" v-if="item.attr?true:false">屬性：{{item.attr}}</div>
+              <div class="ts-text" v-if="item.atk?true:false">攻擊：{{item.atk}}</div>
+              <div class="ts-text" v-if="item.matk?true:false">魔攻：{{item.matk}}</div>
+              <div class="ts-text" v-if="item.def?true:false">防禦：{{item.def}}</div>
+              <div class="ts-text" v-if="item.mdef?true:false">魔防：{{item.mdef}}</div>
+              <div class="ts-wrap g-0" v-if="item.sp?item.sp.length > 0:''">
+                <div class="ts-text">特殊能力：</div>
+                <div class="ts-wrap is-compact">
+                  <div class="ts-chip is-outlined" v-for="it in item.sp"> {{it}} </div>
+                </div>
+              </div>
+              <div class="ts-wrap g-0" v-if="item.se?item.se.length > 0:''">
+                <div class="ts-text">特殊效果：</div>
+                <div class="ts-wrap is-compact">
+                  <div class="ts-chip is-outlined" v-for="it in item.se"> {{it}} </div>
+                </div>
+              </div>
+              <div class="ts-text" v-if="item.skillLv?true:false">技能等級：{{item.skillLv}}</div>
+              <div class="ts-wrap g-0">
+                <div class="ts-text" v-if="item.item?item.item.length > 0:''">材料：</div>
+                <div class="ts-wrap is-compact">
+                  <div class="ts-chip is-outlined" v-for="it in item.item"> {{it}} </div>
+                </div>
+              </div>
+              <div class="ts-box border-0" v-if="item.list?item.list.length>0:''">
+                <div class="ts-text">製作：</div>
+                <div class="ts-wrap is-compact" v-for="it in item.item">
+                  <div class="ts-text">等級：{{it.skillLv}}</div>
+                  <div class="ts-chip is-outlined" v-for="fo in it.formula"> {{fo}} </div>
+                </div>
+              </div>
+              <div class="ts-text is-description" v-if="item.notion!=''">{{item.notion}}</div>
+              <div class="ts-text" v-if="item.buy?true:false">買價：{{item.buy}}</div>
+              <div class="ts-text" v-if="item.sell?true:false">賣價：{{item.sell}}</div>
+            </div>
+          </div>
+        </details>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 Vue.component('aquaticItem', {
   data() {
     return {
@@ -1522,64 +1588,7 @@ Vue.component('aquaticItem', {
       });
     }
   },
-  template: `
-<div class="tablet+:ts-content">
-  <div class="ts-tab is-pilled" style="justify-content: center;">
-    <button class="item is-accent" v-for="(lists, i) in dataList" :data-tab="lists.tab"
-      :class="[lists.active?'is-active':'']">
-      {{ lists.category }}
-    </button>
-  </div>
-  <div class="ts-space"></div>
-  <div itemlogseg class="ts-segment logSegTag" :data-name="lists.tab" v-for="(lists, i) in dataList">
-    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-3-columns">
-      <div class="column" v-for="item in lists.list">
-        <label class="ts-checkbox is-kepall">
-          <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
-          {{ item.name }}
-        </label>
-        <details itemlogdetails class="ts-accordion" v-on:click="detailsClose">
-          <summary>
-            <div class="ts-text is-description">詳細資料</div>
-          </summary>
-          <div class="ts-box is-bottom-indicated is-accent">
-            <div class="ts-content">
-              <div class="ts-text" v-if="item.jpName?true:false">{{item.jpName}}</div>
-              <div class="ts-text" v-if="item.attr?true:false">屬性：{{item.attr}}</div>
-              <div class="ts-text" v-if="item.atk?true:false">攻擊：{{item.atk}}</div>
-              <div class="ts-text" v-if="item.matk?true:false">魔攻：{{item.matk}}</div>
-              <div class="ts-text" v-if="item.def?true:false">防禦：{{item.def}}</div>
-              <div class="ts-text" v-if="item.mdef?true:false">魔防：{{item.mdef}}</div>
-              <div class="ts-wrap g-0" v-if="item.sp?item.sp.length > 0:''">
-                <div class="ts-text">特殊能力：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.sp"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-wrap g-0" v-if="item.se?item.se.length > 0:''">
-                <div class="ts-text">特殊效果：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.se"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-text" v-if="item.skillLv?true:false">技能等級：{{item.skillLv}}</div>
-              <div class="ts-wrap g-0">
-                <div class="ts-text" v-if="item.item?item.item.length > 0:''">材料：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.item"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-text is-description" v-if="item.notion!=''">{{item.notion}}</div>
-              <div class="ts-text" v-if="item.buy?true:false">買價：{{item.buy}}</div>
-              <div class="ts-text" v-if="item.sell?true:false">賣價：{{item.sell}}</div>
-            </div>
-          </div>
-        </details>
-      </div>
-    </div>
-  </div>
-</div>
-`
+  template: itemLogTemplate
 });
 Vue.component('collectionItem', {
   data() {
@@ -1627,64 +1636,7 @@ Vue.component('collectionItem', {
       });
     }
   },
-  template: `
-<div class="tablet+:ts-content">
-  <div class="ts-tab is-pilled" style="justify-content: center;">
-    <button class="item is-accent" v-for="(lists, i) in dataList" :data-tab="lists.tab"
-      :class="[lists.active?'is-active':'']">
-      {{ lists.category }}
-    </button>
-  </div>
-  <div class="ts-space"></div>
-  <div itemlogseg class="ts-segment logSegTag" :data-name="lists.tab" v-for="(lists, i) in dataList">
-    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-3-columns">
-      <div class="column" v-for="item in lists.list">
-        <label class="ts-checkbox is-kepall">
-          <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
-          {{ item.name }}
-        </label>
-        <details itemlogdetails class="ts-accordion" v-on:click="detailsClose">
-          <summary>
-            <div class="ts-text is-description">詳細資料</div>
-          </summary>
-          <div class="ts-box is-bottom-indicated is-accent">
-            <div class="ts-content">
-              <div class="ts-text" v-if="item.jpName?true:false">{{item.jpName}}</div>
-              <div class="ts-text" v-if="item.attr?true:false">屬性：{{item.attr}}</div>
-              <div class="ts-text" v-if="item.atk?true:false">攻擊：{{item.atk}}</div>
-              <div class="ts-text" v-if="item.matk?true:false">魔攻：{{item.matk}}</div>
-              <div class="ts-text" v-if="item.def?true:false">防禦：{{item.def}}</div>
-              <div class="ts-text" v-if="item.mdef?true:false">魔防：{{item.mdef}}</div>
-              <div class="ts-wrap g-0" v-if="item.sp?item.sp.length > 0:''">
-                <div class="ts-text">特殊能力：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.sp"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-wrap g-0" v-if="item.se?item.se.length > 0:''">
-                <div class="ts-text">特殊效果：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.se"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-text" v-if="item.skillLv?true:false">技能等級：{{item.skillLv}}</div>
-              <div class="ts-wrap g-0">
-                <div class="ts-text" v-if="item.item?item.item.length > 0:''">材料：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.item"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-text is-description" v-if="item.notion!=''">{{item.notion}}</div>
-              <div class="ts-text" v-if="item.buy?true:false">買價：{{item.buy}}</div>
-              <div class="ts-text" v-if="item.sell?true:false">賣價：{{item.sell}}</div>
-            </div>
-          </div>
-        </details>
-      </div>
-    </div>
-  </div>
-</div>
-`
+  template:itemLogTemplate
 });
 Vue.component('cropItem', {
   data() {
@@ -1732,64 +1684,7 @@ Vue.component('cropItem', {
       });
     }
   },
-  template: `
-<div class="tablet+:ts-content">
-  <div class="ts-tab is-pilled" style="justify-content: center;">
-    <button class="item is-accent" v-for="(lists, i) in dataList" :data-tab="lists.tab"
-      :class="[lists.active?'is-active':'']">
-      {{ lists.category }}
-    </button>
-  </div>
-  <div class="ts-space"></div>
-  <div itemlogseg class="ts-segment logSegTag" :data-name="lists.tab" v-for="(lists, i) in dataList">
-    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-3-columns">
-      <div class="column" v-for="item in lists.list">
-        <label class="ts-checkbox is-kepall">
-          <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
-          {{ item.name }}
-        </label>
-        <details itemlogdetails class="ts-accordion" v-on:click="detailsClose">
-          <summary>
-            <div class="ts-text is-description">詳細資料</div>
-          </summary>
-          <div class="ts-box is-bottom-indicated is-accent">
-            <div class="ts-content">
-              <div class="ts-text" v-if="item.jpName?true:false">{{item.jpName}}</div>
-              <div class="ts-text" v-if="item.attr?true:false">屬性：{{item.attr}}</div>
-              <div class="ts-text" v-if="item.atk?true:false">攻擊：{{item.atk}}</div>
-              <div class="ts-text" v-if="item.matk?true:false">魔攻：{{item.matk}}</div>
-              <div class="ts-text" v-if="item.def?true:false">防禦：{{item.def}}</div>
-              <div class="ts-text" v-if="item.mdef?true:false">魔防：{{item.mdef}}</div>
-              <div class="ts-wrap g-0" v-if="item.sp?item.sp.length > 0:''">
-                <div class="ts-text">特殊能力：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.sp"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-wrap g-0" v-if="item.se?item.se.length > 0:''">
-                <div class="ts-text">特殊效果：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.se"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-text" v-if="item.skillLv?true:false">技能等級：{{item.skillLv}}</div>
-              <div class="ts-wrap g-0">
-                <div class="ts-text" v-if="item.item?item.item.length > 0:''">材料：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.item"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-text is-description" v-if="item.notion!=''">{{item.notion}}</div>
-              <div class="ts-text" v-if="item.buy?true:false">買價：{{item.buy}}</div>
-              <div class="ts-text" v-if="item.sell?true:false">賣價：{{item.sell}}</div>
-            </div>
-          </div>
-        </details>
-      </div>
-    </div>
-  </div>
-</div>
-`
+  template:itemLogTemplate
 });
 Vue.component('drugItem', {
   data() {
@@ -1837,64 +1732,7 @@ Vue.component('drugItem', {
       });
     }
   },
-  template: `
-<div class="tablet+:ts-content">
-  <div class="ts-tab is-pilled" style="justify-content: center;">
-    <button class="item is-accent" v-for="(lists, i) in dataList" :data-tab="lists.tab"
-      :class="[lists.active?'is-active':'']">
-      {{ lists.category }}
-    </button>
-  </div>
-  <div class="ts-space"></div>
-  <div itemlogseg class="ts-segment logSegTag" :data-name="lists.tab" v-for="(lists, i) in dataList">
-    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-3-columns">
-      <div class="column" v-for="item in lists.list">
-        <label class="ts-checkbox is-kepall">
-          <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
-          {{ item.name }}
-        </label>
-        <details itemlogdetails class="ts-accordion" v-on:click="detailsClose">
-          <summary>
-            <div class="ts-text is-description">詳細資料</div>
-          </summary>
-          <div class="ts-box is-bottom-indicated is-accent">
-            <div class="ts-content">
-              <div class="ts-text" v-if="item.jpName?true:false">{{item.jpName}}</div>
-              <div class="ts-text" v-if="item.attr?true:false">屬性：{{item.attr}}</div>
-              <div class="ts-text" v-if="item.atk?true:false">攻擊：{{item.atk}}</div>
-              <div class="ts-text" v-if="item.matk?true:false">魔攻：{{item.matk}}</div>
-              <div class="ts-text" v-if="item.def?true:false">防禦：{{item.def}}</div>
-              <div class="ts-text" v-if="item.mdef?true:false">魔防：{{item.mdef}}</div>
-              <div class="ts-wrap g-0" v-if="item.sp?item.sp.length > 0:''">
-                <div class="ts-text">特殊能力：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.sp"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-wrap g-0" v-if="item.se?item.se.length > 0:''">
-                <div class="ts-text">特殊效果：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.se"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-text" v-if="item.skillLv?true:false">技能等級：{{item.skillLv}}</div>
-              <div class="ts-wrap g-0">
-                <div class="ts-text" v-if="item.item?item.item.length > 0:''">材料：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.item"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-text is-description" v-if="item.notion!=''">{{item.notion}}</div>
-              <div class="ts-text" v-if="item.buy?true:false">買價：{{item.buy}}</div>
-              <div class="ts-text" v-if="item.sell?true:false">賣價：{{item.sell}}</div>
-            </div>
-          </div>
-        </details>
-      </div>
-    </div>
-  </div>
-</div>
-`
+  template:itemLogTemplate
 });
 Vue.component('equipItem', {
   data() {
@@ -1942,64 +1780,7 @@ Vue.component('equipItem', {
       });
     }
   },
-  template: `
-<div class="tablet+:ts-content">
-  <div class="ts-tab is-pilled" style="justify-content: center;">
-    <button class="item is-accent" v-for="(lists, i) in dataList" :data-tab="lists.tab"
-      :class="[lists.active?'is-active':'']">
-      {{ lists.category }}
-    </button>
-  </div>
-  <div class="ts-space"></div>
-  <div itemlogseg class="ts-segment logSegTag" :data-name="lists.tab" v-for="(lists, i) in dataList">
-    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-3-columns">
-      <div class="column" v-for="item in lists.list">
-        <label class="ts-checkbox is-kepall">
-          <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
-          {{ item.name }}
-        </label>
-        <details itemlogdetails class="ts-accordion" v-on:click="detailsClose">
-          <summary>
-            <div class="ts-text is-description">詳細資料</div>
-          </summary>
-          <div class="ts-box is-bottom-indicated is-accent">
-            <div class="ts-content">
-              <div class="ts-text" v-if="item.jpName?true:false">{{item.jpName}}</div>
-              <div class="ts-text" v-if="item.attr?true:false">屬性：{{item.attr}}</div>
-              <div class="ts-text" v-if="item.atk?true:false">攻擊：{{item.atk}}</div>
-              <div class="ts-text" v-if="item.matk?true:false">魔攻：{{item.matk}}</div>
-              <div class="ts-text" v-if="item.def?true:false">防禦：{{item.def}}</div>
-              <div class="ts-text" v-if="item.mdef?true:false">魔防：{{item.mdef}}</div>
-              <div class="ts-wrap g-0" v-if="item.sp?item.sp.length > 0:''">
-                <div class="ts-text">特殊能力：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.sp"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-wrap g-0" v-if="item.se?item.se.length > 0:''">
-                <div class="ts-text">特殊效果：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.se"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-text" v-if="item.skillLv?true:false">技能等級：{{item.skillLv}}</div>
-              <div class="ts-wrap g-0">
-                <div class="ts-text" v-if="item.item?item.item.length > 0:''">材料：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.item"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-text is-description" v-if="item.notion!=''">{{item.notion}}</div>
-              <div class="ts-text" v-if="item.buy?true:false">買價：{{item.buy}}</div>
-              <div class="ts-text" v-if="item.sell?true:false">賣價：{{item.sell}}</div>
-            </div>
-          </div>
-        </details>
-      </div>
-    </div>
-  </div>
-</div>
-`
+  template:itemLogTemplate
 });
 Vue.component('foodItem', {
   data() {
@@ -2047,62 +1828,5 @@ Vue.component('foodItem', {
       });
     }
   },
-  template: `
-<div class="tablet+:ts-content">
-  <div class="ts-tab is-pilled" style="justify-content: center;">
-    <button class="item is-accent" v-for="(lists, i) in dataList" :data-tab="lists.tab"
-      :class="[lists.active?'is-active':'']">
-      {{ lists.category }}
-    </button>
-  </div>
-  <div class="ts-space"></div>
-  <div itemlogseg class="ts-segment logSegTag" :data-name="lists.tab" v-for="(lists, i) in dataList">
-    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-3-columns">
-      <div class="column" v-for="item in lists.list">
-        <label class="ts-checkbox is-kepall">
-          <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
-          {{ item.name }}
-        </label>
-        <details itemlogdetails class="ts-accordion" v-on:click="detailsClose">
-          <summary>
-            <div class="ts-text is-description">詳細資料</div>
-          </summary>
-          <div class="ts-box is-bottom-indicated is-accent">
-            <div class="ts-content">
-              <div class="ts-text" v-if="item.jpName?true:false">{{item.jpName}}</div>
-              <div class="ts-text" v-if="item.attr?true:false">屬性：{{item.attr}}</div>
-              <div class="ts-text" v-if="item.atk?true:false">攻擊：{{item.atk}}</div>
-              <div class="ts-text" v-if="item.matk?true:false">魔攻：{{item.matk}}</div>
-              <div class="ts-text" v-if="item.def?true:false">防禦：{{item.def}}</div>
-              <div class="ts-text" v-if="item.mdef?true:false">魔防：{{item.mdef}}</div>
-              <div class="ts-wrap g-0" v-if="item.sp?item.sp.length > 0:''">
-                <div class="ts-text">特殊能力：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.sp"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-wrap g-0" v-if="item.se?item.se.length > 0:''">
-                <div class="ts-text">特殊效果：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.se"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-text" v-if="item.skillLv?true:false">技能等級：{{item.skillLv}}</div>
-              <div class="ts-wrap g-0">
-                <div class="ts-text" v-if="item.item?item.item.length > 0:''">材料：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.item"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-text is-description" v-if="item.notion!=''">{{item.notion}}</div>
-              <div class="ts-text" v-if="item.buy?true:false">買價：{{item.buy}}</div>
-              <div class="ts-text" v-if="item.sell?true:false">賣價：{{item.sell}}</div>
-            </div>
-          </div>
-        </details>
-      </div>
-    </div>
-  </div>
-</div>
-`
+  template:itemLogTemplate
 });

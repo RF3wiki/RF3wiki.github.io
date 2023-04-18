@@ -1479,7 +1479,7 @@ Vue.component('easy-kill-task', {
 Vue.component('aquaticItem', {
   data() {
     return {
-      baseUrl: '../json/aquaticItem.json',
+      baseUrl: '../json/itemLog/aquaticItem.json',
       dataList: null,
       localKey: 'aquaticItemLog'
     }
@@ -1584,7 +1584,7 @@ Vue.component('aquaticItem', {
 Vue.component('collectionItem', {
   data() {
     return {
-      baseUrl: '../json/collectionItem.json',
+      baseUrl: '../json/itemLog/collectionItem.json',
       dataList: null,
       localKey: 'collectionItemLog'
     }
@@ -1689,7 +1689,7 @@ Vue.component('collectionItem', {
 Vue.component('cropItem', {
   data() {
     return {
-      baseUrl: '../json/cropItem.json',
+      baseUrl: '../json/itemLog/cropItem.json',
       dataList: null,
       localKey: 'cropItemLog'
     }
@@ -1794,7 +1794,7 @@ Vue.component('cropItem', {
 Vue.component('drugItem', {
   data() {
     return {
-      baseUrl: '../json/drugItem.json',
+      baseUrl: '../json/itemLog/drugItem.json',
       dataList: null,
       localKey: 'drugItemLog'
     }
@@ -1899,7 +1899,7 @@ Vue.component('drugItem', {
 Vue.component('equipItem', {
   data() {
     return {
-      baseUrl: '../json/equipItem.json',
+      baseUrl: '../json/itemLog/equipItem.json',
       dataList: null,
       localKey: 'equipItemLog'
     }
@@ -2004,7 +2004,7 @@ Vue.component('equipItem', {
 Vue.component('foodItem', {
   data() {
     return {
-      baseUrl: '../json/foodItem.json',
+      baseUrl: '../json/itemLog/foodItem.json',
       dataList: null,
       localKey: 'foodItemLog'
     }

@@ -1,0 +1,785 @@
+[
+    {
+        "category": "特效種子",
+        "tab": "effectSeedTab",
+        "active": true,
+        "list": [
+            {
+                "name": "すねたソラマメの種 (歪曲的蠶豆種子)",
+                "checked": false
+            },
+            {
+                "name": "マジックソラマメの種 (魔法蠶豆種子)",
+                "checked": false
+            },
+            {
+                "name": "腐ったバナナの種 (腐爛的香蕉種子)",
+                "checked": false
+            },
+            {
+                "name": "スッテンバナナの種 (香蕉皮種子)",
+                "checked": false
+            },
+            {
+                "name": "折れたハスの種 (破掉的蓮葉種子)",
+                "checked": false
+            },
+            {
+                "name": "ハスライダーの種 (蓮葉種子)",
+                "checked": false
+            },
+            {
+                "name": "枯れた水場草の種 (枯掉的水廠草種子)",
+                "checked": false
+            },
+            {
+                "name": "水場草の種 (水廠草種子)",
+                "checked": false
+            },
+            {
+                "name": "枯れたサボテンの種 (枯掉的仙人掌種子)",
+                "checked": false
+            },
+            {
+                "name": "はにわサボテンの種 (土陶仙人掌種子)",
+                "checked": false
+            },
+            {
+                "name": "壊れたメロンの種 (壞掉的蜜瓜種子)",
+                "checked": false
+            },
+            {
+                "name": "爆弾メロンの種 (蜜瓜炸彈種子)",
+                "checked": false
+            },
+            {
+                "name": "ダメジャックの種 (無力南瓜燈種子)",
+                "checked": false
+            },
+            {
+                "name": "ジャックの種 (南瓜燈種子)",
+                "checked": false
+            },
+            {
+                "name": "止まった追風草の種 (停下的追風草種子)",
+                "checked": false
+            },
+            {
+                "name": "追風草の種 (追風草種子)",
+                "checked": false
+            },
+            {
+                "name": "やわい鋼身花の種 (癱軟的鋼身花種子)",
+                "checked": false
+            },
+            {
+                "name": "鋼身花の種 (鋼身花種子)",
+                "checked": false
+            },
+            {
+                "name": "しぼんだ剣草の種 (枯萎的劍草種子)",
+                "checked": false
+            },
+            {
+                "name": "剣草の種 (劍草種子)",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "category": "種子",
+        "tab": "seedTab",
+        "active": false,
+        "list": [
+            {
+                "name": "ほかほかの種 (火熱種子)",
+                "checked": false
+            },
+            {
+                "name": "オトメロンの種 (少女甜瓜種子)",
+                "checked": false
+            },
+            {
+                "name": "金のカブの種 (金蕪菁種子)",
+                "checked": false
+            },
+            {
+                "name": "金のジャガイモの種 (金馬鈴薯種子)",
+                "checked": false
+            },
+            {
+                "name": "金のカボチャの種 (金南瓜種子)",
+                "checked": false
+            },
+            {
+                "name": "金高麗菜種子",
+                "checked": false
+            },
+            {
+                "name": "白菜の種 (白菜種子)",
+                "checked": false
+            },
+            {
+                "name": "ネギの種 (大蔥種子)",
+                "checked": false
+            },
+            {
+                "name": "大根の種 (蘿蔔種子)",
+                "checked": false
+            },
+            {
+                "name": "サクラカブの種 (櫻蕪菁種子)",
+                "checked": false
+            },
+            {
+                "name": "白水晶の種 (白水晶種子)",
+                "checked": false
+            },
+            {
+                "name": "赤水晶の種 (赤水晶種子)",
+                "checked": false
+            },
+            {
+                "name": "タンポイズンの種 (劇毒蒲公英種子)",
+                "checked": false
+            },
+            {
+                "name": "花紅葉の種 (花紅葉種子)",
+                "checked": false
+            },
+            {
+                "name": "ツリー草の種 (樹形草種子)",
+                "checked": false
+            },
+            {
+                "name": "緑水晶の種 (綠水晶種子)",
+                "checked": false
+            },
+            {
+                "name": "野之花火の種 (原之焰火種子)",
+                "checked": false
+            },
+            {
+                "name": "クローバーの種 (三葉草種子)",
+                "checked": false
+            },
+            {
+                "name": "鐵千輪の種 (鐵千輪種子)",
+                "checked": false
+            },
+            {
+                "name": "金剛花の種 (金剛花種子)",
+                "checked": false
+            },
+            {
+                "name": "青水晶の種 (藍水晶種子)",
+                "checked": false
+            },
+            {
+                "name": "ランプ草の種 (燈草種子)",
+                "checked": false
+            },
+            {
+                "name": "サクラ草の種 (櫻草種子)",
+                "checked": false
+            },
+            {
+                "name": "牧草の種 (牧草種子)",
+                "checked": false
+            },
+            {
+                "name": "チャームブルーの種 (魅藍草種子)",
+                "checked": false
+            },
+            {
+                "name": "ピーマンの種 (青椒種子)",
+                "checked": false
+            },
+            {
+                "name": "ホウレン草の種 (菠菜種子)",
+                "checked": false
+            },
+            {
+                "name": "サツマイモの種 (蕃薯種子)",
+                "checked": false
+            },
+            {
+                "name": "ニンジンの種 (胡蘿蔔種子)",
+                "checked": false
+            },
+            {
+                "name": "ナスの種 (茄子種子)",
+                "checked": false
+            },
+            {
+                "name": "ピンクキャットの種 (粉紅貓種子)",
+                "checked": false
+            },
+            {
+                "name": "パイナップルの種 (鳳梨種子)",
+                "checked": false
+            },
+            {
+                "name": "カボチャの種 (南瓜種子)",
+                "checked": false
+            },
+            {
+                "name": "タマネギの種 (洋蔥種子)",
+                "checked": false
+            },
+            {
+                "name": "トウモロコシの種 (玉米種子)",
+                "checked": false
+            },
+            {
+                "name": "トマトの種 (番茄種子)",
+                "checked": false
+            },
+            {
+                "name": "トイハーブの種 (托伊藥草種子)",
+                "checked": false
+            },
+            {
+                "name": "ムーンドロップの種 (月落草種子)",
+                "checked": false
+            },
+            {
+                "name": "高麗菜種子",
+                "checked": false
+            },
+            {
+                "name": "イチゴの種 (草莓種子)",
+                "checked": false
+            },
+            {
+                "name": "キュウリの種 (黃瓜種子)",
+                "checked": false
+            },
+            {
+                "name": "ジャガイモの種 (馬鈴薯種子)",
+                "checked": false
+            },
+            {
+                "name": "カブの種 (蕪菁種子)",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "category": "草花",
+        "tab": "grassflowerTab",
+        "active": false,
+        "list": [
+            {
+                "name": "白水晶",
+                "checked": false,
+                "buy": "49000",
+                "sell": "7000",
+                "sp": [
+                    "HP回復+20%",
+                    "RP回復+15%"
+                ],
+                "time": "3",
+                "notion": "ルーンの結晶が地中に集まってできた花。季節で花の色が違い、冬は白い花が開く。"
+            },
+            {
+                "name": "赤水晶",
+                "checked": false,
+                "buy": "49000",
+                "sell": "7000",
+                "sp": [
+                    "HP回復+20%",
+                    "RP回復+15%"
+                ],
+                "time": "3",
+                "notion": "ルーンの結晶が地中に集まってできた花。季節で花の色が違い、秋は赤い花が開く。"
+            },
+            {
+                "name": "劇毒蒲公英(タンポイズン)",
+                "checked": false,
+                "buy": "46200",
+                "sell": "6600",
+                "sp": [
+                    "RP回復+15%"
+                ],
+                "time": "",
+                "notion": "中心に白く小さい綿のような花が咲く。綿はかわいく見えても毒を持つので注意。息を軽く吹きかけると、花が風に乗って空を舞うので、さらに危険。"
+            },
+            {
+                "name": "花紅葉",
+                "checked": false,
+                "buy": "37800",
+                "sell": "5400",
+                "sp": [
+                    "RP回復+15%",
+                    "HP上限+5%"
+                ],
+                "time": "",
+                "notion": "鮮やかな色の花を咲かせる草。花がまるで紅葉してるように見えるため花紅葉と呼ばれるようになった。"
+            },
+            {
+                "name": "樹形草(ツリー草)",
+                "checked": false,
+                "buy": "29547",
+                "sell": "4221",
+                "sp": [
+                    "RP回復+15%",
+                    "HP上限+5%"
+                ],
+                "time": "3",
+                "notion": "草なのに木の形をした草。冬になると、ツリー草に飾りつけをしてテーブルの上にも置いたりする。"
+            },
+            {
+                "name": "緑水晶",
+                "checked": false,
+                "buy": "49000",
+                "sell": "7000",
+                "sp": [
+                    "HP回復+20%",
+                    "RP回復+15%"
+                ],
+                "time": "3",
+                "notion": "ルーンの結晶が地中に集まってできた花。季節で花の色が違い、夏は緑の花が開く。"
+            },
+            {
+                "name": "原之焰火(野之花火)",
+                "checked": false,
+                "buy": "8400",
+                "sell": "1200",
+                "sp": [
+                    "RP回復+15%",
+                    "力量+10%"
+                ],
+                "time": "3",
+                "notion": "花の形がとても特徴的。『野山に咲く花火』として親しまれている。耳をすませば花火の音が。"
+            },
+            {
+                "name": "四葉三葉草(四つ葉のクローバー)",
+                "checked": false,
+                "buy": "14700",
+                "sell": "2100",
+                "sp": [
+                    "RP回復+15%"
+                ],
+                "time": "3",
+                "notion": "幸せのラッキーアイテム。持っていてもハッピー。プレゼントとしてもハッピーで、ハッピッピー。"
+            },
+            {
+                "name": "鐵千輪(鉄千輪)",
+                "checked": false,
+                "buy": "38500",
+                "sell": "5500",
+                "sp": [
+                    "HP回復-25%",
+                    "RP回復+15%",
+                    "力量+12",
+                    "體力-4"
+                ],
+                "time": "3",
+                "notion": "とげとげの形をした草。中心にある草が、地中の鉄分を集め特徴的な形状を作り出す。"
+            },
+            {
+                "name": "金剛花",
+                "checked": false,
+                "buy": "89600",
+                "sell": "12800",
+                "sp": [
+                    "HP回復+50%",
+                    "RP回復+15%",
+                    "體力+15"
+                ],
+                "time": "3",
+                "notion": "すべてが金色の花。とても頑丈な花で、枯れにくい。見た目通り硬く、転んだ先に生えていると痛い思いをする。"
+            },
+            {
+                "name": "青水晶",
+                "checked": false,
+                "buy": "49000",
+                "sell": "7000",
+                "sp": [
+                    "HP回復+20%",
+                    "RP回復+15%"
+                ],
+                "time": "3",
+                "notion": "ルーンの結晶が地中に集まってできた花。季節で花の色が違い、春は青の花が開く。"
+            },
+            {
+                "name": "燈草(ランプ草)",
+                "checked": false,
+                "buy": "32060",
+                "sell": "4580",
+                "sp": [
+                    "HP回復+10%",
+                    "RP回復+15%"
+                ],
+                "time": "3",
+                "notion": "つぼみの中には、輝く粉がつまっている。見ていると、とても落ち着いた気分になり、リラックスさせる効果があるのかも。"
+            },
+            {
+                "name": "櫻草(サクラ草)",
+                "checked": false,
+                "buy": "6020",
+                "sell": "860",
+                "sp": [
+                    "RP回復+15%"
+                ],
+                "time": "3",
+                "notion": "ピンクの花をつける植物。春の風物詩。"
+            },
+            {
+                "name": "枯草",
+                "checked": false,
+                "buy": "8",
+                "sell": "1",
+                "sp": [
+                    "RP回復-50%"
+                ],
+                "time": "",
+                "notion": "食べると毒になってしまう枯れた草。枯草と一緒に耕すと、土質が良くなる。後に枯草は、こう語っているという。「枯れたとしても、私には未来がある」と。"
+            },
+            {
+                "name": "雜草",
+                "checked": false,
+                "buy": "10",
+                "sell": "1",
+                "sp": [
+                    "HP回復-5"
+                ],
+                "time": "",
+                "notion": "どこにでもいつでもどんな時も。いつもはきらわれ者だけど、強く生きるその姿勢に心打たれた人も多いとか。"
+            },
+            {
+                "name": "白草(白い草)",
+                "checked": false,
+                "buy": "90",
+                "sell": "5",
+                "sp": [
+                    "HP回復+3",
+                    "PR回復+3"
+                ],
+                "time": "",
+                "notion": "うつくしい純白の草。雪とまざって見つけにくいため、気がつかない人も多い。はかなくも気高い草。"
+            },
+            {
+                "name": "藍草(藍の草)",
+                "checked": false,
+                "buy": "30",
+                "sell": "5",
+                "sp": [
+                    "HP回復+3",
+                    "PR回復+3"
+                ],
+                "time": "",
+                "notion": "見ているとなぜか落ち着く草。ケンカをしている人たちの足元に、ひっそりと生え、仲直りさせたという伝説がある。"
+            },
+            {
+                "name": "紫草(紫の草)",
+                "checked": false,
+                "buy": "30",
+                "sell": "5",
+                "sp": [
+                    "HP回復+3",
+                    "PR回復+3"
+                ],
+                "time": "",
+                "notion": "上品な草。色草の中でも、プライドが高く、お上品。それゆえか、他の草とは仲が悪い。"
+            },
+            {
+                "name": "綠草(緑の草)",
+                "checked": false,
+                "buy": "30",
+                "sell": "5",
+                "sp": [
+                    "HP回復+3",
+                    "PR回復+3"
+                ],
+                "time": "",
+                "notion": "グリーンな草、つまり普通の草。色草の中でも個性がないと言われ続け、そんな自分を変えようと努力している。"
+            },
+            {
+                "name": "青草(青い草)",
+                "checked": false,
+                "buy": "30",
+                "sell": "5",
+                "sp": [
+                    "HP回復+3",
+                    "PR回復+3"
+                ],
+                "time": "",
+                "notion": "クールな草。さわると少しひんやりとしている。落ち着く効果があると言われ、薬品などにも使われる。"
+            },
+            {
+                "name": "黃草",
+                "checked": false,
+                "buy": "30",
+                "sell": "5",
+                "sp": [
+                    "HP回復+3",
+                    "PR回復+3"
+                ],
+                "time": "",
+                "notion": "幸運を呼ぶと言われている草。主に金運がアップするとして、お守りかわりに持つ人もいる。"
+            },
+            {
+                "name": "紅草(赤い草)",
+                "checked": false,
+                "buy": "30",
+                "sell": "5",
+                "sp": [
+                    "HP回復+3",
+                    "PR回復+3"
+                ],
+                "time": "",
+                "notion": "じょうねつの草。昔から赤色は成長を早める効果があると言われていて、他の草より早く育つ。"
+            },
+            {
+                "name": "苦橙草(だいだい草)",
+                "checked": false,
+                "buy": "30",
+                "sell": "5",
+                "sp": [
+                    "HP回復+3",
+                    "PR回復+3"
+                ],
+                "time": "",
+                "notion": "夏の太陽を思わせる草。そのまぶしく鮮やかな色は、見ているだけでも元気になれる。"
+            },
+            {
+                "name": "黑草(黒い草)",
+                "checked": false,
+                "buy": "90",
+                "sell": "5",
+                "sp": [
+                    "HP回復+3",
+                    "PR回復+3"
+                ],
+                "time": "",
+                "notion": "あやしく黒光りする草。夜になると、どこにあるかわからなくなってしまうため、よく踏まれてしまう。"
+            },
+            {
+                "name": "解毒草",
+                "checked": false,
+                "buy": "60",
+                "sell": "6",
+                "sp": [
+                    "HP回復+5"
+                ],
+                "time": "",
+                "notion": "体中の毒を浄化する草。とても苦い。苦くて「ぐえ」となるが、食べると毒が治る。背に腹は変えられない。"
+            },
+            {
+                "name": "藥草",
+                "checked": false,
+                "buy": "80",
+                "sell": "8",
+                "sp": [
+                    "HP回復+20"
+                ],
+                "time": "",
+                "notion": "野生する薬草。苦くて「うえ」となるが、食べると回復する。どっちを取るかはあなた次第。"
+            },
+            {
+                "name": "魅藍草(チャームブルー)",
+                "checked": false,
+                "buy": "2240",
+                "sell": "320",
+                "sp": [
+                    "HP回復+5%",
+                    "RP回復+15%"
+                ],
+                "time": "3",
+                "notion": "深い青色をした草。つぼみがとても大きく、色とあわせて、吸い込まれてしまいそうになる。"
+            },
+            {
+                "name": "粉紅貓(ピンクキャット)",
+                "checked": false,
+                "buy": "1890",
+                "sell": "270",
+                "sp": [
+                    "HP回復+6%",
+                    "RP回復+15%"
+                ],
+                "time": "3",
+                "notion": "鮮やかなピンク色の草。つぼみが小さく、かわいらしいため、「キャット」の名で呼ばれるようになった。"
+            },
+            {
+                "name": "月落草(ムーンドロップ)",
+                "checked": false,
+                "buy": "4200",
+                "sell": "600",
+                "sp": [
+                    "RP回復+15%",
+                    "智力+6%"
+                ],
+                "time": "3",
+                "notion": "月明かりで育つ不思議な草。月から零れ落ちてきたかのような美しい黄色い花が咲く。"
+            },
+            {
+                "name": "托伊藥草(トイハーブ)",
+                "checked": false,
+                "buy": "1260",
+                "sell": "180",
+                "sp": [
+                    "HP回復+2%",
+                    "RP回復+15%"
+                ],
+                "time": "3",
+                "notion": "健康にいいとされる薬味。育てるのが少し大変。食べると疲労を治す。"
+            }
+        ]
+    },
+    {
+        "category": "水果",
+        "tab": "fruitTab",
+        "active": false,
+        "list": [
+            {
+                "name": "オレンジ (橘子)",
+                "checked": false
+            },
+            {
+                "name": "リンゴ (蘋果)",
+                "checked": false
+            },
+            {
+                "name": "ブドウ (葡萄)",
+                "checked": false
+            },
+            {
+                "name": "パイナップル (鳳梨)",
+                "checked": false
+            },
+            {
+                "name": "イチゴ (草莓)",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "category": "蔬菜",
+        "tab": "vegetableTab",
+        "active": false,
+        "list": [
+            {
+                "name": "きのこ (蘑菇)",
+                "checked": false
+            },
+            {
+                "name": "きのこ (蘑菇)",
+                "checked": false
+            },
+            {
+                "name": "きのこ (蘑菇)",
+                "checked": false
+            },
+            {
+                "name": "きのこ (蘑菇)",
+                "checked": false
+            },
+            {
+                "name": "きのこ (蘑菇)",
+                "checked": false
+            },
+            {
+                "name": "きのこ (蘑菇)",
+                "checked": false
+            },
+            {
+                "name": "金のカブ (金蕪菁)",
+                "checked": false
+            },
+            {
+                "name": "金のジャガイモ (金馬鈴薯)",
+                "checked": false
+            },
+            {
+                "name": "金のカボチャ (金南瓜)",
+                "checked": false
+            },
+            {
+                "name": "金高麗菜",
+                "checked": false
+            },
+            {
+                "name": "タケノコ (竹筍)",
+                "checked": false
+            },
+            {
+                "name": "ほかほかの実 (火熱果實)",
+                "checked": false
+            },
+            {
+                "name": "白菜 (白菜)",
+                "checked": false
+            },
+            {
+                "name": "ネギ (大蔥)",
+                "checked": false
+            },
+            {
+                "name": "大根 (蘿蔔)",
+                "checked": false
+            },
+            {
+                "name": "カブ (蕪菁)",
+                "checked": false
+            },
+            {
+                "name": "ホウレン草 (菠菜)",
+                "checked": false
+            },
+            {
+                "name": "ピーマン (青椒)",
+                "checked": false
+            },
+            {
+                "name": "ニンジン (胡蘿蔔)",
+                "checked": false
+            },
+            {
+                "name": "ジャガイモ (馬鈴薯)",
+                "checked": false
+            },
+            {
+                "name": "サツマイモ (蕃薯)",
+                "checked": false
+            },
+            {
+                "name": "ナス (茄子)",
+                "checked": false
+            },
+            {
+                "name": "トマト (番茄)",
+                "checked": false
+            },
+            {
+                "name": "トウモロコシ (玉米)",
+                "checked": false
+            },
+            {
+                "name": "キュウリ (黃瓜)",
+                "checked": false
+            },
+            {
+                "name": "カボチャ (南瓜)",
+                "checked": false
+            },
+            {
+                "name": "タマネギ (洋蔥)",
+                "checked": false
+            },
+            {
+                "name": "オトメロン (少女甜瓜)",
+                "checked": false
+            },
+            {
+                "name": "サクラカブ (櫻蕪菁)",
+                "checked": false
+            },
+            {
+                "name": "高麗菜",
+                "checked": false
+            }
+        ]
+    }
+]

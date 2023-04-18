@@ -11,274 +11,266 @@
 <body>
     <script type="module">
 
-        import shieldECP from './0416/盾.json' assert {type: 'json'};
-        import hetECP from './0416/帽子.json' assert {type: 'json'};
-        import showECP from './0416/鞋子.json' assert {type: 'json'};
-        import acceECP from './0416/飾品.json' assert {type: 'json'};
+        // import shieldECP from './0416/盾.json' assert {type: 'json'};
+        // import hetECP from './0416/帽子.json' assert {type: 'json'};
+        // import showECP from './0416/鞋子.json' assert {type: 'json'};
+        // import acceECP from './0416/飾品.json' assert {type: 'json'};
 
         import weapCP from "../json/weapon-cap.json" assert {type: 'json'};
         import weapRC from "../json/weapon-rec.json" assert {type: 'json'};
         import weapCR from "../json/weapon-cap_rec.json" assert {type: 'json'};
 
-        import decorRC from "../json/decor-rec.json" assert {type: 'json'};
-        import shieldCP from "../json/shield-cap.json" assert {type: 'json'};
-        import hetCP from "../json/het-cap.json" assert {type: 'json'};
-        import showCP from "../json/shoe-cap.json" assert {type: 'json'};
-        import acceCP from "../json/acce-cap.json" assert {type: 'json'};
+        // import decorRC from "../json/decor-rec.json" assert {type: 'json'};
+        // import shieldCP from "../json/shield-cap.json" assert {type: 'json'};
+        // import hetCP from "../json/het-cap.json" assert {type: 'json'};
+        // import showCP from "../json/shoe-cap.json" assert {type: 'json'};
+        // import acceCP from "../json/acce-cap.json" assert {type: 'json'};
 
-        import drugRC from "../json/drug-rec.json" assert {type: 'json'};
-        import dAll from "./drugAllItem.json" assert {type: 'json'};
+        // import drugRC from "../json/drug-rec.json" assert {type: 'json'};
+        // import dAll from "./drugAllItem.json" assert {type: 'json'};
 
-        drugRC.sort((a, b) => {
-            if (a.name < b.name) {
-                return -1;
-            }
-        });
-        dAll.forEach((el, index) => {
-            el.list.sort((a, b) => {
-                if (a.skillLv < b.skillLv) {
-                    return -1
-                }
-            })
-        })
-        drugRC.sort((a, b) => {
-            if (a.name < b.name) {
-                return -1;
-            }
-        });
+        // drugRC.sort((a, b) => {
+        //     if (a.name < b.name) {
+        //         return -1;
+        //     }
+        // });
+        // dAll.forEach((el, index) => {
+        //     el.list.sort((a, b) => {
+        //         if (a.skillLv < b.skillLv) {
+        //             return -1
+        //         }
+        //     })
+        // })
+        // drugRC.sort((a, b) => {
+        //     if (a.name < b.name) {
+        //         return -1;
+        //     }
+        // });
 
-        const newDrug = [];
-        drugRC.forEach((el, index) => {
-            let _temp = el.name;
-            let newlist = {
-                name: el.name,
-                checked: el.checked,
-                list: [
-                    {
-                        skillLv: 0,
-                        formula: []
-                    }
-                ],
-                sp: []
-            }
-            let _makelist = []
-            // console.log(newlist);
-        });
+        // const newDrug = [];
+        // drugRC.forEach((el, index) => {
+        //     let _temp = el.name;
+        //     let newlist = {
+        //         name: el.name,
+        //         checked: el.checked,
+        //         list: [
+        //             {
+        //                 skillLv: 0,
+        //                 formula: []
+        //             }
+        //         ],
+        //         sp: []
+        //     }
+        //     let _makelist = []
+        //     // console.log(newlist);
+        // });
 
-        const transformedData = [];
+        // const transformedData = [];
 
-        drugRC.forEach(item => {
-            const existingItem = transformedData.find(transformedItem => transformedItem.name === item.name);
-            const formula = { skillLv: item.skillLv, formula: item.list };
-            if (!existingItem) {
-                transformedData.push({
-                    name: item.name,
-                    checked: false,
-                    list: [formula],
-                    sp: item.sp
-                });
-            } else {
-                existingItem.list.push(formula);
-            }
-        });
+        // drugRC.forEach(item => {
+        //     const existingItem = transformedData.find(transformedItem => transformedItem.name === item.name);
+        //     const formula = { skillLv: item.skillLv, formula: item.list };
+        //     if (!existingItem) {
+        //         transformedData.push({
+        //             name: item.name,
+        //             checked: false,
+        //             list: [formula],
+        //             sp: item.sp
+        //         });
+        //     } else {
+        //         existingItem.list.push(formula);
+        //     }
+        // });
 
-        console.log(transformedData);
+        // console.log(transformedData);
 
-
-        /*
         const newWeap = [];
-        const newAcc = [];
-        const newShieldECP = [];
-        const newhetECP = [];
-        const newShowECP = [];
-        const newScceECP = [];
+        // const newAcc = [];
+        // const newShieldECP = [];
+        // const newhetECP = [];
+        // const newShowECP = [];
+        // const newScceECP = [];
 
-        shieldECP.forEach((el, index) => {
-            let newItem = {
-                name: el.name,
-                skillLv: el.skillLv,
-                list: [],
-                attr: el.attr,
-                def: el.def,
-                sp: el.sp,
-                sell: el.sell,
-                buy: el.buy,
-                notion: el.notion
-            }
-            el.item1 ? newItem.list.push(el.item1) : ''
-            el.item2 ? newItem.list.push(el.item2) : ''
-            el.item3 ? newItem.list.push(el.item3) : ''
-            el.item4 ? newItem.list.push(el.item4) : ''
-            el.item5 ? newItem.list.push(el.item5) : ''
-            el.item6 ? newItem.list.push(el.item6) : ''
-            newShieldECP.push(newItem);
-        })
-        hetECP.forEach((el, index) => {
-            let newItem = {
-                name: el.name,
-                skillLv: el.skillLv,
-                list: [],
-                def: el.def,
-                mdef: el.mdef,
-                sp: el.sp,
-                buy: el.buy,
-                sell: el.sell
-            }
-            el.item1 ? newItem.list.push(el.item1) : ''
-            el.item2 ? newItem.list.push(el.item2) : ''
-            el.item3 ? newItem.list.push(el.item3) : ''
-            el.item4 ? newItem.list.push(el.item4) : ''
-            el.item5 ? newItem.list.push(el.item5) : ''
-            el.item6 ? newItem.list.push(el.item6) : ''
-            newhetECP.push(newItem);
-        })
-        showECP.forEach((el, index) => {
-            let newItem = {
-                name: el.name,
-                list: [],
-                skillLv: el.skillLv,
-                def: el.def,
-                mdef: el.mdef,
-                buy: el.buy,
-                sell: el.sell,
-                notion: el.notion
-            }
-            el.item1 ? newItem.list.push(el.item1) : ''
-            el.item2 ? newItem.list.push(el.item2) : ''
-            el.item3 ? newItem.list.push(el.item3) : ''
-            el.item4 ? newItem.list.push(el.item4) : ''
-            el.item5 ? newItem.list.push(el.item5) : ''
-            el.item6 ? newItem.list.push(el.item6) : ''
-            newShowECP.push(newItem);
+        // shieldECP.forEach((el, index) => {
+        //     let newItem = {
+        //         name: el.name,
+        //         skillLv: el.skillLv,
+        //         list: [],
+        //         attr: el.attr,
+        //         def: el.def,
+        //         sp: el.sp,
+        //         sell: el.sell,
+        //         buy: el.buy,
+        //         notion: el.notion
+        //     }
+        //     el.item1 ? newItem.list.push(el.item1) : ''
+        //     el.item2 ? newItem.list.push(el.item2) : ''
+        //     el.item3 ? newItem.list.push(el.item3) : ''
+        //     el.item4 ? newItem.list.push(el.item4) : ''
+        //     el.item5 ? newItem.list.push(el.item5) : ''
+        //     el.item6 ? newItem.list.push(el.item6) : ''
+        //     newShieldECP.push(newItem);
+        // })
+        // hetECP.forEach((el, index) => {
+        //     let newItem = {
+        //         name: el.name,
+        //         skillLv: el.skillLv,
+        //         list: [],
+        //         def: el.def,
+        //         mdef: el.mdef,
+        //         sp: el.sp,
+        //         buy: el.buy,
+        //         sell: el.sell
+        //     }
+        //     el.item1 ? newItem.list.push(el.item1) : ''
+        //     el.item2 ? newItem.list.push(el.item2) : ''
+        //     el.item3 ? newItem.list.push(el.item3) : ''
+        //     el.item4 ? newItem.list.push(el.item4) : ''
+        //     el.item5 ? newItem.list.push(el.item5) : ''
+        //     el.item6 ? newItem.list.push(el.item6) : ''
+        //     newhetECP.push(newItem);
+        // })
+        // showECP.forEach((el, index) => {
+        //     let newItem = {
+        //         name: el.name,
+        //         list: [],
+        //         skillLv: el.skillLv,
+        //         def: el.def,
+        //         mdef: el.mdef,
+        //         buy: el.buy,
+        //         sell: el.sell,
+        //         notion: el.notion
+        //     }
+        //     el.item1 ? newItem.list.push(el.item1) : ''
+        //     el.item2 ? newItem.list.push(el.item2) : ''
+        //     el.item3 ? newItem.list.push(el.item3) : ''
+        //     el.item4 ? newItem.list.push(el.item4) : ''
+        //     el.item5 ? newItem.list.push(el.item5) : ''
+        //     el.item6 ? newItem.list.push(el.item6) : ''
+        //     newShowECP.push(newItem);
 
-        })
-        acceECP.forEach((el, index) => {
-            let newItem = {
-                name: el.name,
-                skillLv: el.skillLv,
-                list: [],
-                attr: el.attr,
-                sp: el.sp,
-                buy: el.buy,
-                sell: el.sell,
-                notion: el.notion,
-            }
-            el.item1 ? newItem.list.push(el.item1) : ''
-            el.item2 ? newItem.list.push(el.item2) : ''
-            el.item3 ? newItem.list.push(el.item3) : ''
-            el.item4 ? newItem.list.push(el.item4) : ''
-            el.item5 ? newItem.list.push(el.item5) : ''
-            el.item6 ? newItem.list.push(el.item6) : ''
-            newScceECP.push(newItem);
-        })
+        // })
+        // acceECP.forEach((el, index) => {
+        //     let newItem = {
+        //         name: el.name,
+        //         skillLv: el.skillLv,
+        //         list: [],
+        //         attr: el.attr,
+        //         sp: el.sp,
+        //         buy: el.buy,
+        //         sell: el.sell,
+        //         notion: el.notion,
+        //     }
+        //     el.item1 ? newItem.list.push(el.item1) : ''
+        //     el.item2 ? newItem.list.push(el.item2) : ''
+        //     el.item3 ? newItem.list.push(el.item3) : ''
+        //     el.item4 ? newItem.list.push(el.item4) : ''
+        //     el.item5 ? newItem.list.push(el.item5) : ''
+        //     el.item6 ? newItem.list.push(el.item6) : ''
+        //     newScceECP.push(newItem);
+        // })
 
-        // decorRC[0].list[index]; 盾
-        // decorRC[1].list[index]; 頭
-        // decorRC[2].list[index]; 鞋
-        // decorRC[3].list[index]; 飾
-        // decorRC[4].list[index]; 收集
+        // const newDecorJson = [];
+        // const 盾 = [];
+        // const 頭 = [];
+        // const 鞋 = [];
+        // const 飾 = [];
+        // const 收集 = [];
+        // const 集合 = [];
+        // newShieldECP.forEach((el, index) => {
+        //     let newList = {
+        //         name: decorRC[0].list[index].name,
+        //         checked: false,
+        //         jpName: el.name,
+        //         skillLv: decorRC[0].list[index].skillLv,
+        //         list: decorRC[0].list[index].item,
+        //         attr: el.attr,
+        //         def: el.def,
+        //         sp: el.sp,
+        //         sell: el.sell,
+        //         buy: el.buy,
+        //         notion: el.notion,
+        //     }
+        //     盾.push(newList);
+        // })
 
-        const newDecorJson = [];
-        const 盾 = [];
-        const 頭 = [];
-        const 鞋 = [];
-        const 飾 = [];
-        const 收集 = [];
-        const 集合 = [];
-        newShieldECP.forEach((el, index) => {
-            let newList = {
-                name: decorRC[0].list[index].name,
-                checked: false,
-                jpName: el.name,
-                skillLv: decorRC[0].list[index].skillLv,
-                list: decorRC[0].list[index].item,
-                attr: el.attr,
-                def: el.def,
-                sp: el.sp,
-                sell: el.sell,
-                buy: el.buy,
-                notion: el.notion,
-            }
-            盾.push(newList);
-        })
+        // newhetECP.forEach((el, index) => {
+        //     let newList = {
+        //         name: decorRC[1].list[index].name,
+        //         checked: false,
+        //         jpName: el.name,
+        //         skillLv: decorRC[1].list[index].skillLv,
+        //         list: decorRC[1].list[index].item,
+        //         def: el.def,
+        //         mdef: el.mdef,
+        //         sp: el.sp,
+        //         buy: el.buy,
+        //         sell: el.sell,
+        //     }
+        //     頭.push(newList);
+        // })
 
-        newhetECP.forEach((el, index) => {
-            let newList = {
-                name: decorRC[1].list[index].name,
-                checked: false,
-                jpName: el.name,
-                skillLv: decorRC[1].list[index].skillLv,
-                list: decorRC[1].list[index].item,
-                def: el.def,
-                mdef: el.mdef,
-                sp: el.sp,
-                buy: el.buy,
-                sell: el.sell,
-            }
-            頭.push(newList);
-        })
+        // newShowECP.forEach((el, index) => {
+        //     decorRC[2].list[index]
+        //     let newList = {
+        //         name: decorRC[2].list[index].name,
+        //         checked: false,
+        //         jpName: el.name,
+        //         skillLv: decorRC[2].list[index].skillLv,
+        //         list: decorRC[2].list[index].item,
+        //         def: el.def,
+        //         mdef: el.mdef,
+        //         buy: el.buy,
+        //         sell: el.sell,
+        //         notion: el.notion,
+        //     }
+        //     鞋.push(newList);
+        // })
 
-        newShowECP.forEach((el, index) => {
-            decorRC[2].list[index]
-            let newList = {
-                name: decorRC[2].list[index].name,
-                checked: false,
-                jpName: el.name,
-                skillLv: decorRC[2].list[index].skillLv,
-                list: decorRC[2].list[index].item,
-                def: el.def,
-                mdef: el.mdef,
-                buy: el.buy,
-                sell: el.sell,
-                notion: el.notion,
-            }
-            鞋.push(newList);
-        })
+        // newScceECP.forEach((el, index) => {
+        //     let newList = {
+        //         name: decorRC[3].list[index].name,
+        //         checked: false,
+        //         jpName: el.name,
+        //         skillLv: decorRC[3].list[index].skillLv,
+        //         list: decorRC[3].list[index].item,
+        //         attr: el.attr,
+        //         sp: el.sp,
+        //         buy: el.buy,
+        //         sell: el.sell,
+        //         notion: el.notion,
+        //     }
+        //     飾.push(newList);
+        // })
 
-        newScceECP.forEach((el, index) => {
-            let newList = {
-                name: decorRC[3].list[index].name,
-                checked: false,
-                jpName: el.name,
-                skillLv: decorRC[3].list[index].skillLv,
-                list: decorRC[3].list[index].item,
-                attr: el.attr,
-                sp: el.sp,
-                buy: el.buy,
-                sell: el.sell,
-                notion: el.notion,
-            }
-            飾.push(newList);
-        })
+        // 集合.push(盾)
+        // 集合.push(頭)
+        // 集合.push(鞋)
+        // 集合.push(飾)
+        // const newDEC4 = [];
+        // decorRC[4].list.forEach((el, index) => {
+        //     let newCat = {
+        //         name: el.name,
+        //         checked: false,
+        //         skillLv: el.skillLv,
+        //         list: el.item
+        //     }
+        //     newDEC4.push(newCat)
+        // })
+        // decorRC.forEach((el, index) => {
+        //     let newCat = {
+        //         category: el.category,
+        //         tab: el.tab,
+        //         active: null,
+        //         list: []
+        //     }
 
-        集合.push(盾)
-        集合.push(頭)
-        集合.push(鞋)
-        集合.push(飾)
-        const newDEC4 = [];
-        decorRC[4].list.forEach((el, index) => {
-            let newCat = {
-                name: el.name,
-                checked: false,
-                skillLv: el.skillLv,
-                list: el.item
-            }
-            newDEC4.push(newCat)
-        })
-        decorRC.forEach((el, index) => {
-            let newCat = {
-                category: el.category,
-                tab: el.tab,
-                active: null,
-                list: []
-            }
-
-            newCat.list = 集合[index] ? 集合[index] : newDEC4
-            el.active ? newCat.active = el.active : newCat.active = false;
-            newDecorJson.push(newCat)
-        });
-        console.log(newDecorJson);
-
+        //     newCat.list = 集合[index] ? 集合[index] : newDEC4
+        //     el.active ? newCat.active = el.active : newCat.active = false;
+        //     newDecorJson.push(newCat)
+        // });
+        // console.log(newDecorJson);
+        
         weapCP.forEach((el, index) => {
             let newCat = {
                 category: el.category,
@@ -302,7 +294,8 @@
                     sell: 0,
                     notion1: "",
                 }
-                newList.list = weapCR[index].list[i].list.length < 1 ? weapRC[index].list[i].list : weapCR[index].list[i].list;
+                // console.log(weapCR[index].list[i].list, weapRC[index].list[i]);
+                newList.list = weapCR[index].list[i].list.length < 1 ? weapRC[index].list[i].item : weapCR[index].list[i].list;
                 newList.notion1 = newList.notion1 ? weapRC[index].list[i].notion1 : '';
                 newList.name = li.name ? li.name : weapCR[index].list[i].name;
                 newList.attr = li.attr ? li.attr : weapCR[index].list[i].attr;
@@ -317,7 +310,7 @@
             })
             newWeap.push(newCat);
         });
-*/
+        console.log(newWeap);
 
     </script>
 </body>

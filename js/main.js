@@ -46,7 +46,7 @@ const RF3Wiki = new Vue({
             document.querySelector('.mobile-menu-btn').classList.remove("mobile-menu-active");
         },
         detailsClose() {
-            const details = document.querySelectorAll("details");
+            const details = document.querySelectorAll('.ts-menu details');
             details.forEach((targetDetail) => {
                 targetDetail.addEventListener("click", () => {
                     details.forEach((detail) => {

@@ -367,7 +367,7 @@
                     {
                         "name": "闊劍 (ブロードソード)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 5,
                         "matk": 0,
                         "list": [
@@ -383,7 +383,7 @@
                     {
                         "name": "礦石劍 (スティールソード)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 10,
                         "matk": 0,
                         "list": [
@@ -401,7 +401,7 @@
                     {
                         "name": "礦石劍改 (スティールソード改)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 21,
                         "matk": 0,
                         "list": [
@@ -421,7 +421,7 @@
                     {
                         "name": "彎刀 (カトラス)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 32,
                         "matk": 0,
                         "list": [
@@ -442,7 +442,7 @@
                     {
                         "name": "不求人 (まごの手)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 27,
                         "matk": 0,
                         "list": [
@@ -498,7 +498,7 @@
                     {
                         "name": "防禦之劍 (ディフェンダー)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 63,
                         "matk": 0,
                         "list": [
@@ -560,7 +560,7 @@
                     {
                         "name": "勺子 (スプーン)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 50,
                         "matk": 0,
                         "list": [
@@ -599,7 +599,7 @@
                     {
                         "name": "幸運之劍 (ラックブレード)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 97,
                         "matk": 0,
                         "list": [
@@ -661,7 +661,7 @@
                     {
                         "name": "迪蘭達爾 (デュランダル)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 133,
                         "matk": 0,
                         "list": [
@@ -723,7 +723,7 @@
                     {
                         "name": "致命之劍 (スマッシュブレード)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 148,
                         "matk": 0,
                         "list": [
@@ -808,7 +808,7 @@
                     {
                         "name": "奪魂者 (ソウルイーター)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 166,
                         "matk": 0,
                         "list": [
@@ -828,7 +828,7 @@
                     {
                         "name": "豪華之劍 (ゴージャスソード)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 187,
                         "matk": 0,
                         "list": [
@@ -849,7 +849,7 @@
                     {
                         "name": "蛇劍 (スネークソード)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 198,
                         "matk": 0,
                         "list": [
@@ -892,7 +892,7 @@
                     {
                         "name": "龍劍 (ドラグスレイヤー)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 233,
                         "matk": 0,
                         "list": [
@@ -912,7 +912,7 @@
                     {
                         "name": "白金之劍 (プラチナソード)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 246,
                         "matk": 0,
                         "list": [
@@ -933,7 +933,7 @@
                     {
                         "name": "白金之劍改 (プラチナソード改)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 258,
                         "matk": 0,
                         "list": [
@@ -956,7 +956,7 @@
                     {
                         "name": "隱形之劍 (インビジブレード)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 270,
                         "matk": 0,
                         "list": [
@@ -1002,7 +1002,7 @@
                     {
                         "name": "格拉迪烏斯 (グラディウス)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 284,
                         "matk": 0,
                         "list": [
@@ -1025,7 +1025,7 @@
                     {
                         "name": "符文傳說 (レジェンドオブルーン)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 293,
                         "matk": 0,
                         "list": [
@@ -1055,7 +1055,7 @@
                     {
                         "name": "短劍 (ショート)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 6,
                         "matk": 0,
                         "list": [
@@ -1072,7 +1072,7 @@
                     {
                         "name": "鋼鐵雙刃 (スティールエッジ)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 13,
                         "matk": 0,
                         "list": [
@@ -1090,7 +1090,7 @@
                     {
                         "name": "鋼鐵之刃 (アイアンエッジ)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 24,
                         "matk": 0,
                         "list": [
@@ -1110,7 +1110,7 @@
                     {
                         "name": "盜賊匕首 (シーフナイフ)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 35,
                         "matk": 0,
                         "list": [
@@ -1149,7 +1149,7 @@
                     {
                         "name": "雙不求人 (ダブルまごの手)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 42,
                         "matk": 0,
                         "list": [
@@ -1168,7 +1168,7 @@
                     {
                         "name": "斬鋼刃 (斬鋼刃)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 57,
                         "matk": 0,
                         "list": [
@@ -1248,7 +1248,7 @@
                     {
                         "name": "雙勺 (アクトリマッセ)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 72,
                         "matk": 0,
                         "list": [
@@ -1268,7 +1268,7 @@
                     {
                         "name": "狂暴雙刃 (ランペイジ)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 96,
                         "matk": 0,
                         "list": [
@@ -1328,7 +1328,7 @@
                     {
                         "name": "雙蔥 (ツインネッギ)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 39,
                         "matk": 0,
                         "list": [
@@ -1347,7 +1347,7 @@
                     {
                         "name": "雙鬼丸 (雙鬼丸)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 126,
                         "matk": 0,
                         "list": [
@@ -1410,7 +1410,7 @@
                     {
                         "name": "冥王之劍 (オルクスソード)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 150,
                         "matk": 0,
                         "list": [
@@ -1495,7 +1495,7 @@
                     {
                         "name": "聖職之劍 (プリーストセイバー)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 195,
                         "matk": 0,
                         "list": [
@@ -1518,7 +1518,7 @@
                     {
                         "name": "巨豪華之劍 (ベリーゴージャス)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 207,
                         "matk": 0,
                         "list": [
@@ -1558,7 +1558,7 @@
                     {
                         "name": "龍爪 (ドラグーンクロー)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 243,
                         "matk": 0,
                         "list": [
@@ -1578,7 +1578,7 @@
                     {
                         "name": "白金雙刃 (プラチナエッジ)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 256,
                         "matk": 0,
                         "list": [
@@ -1645,7 +1645,7 @@
                     {
                         "name": "狂熱之刃 (アーネストエッジ)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 301,
                         "matk": 0,
                         "list": [
@@ -1668,7 +1668,7 @@
                     {
                         "name": "雙正義之刃 (ツインジャスティス)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 322,
                         "matk": 0,
                         "list": [
@@ -1698,7 +1698,7 @@
                     {
                         "name": "雙手劍 (クレイモア)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 11,
                         "matk": 0,
                         "list": [
@@ -1716,7 +1716,7 @@
                     {
                         "name": "雙手大劍 (ツーハンドソード)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 22,
                         "matk": 0,
                         "list": [
@@ -1734,7 +1734,7 @@
                     {
                         "name": "雙手大劍改 (ツーハンドソード改)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 36,
                         "matk": 0,
                         "list": [
@@ -1754,7 +1754,7 @@
                     {
                         "name": "改良闊劍 (グレートソード)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 52,
                         "matk": 0,
                         "list": [
@@ -1894,7 +1894,7 @@
                     {
                         "name": "劇毒之刃 (ポイズンブレード)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 124,
                         "matk": 0,
                         "list": [
@@ -1913,7 +1913,7 @@
                     {
                         "name": "大匕首 (ビッグナイフ)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 139,
                         "matk": 0,
                         "list": [
@@ -1931,7 +1931,7 @@
                     {
                         "name": "波形劍 (フランベルジュ)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 147,
                         "matk": 0,
                         "list": [
@@ -1968,7 +1968,7 @@
                     {
                         "name": "波形劍改 (フランベルジュ改)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 171,
                         "matk": 0,
                         "list": [
@@ -2029,7 +2029,7 @@
                     {
                         "name": "太刀 (太刀)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 192,
                         "matk": 0,
                         "list": [
@@ -2070,7 +2070,7 @@
                     {
                         "name": "輕便雙手劍 (カッツバルケル)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 216,
                         "matk": 0,
                         "list": [
@@ -2112,7 +2112,7 @@
                     {
                         "name": "生物粉碎者 (バイオスマッシャー)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 243,
                         "matk": 0,
                         "list": [
@@ -2154,7 +2154,7 @@
                     {
                         "name": "斬舞 (斬々舞)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 265,
                         "matk": 0,
                         "list": [
@@ -2174,7 +2174,7 @@
                     {
                         "name": "大蛇 (オロチ)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 272,
                         "matk": 0,
                         "list": [
@@ -2195,7 +2195,7 @@
                     {
                         "name": "斷罪者 (パニッシャー)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 289,
                         "matk": 0,
                         "list": [
@@ -2215,7 +2215,7 @@
                     {
                         "name": "名刀之刃 (名刀達刃)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 320,
                         "matk": 0,
                         "list": [
@@ -2236,7 +2236,7 @@
                     {
                         "name": "月影 (月影)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 353,
                         "matk": 0,
                         "list": [
@@ -2259,7 +2259,7 @@
                     {
                         "name": "巴爾蒙之劍 (バルムンク)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 372,
                         "matk": 0,
                         "list": [
@@ -2280,7 +2280,7 @@
                     {
                         "name": "蒼眼太刀 (蒼眼ノ太刀)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 393,
                         "matk": 0,
                         "list": [
@@ -2402,7 +2402,7 @@
                     {
                         "name": "長槍 (スピア)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 7,
                         "matk": 0,
                         "skillLv": 6,
@@ -2417,7 +2417,7 @@
                     {
                         "name": "騎士長槍 (ランス)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 14,
                         "matk": 0,
                         "skillLv": 8,
@@ -2432,7 +2432,7 @@
                     {
                         "name": "木棒 (こんぼう)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 19,
                         "matk": 0,
                         "skillLv": 14,
@@ -2447,7 +2447,7 @@
                     {
                         "name": "騎士長槍改 (ランス改)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 27,
                         "matk": 0,
                         "skillLv": 17,
@@ -2462,7 +2462,7 @@
                     {
                         "name": "針槍 (ニードルスピア)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 41,
                         "matk": 0,
                         "skillLv": 20,
@@ -2492,7 +2492,7 @@
                     {
                         "name": "斬斧 (ハルバード)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 61,
                         "matk": 0,
                         "skillLv": 23,
@@ -2507,7 +2507,7 @@
                     {
                         "name": "投擲叉子 (ピッチフォーク)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 68,
                         "matk": 0,
                         "skillLv": 25,
@@ -2522,7 +2522,7 @@
                     {
                         "name": "三刃長槍 (コルセスカ)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 79,
                         "matk": 0,
                         "skillLv": 27,
@@ -2537,7 +2537,7 @@
                     {
                         "name": "劇毒長槍 (ポイズンスピア)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 88,
                         "matk": 0,
                         "skillLv": 29,
@@ -2552,7 +2552,7 @@
                     {
                         "name": "三刃長槍改 (コルセルカ改)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 105,
                         "matk": 0,
                         "skillLv": 32,
@@ -2567,7 +2567,7 @@
                     {
                         "name": "看起來不痛的槍 (痛くなさそうな槍)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 105,
                         "matk": 0,
                         "skillLv": 32,
@@ -2582,7 +2582,7 @@
                     {
                         "name": "重騎士槍 (ヘヴィランス)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 113,
                         "matk": 0,
                         "skillLv": 34,
@@ -2597,7 +2597,7 @@
                     {
                         "name": "魔法長槍 (マジカルランス)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 123,
                         "matk": 0,
                         "skillLv": 36,
@@ -2642,7 +2642,7 @@
                     {
                         "name": "猛毒女王 (ポイズンクイーン)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 148,
                         "matk": 0,
                         "skillLv": 45,
@@ -2702,7 +2702,7 @@
                     {
                         "name": "五節棍 (五節昆)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 180,
                         "matk": 0,
                         "skillLv": 53,
@@ -2747,7 +2747,7 @@
                     {
                         "name": "三叉戟 (トライデント)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 215,
                         "matk": 0,
                         "skillLv": 67,
@@ -2777,7 +2777,7 @@
                     {
                         "name": "沉默墓碑 (サイレントグレイブ)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 258,
                         "matk": 0,
                         "skillLv": 76,
@@ -2792,7 +2792,7 @@
                     {
                         "name": "破壞之王 (オーバーブレイク)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 287,
                         "matk": 0,
                         "skillLv": 81,
@@ -2822,7 +2822,7 @@
                     {
                         "name": "貝爾巴羅斯 (ベルヴァロース)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 319,
                         "matk": 0,
                         "skillLv": 89,
@@ -2837,7 +2837,7 @@
                     {
                         "name": "死翔槍 (ゲイボルグ)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 335,
                         "matk": 0,
                         "skillLv": 92,
@@ -2852,7 +2852,7 @@
                     {
                         "name": "龍牙 (竜の牙)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 347,
                         "matk": 0,
                         "skillLv": 95,
@@ -2882,7 +2882,7 @@
                     {
                         "name": "刃靈 (レギオン)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 380,
                         "matk": 0,
                         "skillLv": 98,
@@ -2904,7 +2904,7 @@
                     {
                         "name": "戰斧 (バトルアックス)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 10,
                         "matk": 0,
                         "list": [
@@ -2923,7 +2923,7 @@
                     {
                         "name": "戰鬥鐮刀 (バトルサイズ)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 19,
                         "matk": 0,
                         "list": [
@@ -2941,7 +2941,7 @@
                     {
                         "name": "認真的破斧 (本気なボロのオノ)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 28,
                         "matk": 0,
                         "list": [
@@ -2961,7 +2961,7 @@
                     {
                         "name": "刺斧 (ポールアックス)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 47,
                         "matk": 0,
                         "list": [
@@ -2979,7 +2979,7 @@
                     {
                         "name": "刺斧改 (ポールアックス改)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 63,
                         "matk": 0,
                         "list": [
@@ -2999,7 +2999,7 @@
                     {
                         "name": "改良斧 (グレートアックス)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 73,
                         "matk": 0,
                         "list": [
@@ -3018,7 +3018,7 @@
                     {
                         "name": "毒蜥之牙 (バジリスクファング)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 98,
                         "matk": 0,
                         "list": [
@@ -3058,7 +3058,7 @@
                     {
                         "name": "月牙斧 (クレセントアックス)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 143,
                         "matk": 0,
                         "list": [
@@ -3121,7 +3121,7 @@
                     {
                         "name": "月牙斧改 (クレセントアックス改)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 212,
                         "matk": 0,
                         "list": [
@@ -3164,7 +3164,7 @@
                     {
                         "name": "棒棒糖 (ぺろぺろキャンディー)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 192,
                         "matk": 0,
                         "list": [
@@ -3207,7 +3207,7 @@
                     {
                         "name": "雙刃戰斧 (ダブルエッジ)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 260,
                         "matk": 0,
                         "list": [
@@ -3227,7 +3227,7 @@
                     {
                         "name": "奧魯迪爾 (オールデール)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 302,
                         "matk": 0,
                         "list": [
@@ -3247,7 +3247,7 @@
                     {
                         "name": "惡魔手指 (デビルフィンガー)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 351,
                         "matk": 0,
                         "list": [
@@ -3322,7 +3322,7 @@
                     {
                         "name": "戰鬥錘 (バトルハンマー)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 10,
                         "matk": 0,
                         "list": [
@@ -3342,7 +3342,7 @@
                     {
                         "name": "球棒 (カッキーン)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 36,
                         "matk": 0,
                         "list": [
@@ -3360,7 +3360,7 @@
                     {
                         "name": "重錘 (ウォーハンマー)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 46,
                         "matk": 0,
                         "list": [
@@ -3379,7 +3379,7 @@
                     {
                         "name": "力石 (力石)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 58,
                         "matk": 0,
                         "list": [
@@ -3400,7 +3400,7 @@
                     {
                         "name": "重錘改 (ウォーハンマー改)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 62,
                         "matk": 0,
                         "list": [
@@ -3421,7 +3421,7 @@
                     {
                         "name": "改良錘 (グレートハンマー)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 82,
                         "matk": 0,
                         "list": [
@@ -3440,7 +3440,7 @@
                     {
                         "name": "金屬球棒 (アイアンカッキーン)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 110,
                         "matk": 0,
                         "list": [
@@ -3459,7 +3459,7 @@
                     {
                         "name": "覺醒的破錘子 (目覚めたボロハンマー)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 140,
                         "matk": 0,
                         "list": [
@@ -3479,7 +3479,7 @@
                     {
                         "name": "火之錘 (フレイムハンマー)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 153,
                         "matk": 0,
                         "list": [
@@ -3500,7 +3500,7 @@
                     {
                         "name": "玩具錘 (ピコピコハンマー)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 80,
                         "matk": 0,
                         "list": [
@@ -3542,7 +3542,7 @@
                     {
                         "name": "巨錘 (ギガントハンマー)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 204,
                         "matk": 0,
                         "list": [
@@ -3628,7 +3628,7 @@
                     {
                         "name": "輕錘 (シュナーベル)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 255,
                         "matk": 0,
                         "list": [
@@ -3648,7 +3648,7 @@
                     {
                         "name": "尖刺鐵錘 (スパイクハンマー)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 276,
                         "matk": 0,
                         "list": [
@@ -3691,7 +3691,7 @@
                     {
                         "name": "巨錘改 (ギガントハンマー改)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 320,
                         "matk": 0,
                         "list": [
@@ -3713,7 +3713,7 @@
                     {
                         "name": "金剛 (金剛)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 368,
                         "matk": 0,
                         "list": [
@@ -3757,7 +3757,7 @@
                     {
                         "name": "命運粉碎者 (フェイタルクラッシュ)",
                         "checked": false,
-                        "attr": "-",
+                        "attr": "",
                         "atk": 425,
                         "matk": 0,
                         "list": [
@@ -4109,7 +4109,7 @@
                         "def": 0,
                         "sp": [
                             "魔防+42",
-                            "知力+15"
+                            "智力+15"
                         ],
                         "sell": 2210,
                         "buy": 9830,
@@ -4259,7 +4259,7 @@
                         "def": 0,
                         "sp": [
                             "魔防+96",
-                            "知力+30"
+                            "智力+30"
                         ],
                         "sell": 19200,
                         "buy": 146620,
@@ -4330,7 +4330,7 @@
                         "attr": "",
                         "def": 180,
                         "sp": [
-                            "筋力+20",
+                            "力量+20",
                             "耐気絶+107",
                             "耐クリティカル+88"
                         ],
@@ -4488,7 +4488,7 @@
                         "def": 60,
                         "mdef": 60,
                         "sp": [
-                            "筋力+15",
+                            "力量+15",
                             "耐気絶+25"
                         ],
                         "buy": 30670,
@@ -4551,7 +4551,7 @@
                         "mdef": 112,
                         "sp": [
                             "魔攻+80",
-                            "知力+20",
+                            "智力+20",
                             "闇属性のダメージを半減",
                             "封印を受けにくくなる"
                         ],
@@ -4617,7 +4617,7 @@
                         "mdef": 0,
                         "buy": 630,
                         "sell": 90,
-                        "notion": "転びやすい。クリティカルが出る，知力-5，クリティカル率+95。"
+                        "notion": "転びやすい。クリティカルが出る，智力-5，クリティカル率+95。"
                     },
                     {
                         "name": "拖鞋",
@@ -4822,7 +4822,7 @@
                         "mdef": 0,
                         "buy": 48350,
                         "sell": 4050,
-                        "notion": "筋力+5。"
+                        "notion": "力量+5。"
                     },
                     {
                         "name": "水蜘蛛/水云",
@@ -5018,7 +5018,7 @@
                         ],
                         "attr": "",
                         "sp": [
-                            "体力+10"
+                            "體力+10"
                         ],
                         "buy": 770,
                         "sell": 60,
@@ -5604,7 +5604,7 @@
                         ],
                         "attr": "",
                         "sp": [
-                            "体力+50"
+                            "體力+50"
                         ],
                         "buy": 59710,
                         "sell": 5880,
@@ -5621,7 +5621,7 @@
                         ],
                         "attr": "",
                         "sp": [
-                            "体力+50"
+                            "體力+50"
                         ],
                         "buy": 87300,
                         "sell": 2370,
@@ -5723,7 +5723,7 @@
                         ],
                         "attr": "",
                         "sp": [
-                            "体力+40"
+                            "體力+40"
                         ],
                         "buy": 170280,
                         "sell": 7040,
@@ -5815,7 +5815,7 @@
                         ],
                         "attr": "",
                         "sp": [
-                            "体力+50"
+                            "體力+50"
                         ],
                         "buy": 483420,
                         "sell": 43192,
@@ -5836,7 +5836,7 @@
                         ],
                         "attr": "",
                         "sp": [
-                            "筋力+50"
+                            "力量+50"
                         ],
                         "buy": 524170,
                         "sell": 48875,
@@ -5857,7 +5857,7 @@
                         ],
                         "attr": "",
                         "sp": [
-                            "知力+50"
+                            "智力+50"
                         ],
                         "buy": 538920,
                         "sell": 48409,
@@ -5942,7 +5942,7 @@
                         ],
                         "attr": "",
                         "sp": [
-                            "攻+99，防+99，魔攻+99，魔防+99，筋力+99，体力+99，知力+99"
+                            "攻+99，防+99，魔攻+99，魔防+99，力量+99，體力+99，智力+99"
                         ],
                         "buy": 1000000,
                         "sell": 59800,

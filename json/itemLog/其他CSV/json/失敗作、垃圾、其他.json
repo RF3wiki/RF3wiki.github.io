@@ -1,0 +1,74 @@
+[
+	{
+		"name": "失敗作",
+		"jpName": "失敗作",
+		"checked":false,
+		"se": "HP-20%，HP上限-10%，RP上限-10%，力量-10%，體力-10%，智力-10%",
+		"skillLv": "2",
+		"buy": "10",
+		"sell": "2"
+	},
+	{
+		"name": "超失敗作",
+		"jpName": "超失敗作",
+		"checked":false,
+		"se": "HP-80%，RP上限-25%，力量-25%，體力-25%，智力-25%",
+		"skillLv": "50",
+		"buy": "100",
+		"sell": "50"
+	},
+	{
+		"name": "稀有的空罐子",
+		"jpName": "レアなあきかん",
+		"checked":false,
+		"se": "",
+		"skillLv": "",
+		"buy": "200",
+		"sell": "100"
+	},
+	{
+		"name": "長靴",
+		"jpName": "ながぐつ",
+		"checked":false,
+		"se": "",
+		"skillLv": "",
+		"buy": "60",
+		"sell": "30"
+	},
+	{
+		"name": "空罐子",
+		"jpName": "あきかん",
+		"checked":false,
+		"se": "",
+		"skillLv": "",
+		"buy": "5",
+		"sell": "1"
+	},
+	{
+		"name": "木材",
+		"jpName": "木材",
+		"checked":false,
+		"se": "",
+		"skillLv": "",
+		"buy": "80",
+		"sell": "40"
+	},
+	{
+		"name": "樹枝",
+		"jpName": "枝",
+		"checked":false,
+		"se": "",
+		"skillLv": "",
+		"buy": "40",
+		"sell": "20"
+	},
+	{
+		"name": "石頭",
+		"jpName": "石",
+		"checked":false,
+		"se": "",
+		"skillLv": "",
+		"buy": "10",
+		"sell": "2"
+	}
+]

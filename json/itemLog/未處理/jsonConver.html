@@ -45,22 +45,31 @@
     </div>
 
     <script type="module">
-        import farm from '../新增資料夾/JSON/農具.json' assert {type: 'json'}   //農具
-        import sword from '../新增資料夾/JSON/單手劍.json' assert {type: 'json'}   //單手劍
-        import hsword from '../新增資料夾/JSON/雙手劍.json' assert {type: 'json'}   //雙手劍
-        import dualwield from '../新增資料夾/JSON/雙劍.json' assert {type: 'json'}   //雙劍
-        import spear from '../新增資料夾/JSON/槍.json' assert {type: 'json'}  //槍
-        import axe from '../新增資料夾/JSON/斧.json' assert {type: 'json'}  //斧
-        import hammer from '../新增資料夾/JSON/錘.json' assert {type: 'json'}  //錘
-        import staff from '../新增資料夾/JSON/杖.json' assert {type: 'json'}  //杖
-        import shield from '../新增資料夾/JSON/盾.json' assert {type: 'json'}  //盾
-        import head from '../新增資料夾/JSON/頭.json' assert {type: 'json'}  //頭
-        import shoe from '../新增資料夾/JSON/鞋.json' assert {type: 'json'}  //鞋
-        import acc from '../新增資料夾/JSON/飾品.json' assert {type: 'json'}   //飾品
-        import col from '../新增資料夾/JSON/收集.json' assert {type: 'json'}   //收集
-        import drugRC from '../新增資料夾/JSON/藥學調合.json' assert {type: 'json'}   //收集
+        import pan from '../其他CSV/json/料理/平底鍋料理.json' assert {type: 'json'}; //平底鍋料理
+        import emptyHanded from '../其他CSV/json/料理/空手料理.json' assert {type: 'json'}; //空手料理
+        import oven from '../其他CSV/json/料理/烤箱料理.json' assert {type: 'json'}; //烤箱料理
+        import kitchenKnife from '../其他CSV/json/料理/菜刀料理.json' assert {type: 'json'}; //菜刀料理
+        import steamer from '../其他CSV/json/料理/蒸籠料理.json' assert {type: 'json'}; //蒸籠料理
+        import pot from '../其他CSV/json/料理/鍋子料理.json' assert {type: 'json'}; //鍋子料理
+        import blender from '../其他CSV/json/料理/攪拌機料理.json' assert {type: 'json'}; //攪拌機料理
+        console.log()
+        // import farm from '../新增資料夾/JSON/農具.json' assert {type: 'json'}   //農具
+        // import sword from '../新增資料夾/JSON/單手劍.json' assert {type: 'json'}   //單手劍
+        // import hsword from '../新增資料夾/JSON/雙手劍.json' assert {type: 'json'}   //雙手劍
+        // import dualwield from '../新增資料夾/JSON/雙劍.json' assert {type: 'json'}   //雙劍
+        // import spear from '../新增資料夾/JSON/槍.json' assert {type: 'json'}  //槍
+        // import axe from '../新增資料夾/JSON/斧.json' assert {type: 'json'}  //斧
+        // import hammer from '../新增資料夾/JSON/錘.json' assert {type: 'json'}  //錘
+        // import staff from '../新增資料夾/JSON/杖.json' assert {type: 'json'}  //杖
+        // import shield from '../新增資料夾/JSON/盾.json' assert {type: 'json'}  //盾
+        // import head from '../新增資料夾/JSON/頭.json' assert {type: 'json'}  //頭
+        // import shoe from '../新增資料夾/JSON/鞋.json' assert {type: 'json'}  //鞋
+        // import acc from '../新增資料夾/JSON/飾品.json' assert {type: 'json'}   //飾品
+        // import col from '../新增資料夾/JSON/收集.json' assert {type: 'json'}   //收集
+        // import drugRC from '../新增資料夾/JSON/藥學調合.json' assert {type: 'json'}   //收集
 
-        const farmNew = [],
+        const
+            farmNew = [],
             swordNew = [],
             hswordNew = [],
             dualwieldNew = [],
@@ -75,22 +84,56 @@
             colNew = [],
             drugRCNew = [];
 
+        const
+            panNew = [],
+            emptyHandedNew = [],
+            ovenNew = [],
+            kitchenKnifeNew = [],
+            steamerNew = [],
+            potNew = [],
+            blenderNew = [];
+
+        console.log(pan.find(el => el.name == '天婦羅'));
+        pan.forEach(item => {
+            const existingItem = panNew.find(transformedItem => transformedItem.name === item.name);
+            const formula = { skillLv: item.skillLv, formula: item.list };
+            if (!existingItem) {
+                panNew.push({
+                    name: item.name,
+                    checked: false,
+                    list: [formula],
+                    sp: item.sp
+                });
+            } else {
+                existingItem.list.push(formula);
+            }
+        });
+        console.log(pan);
+
+        // getDrug(pan, panNew)
+        // getDrug(emptyHanded, emptyHandedNew)
+        // getDrug(oven, ovenNew)
+        // getDrug(kitchenKnife, kitchenKnifeNew)
+        // getDrug(steamer, steamerNew)
+        // getDrug(pot, potNew)
+        // getDrug(blender, blenderNew)
+
         const newJson = [];
 
-        getDrug(drugRC, drugRCNew);
-        getforEach(farm, farmNew);
-        getforEach(sword, swordNew);
-        getforEach(hsword, hswordNew);
-        getforEach(dualwield, dualwieldNew);
-        getforEach(spear, spearNew);
-        getforEach(axe, axeNew);
-        getforEach(hammer, hammerNew);
-        getforEach(staff, staffNew);
-        getforEach(shield, shieldNew);
-        getforEach(head, headNew);
-        getforEach(shoe, shoeNew);
-        getforEach(acc, accNew);
-        getforEach(col, colNew);
+        // getDrug(drugRC, drugRCNew);
+        // getforEach(farm, farmNew);
+        // getforEach(sword, swordNew);
+        // getforEach(hsword, hswordNew);
+        // getforEach(dualwield, dualwieldNew);
+        // getforEach(spear, spearNew);
+        // getforEach(axe, axeNew);
+        // getforEach(hammer, hammerNew);
+        // getforEach(staff, staffNew);
+        // getforEach(shield, shieldNew);
+        // getforEach(head, headNew);
+        // getforEach(shoe, shoeNew);
+        // getforEach(acc, accNew);
+        // getforEach(col, colNew);
 
         function getforEach(obj, target) {
             obj.forEach(el => {
@@ -174,22 +217,22 @@
             link.click();
         }
 
-        const downloadData = [
-            { id: 'farmNew', data: farmNew },
-            { id: 'swordNew', data: swordNew },
-            { id: 'hswordNew', data: hswordNew },
-            { id: 'dualwieldNew', data: dualwieldNew },
-            { id: 'spearNew', data: spearNew },
-            { id: 'axeNew', data: axeNew },
-            { id: 'hammerNew', data: hammerNew },
-            { id: 'staffNew', data: staffNew },
-            { id: 'shieldNew', data: shieldNew },
-            { id: 'headNew', data: headNew },
-            { id: 'shoeNew', data: shoeNew },
-            { id: 'accNew', data: accNew },
-            { id: 'colNew', data: colNew },
-            { id: 'drugRCNew', data: drugRCNew },
-        ]
+        // const downloadData = [
+        //     { id: 'farmNew', data: farmNew },
+        //     { id: 'swordNew', data: swordNew },
+        //     { id: 'hswordNew', data: hswordNew },
+        //     { id: 'dualwieldNew', data: dualwieldNew },
+        //     { id: 'spearNew', data: spearNew },
+        //     { id: 'axeNew', data: axeNew },
+        //     { id: 'hammerNew', data: hammerNew },
+        //     { id: 'staffNew', data: staffNew },
+        //     { id: 'shieldNew', data: shieldNew },
+        //     { id: 'headNew', data: headNew },
+        //     { id: 'shoeNew', data: shoeNew },
+        //     { id: 'accNew', data: accNew },
+        //     { id: 'colNew', data: colNew },
+        //     { id: 'drugRCNew', data: drugRCNew },
+        // ]
 
         const btn = document.querySelectorAll('.btn').forEach(el => {
             el.addEventListener('click', function () {

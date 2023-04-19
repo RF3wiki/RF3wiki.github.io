@@ -1,0 +1,40 @@
+[
+    {
+        "name": "毛線球",
+        "jpName": "毛糸玉",
+        "checked": false,
+        "sp": [],
+        "skillLv": 5,
+        "item": [
+            "軟軟毛",
+            "軟軟毛",
+            "軟軟毛"
+        ],
+        "buy": null,
+        "sell": null
+    },
+    {
+        "name": "毛線球",
+        "jpName": "毛糸玉",
+        "checked": false,
+        "sp": [],
+        "skillLv": 6,
+        "item": [
+            "軟絨毛"
+        ],
+        "buy": null,
+        "sell": null
+    },
+    {
+        "name": "毛線球",
+        "jpName": "毛糸玉",
+        "checked": false,
+        "sp": [],
+        "skillLv": 7,
+        "item": [
+            "毛絨軟軟毛"
+        ],
+        "buy": null,
+        "sell": null
+    }
+]

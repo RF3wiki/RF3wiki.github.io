@@ -1405,6 +1405,13 @@ Vue.component('make', {
               {{it }}
             </div>
           </div>
+          <div class="ts-wrap is-vertical g-0" v-if="item.formulaList">
+            <div class="ts-text">配方：</div>
+            <div class="ts-wrap is-middle-aligned is-compact" v-for="f in item.formulaList">
+              <div class="ts-text">等級：{{f.skillLv}}</div>
+              <div class="ts-chip is-spaced is-outlined" v-for="fo in f.formula">{{fo}}</div>
+            </div>
+          </div>
           <div class="ts-text" v-if="item.useRP">消耗RP：{{item.useRP}}</div>
           <div class="ts-text" v-if="item.get">取得：{{item.get}}</div>
           <div class="ts-text" v-if="item.buy">買價：{{item.buy}}</div>

@@ -1,7 +1,7 @@
 [
     {
         "id":"人物相關",
-        "mobileTab":"human",
+        "mobileTab":"humanTab",
         "list":[
             {"name":"花嫁資料","tab":"hanayome","isShow":true},
             {"name":"城鎮村民","tab":"villagers","isShow":true}
@@ -9,7 +9,7 @@
     },
     {
         "id":"任務相關",
-        "mobileTab":"task",
+        "mobileTab":"taskTab",
         "list":[
             {"name":"委託列表", "tab":"task-list","isShow":true},
             {"name":"討伐與任務列表", "tab":"easy-kill-task","isShow":true}
@@ -17,7 +17,7 @@
     },
     {
         "id": "裝備相關",
-        "mobileTab":"equi",
+        "mobileTab":"equiTab",
         "list": [
             {"name":"農具配方","tab":"farm-rec","isShow":true},
             {"name":"武器配方","tab":"weapon-rec","isShow":true},
@@ -33,14 +33,14 @@
     },
     {
         "id": "農作相關",
-        "mobileTab":"crop",
+        "mobileTab":"cropTab",
         "list": [
             {"name":"農作物資料","tab":"crop-info","isShow":true} 
         ]
     },
     {
         "id": "料理、藥水相關",
-        "mobileTab":"cooking",
+        "mobileTab":"cookingTab",
         "list": [
             {"name":"非料理類效果","tab":"no-cooking-cap","isShow":true},
             {"name":"料理配方與效果","tab":"cooking-rec","isShow":true},
@@ -49,7 +49,7 @@
     },
     {
         "id": "釣魚相關",
-        "mobileTab":"fish",
+        "mobileTab":"fishTab",
         "list": [
             {"name":"釣魚資料-小鎮","tab":"fish-town","isShow":true},
             {"name":"釣魚資料-迷宮","tab":"fish-maze","isShow":true}
@@ -57,14 +57,14 @@
     },
     {
         "id": "迷宮相關",
-        "mobileTab":"maze",
+        "mobileTab":"mazeTab",
         "list": [
             {"name":"迷宮資料","tab":"maze-data","isShow":true}
         ]
     },
     {
         "id":"出貨紀錄",
-        "mobileTab":"sell-item-log",
+        "mobileTab":"sell-item-logTab",
         "list":[
             {"name":"全出貨箱物品","tab":"all-item","isShow":false},
             {"name":"出貨紀錄","tab":"sell-log","isShow":true}
@@ -72,7 +72,7 @@
     },
     {
         "id":"出貨紀錄 Ver2",
-        "mobileTab":"sell-item-logV2",
+        "mobileTab":"sell-item-logV2Tab",
         "list":[
             {"name":"製作類","tab":"make","isShow":true},
             {"name":"料理類","tab":"cooking","isShow":true},

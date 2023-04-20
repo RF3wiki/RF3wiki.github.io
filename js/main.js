@@ -37,7 +37,7 @@ const RF3Wiki = new Vue({
                 Vue.component(type) ? this.nowPage = type : this.nowPage = 'error-page';
                 this.isNewPage = this.pageData.isNewPage;
             } else {
-                window.open(`./newPage.html?${type}&${this.isNewPage}`, '_blank');
+                window.open(`?${type}&${this.isNewPage}`, '_blank');
             }
         },
         removeMobileMenu() {

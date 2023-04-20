@@ -67,14 +67,16 @@
         "mobileTab":"sell-item-log",
         "list":[
             {"name":"全出貨箱物品","tab":"all-item","isShow":false},
-            {"name":"出貨紀錄","tab":"sell-log","isShow":true},
-            {"name":"出貨紀錄V2","tab":"sell-logV2","isShow":false},
-            {"name":"作物類","tab":"cropItem","isShow":true},
-            {"name":"食品類","tab":"foodItem","isShow":true},
-            {"name":"水產品類","tab":"aquaticItem","isShow":true},
-            {"name":"藥品類","tab":"drugItem","isShow":true},
-            {"name":"裝備品類","tab":"equipItem","isShow":true},
-            {"name":"收集品類","tab":"collectionItem","isShow":true}
+            {"name":"出貨紀錄","tab":"sell-log","isShow":true}
+        ]
+    },
+    {
+        "id":"出貨紀錄 Ver2",
+        "mobileTab":"sell-item-logV2",
+        "list":[
+            {"name":"製作類","tab":"make","isShow":true},
+            {"name":"料理類","tab":"cooking","isShow":true},
+            {"name":"收集品類","tab":"collection","isShow":true}
         ]
     }
 ]

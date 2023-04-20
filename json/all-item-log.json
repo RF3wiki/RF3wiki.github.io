@@ -1,11 +1,11 @@
 [
     {
-        "id": "作物類(共計128種)",
+        "id": "作物類",
         "tab": "cropItem",
         "active": true,
         "data": [
             {
-                "category": "特效種子 (20種)",
+                "category": "特效種子",
                 "tab": "effectSeedTab",
                 "active": true,
                 "list": [
@@ -92,7 +92,7 @@
                 ]
             },
             {
-                "category": "種子 (43種)",
+                "category": "種子",
                 "tab": "seedTab",
                 "active": false,
                 "list": [
@@ -271,7 +271,7 @@
                 ]
             },
             {
-                "category": "草花 (30種)",
+                "category": "草花",
                 "tab": "grassflowerTab",
                 "active": false,
                 "list": [
@@ -398,7 +398,7 @@
                 ]
             },
             {
-                "category": "水果 (5種)",
+                "category": "水果",
                 "tab": "fruitTab",
                 "active": false,
                 "list": [
@@ -425,7 +425,7 @@
                 ]
             },
             {
-                "category": "蔬菜 (30種)",
+                "category": "蔬菜",
                 "tab": "vegetableTab",
                 "active": false,
                 "list": [
@@ -554,12 +554,12 @@
         ]
     },
     {
-        "id": "藥品類(共計24種)",
+        "id": "藥品類",
         "tab": "drugItem",
         "active": false,
         "data": [
             {
-                "category": "秘藥 (5種)",
+                "category": "秘藥",
                 "tab": "elixirTab",
                 "active": true,
                 "list": [
@@ -586,7 +586,7 @@
                 ]
             },
             {
-                "category": "回復瓶 (3種)",
+                "category": "回復瓶",
                 "tab": "replybottleTab",
                 "active": false,
                 "list": [
@@ -605,7 +605,7 @@
                 ]
             },
             {
-                "category": "藥 (16種)",
+                "category": "藥",
                 "tab": "medicineTab",
                 "active": false,
                 "list": [
@@ -678,12 +678,12 @@
         ]
     },
     {
-        "id": "裝備品類(共計274種)",
+        "id": "裝備品類",
         "tab": "equipItem",
         "active": false,
         "data": [
             {
-                "category": "農具 (32種)",
+                "category": "農具",
                 "tab": "farmtoolsTab",
                 "active": true,
                 "list": [
@@ -818,7 +818,7 @@
                 ]
             },
             {
-                "category": "腳裝備 (21種)",
+                "category": "腳裝備",
                 "tab": "footequipmentTab",
                 "active": false,
                 "list": [
@@ -909,7 +909,7 @@
                 ]
             },
             {
-                "category": "頭裝備 (11種)",
+                "category": "頭裝備",
                 "tab": "headgearTab",
                 "active": false,
                 "list": [
@@ -960,7 +960,7 @@
                 ]
             },
             {
-                "category": "盾 (17種)",
+                "category": "盾",
                 "tab": "shieldTab",
                 "active": false,
                 "list": [
@@ -1035,7 +1035,7 @@
                 ]
             },
             {
-                "category": "雙劍 (31種)",
+                "category": "雙劍",
                 "tab": "doubleswordTab",
                 "active": false,
                 "list": [
@@ -1166,7 +1166,7 @@
                 ]
             },
             {
-                "category": "杖 (14種)",
+                "category": "杖",
                 "tab": "rodTab",
                 "active": false,
                 "list": [
@@ -1229,7 +1229,7 @@
                 ]
             },
             {
-                "category": "斧 (20種)",
+                "category": "斧",
                 "tab": "axTab",
                 "active": false,
                 "list": [
@@ -1316,7 +1316,7 @@
                 ]
             },
             {
-                "category": "錘 (28種)",
+                "category": "錘",
                 "tab": "hammerTab",
                 "active": false,
                 "list": [
@@ -1435,7 +1435,7 @@
                 ]
             },
             {
-                "category": "槍 (33種)",
+                "category": "槍",
                 "tab": "gunTab",
                 "active": false,
                 "list": [
@@ -1574,7 +1574,7 @@
                 ]
             },
             {
-                "category": "雙手劍 (34種)",
+                "category": "雙手劍",
                 "tab": "twohandedswordTab",
                 "active": false,
                 "list": [
@@ -1717,7 +1717,7 @@
                 ]
             },
             {
-                "category": "單手劍 (33種)",
+                "category": "單手劍",
                 "tab": "onehandedswordTab",
                 "active": false,
                 "list": [
@@ -1858,12 +1858,12 @@
         ]
     },
     {
-        "id": "裝飾品類(共計59種)",
+        "id": "裝飾品類",
         "tab": "decorationsItem",
         "active": false,
         "data": [
             {
-                "category": "飾品 (59種)",
+                "category": "飾品",
                 "tab": "accessoriesTab",
                 "active": true,
                 "list": [
@@ -2108,12 +2108,12 @@
         ]
     },
     {
-        "id": "食品類(共計186種)",
+        "id": "食品類",
         "tab": "foodItem",
         "active": false,
         "data": [
             {
-                "category": "材料 (18種)",
+                "category": "材料",
                 "tab": "materialTab",
                 "active": true,
                 "list": [
@@ -2192,7 +2192,7 @@
                 ]
             },
             {
-                "category": "空手料理 (14種)",
+                "category": "空手料理",
                 "tab": "emptycookingTab",
                 "active": false,
                 "list": [
@@ -2255,7 +2255,7 @@
                 ]
             },
             {
-                "category": "蒸鍋 (11種)",
+                "category": "蒸鍋",
                 "tab": "steamerTab",
                 "active": false,
                 "list": [
@@ -2306,7 +2306,7 @@
                 ]
             },
             {
-                "category": "攪拌機 (17種)",
+                "category": "攪拌機",
                 "tab": "blenderTab",
                 "active": false,
                 "list": [
@@ -2381,7 +2381,7 @@
                 ]
             },
             {
-                "category": "烤爐 (19種)",
+                "category": "烤爐",
                 "tab": "ovenTab",
                 "active": false,
                 "list": [
@@ -2464,7 +2464,7 @@
                 ]
             },
             {
-                "category": "鍋子 (28種)",
+                "category": "鍋子",
                 "tab": "potTab",
                 "active": false,
                 "list": [
@@ -2583,7 +2583,7 @@
                 ]
             },
             {
-                "category": "平底煎鍋 (52種)",
+                "category": "平底煎鍋",
                 "tab": "fryingpanTab",
                 "active": false,
                 "list": [
@@ -2798,7 +2798,7 @@
                 ]
             },
             {
-                "category": "菜刀 (25種)",
+                "category": "菜刀",
                 "tab": "kitchenknifeTab",
                 "active": false,
                 "list": [
@@ -2905,7 +2905,7 @@
                 ]
             },
             {
-                "category": "失敗作 (2種)",
+                "category": "失敗作",
                 "tab": "failTab",
                 "active": false,
                 "list": [
@@ -2922,12 +2922,12 @@
         ]
     },
     {
-        "id": "水產品類(共計35種)",
+        "id": "水產品類",
         "tab": "aquaticItem",
         "active": false,
         "data": [
             {
-                "category": "垃圾 (3種)",
+                "category": "垃圾",
                 "tab": "RubbishTab",
                 "active": true,
                 "list": [
@@ -2946,7 +2946,7 @@
                 ]
             },
             {
-                "category": "魚 (32種)",
+                "category": "魚",
                 "tab": "fishTab",
                 "active": false,
                 "list": [
@@ -3083,12 +3083,12 @@
         ]
     },
     {
-        "id": "收集品類(共計90種)",
+        "id": "收集品類",
         "tab": "collectionItem",
         "active": false,
         "data": [
             {
-                "category": "其他 (3種)",
+                "category": "其他",
                 "tab": "otherTab",
                 "active": true,
                 "list": [
@@ -3107,7 +3107,7 @@
                 ]
             },
             {
-                "category": "收集品 (87種)",
+                "category": "收集品",
                 "tab": "collectionTab",
                 "active": false,
                 "list": [

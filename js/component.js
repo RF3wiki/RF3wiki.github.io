@@ -1118,64 +1118,6 @@ Vue.component('villagers', {
 </div>
 `
 });
-// Vue.component('all-item', {
-//   data() {
-//     return {
-//       dataList: null,
-//     };
-//   },
-//   created() {
-//     if (!this.dataList) {
-//       fetch('../json/all-item-log.json').then((res) => res.json())
-//         .then((data) => { this.dataList = data; })
-//         .catch((error) => { console.warn(error) });
-//     };
-//   },
-//   methods: {
-//     activateMain(index) {
-//       this.dataList.forEach((tabOne) => {
-//         tabOne.active = false;
-//       });
-//       this.dataList[index].active = true;
-//     },
-//     activateMinor(index, tabOne) {
-//       tabOne.data.forEach((tabTwo) => {
-//         tabTwo.active = false;
-//       });
-//       tabOne.data[index].active = true;
-//     }
-//   },
-//   template: `
-// <div class="tablet+:ts-content">
-//   <div class="ts-header"> ※ 點選頁籤切換，需載入一小段時間。(數量僅供參考)</div>
-//   <div class="ts-space is-small"></div>
-//   <div class="ts-tab mobile-:is-stacked">
-//     <button class="item is-accent main-tab" v-for="(main, index) in dataList" :key="index"
-//       :class="['item', { 'is-active': main.active }]" :data-tab="main.tab" v-on:click="activateMain(index)">
-//       <div class="text"> {{ main.id }}</div>
-//     </button>
-//   </div>
-//   <div class="ts-space is-small"></div>
-//   <div v-for="(main, index) in dataList" :key="index" :class="{ 'u-hidden': !main.active }" :data-name="main.tab">
-//     <div class="ts-tab is-small is-secondary">
-//       <button v-for="(minor, index) in main.data" :key="index" class="item is-accent minor-tab"
-//         :class="['item', 'tablist', { 'is-active': minor.active }]" :data-tab="minor.tab"
-//         v-on:click="activateMinor(index, main)">
-//         <div class="text"> {{ minor.category }}</div>
-//       </button>
-//     </div>
-//     <div class="ts-space is-small"></div>
-//     <div class="ts-segment" v-for="(minor, index) in main.data" :key="index" v-show="minor.active">
-//       <div class="ts-grid mobile-:is-stacked" style="padding:.5rem;">
-//         <div class="column is-4-wide" v-for="(item, index) in minor.list" :key="index">
-//           <div class="ts-text" :dd="index +1">{{ item.name }}</div>
-//         </div>
-//       </div>
-//     </div>
-//   </div>
-// </div>
-// `
-// });
 Vue.component('sell-log', {
   data() {
     return {
@@ -1187,9 +1129,7 @@ Vue.component('sell-log', {
     if (localStorage.getItem(this.localKey)) {
       this.dataList = JSON.parse(localStorage.getItem(this.localKey));
     } else if (!this.dataList) {
-      fetch('../json/all-item-log.json').then((res) => res.json())
-        .then((data) => { this.dataList = data; })
-        .catch((error) => { console.warn(error) });
+      this.getFetchData();
     };
   },
   methods: {
@@ -1206,12 +1146,26 @@ Vue.component('sell-log', {
       tabOne.data[index].active = true;
     },
     saveJson() {
-      // localStorage.setItem(this.localKey, JSON.stringify(this.dataList));
+      localStorage.setItem(this.localKey, JSON.stringify(this.dataList));
+    },
+    deleteSave() {
+      localStorage.removeItem(this.localKey);
+      this.getFetchData();
+    },
+    getFetchData() {
+      fetch('../json/all-item-log.json').then((res) => res.json())
+        .then((data) => { this.dataList = data; })
+        .catch((error) => { console.warn(error) });
     }
   },
   template: `
 <div class="tablet+:ts-content">
-  <div class="ts-header">※ 點選頁籤切換，將自動存檔於瀏覽器。(數量僅供參考)</div>
+  <div class="ts-header">
+    <div class="ts-wrap is-middle-aligned">
+      <div class="ts-text"> ※ 點選頁籤切換，將自動存檔於瀏覽器。(數量僅供參考) </div>
+      <button class="ts-button is-small is-outlined" v-on:click="deleteSave">清除紀錄</button>
+    </div>
+  </div>
   <div class="ts-space is-small"></div>
   <div class="ts-tab mobile-:is-stacked">
     <button class="item is-accent main-tab" v-for="(main, index) in dataList" :key="index"
@@ -1236,115 +1190,6 @@ Vue.component('sell-log', {
             <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
             {{ item.name }}
           </label>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-`
-});
-Vue.component('sell-logV2', {
-  data() {
-    return {
-      dataList: null,
-      localKey: 'sellLogData',
-      verKey: 'dataJSONVerKey',
-      weaponData: ["sword", "doublesword", "twosword", "staff", "longgun", "tomahawk", "warhammer", "shield", "hatEquipmentTab", "shoeEquipmentTab", "accessoriesTab"],
-    };
-  },
-  created() {
-    if (localStorage.getItem(this.localKey)) {
-      this.dataList = JSON.parse(localStorage.getItem(this.localKey));
-    } else if (!this.dataList) {
-      fetch('../json/all-item-logV2.json').then((res) => res.json())
-        .then((data) => { this.dataList = data; })
-        .catch((error) => { console.warn(error) });
-    };
-  },
-  methods: {
-    activateMain(index) {
-      this.dataList.forEach((tabOne) => {
-        tabOne.active = false;
-      });
-      this.dataList[index].active = true;
-    },
-    activateMinor(index, tabOne) {
-      tabOne.data.forEach((tabTwo) => {
-        tabTwo.active = false;
-      });
-      tabOne.data[index].active = true;
-    },
-    saveJson() {
-      // localStorage.setItem(this.localKey, JSON.stringify(this.dataList));
-    }
-  },
-  template: `
-<div class="tablet+:ts-content">
-  <div class="ts-header">※ 點選頁籤切換，將自動存檔於瀏覽器。(數量僅供參考)</div>
-  <div class="ts-space is-small"></div>
-  <div class="ts-tab mobile-:is-stacked">
-    <button class="item is-accent main-tab" v-for="(main, index) in dataList" :key="index"
-      :class="['item', { 'is-active': main.active }]" :data-tab="main.tab" v-on:click="activateMain(index)">
-      <div class="text"> {{ main.id }}</div>
-    </button>
-  </div>
-  <div class="ts-space is-small"></div>
-  <div v-for="(main, index) in dataList" :key="index" :class="{ 'u-hidden': !main.active }" :data-name="main.tab">
-    <div class="ts-tab is-small is-secondary">
-      <button v-for="(minor, index) in main.data" :key="index" class="item is-accent minor-tab"
-        :class="['item', 'tablist', { 'is-active': minor.active }]" :data-tab="minor.tab"
-        v-on:click="activateMinor(index, main)">
-        <div class="text"> {{ minor.category }}</div>
-      </button>
-    </div>
-    <div class="ts-space is-small"></div>
-    <div class="ts-segment" v-for="(minor, index) in main.data" :key="index" v-show="minor.active">
-      <div class="ts-grid mobile-:is-stacked" style="padding:.5rem;">
-        <div class="column is-4-wide" v-for="(item, index) in minor.list" :key="index">
-          <div class="ts-segment">
-            <label class="ts-checkbox is-kepall">
-              <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
-              {{ item.name }}
-            </label>
-            <details v-if="minor.tab == 'farmtoolsTab' " class="ts-accordion">
-              <summary>詳細資料</summary>
-              <div class="ts-text">技能等級：{{item.skillLv}}</div>
-              <div class="ts-wrap g-0">
-                <div class="ts-text">材料：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.item"> {{it}} </div>
-                </div>
-              </div>
-            </details>
-            <details v-if="weaponData.includes(minor.tab)" class="ts-accordion">
-              <summary>詳細資料</summary>
-              <div class="ts-text" v-show="item.jpName?true:false">{{item.jpName}}</div>
-              <div class="ts-text">技能等級：{{item.skillLv}}</div>
-              <div class="ts-text" v-show="item.attr?true:false">屬性：{{item.attr}}</div>
-              <div class="ts-text" v-show="item.atk?true:false">攻擊：{{item.atk}}</div>
-              <div class="ts-text" v-show="item.matk?true:false">魔攻：{{item.matk}}</div>
-              <div class="ts-wrap g-0">
-                <div class="ts-text">材料：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.list"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-wrap g-0" v-show="item.sp?item.sp.length > 0:''">
-                <div class="ts-text">特殊能力：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.sp"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-wrap g-0" v-show="item.se?item.se.length > 0:''">
-                <div class="ts-text">特殊效果：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.se"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-text">買價：{{item.buy}}</div>
-              <div class="ts-text">賣價：{{item.sell}}</div>
-            </details>
-          </div>
         </div>
       </div>
     </div>
@@ -1475,156 +1320,132 @@ Vue.component('easy-kill-task', {
 </div>
 `
 });
-
-let itemLogTemplate = `
+Vue.component('make', {
+  data() {
+    return {
+      dataList: null,
+      localKey: 'makelogdata',
+      url: '../json/category-make.json',
+    }
+  },
+  created() {
+    if (localStorage.getItem(this.localKey)) {
+      this.dataList = JSON.parse(localStorage.getItem(this.localKey));
+    } else if (!this.dataList) {
+      this.getFetchData();
+    };
+  },
+  methods: {
+    saveJson() {
+      localStorage.setItem(this.localKey, JSON.stringify(this.dataList));
+    },
+    deleteSave() {
+      localStorage.removeItem(this.localKey);
+      this.getFetchData();
+    },
+    getFetchData() {
+      fetch(this.url).then((res) => res.json())
+        .then((data) => { this.dataList = data; })
+        .catch((error) => { console.warn(error) });
+    },
+    detailsClose() {
+      const details = document.querySelectorAll('.itemlog:not(.u-hidden) details');
+      details.forEach((targetDetail) => {
+        targetDetail.addEventListener("click", () => {
+          details.forEach((detail) => {
+            if (detail !== targetDetail) {
+              detail.removeAttribute("open");
+            };
+          });
+        });
+      });
+    }
+  },
+  template: `
 <div class="tablet+:ts-content">
-  <div class="ts-tab is-pilled" style="justify-content: center;">
-    <button class="item is-accent" v-for="(lists, i) in dataList" :data-tab="lists.tab"
-      :class="[lists.active?'is-active':'']">
-      {{ lists.category }}
+  <div class="ts-header">
+    <div class="ts-wrap is-middle-aligned">
+      <div class="ts-text"> ※ 點選頁籤切換，將自動存檔於瀏覽器。(需載入一段時間) </div>
+      <button class="ts-button is-small is-outlined" v-on:click="deleteSave">清除紀錄</button>
+    </div>
+  </div>
+  <div class="ts-space is-small"></div>
+  <div class="ts-tab is-small is-secondary">
+    <button v-for="(main, index) in dataList" :key="index" class="item is-accent minor-tab"
+      :class="['item', 'tablist', { 'is-active': main.active }]" :data-tab="main.tab">
+      <div class="text"> {{ main.category }}</div>
     </button>
   </div>
-  <div class="ts-space"></div>
-  <div itemlogseg class="ts-segment logSegTag" :data-name="lists.tab" v-for="(lists, i) in dataList">
-    <div class="ts-grid mobile-:is-1-columns tablet+:is-2-columns desktop+:is-3-columns">
-      <div class="column" v-for="item in lists.list">
+  <div class="ts-space is-small"></div>
+  <div class="ts-segment itemlog" v-for="(main, index) in dataList" :data-name="main.tab" :key="index">
+    <div class="ts-grid mobile-:is-stacked" style="padding:.5rem;">
+      <div class="column is-4-wide" v-for="(item, index) in main.list" :key="index">
         <label class="ts-checkbox is-kepall">
           <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
           {{ item.name }}
         </label>
-        <details itemlogdetails v-if="item.item?true:false" class="ts-accordion" v-on:click="detailsClose">
-          <summary>
-            <div class="ts-text is-description">詳細資料</div>
-          </summary>
-          <div class="ts-box is-bottom-indicated is-accent">
-            <div class="ts-content">
-              <div class="ts-text" v-if="item.jpName?true:false">{{item.jpName}}</div>
-              <div class="ts-text" v-if="item.attr?true:false">屬性：{{item.attr}}</div>
-              <div class="ts-text" v-if="item.atk?true:false">攻擊：{{item.atk}}</div>
-              <div class="ts-text" v-if="item.matk?true:false">魔攻：{{item.matk}}</div>
-              <div class="ts-text" v-if="item.def?true:false">防禦：{{item.def}}</div>
-              <div class="ts-text" v-if="item.mdef?true:false">魔防：{{item.mdef}}</div>
-              <div class="ts-wrap g-0" v-if="item.sp?item.sp.length > 0:''">
-                <div class="ts-text">特殊能力：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.sp"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-wrap g-0" v-if="item.se?item.se.length > 0:''">
-                <div class="ts-text">特殊效果：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.se"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-text" v-if="item.skillLv?true:false">技能等級：{{item.skillLv}}</div>
-              <div class="ts-wrap g-0">
-                <div class="ts-text" v-if="item.item?item.item.length > 0:''">材料：</div>
-                <div class="ts-wrap is-compact">
-                  <div class="ts-chip is-outlined" v-for="it in item.item"> {{it}} </div>
-                </div>
-              </div>
-              <div class="ts-box border-0" v-if="item.list?item.list.length>0:''">
-                <div class="ts-text">製作：</div>
-                <div class="ts-wrap is-compact" v-for="it in item.item">
-                  <div class="ts-text">等級：{{it.skillLv}}</div>
-                  <div class="ts-chip is-outlined" v-for="fo in it.formula"> {{fo}} </div>
-                </div>
-              </div>
-              <div class="ts-text is-description" v-if="item.notion!=''">{{item.notion}}</div>
-              <div class="ts-text" v-if="item.buy?true:false">買價：{{item.buy}}</div>
-              <div class="ts-text" v-if="item.sell?true:false">賣價：{{item.sell}}</div>
+        <details class="ts-accordion" v-on:click="detailsClose">
+          <summary>詳細資料</summary>
+          <div class="ts-text is-secondary">{{item.jpName}}</div>
+          <div class="ts-text" v-if="item.attr">屬性：{{item.attr}}</div>
+          <div class="ts-text" v-if="item.atk">攻擊：{{item.atk}}</div>
+          <div class="ts-text" v-if="item.matk">魔攻：{{item.matk}}</div>
+          <div class="ts-text" v-if="item.def">防禦：{{item.def}}</div>
+          <div class="ts-text" v-if="item.mdef">魔防：{{item.mdef}}</div>
+          <div class="ts-wrap is-middle-aligned is-compact" v-if="item.sp.length>0">
+            <div class="ts-text">特殊能力：</div>
+            <div class="ts-chip is-spaced is-outlined" v-for="sp in item.sp">
+              {{ sp }}
             </div>
           </div>
+          <div class="ts-text" v-if="item.skillLv">等級：{{item.skillLv}}</div>
+          <div class="ts-wrap is-middle-aligned is-compact" v-if="item.item">
+            <div class="ts-text">材料：</div>
+            <div class="ts-chip is-spaced is-outlined" v-for="it in item.item">
+              {{it }}
+            </div>
+          </div>
+          <div class="ts-text" v-if="item.useRP">消耗RP：{{item.useRP}}</div>
+          <div class="ts-text" v-if="item.get">取得：{{item.get}}</div>
+          <div class="ts-text" v-if="item.buy">買價：{{item.buy}}</div>
+          <div class="ts-text" v-if="item.sell">賣價：{{item.sell}}</div>
         </details>
       </div>
     </div>
   </div>
 </div>
-`;
-
-Vue.component('aquaticItem', {
-  data() {
-    return {
-      baseUrl: '../json/itemLog/aquaticItem.json',
-      dataList: null,
-      localKey: 'aquaticItemLog'
-    }
-  },
-  created() {
-    if (localStorage.getItem(this.localKey)) {
-      this.dataList = JSON.parse(localStorage.getItem(this.localKey));
-    } else if (!this.dataList) {
-      fetch(this.baseUrl).then((res) => res.json())
-        .then((data) => { this.dataList = data; })
-        .catch((error) => { console.warn(error) });
-    };
-  },
-  methods: {
-    activateMain(index) {
-      this.dataList.forEach((tabOne) => {
-        tabOne.active = false;
-      });
-      this.dataList[index].active = true;
-    },
-    activateMinor(index, tabOne) {
-      tabOne.data.forEach((tabTwo) => {
-        tabTwo.active = false;
-      });
-      tabOne.data[index].active = true;
-    },
-    saveJson() {
-      localStorage.setItem(this.localKey, JSON.stringify(this.dataList));
-    },
-    detailsClose() {
-      const details = document.querySelectorAll('div[itemlogseg]:not(.u-hidden) details[itemlogdetails]');
-      details.forEach((targetDetail) => {
-        targetDetail.addEventListener("click", () => {
-          details.forEach((detail) => {
-            if (detail !== targetDetail) {
-              detail.removeAttribute("open");
-            };
-          });
-        });
-      });
-    }
-  },
-  template: itemLogTemplate
+`
 });
-Vue.component('collectionItem', {
+Vue.component('cooking', {
   data() {
     return {
-      baseUrl: '../json/itemLog/collectionItem.json',
       dataList: null,
-      localKey: 'collectionItemLog'
+      localKey: 'cookinglogdata',
+      url: '../json/category-cooking.json'
     }
   },
   created() {
     if (localStorage.getItem(this.localKey)) {
       this.dataList = JSON.parse(localStorage.getItem(this.localKey));
     } else if (!this.dataList) {
-      fetch(this.baseUrl).then((res) => res.json())
-        .then((data) => { this.dataList = data; })
-        .catch((error) => { console.warn(error) });
+      this.getFetchData();
     };
   },
   methods: {
-    activateMain(index) {
-      this.dataList.forEach((tabOne) => {
-        tabOne.active = false;
-      });
-      this.dataList[index].active = true;
-    },
-    activateMinor(index, tabOne) {
-      tabOne.data.forEach((tabTwo) => {
-        tabTwo.active = false;
-      });
-      tabOne.data[index].active = true;
-    },
     saveJson() {
       localStorage.setItem(this.localKey, JSON.stringify(this.dataList));
     },
+    deleteSave() {
+      localStorage.removeItem(this.localKey);
+      this.getFetchData();
+    },
+    getFetchData() {
+      fetch(this.url).then((res) => res.json())
+        .then((data) => { this.dataList = data; })
+        .catch((error) => { console.warn(error) });
+    },
     detailsClose() {
-      const details = document.querySelectorAll('div[itemlogseg]:not(.u-hidden) details[itemlogdetails]');
+      const details = document.querySelectorAll('.itemlog:not(.u-hidden) details');
       details.forEach((targetDetail) => {
         targetDetail.addEventListener("click", () => {
           details.forEach((detail) => {
@@ -1636,43 +1457,84 @@ Vue.component('collectionItem', {
       });
     }
   },
-  template:itemLogTemplate
+  template: `
+<div class="tablet+:ts-content">
+  <div class="ts-header">
+    <div class="ts-wrap is-middle-aligned">
+      <div class="ts-text"> ※ 點選頁籤切換，將自動存檔於瀏覽器。(需載入一段時間) </div>
+      <button class="ts-button is-small is-outlined" v-on:click="deleteSave">清除紀錄</button>
+    </div>
+  </div>
+  <div class="ts-space is-small"></div>
+  <div class="ts-tab is-small is-secondary">
+    <button v-for="(main, index) in dataList" :key="index" class="item is-accent minor-tab"
+      :class="['item', 'tablist', { 'is-active': main.active }]" :data-tab="main.tab">
+      <div class="text"> {{ main.category }}</div>
+    </button>
+  </div>
+  <div class="ts-space is-small"></div>
+  <div class="ts-segment itemlog" v-for="(main, index) in dataList" :data-name="main.tab" :key="index">
+    <div class="ts-grid mobile-:is-stacked" style="padding:.5rem;">
+      <div class="column is-4-wide" v-for="(item, index) in main.list" :key="index">
+        <label class="ts-checkbox is-kepall">
+          <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
+          {{ item.name }}
+        </label>
+        <details class="ts-accordion" v-on:click="detailsClose">
+          <summary>詳細資料</summary>
+          <div class="ts-text is-secondary">{{item.jpName}}</div>
+          <div class="ts-wrap is-middle-aligned is-compact">
+            <div class="ts-text">特殊能力：</div>
+            <div class="ts-chip is-spaced is-outlined" v-for="sp in item.sp">
+              {{ sp }}
+            </div>
+          </div>
+          <div class="ts-wrap is-vertical g-0">
+            <div class="ts-text">配方：</div>
+            <div class="ts-wrap is-middle-aligned is-compact" v-for="f in item.formulaList">
+              <div class="ts-text">等級：{{f.skillLv}}</div>
+              <div class="ts-chip is-spaced is-outlined" v-for="fo in f.formula">{{fo}}</div>
+            </div>
+          </div>
+          <div class="ts-text" v-if="item.buy">買價：{{item.buy}}</div>
+          <div class="ts-text" v-if="item.sell">賣價：{{item.sell}}</div>
+        </details>
+      </div>
+    </div>
+  </div>
+</div>
+`
 });
-Vue.component('cropItem', {
+Vue.component('collection', {
   data() {
     return {
-      baseUrl: '../json/itemLog/cropItem.json',
       dataList: null,
-      localKey: 'cropItemLog'
+      localKey: 'collectionlogdata',
+      url: '../json/category-collection.json'
     }
   },
   created() {
     if (localStorage.getItem(this.localKey)) {
       this.dataList = JSON.parse(localStorage.getItem(this.localKey));
     } else if (!this.dataList) {
-      fetch(this.baseUrl).then((res) => res.json())
-        .then((data) => { this.dataList = data; })
-        .catch((error) => { console.warn(error) });
+      this.getFetchData();
     };
   },
   methods: {
-    activateMain(index) {
-      this.dataList.forEach((tabOne) => {
-        tabOne.active = false;
-      });
-      this.dataList[index].active = true;
-    },
-    activateMinor(index, tabOne) {
-      tabOne.data.forEach((tabTwo) => {
-        tabTwo.active = false;
-      });
-      tabOne.data[index].active = true;
-    },
     saveJson() {
       localStorage.setItem(this.localKey, JSON.stringify(this.dataList));
     },
+    deleteSave() {
+      localStorage.removeItem(this.localKey);
+      this.getFetchData();
+    },
+    getFetchData() {
+      fetch(this.url).then((res) => res.json())
+        .then((data) => { this.dataList = data; })
+        .catch((error) => { console.warn(error) });
+    },
     detailsClose() {
-      const details = document.querySelectorAll('div[itemlogseg]:not(.u-hidden) details[itemlogdetails]');
+      const details = document.querySelectorAll('.itemlog:not(.u-hidden) details');
       details.forEach((targetDetail) => {
         targetDetail.addEventListener("click", () => {
           details.forEach((detail) => {
@@ -1684,149 +1546,50 @@ Vue.component('cropItem', {
       });
     }
   },
-  template:itemLogTemplate
-});
-Vue.component('drugItem', {
-  data() {
-    return {
-      baseUrl: '../json/itemLog/drugItem.json',
-      dataList: null,
-      localKey: 'drugItemLog'
-    }
-  },
-  created() {
-    if (localStorage.getItem(this.localKey)) {
-      this.dataList = JSON.parse(localStorage.getItem(this.localKey));
-    } else if (!this.dataList) {
-      fetch(this.baseUrl).then((res) => res.json())
-        .then((data) => { this.dataList = data; })
-        .catch((error) => { console.warn(error) });
-    };
-  },
-  methods: {
-    activateMain(index) {
-      this.dataList.forEach((tabOne) => {
-        tabOne.active = false;
-      });
-      this.dataList[index].active = true;
-    },
-    activateMinor(index, tabOne) {
-      tabOne.data.forEach((tabTwo) => {
-        tabTwo.active = false;
-      });
-      tabOne.data[index].active = true;
-    },
-    saveJson() {
-      localStorage.setItem(this.localKey, JSON.stringify(this.dataList));
-    },
-    detailsClose() {
-      const details = document.querySelectorAll('div[itemlogseg]:not(.u-hidden) details[itemlogdetails]');
-      details.forEach((targetDetail) => {
-        targetDetail.addEventListener("click", () => {
-          details.forEach((detail) => {
-            if (detail !== targetDetail) {
-              detail.removeAttribute("open");
-            };
-          });
-        });
-      });
-    }
-  },
-  template:itemLogTemplate
-});
-Vue.component('equipItem', {
-  data() {
-    return {
-      baseUrl: '../json/itemLog/equipItem.json',
-      dataList: null,
-      localKey: 'equipItemLog'
-    }
-  },
-  created() {
-    if (localStorage.getItem(this.localKey)) {
-      this.dataList = JSON.parse(localStorage.getItem(this.localKey));
-    } else if (!this.dataList) {
-      fetch(this.baseUrl).then((res) => res.json())
-        .then((data) => { this.dataList = data; })
-        .catch((error) => { console.warn(error) });
-    };
-  },
-  methods: {
-    activateMain(index) {
-      this.dataList.forEach((tabOne) => {
-        tabOne.active = false;
-      });
-      this.dataList[index].active = true;
-    },
-    activateMinor(index, tabOne) {
-      tabOne.data.forEach((tabTwo) => {
-        tabTwo.active = false;
-      });
-      tabOne.data[index].active = true;
-    },
-    saveJson() {
-      localStorage.setItem(this.localKey, JSON.stringify(this.dataList));
-    },
-    detailsClose() {
-      const details = document.querySelectorAll('div[itemlogseg]:not(.u-hidden) details[itemlogdetails]');
-      details.forEach((targetDetail) => {
-        targetDetail.addEventListener("click", () => {
-          details.forEach((detail) => {
-            if (detail !== targetDetail) {
-              detail.removeAttribute("open");
-            };
-          });
-        });
-      });
-    }
-  },
-  template:itemLogTemplate
-});
-Vue.component('foodItem', {
-  data() {
-    return {
-      baseUrl: '../json/itemLog/foodItem.json',
-      dataList: null,
-      localKey: 'foodItemLog'
-    }
-  },
-  created() {
-    if (localStorage.getItem(this.localKey)) {
-      this.dataList = JSON.parse(localStorage.getItem(this.localKey));
-    } else if (!this.dataList) {
-      fetch(this.baseUrl).then((res) => res.json())
-        .then((data) => { this.dataList = data; })
-        .catch((error) => { console.warn(error) });
-    };
-  },
-  methods: {
-    activateMain(index) {
-      this.dataList.forEach((tabOne) => {
-        tabOne.active = false;
-      });
-      this.dataList[index].active = true;
-    },
-    activateMinor(index, tabOne) {
-      tabOne.data.forEach((tabTwo) => {
-        tabTwo.active = false;
-      });
-      tabOne.data[index].active = true;
-    },
-    saveJson() {
-      localStorage.setItem(this.localKey, JSON.stringify(this.dataList));
-    },
-    detailsClose() {
-      const details = document.querySelectorAll('div[itemlogseg]:not(.u-hidden) details[itemlogdetails]');
-      details.forEach((targetDetail) => {
-        targetDetail.addEventListener("click", () => {
-          details.forEach((detail) => {
-            if (detail !== targetDetail) {
-              detail.removeAttribute("open");
-            };
-          });
-        });
-      });
-    }
-  },
-  template:itemLogTemplate
+  template: `
+<div class="tablet+:ts-content">
+  <div class="ts-header">
+    <div class="ts-wrap is-middle-aligned">
+      <div class="ts-text"> ※ 點選頁籤切換，將自動存檔於瀏覽器。(需載入一段時間) </div>
+      <button class="ts-button is-small is-outlined" v-on:click="deleteSave">清除紀錄</button>
+    </div>
+  </div>
+  <div class="ts-space is-small"></div>
+  <div class="ts-tab is-small is-secondary">
+    <button v-for="(main, index) in dataList" :key="index" class="item is-accent minor-tab"
+      :class="['item', 'tablist', { 'is-active': main.active }]" :data-tab="main.tab">
+      <div class="text"> {{ main.category }}</div>
+    </button>
+  </div>
+  <div class="ts-space is-small"></div>
+  <div class="ts-segment itemlog" v-for="(main, index) in dataList" :data-name="main.tab" :key="index">
+    <div class="ts-grid mobile-:is-stacked" style="padding:.5rem;">
+      <div class="column is-4-wide" v-for="(item, index) in main.list" :key="index">
+        <label class="ts-checkbox is-kepall">
+          <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
+          {{ item.name }}
+        </label>
+        <details class="ts-accordion" v-on:click="detailsClose">
+          <summary>詳細資料</summary>
+          <div class="ts-text is-secondary">{{item.jpName}}</div>
+          <div class="ts-text" v-if="item.season">季節：{{item.season}}</div>
+          <div class="ts-text" v-if="item.MaxCM">最大公分：{{item.MaxCM}}</div>
+          <div class="ts-text" v-if="item.day">成長天數：{{item.day}}</div>
+          <div class="ts-text" v-if="item.crop">連作：{{item.crop}}</div>
+          <div class="ts-wrap is-middle-aligned is-compact" v-if="item.sp">
+            <div class="ts-text">特殊能力：</div>
+            <div class="ts-chip is-spaced is-outlined" v-for="sp in item.sp">
+              {{ sp }}
+            </div>
+          </div>
+          <div class="ts-text" v-if="item.getItem">取得：{{item.getItem}}</div>
+          <div class="ts-text" v-if="item.sellStart">開始販售：{{item.sellStart}}</div>
+          <div class="ts-text" v-if="item.buy">買價：{{item.buy}}</div>
+          <div class="ts-text" v-if="item.sell">賣價：{{item.sell}}</div>
+        </details>
+      </div>
+    </div>
+  </div>
+</div>
+`
 });

@@ -2,10 +2,11 @@
     {
         "category": "空手料理",
         "tab": "emptyHanded",
-        "active": false,
+        "active": true,
         "list": [
             {
                 "name": "腌蕪菁",
+                "jpName": "かぶの酢漬け",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -31,6 +32,7 @@
             },
             {
                 "name": "飯糰",
+                "jpName": "おにぎり",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -49,6 +51,7 @@
             },
             {
                 "name": "醃黃瓜",
+                "jpName": "きゅうりの酢漬け",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -68,6 +71,7 @@
             },
             {
                 "name": "麵包",
+                "jpName": "パン",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -87,6 +91,7 @@
             },
             {
                 "name": "竹筍飯",
+                "jpName": "たけのこごはん",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -106,6 +111,7 @@
             },
             {
                 "name": "腌紅白蕪菁",
+                "jpName": "カブの紅白漬け",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -125,6 +131,7 @@
             },
             {
                 "name": "葡萄麵包",
+                "jpName": "ぶどうパン",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -144,6 +151,7 @@
             },
             {
                 "name": "冰激淋",
+                "jpName": "アイスクリーム",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -176,6 +184,7 @@
             },
             {
                 "name": "水果三明治",
+                "jpName": "フルーツサンド",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -195,6 +204,7 @@
             },
             {
                 "name": "鮭魚飯糰",
+                "jpName": "鮭のおにぎり",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -215,6 +225,7 @@
             },
             {
                 "name": "沙拉",
+                "jpName": "サラダ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -234,6 +245,7 @@
             },
             {
                 "name": "三明治",
+                "jpName": "サンドウィッチ",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -253,6 +265,7 @@
             },
             {
                 "name": "蕪菁大雜燴",
+                "jpName": "カブヘブン",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -272,6 +285,7 @@
             },
             {
                 "name": "放鬆茶葉",
+                "jpName": "リラックス茶の葉",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -293,10 +307,11 @@
     {
         "category": "平底鍋料理",
         "tab": "pan",
-        "active": true,
+        "active": false,
         "list": [
             {
                 "name": "天婦羅",
+                "jpName": "天ぷら",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -331,6 +346,7 @@
             },
             {
                 "name": "玉米片",
+                "jpName": "コーンフレーク",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -366,6 +382,7 @@
             },
             {
                 "name": "沙丁魚串",
+                "jpName": "めざし",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -388,6 +405,7 @@
             },
             {
                 "name": "咖喱炒飯/干咖喱",
+                "jpName": "ドライカレー",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -415,6 +433,7 @@
             },
             {
                 "name": "咖喱麵包",
+                "jpName": "カレーパン",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -439,6 +458,7 @@
             },
             {
                 "name": "法式吐司/奶油吐司",
+                "jpName": "フレンチトースト",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -478,6 +498,7 @@
             },
             {
                 "name": "炒飯",
+                "jpName": "チャーハン",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -514,6 +535,7 @@
             },
             {
                 "name": "可樂餅",
+                "jpName": "コロッケ",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -552,6 +574,7 @@
             },
             {
                 "name": "炸薯條",
+                "jpName": "フライドポテト",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -574,6 +597,7 @@
             },
             {
                 "name": "烏冬燒/烤麵條",
+                "jpName": "焼きうどん",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -599,6 +623,7 @@
             },
             {
                 "name": "烤心跳鯛魚",
+                "jpName": "焼きトキメキタイ",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -622,6 +647,7 @@
             },
             {
                 "name": "烤比目魚",
+                "jpName": "焼きヒラメ",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -645,6 +671,7 @@
             },
             {
                 "name": "烤沙比目魚",
+                "jpName": "焼き砂ヒラメ",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -668,6 +695,7 @@
             },
             {
                 "name": "烤河豚",
+                "jpName": "焼きフグ",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -691,6 +719,7 @@
             },
             {
                 "name": "烤毒虹鱒",
+                "jpName": "焼きドクニジマス",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -714,6 +743,7 @@
             },
             {
                 "name": "烤紅葉魚",
+                "jpName": "焼き紅葉",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -736,6 +766,7 @@
             },
             {
                 "name": "烤烏賊",
+                "jpName": "焼きイカ",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -757,6 +788,7 @@
             },
             {
                 "name": "烤閃光鯛魚",
+                "jpName": "焼きカガヤキタイ",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -779,6 +811,7 @@
             },
             {
                 "name": "烤斑烏賊",
+                "jpName": "焼きジャマイカ",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -801,6 +834,7 @@
             },
             {
                 "name": "烤螢烏賊",
+                "jpName": "焼きフーイン",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -824,6 +858,7 @@
             },
             {
                 "name": "烤鯖魚/烤鮐魚",
+                "jpName": "焼きサバ",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -845,6 +880,7 @@
             },
             {
                 "name": "烤鯛魚",
+                "jpName": "タイの焼きもの",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -868,6 +904,7 @@
             },
             {
                 "name": "烤蘋果",
+                "jpName": "焼きりんご",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -891,6 +928,7 @@
             },
             {
                 "name": "烤鰈魚",
+                "jpName": "焼きカレイ",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -913,6 +951,7 @@
             },
             {
                 "name": "蛋包捲/煎雞蛋",
+                "jpName": "卵焼き",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -947,6 +986,7 @@
             },
             {
                 "name": "蛋包飯/蛋炒飯",
+                "jpName": "オムライス",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -971,6 +1011,7 @@
             },
             {
                 "name": "意式菜飯",
+                "jpName": "リゾット",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -996,6 +1037,7 @@
             },
             {
                 "name": "煎蛋/菜肉蛋卷",
+                "jpName": "オムレツ",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1034,6 +1076,7 @@
             },
             {
                 "name": "煎餅/烤餅",
+                "jpName": "ホットケーキ",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1070,6 +1113,7 @@
             },
             {
                 "name": "照燒金槍魚",
+                "jpName": "マグロの照り焼き",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1094,6 +1138,7 @@
             },
             {
                 "name": "照燒鰤魚",
+                "jpName": "ブリの照り焼き",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1116,6 +1161,7 @@
             },
             {
                 "name": "餃子",
+                "jpName": "ぎょうざ",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1142,6 +1188,7 @@
             },
             {
                 "name": "蔬菜雜燴/炒蔬菜",
+                "jpName": "野菜いため",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1166,6 +1213,7 @@
             },
             {
                 "name": "整烤哲羅魚",
+                "jpName": "イトウの姿焼き",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1186,6 +1234,7 @@
             },
             {
                 "name": "整烤銀鯽魚",
+                "jpName": "ギンブナの姿焼き",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1206,6 +1255,7 @@
             },
             {
                 "name": "整烤龍蝦",
+                "jpName": "ロブスターの姿焼き",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1227,6 +1277,7 @@
             },
             {
                 "name": "整烤鮮蝦",
+                "jpName": "エビの姿焼き",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1248,6 +1299,7 @@
             },
             {
                 "name": "整烤鯽魚",
+                "jpName": "ヘラブナの姿焼き",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1269,6 +1321,7 @@
             },
             {
                 "name": "醬烤茄子/淋汁茄子",
+                "jpName": "なす田楽",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1290,6 +1343,7 @@
             },
             {
                 "name": "雜菜煎餅",
+                "jpName": "お好み焼き",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -1334,6 +1388,7 @@
             },
             {
                 "name": "爆玉米花",
+                "jpName": "ポップコーン",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -1356,6 +1411,7 @@
             },
             {
                 "name": "麵包圈/甜甜圈",
+                "jpName": "ドーナツ",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1391,6 +1447,7 @@
             },
             {
                 "name": "鰹魚片",
+                "jpName": "土佐造り",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1414,6 +1471,7 @@
             },
             {
                 "name": "鹽烤公魚",
+                "jpName": "ワカサギの塩焼き",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1435,6 +1493,7 @@
             },
             {
                 "name": "鹽烤秋刀魚",
+                "jpName": "サンマの塩焼き",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1459,6 +1518,7 @@
             },
             {
                 "name": "鹽烤真鱒魚",
+                "jpName": "ヤマメの塩焼き",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1482,6 +1542,7 @@
             },
             {
                 "name": "鹽烤針魚",
+                "jpName": "サヨリの塩焼き",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1504,6 +1565,7 @@
             },
             {
                 "name": "鹽烤斑鲅魚",
+                "jpName": "メジナの塩焼き",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1524,6 +1586,7 @@
             },
             {
                 "name": "鹽烤雅羅魚",
+                "jpName": "ウグイの塩焼き",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1544,6 +1607,7 @@
             },
             {
                 "name": "鹽烤鮭魚",
+                "jpName": "塩ジャケ",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1566,6 +1630,7 @@
             },
             {
                 "name": "鹽烤巖魚",
+                "jpName": "イワナの塩焼き",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1587,6 +1652,7 @@
             },
             {
                 "name": "鹽烤鱒魚/鹽烤天魚",
+                "jpName": "アマゴの塩焼き",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1615,6 +1681,7 @@
         "list": [
             {
                 "name": "餅乾/甜餅",
+                "jpName": "クッキー",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -1651,6 +1718,7 @@
             },
             {
                 "name": "吐司",
+                "jpName": "トースト",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1673,6 +1741,7 @@
             },
             {
                 "name": "巧克力餅乾",
+                "jpName": "チョコクッキー",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -1696,6 +1765,7 @@
             },
             {
                 "name": "烤飯糰",
+                "jpName": "焼きおにぎり",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1714,6 +1784,7 @@
             },
             {
                 "name": "烤蕃薯",
+                "jpName": "焼きいも",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1737,6 +1808,7 @@
             },
             {
                 "name": "烤玉米",
+                "jpName": "焼きとうもろこし",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1759,6 +1831,7 @@
             },
             {
                 "name": "果醬麵包",
+                "jpName": "ジャムパン",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1802,6 +1875,7 @@
             },
             {
                 "name": "黃油麵包捲",
+                "jpName": "バターロール",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1843,6 +1917,7 @@
             },
             {
                 "name": "蘋果派/蘋果餡餅",
+                "jpName": "アップルパイ",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1871,6 +1946,7 @@
             },
             {
                 "name": "披薩",
+                "jpName": "ピザ",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -1900,6 +1976,7 @@
             },
             {
                 "name": "紅薯點心",
+                "jpName": "スイートポテト",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -1934,6 +2011,7 @@
             },
             {
                 "name": "海鮮披薩",
+                "jpName": "シーフードピザ",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -1962,6 +2040,7 @@
             },
             {
                 "name": "奶汁烤菜",
+                "jpName": "グラタン",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -1990,6 +2069,7 @@
             },
             {
                 "name": "多利亞/烤飯",
+                "jpName": "ドリア",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -2027,6 +2107,7 @@
             },
             {
                 "name": "海鮮奶汁烤菜",
+                "jpName": "シーフードグラタン",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -2056,6 +2137,7 @@
             },
             {
                 "name": "海鮮多利亞/海鮮烤飯",
+                "jpName": "シーフードドリア",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -2084,6 +2166,7 @@
             },
             {
                 "name": "蛋糕",
+                "jpName": "ケーキ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2121,6 +2204,7 @@
             },
             {
                 "name": "巧克力蛋糕",
+                "jpName": "チョコレートケーキ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2156,6 +2240,7 @@
             },
             {
                 "name": "起司蛋糕/奶酪蛋糕",
+                "jpName": "チーズケーキ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2198,6 +2283,7 @@
         "list": [
             {
                 "name": "大肥金槍魚",
+                "jpName": "大トロ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2220,6 +2306,7 @@
             },
             {
                 "name": "心跳刺身",
+                "jpName": "トキメクおさしみ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2242,6 +2329,7 @@
             },
             {
                 "name": "比目魚刺身",
+                "jpName": "ヒラメのおさしみ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2264,6 +2352,7 @@
             },
             {
                 "name": "河豚刺身",
+                "jpName": "フグさし",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2284,6 +2373,7 @@
             },
             {
                 "name": "秋刀魚刺身",
+                "jpName": "サンマのおさしみ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2307,6 +2397,7 @@
             },
             {
                 "name": "紅葉魚刺身",
+                "jpName": "色づくおさしみ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2329,6 +2420,7 @@
             },
             {
                 "name": "虹色魚刺身",
+                "jpName": "ドクニジマスさし",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2351,6 +2443,7 @@
             },
             {
                 "name": "哲羅魚刺身",
+                "jpName": "イトウのおさしみ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2371,6 +2464,7 @@
             },
             {
                 "name": "烏賊刺身",
+                "jpName": "イカさし",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2392,6 +2486,7 @@
             },
             {
                 "name": "真鱒魚刺身",
+                "jpName": "ヤマメのおさしみ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2414,6 +2509,7 @@
             },
             {
                 "name": "針魚刺身",
+                "jpName": "サヨリのおさしみ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2435,6 +2531,7 @@
             },
             {
                 "name": "閃光刺身",
+                "jpName": "カガヤクおさしみ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2458,6 +2555,7 @@
             },
             {
                 "name": "斑烏賊刺身",
+                "jpName": "ジャマイカさし",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2479,6 +2577,7 @@
             },
             {
                 "name": "斑鲅魚刺身",
+                "jpName": "メジナのおさしみ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2498,6 +2597,7 @@
             },
             {
                 "name": "蝦肉刺身",
+                "jpName": "エビのおさしみ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2519,6 +2619,7 @@
             },
             {
                 "name": "螢烏賊刺身",
+                "jpName": "フーインイカさし",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2541,6 +2642,7 @@
             },
             {
                 "name": "龍蝦刺身",
+                "jpName": "ロブスターのおさしみ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2562,6 +2664,7 @@
             },
             {
                 "name": "鮭魚刺身",
+                "jpName": "サケのおさしみ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2584,6 +2687,7 @@
             },
             {
                 "name": "鯛魚刺身",
+                "jpName": "タイのおさしみ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2608,6 +2712,7 @@
             },
             {
                 "name": "鰈魚刺身",
+                "jpName": "カレイのおさしみ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2630,6 +2735,7 @@
             },
             {
                 "name": "鰤魚刺身",
+                "jpName": "ブリのおさしみ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2651,6 +2757,7 @@
             },
             {
                 "name": "沙丁魚刺身",
+                "jpName": "イワシのおさしみ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2671,6 +2778,7 @@
             },
             {
                 "name": "鰹魚刺身",
+                "jpName": "カツオのおさしみ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2693,6 +2801,7 @@
             },
             {
                 "name": "巖魚刺身",
+                "jpName": "イワナのおさしみ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2715,6 +2824,7 @@
             },
             {
                 "name": "鱒魚刺身/天魚刺身",
+                "jpName": "アマゴのおさしみ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2743,6 +2853,7 @@
         "list": [
             {
                 "name": "丸子",
+                "jpName": "だんご",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -2765,6 +2876,7 @@
             },
             {
                 "name": "中華包子",
+                "jpName": "中華まん",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -2788,6 +2900,7 @@
             },
             {
                 "name": "布丁",
+                "jpName": "プリン",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2822,6 +2935,7 @@
             },
             {
                 "name": "蒸麵包",
+                "jpName": "むしパン",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -2857,6 +2971,7 @@
             },
             {
                 "name": "咖喱包子",
+                "jpName": "カレーまん",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -2880,6 +2995,7 @@
             },
             {
                 "name": "蒸蛋糕",
+                "jpName": "むしケーキ",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -2915,6 +3031,7 @@
             },
             {
                 "name": "南瓜布丁",
+                "jpName": "かぼちゃプリン",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2944,6 +3061,7 @@
             },
             {
                 "name": "蒸餃",
+                "jpName": "むしぎょうざ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2967,6 +3085,7 @@
             },
             {
                 "name": "奶酪蒸麵包",
+                "jpName": "チーズむしパン",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -2990,6 +3109,7 @@
             },
             {
                 "name": "蒸雞蛋糕/蒸鬆糕",
+                "jpName": "むしカステラ",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -3024,6 +3144,7 @@
             },
             {
                 "name": "燒賣",
+                "jpName": "しゅうまい",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -3055,6 +3176,7 @@
         "list": [
             {
                 "name": "大學芋",
+                "jpName": "大學いも",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -3078,6 +3200,7 @@
             },
             {
                 "name": "天婦羅烏冬面",
+                "jpName": "天ぷらうどん",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -3103,6 +3226,7 @@
             },
             {
                 "name": "天婦羅飯/天蓋飯",
+                "jpName": "天どん",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -3126,6 +3250,7 @@
             },
             {
                 "name": "水煮巖石魚",
+                "jpName": "巖石魚の煮付け",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -3150,6 +3275,7 @@
             },
             {
                 "name": "水餃",
+                "jpName": "水ぎょうざ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -3175,6 +3301,7 @@
             },
             {
                 "name": "火鍋",
+                "jpName": "寄せ鍋",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -3202,6 +3329,7 @@
             },
             {
                 "name": "牛奶粥",
+                "jpName": "牛乳がゆ",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -3238,6 +3366,7 @@
             },
             {
                 "name": "奶酪火鍋/乾酪鍋",
+                "jpName": "チーズフォンデュ",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -3265,6 +3394,7 @@
             },
             {
                 "name": "至高咖喱",
+                "jpName": "至高のカレー",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -3291,6 +3421,7 @@
             },
             {
                 "name": "究極咖喱",
+                "jpName": "究極のカレー",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -3319,6 +3450,7 @@
             },
             {
                 "name": "咖喱湯麵",
+                "jpName": "カレーうどん",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -3344,6 +3476,7 @@
             },
             {
                 "name": "咖喱飯",
+                "jpName": "カレーライス",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -3371,6 +3504,7 @@
             },
             {
                 "name": "放鬆茶",
+                "jpName": "リラックスティー",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -3396,6 +3530,7 @@
             },
             {
                 "name": "烏冬/湯麵",
+                "jpName": "うどん",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -3419,6 +3554,7 @@
             },
             {
                 "name": "草莓果醬",
+                "jpName": "いちごジャム",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -3442,6 +3578,7 @@
             },
             {
                 "name": "涼拌菜",
+                "jpName": "おひたし",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -3465,6 +3602,7 @@
             },
             {
                 "name": "蛋蓋飯",
+                "jpName": "たまごどん",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -3505,6 +3643,7 @@
             },
             {
                 "name": "煮南瓜",
+                "jpName": "かぼちゃの煮つけ",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -3527,6 +3666,7 @@
             },
             {
                 "name": "煮雞蛋",
+                "jpName": "ゆでタマゴ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -3561,6 +3701,7 @@
             },
             {
                 "name": "粥",
+                "jpName": "おかゆ",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -3583,6 +3724,7 @@
             },
             {
                 "name": "葡萄果醬",
+                "jpName": "ぶどうジャム",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -3606,6 +3748,7 @@
             },
             {
                 "name": "葡萄酒",
+                "jpName": "ぶどう酒",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -3631,6 +3774,7 @@
             },
             {
                 "name": "熱牛奶",
+                "jpName": "ホットミルク",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -3665,6 +3809,7 @@
             },
             {
                 "name": "熱巧克力",
+                "jpName": "ホットチョコレート",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -3688,6 +3833,7 @@
             },
             {
                 "name": "橘皮果醬",
+                "jpName": "オレンジマーマレード",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -3711,6 +3857,7 @@
             },
             {
                 "name": "燉菜",
+                "jpName": "シチュー",
                 "checked": false,
                 "time": 12,
                 "sp": [
@@ -3748,6 +3895,7 @@
             },
             {
                 "name": "蘋果果醬",
+                "jpName": "りんごジャム",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -3772,6 +3920,7 @@
             },
             {
                 "name": "蘿蔔燉湯/味增田樂燒",
+                "jpName": "みそ田楽",
                 "checked": false,
                 "time": 6,
                 "sp": [
@@ -3800,6 +3949,7 @@
         "list": [
             {
                 "name": "酸奶",
+                "jpName": "ヨーグルト",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -3833,6 +3983,7 @@
             },
             {
                 "name": "蛋黃醬",
+                "jpName": "マヨネーズ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -3864,6 +4015,7 @@
             },
             {
                 "name": "蘋果汁",
+                "jpName": "りんごジュース",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -3885,6 +4037,7 @@
             },
             {
                 "name": "奶油",
+                "jpName": "バター",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -3917,6 +4070,7 @@
             },
             {
                 "name": "橙汁",
+                "jpName": "オレンジジュース",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -3939,6 +4093,7 @@
             },
             {
                 "name": "鳳梨汁",
+                "jpName": "パインジュース",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -3960,6 +4115,7 @@
             },
             {
                 "name": "蔬菜汁",
+                "jpName": "野菜ジュース",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -3987,6 +4143,7 @@
             },
             {
                 "name": "蔬菜牛奶",
+                "jpName": "野菜・オ・レ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -4027,6 +4184,7 @@
             },
             {
                 "name": "草莓牛奶",
+                "jpName": "いちご牛乳",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -4066,6 +4224,7 @@
             },
             {
                 "name": "葡萄汁",
+                "jpName": "ぶどうジュース",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -4087,6 +4246,7 @@
             },
             {
                 "name": "新鮮果汁",
+                "jpName": "フルーツジュース",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -4111,6 +4271,7 @@
             },
             {
                 "name": "果汁牛奶",
+                "jpName": "フルーツ・オ・レ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -4148,6 +4309,7 @@
             },
             {
                 "name": "番茄汁",
+                "jpName": "トマトジュース",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -4169,6 +4331,7 @@
             },
             {
                 "name": "熱果汁",
+                "jpName": "ホットジュース",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -4195,6 +4358,7 @@
             },
             {
                 "name": "奶酪",
+                "jpName": "チーズ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -4228,6 +4392,7 @@
             },
             {
                 "name": "混合果汁",
+                "jpName": "ミックスジュース",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -4253,6 +4418,7 @@
             },
             {
                 "name": "番茄醬",
+                "jpName": "ケチャップ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -4274,6 +4440,7 @@
             },
             {
                 "name": "戀愛預感",
+                "jpName": "戀の予感",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -4297,6 +4464,7 @@
             },
             {
                 "name": "混合牛奶",
+                "jpName": "ミックス・オ・レ",
                 "checked": false,
                 "time": 3,
                 "sp": [
@@ -4321,6 +4489,7 @@
             },
             {
                 "name": "黃金果汁",
+                "jpName": "ゴールドジュース",
                 "checked": false,
                 "time": 3,
                 "sp": [

@@ -1,0 +1,4349 @@
+[
+    {
+        "category": "空手料理",
+        "tab": "emptyHanded",
+        "active": false,
+        "list": [
+            {
+                "name": "腌蕪菁",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+40% RP+35%",
+                    "筋力-3 知力+3"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 2,
+                        "formula": [
+                            "櫻色蕪菁"
+                        ]
+                    },
+                    {
+                        "skillLv": 3,
+                        "formula": [
+                            "蕪菁"
+                        ]
+                    }
+                ],
+                "buy": 960,
+                "sell": 480
+            },
+            {
+                "name": "飯糰",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+50%"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 6,
+                        "formula": [
+                            "米飯"
+                        ]
+                    }
+                ],
+                "buy": 300,
+                "sell": 150
+            },
+            {
+                "name": "醃黃瓜",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+50 RP+35%",
+                    "HP上限+50"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 6,
+                        "formula": [
+                            "黃瓜"
+                        ]
+                    }
+                ],
+                "buy": 500,
+                "sell": 250
+            },
+            {
+                "name": "麵包",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+50% RP+20%",
+                    "HP上限+10"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 9,
+                        "formula": [
+                            "小麥粉"
+                        ]
+                    }
+                ],
+                "buy": 660,
+                "sell": 330
+            },
+            {
+                "name": "竹筍飯",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+40% RP+50%",
+                    "RP上限+10% 筋力+2 體力+2"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 10,
+                        "formula": [
+                            "竹筍＋米飯"
+                        ]
+                    }
+                ],
+                "buy": 400,
+                "sell": 200
+            },
+            {
+                "name": "腌紅白蕪菁",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+80 RP+40%",
+                    "HP上限+20 知力+2"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 12,
+                        "formula": [
+                            "蕪菁＋櫻色蕪菁"
+                        ]
+                    }
+                ],
+                "buy": 1680,
+                "sell": 840
+            },
+            {
+                "name": "葡萄麵包",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+50% RP+60%",
+                    "HP上限-20% 體力-1 知力+4"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 12,
+                        "formula": [
+                            "麵包＋葡萄"
+                        ]
+                    }
+                ],
+                "buy": 1340,
+                "sell": 670
+            },
+            {
+                "name": "冰激淋",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+20% RP+65%",
+                    "RP上限+50 體力-8 知力+6",
+                    "水屬性抗性+1 火屬性抗性-1"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 14,
+                        "formula": [
+                            "牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 16,
+                        "formula": [
+                            "優質牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 18,
+                        "formula": [
+                            "富鈣牛奶"
+                        ]
+                    }
+                ],
+                "buy": 960,
+                "sell": 480
+            },
+            {
+                "name": "水果三明治",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+50% RP+60%",
+                    "HP上限+60 RP上限+80 筋力-2 知力+2"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 15,
+                        "formula": [
+                            "草莓＋麵包＋橘子＋蘋果"
+                        ]
+                    }
+                ],
+                "buy": 2380,
+                "sell": 1190
+            },
+            {
+                "name": "鮭魚飯糰",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+75% RP+50%",
+                    "HP上限+30 筋力+14%",
+                    "會心一擊出現概率略微提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 15,
+                        "formula": [
+                            "鹽烤鮭魚＋米飯"
+                        ]
+                    }
+                ],
+                "buy": 3800,
+                "sell": 1900
+            },
+            {
+                "name": "沙拉",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+40% RP+40%",
+                    "HP上限+100 RP上限+50 筋力-4"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 16,
+                        "formula": [
+                            "煮雞蛋＋黃瓜＋蘿蔔＋番茄＋捲心菜"
+                        ]
+                    }
+                ],
+                "buy": 7920,
+                "sell": 3960
+            },
+            {
+                "name": "三明治",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+50% RP+50%",
+                    "HP上限+125 RP上限+110 筋力-3 體力+2"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 18,
+                        "formula": [
+                            "粉紅貓咪＋番茄＋黃瓜＋煮雞蛋＋麵包"
+                        ]
+                    }
+                ],
+                "buy": 6960,
+                "sell": 3480
+            },
+            {
+                "name": "蕪菁大雜燴",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+40% RP+60%",
+                    "筋力+1 體力+1 知力+2"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 20,
+                        "formula": [
+                            "蕪菁＋櫻色蕪菁＋金蕪菁"
+                        ]
+                    }
+                ],
+                "buy": 5160,
+                "sell": 2580
+            },
+            {
+                "name": "放鬆茶葉",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+10% RP+10%"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 25,
+                        "formula": [
+                            "白草＋藥草＋綠草＋黃草＋青草＋紫草"
+                        ]
+                    }
+                ],
+                "buy": 140,
+                "sell": 70
+            }
+        ]
+    },
+    {
+        "category": "平底鍋料理",
+        "tab": "pan",
+        "active": true,
+        "list": [
+            {
+                "name": "天婦羅",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+30%",
+                    "RP+40%",
+                    "HP上限-25%",
+                    "RP上限+50%",
+                    "力量+8"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 40,
+                        "formula": [
+                            "油",
+                            "洋蔥",
+                            "蝦",
+                            "優質蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 42,
+                        "formula": [
+                            "油",
+                            "洋蔥",
+                            "蝦",
+                            "每天健康蛋"
+                        ]
+                    }
+                ],
+                "buy": 9180,
+                "sell": 4590
+            },
+            {
+                "name": "玉米片",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+45%",
+                    "RP+60%",
+                    "力量+3"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 17,
+                        "formula": [
+                            "玉米",
+                            "牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 20,
+                        "formula": [
+                            "玉米",
+                            "優質牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 23,
+                        "formula": [
+                            "玉米",
+                            "富鈣牛奶"
+                        ]
+                    }
+                ],
+                "buy": 2360,
+                "sell": 1180
+            },
+            {
+                "name": "沙丁魚串",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+20%",
+                    "RP+25%",
+                    "會心一擊出現概率略微提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 20,
+                        "formula": [
+                            "沙丁魚",
+                            "沙丁魚",
+                            "沙丁魚"
+                        ]
+                    }
+                ],
+                "buy": 1660,
+                "sell": 830
+            },
+            {
+                "name": "咖喱炒飯/干咖喱",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+20",
+                    "RP+30",
+                    "RP上限-50%",
+                    "力量+8",
+                    "體力+18"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 40,
+                        "formula": [
+                            "油",
+                            "咖喱粉",
+                            "米飯",
+                            "胡蘿蔔",
+                            "青椒",
+                            "洋蔥"
+                        ]
+                    }
+                ],
+                "buy": 5940,
+                "sell": 2970
+            },
+            {
+                "name": "咖喱麵包",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+40%",
+                    "RP+45%",
+                    "RP上限-50%",
+                    "力量+8",
+                    "體力+8"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 42,
+                        "formula": [
+                            "油",
+                            "小麥粉",
+                            "咖喱炒飯"
+                        ]
+                    }
+                ],
+                "buy": 15800,
+                "sell": 7900
+            },
+            {
+                "name": "法式吐司/奶油吐司",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+55%",
+                    "RP+50%",
+                    "力量-7",
+                    "體力+8"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 19,
+                        "formula": [
+                            "油",
+                            "麵包",
+                            "蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 23,
+                        "formula": [
+                            "油",
+                            "麵包",
+                            "優質蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 27,
+                        "formula": [
+                            "油",
+                            "麵包",
+                            "每天健康蛋"
+                        ]
+                    }
+                ],
+                "buy": 3760,
+                "sell": 1880
+            },
+            {
+                "name": "炒飯",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+70%",
+                    "RP+50%",
+                    "HP上限+30%",
+                    "體力+12",
+                    "對吹飛抗性略微提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 37,
+                        "formula": [
+                            "油",
+                            "米飯",
+                            "大蔥",
+                            "青椒",
+                            "優質蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 39,
+                        "formula": [
+                            "油",
+                            "米飯",
+                            "大蔥",
+                            "青椒",
+                            "每天健康蛋"
+                        ]
+                    }
+                ],
+                "buy": 5980,
+                "sell": 2990
+            },
+            {
+                "name": "可樂餅",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+240",
+                    "RP+40%",
+                    "HP上限+80"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 14,
+                        "formula": [
+                            "馬鈴薯",
+                            "油",
+                            "蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 16,
+                        "formula": [
+                            "馬鈴薯",
+                            "油",
+                            "優質蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 18,
+                        "formula": [
+                            "馬鈴薯",
+                            "油",
+                            "每天健康蛋"
+                        ]
+                    }
+                ],
+                "buy": 3220,
+                "sell": 1610
+            },
+            {
+                "name": "炸薯條",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+260",
+                    "RP+40%",
+                    "RP上限+20%",
+                    "智力+2"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 23,
+                        "formula": [
+                            "馬鈴薯",
+                            "油"
+                        ]
+                    }
+                ],
+                "buy": 1980,
+                "sell": 990
+            },
+            {
+                "name": "烏冬燒/烤麵條",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+70%",
+                    "RP+50%",
+                    "HP上限+25%",
+                    "體力+12"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 24,
+                        "formula": [
+                            "油",
+                            "小麥粉",
+                            "洋蔥",
+                            "胡蘿蔔",
+                            "捲心菜"
+                        ]
+                    }
+                ],
+                "buy": 9460,
+                "sell": 4730
+            },
+            {
+                "name": "烤心跳鯛魚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+50%",
+                    "RP+60%",
+                    "力量-4",
+                    "體力+8",
+                    "智力+4%",
+                    "受到會心一擊的概率略微下降"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 44,
+                        "formula": [
+                            "心跳鯛魚/彩鯛"
+                        ]
+                    }
+                ],
+                "buy": 22660,
+                "sell": 11330
+            },
+            {
+                "name": "烤比目魚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+40%",
+                    "RP+40%",
+                    "HP上限+10",
+                    "力量+9",
+                    "體力-1",
+                    "會心一擊出現概率略微提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 36,
+                        "formula": [
+                            "比目魚"
+                        ]
+                    }
+                ],
+                "buy": 2440,
+                "sell": 1220
+            },
+            {
+                "name": "烤沙比目魚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+70%",
+                    "RP-10%",
+                    "HP上限+20%",
+                    "力量+12%",
+                    "體力+5",
+                    "火、地屬性抗性+1"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 36,
+                        "formula": [
+                            "沙比目魚"
+                        ]
+                    }
+                ],
+                "buy": 200,
+                "sell": 100
+            },
+            {
+                "name": "烤河豚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+60%",
+                    "RP+50%",
+                    "力量+8%",
+                    "對毒的抗性大幅提高"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 56,
+                        "formula": [
+                            "河豚",
+                            "解毒草",
+                            "解毒草"
+                        ]
+                    }
+                ],
+                "buy": 37740,
+                "sell": 18870
+            },
+            {
+                "name": "烤毒虹鱒",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+40%",
+                    "RP+30%",
+                    "HP上限+10%",
+                    "RP上限-15%",
+                    "力量+6%",
+                    "體力+1"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 26,
+                        "formula": [
+                            "毒虹鱒"
+                        ]
+                    }
+                ],
+                "buy": 560,
+                "sell": 280
+            },
+            {
+                "name": "烤紅葉魚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+50%",
+                    "RP+50%",
+                    "力量+9",
+                    "會心一擊出現概率略微提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 42,
+                        "formula": [
+                            "紅葉比目魚",
+                            "蘿蔔"
+                        ]
+                    }
+                ],
+                "buy": 22620,
+                "sell": 11310
+            },
+            {
+                "name": "烤烏賊",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+25%",
+                    "RP+25%",
+                    "力量+4",
+                    "體力+2"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 16,
+                        "formula": [
+                            "烏賊"
+                        ]
+                    }
+                ],
+                "buy": 280,
+                "sell": 140
+            },
+            {
+                "name": "烤閃光鯛魚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+60%",
+                    "RP+50%",
+                    "力量+12",
+                    "體力+2",
+                    "光屬性抗性+2"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 46,
+                        "formula": [
+                            "閃光鯛魚/銀鯛"
+                        ]
+                    }
+                ],
+                "buy": 47520,
+                "sell": 23760
+            },
+            {
+                "name": "烤斑烏賊",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+35%",
+                    "RP+35%",
+                    "力量+8%",
+                    "體力+6",
+                    "智力+4%"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 47,
+                        "formula": [
+                            "斑烏賊/南國烏賊"
+                        ]
+                    }
+                ],
+                "buy": 37480,
+                "sell": 18740
+            },
+            {
+                "name": "烤螢烏賊",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+50%",
+                    "RP+70%",
+                    "力量+12",
+                    "體力-4",
+                    "智力-3"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 43,
+                        "formula": [
+                            "螢烏賊",
+                            "燈草"
+                        ]
+                    }
+                ],
+                "buy": 36580,
+                "sell": 18290
+            },
+            {
+                "name": "烤鯖魚/烤鮐魚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+40%",
+                    "RP+20%",
+                    "力量+3",
+                    "智力1"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 24,
+                        "formula": [
+                            "鯖魚/鮐魚"
+                        ]
+                    }
+                ],
+                "buy": 440,
+                "sell": 220
+            },
+            {
+                "name": "烤鯛魚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+35%",
+                    "RP+25%",
+                    "HP上限+32%",
+                    "力量+1",
+                    "體力-2",
+                    "會心一擊出現概率略微提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 37,
+                        "formula": [
+                            "鯛魚"
+                        ]
+                    }
+                ],
+                "buy": 1800,
+                "sell": 900
+            },
+            {
+                "name": "烤蘋果",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+35%",
+                    "RP+30%",
+                    "力量-12",
+                    "智力+6",
+                    "火、風屬性傷害減半"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 25,
+                        "formula": [
+                            "熱呼呼的果實",
+                            "蘋果"
+                        ]
+                    }
+                ],
+                "buy": 14520,
+                "sell": 7260
+            },
+            {
+                "name": "烤鰈魚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+40%",
+                    "RP+40%",
+                    "RP上限+10%",
+                    "力量+3",
+                    "會心一擊出現概率略微提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 34,
+                        "formula": [
+                            "鰈魚"
+                        ]
+                    }
+                ],
+                "buy": 1240,
+                "sell": 620
+            },
+            {
+                "name": "蛋包捲/煎雞蛋",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+35%",
+                    "RP+40%",
+                    "體力+6",
+                    "智力+3",
+                    "受到會心一擊概率略微下降"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 30,
+                        "formula": [
+                            "蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 33,
+                        "formula": [
+                            "優質蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 36,
+                        "formula": [
+                            "每天健康蛋"
+                        ]
+                    }
+                ],
+                "buy": 1100,
+                "sell": 550
+            },
+            {
+                "name": "蛋包飯/蛋炒飯",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+50%",
+                    "RP+60%",
+                    "體力+13",
+                    "智力+6",
+                    "受到會心一擊概率少許下降"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 39,
+                        "formula": [
+                            "煎蛋/菜肉蛋卷",
+                            "米飯",
+                            "番茄醬"
+                        ]
+                    }
+                ],
+                "buy": 12880,
+                "sell": 6440
+            },
+            {
+                "name": "意式菜飯",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+40%",
+                    "RP+40%",
+                    "體力-50%",
+                    "全屬性抗性+1"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 39,
+                        "formula": [
+                            "油",
+                            "米飯",
+                            "洋蔥",
+                            "番茄",
+                            "托伊藥草"
+                        ]
+                    }
+                ],
+                "buy": 7780,
+                "sell": 3890
+            },
+            {
+                "name": "煎蛋/菜肉蛋卷",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+45%",
+                    "RP+50%",
+                    "力量-4",
+                    "體力+9",
+                    "智力+4",
+                    "受到會心一擊概率少許下降"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 32,
+                        "formula": [
+                            "牛奶",
+                            "蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 34,
+                        "formula": [
+                            "優質牛奶",
+                            "優質蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 36,
+                        "formula": [
+                            "富鈣牛奶",
+                            "每天健康蛋"
+                        ]
+                    }
+                ],
+                "buy": 2420,
+                "sell": 1210
+            },
+            {
+                "name": "煎餅/烤餅",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+240",
+                    "RP+45%",
+                    "RP上限+25%",
+                    "智力+4",
+                    "對毒、麻痹、封印、睡眠的抗性略微提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 22,
+                        "formula": [
+                            "小麥粉",
+                            "蜂蜜",
+                            "甘甜粉",
+                            "優質牛奶",
+                            "優質蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 24,
+                        "formula": [
+                            "小麥粉",
+                            "蜂蜜",
+                            "甘甜粉",
+                            "富鈣牛奶",
+                            "每天健康蛋"
+                        ]
+                    }
+                ],
+                "buy": 8020,
+                "sell": 4010
+            },
+            {
+                "name": "照燒金槍魚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+60%",
+                    "RP+50%",
+                    "HP上限+30%",
+                    "RP上限+18%",
+                    "力量+16%",
+                    "體力-6"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 48,
+                        "formula": [
+                            "蘿蔔",
+                            "金槍魚"
+                        ]
+                    }
+                ],
+                "buy": 37820,
+                "sell": 18910
+            },
+            {
+                "name": "照燒鰤魚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+55%",
+                    "RP+25%",
+                    "力量+8",
+                    "體力+6"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 40,
+                        "formula": [
+                            "蘿蔔",
+                            "鰤魚"
+                        ]
+                    }
+                ],
+                "buy": 29360,
+                "sell": 14680
+            },
+            {
+                "name": "餃子",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+30%",
+                    "RP+40%",
+                    "HP上限-40",
+                    "力量+4",
+                    "體力+1",
+                    "智力+2"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 25,
+                        "formula": [
+                            "油",
+                            "小麥粉",
+                            "洋蔥",
+                            "捲心菜"
+                        ]
+                    }
+                ],
+                "buy": 6760,
+                "sell": 3380
+            },
+            {
+                "name": "蔬菜雜燴/炒蔬菜",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+40%",
+                    "RP+55%",
+                    "力量+6"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 31,
+                        "formula": [
+                            "胡蘿蔔",
+                            "油",
+                            "捲心菜",
+                            "青椒",
+                            "洋蔥"
+                        ]
+                    }
+                ],
+                "buy": 9600,
+                "sell": 4800
+            },
+            {
+                "name": "整烤哲羅魚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+50%",
+                    "RP+40%",
+                    "力量+18"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 31,
+                        "formula": [
+                            "哲羅魚"
+                        ]
+                    }
+                ],
+                "buy": 34900,
+                "sell": 17450
+            },
+            {
+                "name": "整烤銀鯽魚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+50%",
+                    "RP+45%",
+                    "力量+9"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 34,
+                        "formula": [
+                            "銀鯽魚/銀鮒魚"
+                        ]
+                    }
+                ],
+                "buy": 1060,
+                "sell": 530
+            },
+            {
+                "name": "整烤龍蝦",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+55%",
+                    "RP+40%",
+                    "力量-1%",
+                    "智力+10%"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 34,
+                        "formula": [
+                            "龍蝦"
+                        ]
+                    }
+                ],
+                "buy": 1620,
+                "sell": 810
+            },
+            {
+                "name": "整烤鮮蝦",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+240",
+                    "RP+50%",
+                    "力量-4%",
+                    "智力+5%"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 22,
+                        "formula": [
+                            "蝦"
+                        ]
+                    }
+                ],
+                "buy": 600,
+                "sell": 300
+            },
+            {
+                "name": "整烤鯽魚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+50%",
+                    "RP+45%",
+                    "力量+6",
+                    "體力-1"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 24,
+                        "formula": [
+                            "鯽魚"
+                        ]
+                    }
+                ],
+                "buy": 320,
+                "sell": 160
+            },
+            {
+                "name": "醬烤茄子/淋汁茄子",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+20%",
+                    "RP+35%",
+                    "力量-2",
+                    "體力+3"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 34,
+                        "formula": [
+                            "茄子"
+                        ]
+                    }
+                ],
+                "buy": 1520,
+                "sell": 760
+            },
+            {
+                "name": "雜菜煎餅",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+40%",
+                    "RP+60%",
+                    "HP上限+20%",
+                    "RP上限+10%",
+                    "力量+2",
+                    "體力+8"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 28,
+                        "formula": [
+                            "油",
+                            "小麥粉",
+                            "捲心菜",
+                            "蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 29,
+                        "formula": [
+                            "油",
+                            "小麥粉",
+                            "捲心菜",
+                            "優質蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 30,
+                        "formula": [
+                            "油",
+                            "小麥粉",
+                            "捲心菜",
+                            "每天健康蛋"
+                        ]
+                    }
+                ],
+                "buy": 5480,
+                "sell": 2740
+            },
+            {
+                "name": "爆玉米花",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+60",
+                    "RP+20%",
+                    "RP上限+15%",
+                    "力量+1",
+                    "體力+2"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 27,
+                        "formula": [
+                            "玉米"
+                        ]
+                    }
+                ],
+                "buy": 1220,
+                "sell": 610
+            },
+            {
+                "name": "麵包圈/甜甜圈",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+20",
+                    "RP+40%",
+                    "力量-2",
+                    "體力+12",
+                    "智力-8",
+                    "對封印、睡眠的抗性少許提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 35,
+                        "formula": [
+                            "油",
+                            "小麥粉",
+                            "黃油",
+                            "優質蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 37,
+                        "formula": [
+                            "油",
+                            "小麥粉",
+                            "黃油",
+                            "每天健康蛋"
+                        ]
+                    }
+                ],
+                "buy": 5620,
+                "sell": 2810
+            },
+            {
+                "name": "鰹魚片",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+25%",
+                    "RP+25%",
+                    "力量+4",
+                    "體力-2",
+                    "智力+1",
+                    "風屬性抗性+1"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 33,
+                        "formula": [
+                            "鰹魚"
+                        ]
+                    }
+                ],
+                "buy": 1520,
+                "sell": 760
+            },
+            {
+                "name": "鹽烤公魚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+10%",
+                    "RP+25%",
+                    "力量+4",
+                    "智力+1"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 21,
+                        "formula": [
+                            "公魚"
+                        ]
+                    }
+                ],
+                "buy": 140,
+                "sell": 70
+            },
+            {
+                "name": "鹽烤秋刀魚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+35%",
+                    "RP+25%",
+                    "HP上限+15%",
+                    "力量+3",
+                    "體力-4",
+                    "對封印的抗性略微提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 23,
+                        "formula": [
+                            "蘿蔔",
+                            "秋刀魚"
+                        ]
+                    }
+                ],
+                "buy": 2360,
+                "sell": 1180
+            },
+            {
+                "name": "鹽烤真鱒魚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+20%",
+                    "RP+20%",
+                    "力量+2",
+                    "體力+1",
+                    "智力-1",
+                    "會心一擊出現概率略微提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 23,
+                        "formula": [
+                            "真鱒魚"
+                        ]
+                    }
+                ],
+                "buy": 240,
+                "sell": 120
+            },
+            {
+                "name": "鹽烤針魚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+15%",
+                    "RP+20%",
+                    "力量+7",
+                    "體力-5",
+                    "智力-4"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 27,
+                        "formula": [
+                            "針魚"
+                        ]
+                    }
+                ],
+                "buy": 280,
+                "sell": 140
+            },
+            {
+                "name": "鹽烤斑鲅魚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+45%",
+                    "RP+40%",
+                    "對吹飛的抗性少許提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 41,
+                        "formula": [
+                            "斑鲅魚"
+                        ]
+                    }
+                ],
+                "buy": 420,
+                "sell": 210
+            },
+            {
+                "name": "鹽烤雅羅魚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+35%",
+                    "RP+30%",
+                    "力量+6"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 27,
+                        "formula": [
+                            "雅羅魚"
+                        ]
+                    }
+                ],
+                "buy": 1360,
+                "sell": 680
+            },
+            {
+                "name": "鹽烤鮭魚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+45%",
+                    "RP+40%",
+                    "HP上限+12%",
+                    "力量+2",
+                    "體力-7"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 30,
+                        "formula": [
+                            "鮭魚"
+                        ]
+                    }
+                ],
+                "buy": 580,
+                "sell": 290
+            },
+            {
+                "name": "鹽烤巖魚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+35%",
+                    "RP+25%",
+                    "力量+3",
+                    "智力+1"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 12,
+                        "formula": [
+                            "巖魚"
+                        ]
+                    }
+                ],
+                "buy": 620,
+                "sell": 310
+            },
+            {
+                "name": "鹽烤鱒魚/鹽烤天魚",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+30%",
+                    "RP+15%",
+                    "力量+2",
+                    "智力-1"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 17,
+                        "formula": [
+                            "鱒魚/天魚"
+                        ]
+                    }
+                ],
+                "buy": 200,
+                "sell": 100
+            }
+        ]
+    },
+    {
+        "category": "烤箱料理",
+        "tab": "oven",
+        "active": false,
+        "list": [
+            {
+                "name": "餅乾/甜餅",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+15%",
+                    "RP+40%",
+                    "力量-12",
+                    "智力+8"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 12,
+                        "formula": [
+                            "小麥粉",
+                            "牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 15,
+                        "formula": [
+                            "小麥粉",
+                            "優質牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 18,
+                        "formula": [
+                            "小麥粉",
+                            "富鈣牛奶"
+                        ]
+                    }
+                ],
+                "buy": 1800,
+                "sell": 900
+            },
+            {
+                "name": "吐司",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+55%",
+                    "RP+20%",
+                    "HP上限+50",
+                    "力量+6",
+                    "體力+4"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 14,
+                        "formula": [
+                            "麵包"
+                        ]
+                    }
+                ],
+                "buy": 1000,
+                "sell": 500
+            },
+            {
+                "name": "巧克力餅乾",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+20%",
+                    "RP+50%",
+                    "力量-18",
+                    "智力+16"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 22,
+                        "formula": [
+                            "巧克力",
+                            "餅乾/甜餅",
+                            "黃油"
+                        ]
+                    }
+                ],
+                "buy": 5320,
+                "sell": 2660
+            },
+            {
+                "name": "烤飯糰",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+75%"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 22,
+                        "formula": [
+                            "飯糰"
+                        ]
+                    }
+                ],
+                "buy": 360,
+                "sell": 180
+            },
+            {
+                "name": "烤蕃薯",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+65%",
+                    "RP+25%",
+                    "HP上限+20%",
+                    "RP上限+10%",
+                    "體力+5",
+                    "對吹飛的抗性略微提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 24,
+                        "formula": [
+                            "紅薯"
+                        ]
+                    }
+                ],
+                "buy": 600,
+                "sell": 300
+            },
+            {
+                "name": "烤玉米",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+190",
+                    "RP+35%",
+                    "HP上限+100",
+                    "RP上限+30"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 28,
+                        "formula": [
+                            "黃油",
+                            "玉米"
+                        ]
+                    }
+                ],
+                "buy": 2760,
+                "sell": 1380
+            },
+            {
+                "name": "果醬麵包",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+60%",
+                    "RP+40%",
+                    "HP上限+80",
+                    "治癒疲勞"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 32,
+                        "formula": [
+                            "草莓果醬",
+                            "黃油麵包捲"
+                        ]
+                    },
+                    {
+                        "skillLv": 32,
+                        "formula": [
+                            "蘋果果醬",
+                            "黃油麵包捲"
+                        ]
+                    },
+                    {
+                        "skillLv": 32,
+                        "formula": [
+                            "葡萄果醬",
+                            "黃油麵包捲"
+                        ]
+                    },
+                    {
+                        "skillLv": 32,
+                        "formula": [
+                            "橘皮果醬",
+                            "黃油麵包捲"
+                        ]
+                    }
+                ],
+                "buy": 10500,
+                "sell": 5250
+            },
+            {
+                "name": "黃油麵包捲",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+100",
+                    "RP+40%",
+                    "HP上限+60"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 36,
+                        "formula": [
+                            "小麥粉",
+                            "黃油",
+                            "蛋",
+                            "牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 38,
+                        "formula": [
+                            "小麥粉",
+                            "黃油",
+                            "優質蛋",
+                            "優質牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 40,
+                        "formula": [
+                            "小麥粉",
+                            "黃油",
+                            "每天健康蛋",
+                            "富鈣牛奶"
+                        ]
+                    }
+                ],
+                "buy": 4780,
+                "sell": 2390
+            },
+            {
+                "name": "蘋果派/蘋果餡餅",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+60%",
+                    "RP+60%",
+                    "HP上限-25%",
+                    "RP上限+14%",
+                    "力量-10",
+                    "智力+8",
+                    "治癒疲勞"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 36,
+                        "formula": [
+                            "小麥粉",
+                            "黃油",
+                            "蜂蜜",
+                            "蘋果",
+                            "蘋果"
+                        ]
+                    }
+                ],
+                "buy": 6160,
+                "sell": 3080
+            },
+            {
+                "name": "披薩",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+50%",
+                    "RP+60%",
+                    "HP上限+25%",
+                    "力量+2",
+                    "體力+8",
+                    "智力-12",
+                    "對吹飛的抗性提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 44,
+                        "formula": [
+                            "番茄醬",
+                            "茄子",
+                            "小麥粉",
+                            "洋蔥",
+                            "奶酪",
+                            "奶酪"
+                        ]
+                    }
+                ],
+                "buy": 19240,
+                "sell": 9620
+            },
+            {
+                "name": "紅薯點心",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+50%",
+                    "RP+40%",
+                    "HP上限+25%",
+                    "RP上限+16%",
+                    "智力+18%"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 44,
+                        "formula": [
+                            "紅薯",
+                            "黃油",
+                            "甘甜粉",
+                            "優質牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 48,
+                        "formula": [
+                            "紅薯",
+                            "黃油",
+                            "甘甜粉",
+                            "富鈣牛奶"
+                        ]
+                    }
+                ],
+                "buy": 5540,
+                "sell": 2770
+            },
+            {
+                "name": "海鮮披薩",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+60%",
+                    "RP+60%",
+                    "HP上限+30%",
+                    "力量+12",
+                    "體力+4",
+                    "智力-15"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 48,
+                        "formula": [
+                            "番茄醬",
+                            "烏賊",
+                            "小麥粉",
+                            "蝦",
+                            "奶酪",
+                            "奶酪"
+                        ]
+                    }
+                ],
+                "buy": 20920,
+                "sell": 10460
+            },
+            {
+                "name": "奶汁烤菜",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+80%",
+                    "RP+50%",
+                    "HP上限+38%",
+                    "RP上限+60",
+                    "力量+8",
+                    "體力+16",
+                    "會心一擊出現概率略微提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 51,
+                        "formula": [
+                            "小麥粉",
+                            "洋蔥",
+                            "橙色草",
+                            "奶酪",
+                            "奶酪"
+                        ]
+                    }
+                ],
+                "buy": 10840,
+                "sell": 5420
+            },
+            {
+                "name": "多利亞/烤飯",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+70%",
+                    "RP+40%",
+                    "HP上限+50%",
+                    "力量+4",
+                    "體力+11",
+                    "智力-8"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 51,
+                        "formula": [
+                            "黃油",
+                            "黃瓜",
+                            "米飯",
+                            "洋蔥",
+                            "優質牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 53,
+                        "formula": [
+                            "黃油",
+                            "黃瓜",
+                            "米飯",
+                            "洋蔥",
+                            "富鈣牛奶"
+                        ]
+                    }
+                ],
+                "buy": 8360,
+                "sell": 4180
+            },
+            {
+                "name": "海鮮奶汁烤菜",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+80%",
+                    "RP+60%",
+                    "HP上限+45%",
+                    "RP上限+90",
+                    "力量+17",
+                    "體力+8",
+                    "智力-20",
+                    "會心一擊出現概率稍提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 53,
+                        "formula": [
+                            "洋蔥",
+                            "蝦",
+                            "小麥粉",
+                            "烏賊",
+                            "奶酪"
+                        ]
+                    }
+                ],
+                "buy": 14740,
+                "sell": 7370
+            },
+            {
+                "name": "海鮮多利亞/海鮮烤飯",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+70%",
+                    "RP+40%",
+                    "HP上限+60%",
+                    "力量+12",
+                    "體力+12",
+                    "智力-10"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 58,
+                        "formula": [
+                            "黃油",
+                            "黃油",
+                            "蝦",
+                            "烏賊",
+                            "米飯",
+                            "奶酪"
+                        ]
+                    }
+                ],
+                "buy": 12400,
+                "sell": 6200
+            },
+            {
+                "name": "蛋糕",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+70%",
+                    "RP+85%",
+                    "RP上限+30%",
+                    "體力-12",
+                    "智力15%",
+                    "治癒除感冒以外的異常狀態"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 59,
+                        "formula": [
+                            "小麥粉",
+                            "草莓",
+                            "黃油",
+                            "粉色貓咪",
+                            "優質牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 60,
+                        "formula": [
+                            "小麥粉",
+                            "草莓",
+                            "黃油",
+                            "粉色貓咪",
+                            "富鈣牛奶"
+                        ]
+                    }
+                ],
+                "buy": 8180,
+                "sell": 4090
+            },
+            {
+                "name": "巧克力蛋糕",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+80%",
+                    "RP+90%",
+                    "RP上限+40%",
+                    "體力-15",
+                    "智力+22%",
+                    "治癒除感冒以外的異常狀態"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 62,
+                        "formula": [
+                            "小麥粉",
+                            "黃油",
+                            "巧克力",
+                            "優質牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 64,
+                        "formula": [
+                            "小麥粉",
+                            "黃油",
+                            "巧克力",
+                            "富鈣牛奶"
+                        ]
+                    }
+                ],
+                "buy": 6020,
+                "sell": 3010
+            },
+            {
+                "name": "起司蛋糕/奶酪蛋糕",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+90%",
+                    "RP+95%",
+                    "RP上限+50%",
+                    "體力-16",
+                    "智力+28%",
+                    "治癒除感冒以外的異常狀態"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 68,
+                        "formula": [
+                            "小麥粉",
+                            "小麥粉",
+                            "奶酪",
+                            "優質蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 72,
+                        "formula": [
+                            "小麥粉",
+                            "小麥粉",
+                            "奶酪",
+                            "每天健康蛋"
+                        ]
+                    }
+                ],
+                "buy": 7880,
+                "sell": 3940
+            }
+        ]
+    },
+    {
+        "category": "菜刀料理",
+        "tab": "kitchenKnife",
+        "active": false,
+        "list": [
+            {
+                "name": "大肥金槍魚",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+50%",
+                    "RP+50%",
+                    "HP上限+40%",
+                    "力量+20%",
+                    "體力-12"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 43,
+                        "formula": [
+                            "金槍魚"
+                        ]
+                    }
+                ],
+                "buy": 31440,
+                "sell": 15720
+            },
+            {
+                "name": "心跳刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+50%",
+                    "RP+60%",
+                    "力量+13",
+                    "體力+12",
+                    "受到會心一擊概率降低"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 39,
+                        "formula": [
+                            "心跳鯛魚/彩鯛"
+                        ]
+                    }
+                ],
+                "buy": 21900,
+                "sell": 10950
+            },
+            {
+                "name": "比目魚刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+45%",
+                    "RP+60%",
+                    "HP上限+20",
+                    "力量+9",
+                    "體力-4"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 31,
+                        "formula": [
+                            "比目魚"
+                        ]
+                    }
+                ],
+                "buy": 2360,
+                "sell": 1180
+            },
+            {
+                "name": "河豚刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+50%",
+                    "RP+70%",
+                    "大幅提升對毒的抗性"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 51,
+                        "formula": [
+                            "河豚"
+                        ]
+                    }
+                ],
+                "buy": 31520,
+                "sell": 15760
+            },
+            {
+                "name": "秋刀魚刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+30%",
+                    "RP+30%",
+                    "HP上限+10%",
+                    "力量+2",
+                    "智力-1",
+                    "對封印抗性略微提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 18,
+                        "formula": [
+                            "秋刀魚"
+                        ]
+                    }
+                ],
+                "buy": 140,
+                "sell": 70
+            },
+            {
+                "name": "紅葉魚刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+40%",
+                    "RP+55%",
+                    "HP上限+20%",
+                    "力量+18",
+                    "體力-15"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 37,
+                        "formula": [
+                            "紅葉魚"
+                        ]
+                    }
+                ],
+                "buy": 17860,
+                "sell": 8930
+            },
+            {
+                "name": "虹色魚刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+30%",
+                    "RP+30%",
+                    "HP上限+10",
+                    "力量+12%",
+                    "體力+1"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 21,
+                        "formula": [
+                            "毒虹鱒魚/虹色魚"
+                        ]
+                    }
+                ],
+                "buy": 540,
+                "sell": 270
+            },
+            {
+                "name": "哲羅魚刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+40%",
+                    "RP+30%",
+                    "力量+18%"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 40,
+                        "formula": [
+                            "哲羅魚"
+                        ]
+                    }
+                ],
+                "buy": 33860,
+                "sell": 16930
+            },
+            {
+                "name": "烏賊刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+20%",
+                    "RP+30%",
+                    "力量+1",
+                    "體力+4"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 9,
+                        "formula": [
+                            "烏賊"
+                        ]
+                    }
+                ],
+                "buy": 260,
+                "sell": 130
+            },
+            {
+                "name": "真鱒魚刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+15%",
+                    "RP+10%",
+                    "力量+2",
+                    "智力-1",
+                    "會心一擊出現率稍微提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 18,
+                        "formula": [
+                            "真鱒魚"
+                        ]
+                    }
+                ],
+                "buy": 240,
+                "sell": 120
+            },
+            {
+                "name": "針魚刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+25%",
+                    "RP+25%",
+                    "力量+4",
+                    "智力+1"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 22,
+                        "formula": [
+                            "針魚"
+                        ]
+                    }
+                ],
+                "buy": 280,
+                "sell": 140
+            },
+            {
+                "name": "閃光刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+60%",
+                    "RP+40%",
+                    "力量+28",
+                    "體力-10",
+                    "光耐性+2",
+                    "大幅減少光屬性傷害"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 41,
+                        "formula": [
+                            "閃光鯛魚/銀鯛"
+                        ]
+                    }
+                ],
+                "buy": 45920,
+                "sell": 22960
+            },
+            {
+                "name": "斑烏賊刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+30%",
+                    "RP+45%",
+                    "力量+12%",
+                    "體力+10"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 42,
+                        "formula": [
+                            "斑烏賊/南國烏賊"
+                        ]
+                    }
+                ],
+                "buy": 36240,
+                "sell": 18120
+            },
+            {
+                "name": "斑鲅魚刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+25%",
+                    "RP+30%"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 25,
+                        "formula": [
+                            "斑鲅魚"
+                        ]
+                    }
+                ],
+                "buy": 380,
+                "sell": 190
+            },
+            {
+                "name": "蝦肉刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+40%",
+                    "RP+20%",
+                    "力量-5%",
+                    "智力+7%"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 17,
+                        "formula": [
+                            "蝦"
+                        ]
+                    }
+                ],
+                "buy": 580,
+                "sell": 290
+            },
+            {
+                "name": "螢烏賊刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+20%",
+                    "RP+60%",
+                    "力量+8",
+                    "體力+2",
+                    "智力-5"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 38,
+                        "formula": [
+                            "螢烏賊"
+                        ]
+                    }
+                ],
+                "buy": 15380,
+                "sell": 7690
+            },
+            {
+                "name": "龍蝦刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+50%",
+                    "RP+25%",
+                    "力量-4%",
+                    "智力+12%"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 29,
+                        "formula": [
+                            "龍蝦"
+                        ]
+                    }
+                ],
+                "buy": 1560,
+                "sell": 780
+            },
+            {
+                "name": "鮭魚刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+40%",
+                    "RP+30%",
+                    "HP上限+20%",
+                    "力量+5",
+                    "體力-15"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 25,
+                        "formula": [
+                            "鮭魚"
+                        ]
+                    }
+                ],
+                "buy": 560,
+                "sell": 280
+            },
+            {
+                "name": "鯛魚刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+45%",
+                    "RP+30%",
+                    "HP上限+15%",
+                    "力量+2",
+                    "體力+4",
+                    "會心一擊出現率略微提升",
+                    "容易受到會心一擊"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 32,
+                        "formula": [
+                            "鯛魚"
+                        ]
+                    }
+                ],
+                "buy": 1740,
+                "sell": 870
+            },
+            {
+                "name": "鰈魚刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+60%",
+                    "RP+45%",
+                    "RP上限+20",
+                    "力量+6",
+                    "智力-2"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 29,
+                        "formula": [
+                            "鰈魚"
+                        ]
+                    }
+                ],
+                "buy": 1200,
+                "sell": 600
+            },
+            {
+                "name": "鰤魚刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+60%",
+                    "RP+30%",
+                    "力量+8",
+                    "體力+6"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 35,
+                        "formula": [
+                            "鰤魚"
+                        ]
+                    }
+                ],
+                "buy": 23840,
+                "sell": 11920
+            },
+            {
+                "name": "沙丁魚刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+10%",
+                    "RP+15%",
+                    "會心一擊出現率提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 15,
+                        "formula": [
+                            "沙丁魚"
+                        ]
+                    }
+                ],
+                "buy": 440,
+                "sell": 220
+            },
+            {
+                "name": "鰹魚刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+40%",
+                    "RP+40%",
+                    "力量+6%",
+                    "體力-2",
+                    "會心一擊出現率提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 28,
+                        "formula": [
+                            "鰹魚"
+                        ]
+                    }
+                ],
+                "buy": 1480,
+                "sell": 740
+            },
+            {
+                "name": "巖魚刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+25%",
+                    "RP+15%",
+                    "力量+4",
+                    "體力-1",
+                    "智力-1"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 15,
+                        "formula": [
+                            "巖魚"
+                        ]
+                    }
+                ],
+                "buy": 640,
+                "sell": 320
+            },
+            {
+                "name": "鱒魚刺身/天魚刺身",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+20%",
+                    "RP+10%",
+                    "力量+3",
+                    "智力-2"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 12,
+                        "formula": [
+                            "鱒魚/天魚"
+                        ]
+                    }
+                ],
+                "buy": 200,
+                "sell": 100
+            }
+        ]
+    },
+    {
+        "category": "蒸籠料理",
+        "tab": "steamer",
+        "active": false,
+        "list": [
+            {
+                "name": "丸子",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+30%",
+                    "RP+30%",
+                    "筋力-2 體力+4",
+                    "治癒中毒",
+                    "受到會心一擊的概率大幅降低"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 11,
+                        "formula": [
+                            "糰子/丸子粉"
+                        ]
+                    }
+                ],
+                "buy": 120,
+                "sell": 60
+            },
+            {
+                "name": "中華包子",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+60%",
+                    "RP+50%",
+                    "HP上限+60",
+                    "筋力-1",
+                    "體力+8",
+                    "對所有異常狀態的抗性稍提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 30,
+                        "formula": [
+                            "小麥粉＋竹筍＋胡蘿蔔＋混合香料"
+                        ]
+                    }
+                ],
+                "buy": 23640,
+                "sell": 11820
+            },
+            {
+                "name": "布丁",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+40%",
+                    "RP+80%",
+                    "HP上限-20% 體力+10 知力+8%",
+                    "治癒疲勞和感冒",
+                    "對所有異常狀態的抗性稍提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 31,
+                        "formula": [
+                            "蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 33,
+                        "formula": [
+                            "優質蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 35,
+                        "formula": [
+                            "每天健康蛋"
+                        ]
+                    }
+                ],
+                "buy": 1100,
+                "sell": 550
+            },
+            {
+                "name": "蒸麵包",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+40%",
+                    "RP+45%",
+                    "HP上限+80",
+                    "筋力-5",
+                    "體力+2",
+                    "對所有異常狀態的抗性略微提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 33,
+                        "formula": [
+                            "小麥粉＋蜂蜜＋蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 36,
+                        "formula": [
+                            "小麥粉＋蜂蜜＋優質蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 39,
+                        "formula": [
+                            "小麥粉＋蜂蜜＋每天健康蛋"
+                        ]
+                    }
+                ],
+                "buy": 4640,
+                "sell": 2320
+            },
+            {
+                "name": "咖喱包子",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+50%",
+                    "RP+40%",
+                    "筋力+7",
+                    "體力+8",
+                    "知力-14",
+                    "對所有異常狀態的抗性稍提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 34,
+                        "formula": [
+                            "小麥粉＋胡蘿蔔＋咖喱粉＋竹筍"
+                        ]
+                    }
+                ],
+                "buy": 3520,
+                "sell": 1760
+            },
+            {
+                "name": "蒸蛋糕",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+50%",
+                    "RP+50%",
+                    "筋力-5%",
+                    "體力+4 知力+7",
+                    "治癒疲勞",
+                    "對所有異常狀態的抗性稍提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 41,
+                        "formula": [
+                            "小麥粉＋蜂蜜＋牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 42,
+                        "formula": [
+                            "小麥粉＋蜂蜜＋優質牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 43,
+                        "formula": [
+                            "小麥粉＋蜂蜜＋富鈣牛奶"
+                        ]
+                    }
+                ],
+                "buy": 4820,
+                "sell": 2410
+            },
+            {
+                "name": "南瓜布丁",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+60%",
+                    "RP+80%",
+                    "HP上限+15%",
+                    "體力+12",
+                    "知力+6%",
+                    "對所有異常狀態的抗性稍提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 44,
+                        "formula": [
+                            "蜂蜜＋南瓜＋黃草＋優質蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 48,
+                        "formula": [
+                            "蜂蜜＋南瓜＋黃草＋每天健康蛋"
+                        ]
+                    }
+                ],
+                "buy": 9640,
+                "sell": 4820
+            },
+            {
+                "name": "蒸餃",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+50%",
+                    "RP+40%",
+                    "HP上限+20%",
+                    "筋力-16%",
+                    "體力+12",
+                    "對所有異常狀態的抗性稍提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 45,
+                        "formula": [
+                            "小麥粉＋油＋洋蔥＋捲心菜"
+                        ]
+                    }
+                ],
+                "buy": 7580,
+                "sell": 3790
+            },
+            {
+                "name": "奶酪蒸麵包",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+50%",
+                    "RP+60%",
+                    "HP上限+18%",
+                    "筋力-2",
+                    "體力+15 知力+4",
+                    "對所有異常狀態的抗性稍提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 45,
+                        "formula": [
+                            "小麥粉＋蜂蜜＋奶酪"
+                        ]
+                    }
+                ],
+                "buy": 6140,
+                "sell": 3070
+            },
+            {
+                "name": "蒸雞蛋糕/蒸鬆糕",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+50%",
+                    "RP+50%",
+                    "HP上限+30%",
+                    "體力+18",
+                    "對所有異常狀態的抗性提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 48,
+                        "formula": [
+                            "小麥粉＋蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 51,
+                        "formula": [
+                            "小麥粉＋優質蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 54,
+                        "formula": [
+                            "小麥粉＋每天健康蛋"
+                        ]
+                    }
+                ],
+                "buy": 2300,
+                "sell": 1150
+            },
+            {
+                "name": "燒賣",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+25%",
+                    "RP+35%",
+                    "HP上限+22%",
+                    "筋力-14%",
+                    "體力+15 知力+8%",
+                    "對封印的抗性提升",
+                    "對其它異常狀態抗性略微提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 49,
+                        "formula": [
+                            "小麥粉＋捲心菜＋綠草＋蝦＋洋蔥"
+                        ]
+                    }
+                ],
+                "buy": 10220,
+                "sell": 5110
+            }
+        ]
+    },
+    {
+        "category": "鍋子料理",
+        "tab": "pot",
+        "active": false,
+        "list": [
+            {
+                "name": "大學芋",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+35%",
+                    "RP+50%",
+                    "HP上限+15%",
+                    "體力+5",
+                    "智力+6"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 39,
+                        "formula": [
+                            "紅薯",
+                            "甘甜粉"
+                        ]
+                    }
+                ],
+                "buy": 1380,
+                "sell": 690
+            },
+            {
+                "name": "天婦羅烏冬面",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+80%",
+                    "RP+80%",
+                    "HP上限+60%",
+                    "力量+6",
+                    "體力+19",
+                    "智力+6"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 37,
+                        "formula": [
+                            "天婦羅",
+                            "烏冬/湯麵",
+                            "酸味料"
+                        ]
+                    }
+                ],
+                "buy": 73700,
+                "sell": 36850
+            },
+            {
+                "name": "天婦羅飯/天蓋飯",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+50%",
+                    "RP+70%",
+                    "HP上限+25%",
+                    "RP上限+10%"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 34,
+                        "formula": [
+                            "米飯",
+                            "天婦羅",
+                            "酸味料"
+                        ]
+                    }
+                ],
+                "buy": 20600,
+                "sell": 10300
+            },
+            {
+                "name": "水煮巖石魚",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+50%",
+                    "RP+40%",
+                    "力量-11",
+                    "體力+15",
+                    "治療麻痹",
+                    "火、地屬性傷害減半"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 41,
+                        "formula": [
+                            "巖石魚",
+                            "白菜"
+                        ]
+                    }
+                ],
+                "buy": 5080,
+                "sell": 2540
+            },
+            {
+                "name": "水餃",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+30%",
+                    "RP+50%",
+                    "HP上限-25",
+                    "力量+4",
+                    "體力+2",
+                    "智力+2"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 26,
+                        "formula": [
+                            "小麥粉",
+                            "菠菜",
+                            "捲心菜"
+                        ]
+                    }
+                ],
+                "buy": 3020,
+                "sell": 1510
+            },
+            {
+                "name": "火鍋",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+80%",
+                    "RP+80%",
+                    "HP上限+20%",
+                    "力量+9",
+                    "體力+8",
+                    "智力+4"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 58,
+                        "formula": [
+                            "蘿蔔",
+                            "大蔥",
+                            "白菜",
+                            "白菜",
+                            "火熱果實"
+                        ]
+                    }
+                ],
+                "buy": 36880,
+                "sell": 18440
+            },
+            {
+                "name": "牛奶粥",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+70%",
+                    "RP+60%",
+                    "治癒疲勞和感冒",
+                    "對疲勞和感冒的抗性提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 42,
+                        "formula": [
+                            "米飯",
+                            "牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 44,
+                        "formula": [
+                            "米飯",
+                            "優質牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 46,
+                        "formula": [
+                            "米飯",
+                            "富鈣牛奶"
+                        ]
+                    }
+                ],
+                "buy": 1600,
+                "sell": 800
+            },
+            {
+                "name": "奶酪火鍋/乾酪鍋",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+45%",
+                    "RP+45%",
+                    "HP上限+40%",
+                    "力量+5",
+                    "體力+5",
+                    "智力+6"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 47,
+                        "formula": [
+                            "麵包",
+                            "奶酪",
+                            "奶酪",
+                            "奶酪",
+                            "奶酪"
+                        ]
+                    }
+                ],
+                "buy": 13960,
+                "sell": 6980
+            },
+            {
+                "name": "至高咖喱",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+80%",
+                    "75%",
+                    "力量+38",
+                    "火屬性抗性+2"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 85,
+                        "formula": [
+                            "魔法師之粉",
+                            "蘋果",
+                            "蜂蜜",
+                            "咖喱粉",
+                            "混合香料",
+                            "混合香料"
+                        ]
+                    }
+                ],
+                "buy": 35860,
+                "sell": 17930
+            },
+            {
+                "name": "究極咖喱",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+70%",
+                    "RP+50%",
+                    "HP上限-8%",
+                    "RP上限-8%",
+                    "力量+24",
+                    "體力+9",
+                    "火屬性傷害減半"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 70,
+                        "formula": [
+                            "紅酒",
+                            "惡魔之血",
+                            "蟲皮",
+                            "咖喱粉",
+                            "重口味調料"
+                        ]
+                    }
+                ],
+                "buy": 7140,
+                "sell": 3570
+            },
+            {
+                "name": "咖喱湯麵",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+70%",
+                    "RP+70%",
+                    "HP上限+45%",
+                    "力量+12",
+                    "體力+15"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 33,
+                        "formula": [
+                            "小麥粉",
+                            "咖喱粉",
+                            "櫻色蕪菁",
+                            "胡蘿蔔"
+                        ]
+                    }
+                ],
+                "buy": 4200,
+                "sell": 2100
+            },
+            {
+                "name": "咖喱飯",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+50%",
+                    "RP+25%",
+                    "HP上限-10%",
+                    "RP上限-10%",
+                    "力量+12",
+                    "火屬性抗性+1"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 55,
+                        "formula": [
+                            "米飯",
+                            "胡蘿蔔",
+                            "咖喱粉",
+                            "紅草",
+                            "重口味調料"
+                        ]
+                    }
+                ],
+                "buy": 3440,
+                "sell": 1720
+            },
+            {
+                "name": "放鬆茶",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+50%",
+                    "RP+80%",
+                    "RP上限+60%",
+                    "治療感冒以外的一切異常狀態",
+                    "對所有異常狀態的抗性提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 64,
+                        "formula": [
+                            "放鬆茶葉",
+                            "蜂蜜",
+                            "少女甜瓜",
+                            "大蔥"
+                        ]
+                    }
+                ],
+                "buy": 23400,
+                "sell": 11700
+            },
+            {
+                "name": "烏冬/湯麵",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+60%",
+                    "RP+60%",
+                    "HP上限+30%"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 29,
+                        "formula": [
+                            "櫻色蕪菁",
+                            "胡蘿蔔",
+                            "小麥粉",
+                            "混合香料"
+                        ]
+                    }
+                ],
+                "buy": 24200,
+                "sell": 12100
+            },
+            {
+                "name": "草莓果醬",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+30%",
+                    "RP+40%",
+                    "力量-4%",
+                    "智力+16%"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 25,
+                        "formula": [
+                            "草莓",
+                            "草莓",
+                            "草莓"
+                        ]
+                    }
+                ],
+                "buy": 1760,
+                "sell": 880
+            },
+            {
+                "name": "涼拌菜",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+20%",
+                    "RP+20%",
+                    "RP上限+20",
+                    "力量+1",
+                    "體力+1",
+                    "智力-5"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 14,
+                        "formula": [
+                            "菠菜"
+                        ]
+                    }
+                ],
+                "buy": 440,
+                "sell": 220
+            },
+            {
+                "name": "蛋蓋飯",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+60%",
+                    "RP+80%",
+                    "HP上限+120",
+                    "力量-8",
+                    "體力+2"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 32,
+                        "formula": [
+                            "米飯",
+                            "洋蔥",
+                            "蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 35,
+                        "formula": [
+                            "米飯",
+                            "洋蔥",
+                            "優質蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 38,
+                        "formula": [
+                            "米飯",
+                            "洋蔥",
+                            "每天健康蛋"
+                        ]
+                    }
+                ],
+                "buy": 4340,
+                "sell": 2170
+            },
+            {
+                "name": "煮南瓜",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+40%",
+                    "RP+45%",
+                    "HP上限+100",
+                    "體力+8",
+                    "智力-2"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 35,
+                        "formula": [
+                            "南瓜"
+                        ]
+                    }
+                ],
+                "buy": 3640,
+                "sell": 1820
+            },
+            {
+                "name": "煮雞蛋",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+120",
+                    "RP+25%",
+                    "HP上限+25",
+                    "力量+2",
+                    "對封印的抗性稍提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 13,
+                        "formula": [
+                            "蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 14,
+                        "formula": [
+                            "優質蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 15,
+                        "formula": [
+                            "每天健康蛋"
+                        ]
+                    }
+                ],
+                "buy": 940,
+                "sell": 470
+            },
+            {
+                "name": "粥",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+50%",
+                    "RP+50%",
+                    "對疲勞的抗性少許提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 33,
+                        "formula": [
+                            "米飯",
+                            "混合香料",
+                            "火熱果實"
+                        ]
+                    }
+                ],
+                "buy": 36080,
+                "sell": 18040
+            },
+            {
+                "name": "葡萄果醬",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+30%",
+                    "RP+40%",
+                    "力量-8%",
+                    "智力+12%"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 27,
+                        "formula": [
+                            "葡萄",
+                            "葡萄",
+                            "葡萄"
+                        ]
+                    }
+                ],
+                "buy": 900,
+                "sell": 450
+            },
+            {
+                "name": "葡萄酒",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+50%",
+                    "RP+60%",
+                    "體力-15",
+                    "智力-10%",
+                    "會心一擊出現概率提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 18,
+                        "formula": [
+                            "葡萄",
+                            "藍色妖姬",
+                            "紫草",
+                            "紅酒"
+                        ]
+                    }
+                ],
+                "buy": 6800,
+                "sell": 3400
+            },
+            {
+                "name": "熱牛奶",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+120",
+                    "RP+25%",
+                    "HP上限+30",
+                    "體力+2",
+                    "對毒的抗性略微提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 5,
+                        "formula": [
+                            "牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 7,
+                        "formula": [
+                            "優質牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 9,
+                        "formula": [
+                            "富鈣牛奶"
+                        ]
+                    }
+                ],
+                "buy": 900,
+                "sell": 450
+            },
+            {
+                "name": "熱巧克力",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+160",
+                    "RP+30%",
+                    "HP上限+50",
+                    "體力+3",
+                    "智力+2",
+                    "對毒的抗性略微提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 12,
+                        "formula": [
+                            "巧克力"
+                        ]
+                    }
+                ],
+                "buy": 360,
+                "sell": 180
+            },
+            {
+                "name": "橘皮果醬",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+30%",
+                    "RP+40%",
+                    "力量-2%",
+                    "智力+10%"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 24,
+                        "formula": [
+                            "橘子",
+                            "橘子",
+                            "橘子"
+                        ]
+                    }
+                ],
+                "buy": 780,
+                "sell": 390
+            },
+            {
+                "name": "燉菜",
+                "checked": false,
+                "time": 12,
+                "sp": [
+                    "HP+70%",
+                    "RP+70%",
+                    "HP上限+50%",
+                    "力量-12%",
+                    "體力+14",
+                    "水、地、風、光屬性傷害減半"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 58,
+                        "formula": [
+                            "小麥粉",
+                            "馬鈴薯",
+                            "胡蘿蔔",
+                            "洋蔥",
+                            "優質牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 64,
+                        "formula": [
+                            "小麥粉",
+                            "馬鈴薯",
+                            "胡蘿蔔",
+                            "洋蔥",
+                            "富鈣牛奶"
+                        ]
+                    }
+                ],
+                "buy": 10340,
+                "sell": 5170
+            },
+            {
+                "name": "蘋果果醬",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+30%",
+                    "RP+40%",
+                    "力量-12%",
+                    "體力+2",
+                    "智力+12%"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 23,
+                        "formula": [
+                            "蘋果",
+                            "蘋果",
+                            "蘋果"
+                        ]
+                    }
+                ],
+                "buy": 600,
+                "sell": 300
+            },
+            {
+                "name": "蘿蔔燉湯/味增田樂燒",
+                "checked": false,
+                "time": 6,
+                "sp": [
+                    "HP+40%",
+                    "RP+80",
+                    "RP上限+80",
+                    "智力+4"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 36,
+                        "formula": [
+                            "蘿蔔"
+                        ]
+                    }
+                ],
+                "buy": 1780,
+                "sell": 890
+            }
+        ]
+    },
+    {
+        "category": "攪拌機料理",
+        "tab": "blender",
+        "active": false,
+        "list": [
+            {
+                "name": "酸奶",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "RP+50%"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 5,
+                        "formula": [
+                            "白草",
+                            "牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 10,
+                        "formula": [
+                            "白草",
+                            "優質牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 20,
+                        "formula": [
+                            "白草",
+                            "富鈣牛奶"
+                        ]
+                    }
+                ],
+                "buy": 600,
+                "sell": 300
+            },
+            {
+                "name": "蛋黃醬",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+100",
+                    "對麻痹的抗性提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 5,
+                        "formula": [
+                            "蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 10,
+                        "formula": [
+                            "優質蛋"
+                        ]
+                    },
+                    {
+                        "skillLv": 15,
+                        "formula": [
+                            "每天健康蛋"
+                        ]
+                    }
+                ],
+                "buy": 560,
+                "sell": 280
+            },
+            {
+                "name": "蘋果汁",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+20%",
+                    "RP+30%",
+                    "力量+1",
+                    "智力+4"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 8,
+                        "formula": [
+                            "蘋果"
+                        ]
+                    }
+                ],
+                "buy": 160,
+                "sell": 80
+            },
+            {
+                "name": "奶油",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+20%",
+                    "RP+15%",
+                    "體力+5"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 9,
+                        "formula": [
+                            "牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 18,
+                        "formula": [
+                            "優質牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 27,
+                        "formula": [
+                            "富鈣牛奶"
+                        ]
+                    }
+                ],
+                "buy": 620,
+                "sell": 310
+            },
+            {
+                "name": "橙汁",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+20%",
+                    "RP+45%",
+                    "力量-1",
+                    "體力-1",
+                    "智力+5"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 11,
+                        "formula": [
+                            "橙子/橘子"
+                        ]
+                    }
+                ],
+                "buy": 200,
+                "sell": 100
+            },
+            {
+                "name": "鳳梨汁",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+20%",
+                    "RP+40%",
+                    "力量-1",
+                    "智力+8"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 13,
+                        "formula": [
+                            "鳳梨"
+                        ]
+                    }
+                ],
+                "buy": 2960,
+                "sell": 1480
+            },
+            {
+                "name": "蔬菜汁",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+70%",
+                    "RP+65%",
+                    "RP上限+20%",
+                    "力量-8",
+                    "體力+1",
+                    "智力+12",
+                    "對異常狀態的抗性略微提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 14,
+                        "formula": [
+                            "南瓜",
+                            "櫻蕪菁",
+                            "胡蘿蔔",
+                            "菠菜"
+                        ]
+                    }
+                ],
+                "buy": 7240,
+                "sell": 3620
+            },
+            {
+                "name": "蔬菜牛奶",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+70%",
+                    "RP+75%",
+                    "HP上限+10",
+                    "RP上限+30%",
+                    "力量-10",
+                    "體力+5",
+                    "智力+16",
+                    "對異常狀態的抗性略微提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 15,
+                        "formula": [
+                            "蔬菜汁",
+                            "牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 16,
+                        "formula": [
+                            "蔬菜汁",
+                            "優質牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 17,
+                        "formula": [
+                            "蔬菜汁",
+                            "富鈣牛奶"
+                        ]
+                    }
+                ],
+                "buy": 13700,
+                "sell": 6850
+            },
+            {
+                "name": "草莓牛奶",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+40%",
+                    "RP+60%",
+                    "體力+2",
+                    "智力+8"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 15,
+                        "formula": [
+                            "草莓",
+                            "甘甜粉",
+                            "牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 17,
+                        "formula": [
+                            "草莓",
+                            "甘甜粉",
+                            "優質牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 19,
+                        "formula": [
+                            "草莓",
+                            "甘甜粉",
+                            "富鈣牛奶"
+                        ]
+                    }
+                ],
+                "buy": 2340,
+                "sell": 1170
+            },
+            {
+                "name": "葡萄汁",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+20%",
+                    "RP+40%",
+                    "體力+1",
+                    "智力+3"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 15,
+                        "formula": [
+                            "葡萄"
+                        ]
+                    }
+                ],
+                "buy": 240,
+                "sell": 120
+            },
+            {
+                "name": "新鮮果汁",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+55%",
+                    "RP+60%",
+                    "體力-8",
+                    "智力+10"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 16,
+                        "formula": [
+                            "鳳梨",
+                            "蘋果",
+                            "葡萄",
+                            "橘子"
+                        ]
+                    }
+                ],
+                "buy": 4760,
+                "sell": 2380
+            },
+            {
+                "name": "果汁牛奶",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+60%",
+                    "RP+65%",
+                    "體力-6",
+                    "智力+14",
+                    "治癒封印"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 18,
+                        "formula": [
+                            "果汁",
+                            "牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 19,
+                        "formula": [
+                            "果汁",
+                            "優質牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 20,
+                        "formula": [
+                            "果汁",
+                            "富鈣牛奶"
+                        ]
+                    }
+                ],
+                "buy": 9600,
+                "sell": 4800
+            },
+            {
+                "name": "番茄汁",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+20%",
+                    "RP+15%",
+                    "智力+5",
+                    "治癒疲勞"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 18,
+                        "formula": [
+                            "番茄"
+                        ]
+                    }
+                ],
+                "buy": 840,
+                "sell": 420
+            },
+            {
+                "name": "熱果汁",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+60%",
+                    "RP+25%",
+                    "HP上限+25%",
+                    "RP上限-25%",
+                    "力量-45",
+                    "會心一擊出現概率大幅提升",
+                    "火屬性抗性+1"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 19,
+                        "formula": [
+                            "火熱果實",
+                            "紅草",
+                            "香辛調料/重口味調料"
+                        ]
+                    }
+                ],
+                "buy": 15080,
+                "sell": 7540
+            },
+            {
+                "name": "奶酪",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "RP+75%"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 20,
+                        "formula": [
+                            "黃草",
+                            "牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 25,
+                        "formula": [
+                            "黃草",
+                            "優質牛奶"
+                        ]
+                    },
+                    {
+                        "skillLv": 30,
+                        "formula": [
+                            "黃草",
+                            "富鈣牛奶"
+                        ]
+                    }
+                ],
+                "buy": 660,
+                "sell": 330
+            },
+            {
+                "name": "混合果汁",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+80%",
+                    "RP+80%",
+                    "RP上限+30%",
+                    "力量-6",
+                    "體力-6",
+                    "智力+18",
+                    "對所有異常狀態抗性略微提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 22,
+                        "formula": [
+                            "蔬菜汁",
+                            "果汁"
+                        ]
+                    }
+                ],
+                "buy": 21900,
+                "sell": 10950
+            },
+            {
+                "name": "番茄醬",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+25%",
+                    "RP+20%",
+                    "HP上限+18"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 23,
+                        "formula": [
+                            "番茄",
+                            "洋蔥"
+                        ]
+                    }
+                ],
+                "buy": 3240,
+                "sell": 1620
+            },
+            {
+                "name": "戀愛預感",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+40%",
+                    "RP+60%",
+                    "HP上限-50%",
+                    "RP上限-50%",
+                    "全屬性抗性+2"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 24,
+                        "formula": [
+                            "少女甜瓜",
+                            "草莓"
+                        ]
+                    }
+                ],
+                "buy": 13000,
+                "sell": 6500
+            },
+            {
+                "name": "混合牛奶",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+80%",
+                    "RP+80%",
+                    "HP上限+20%",
+                    "體力+8",
+                    "智力+19",
+                    "對所有異常狀態抗性略微提升"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 28,
+                        "formula": [
+                            "果汁牛奶",
+                            "蔬菜牛奶"
+                        ]
+                    }
+                ],
+                "buy": 44380,
+                "sell": 22190
+            },
+            {
+                "name": "黃金果汁",
+                "checked": false,
+                "time": 3,
+                "sp": [
+                    "HP+50%",
+                    "RP+50%",
+                    "體力+10",
+                    "智力+28%"
+                ],
+                "formulaList": [
+                    {
+                        "skillLv": 32,
+                        "formula": [
+                            "金南瓜",
+                            "金剛花",
+                            "金馬鈴薯",
+                            "金蕪菁",
+                            "金捲心菜"
+                        ]
+                    }
+                ],
+                "buy": 83880,
+                "sell": 41940
+            }
+        ]
+    }
+]

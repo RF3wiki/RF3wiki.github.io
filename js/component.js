@@ -1378,8 +1378,8 @@ Vue.component('make', {
   </div>
   <div class="ts-space is-small"></div>
   <div class="ts-segment itemlog" v-for="(main, index) in dataList" :data-name="main.tab" :key="index">
-    <div class="ts-grid mobile-:is-stacked" style="padding:.5rem;">
-      <div class="column is-4-wide" v-for="(item, index) in main.list" :key="index">
+    <div class="ts-grid tablet+:is-3-columns desktop+:is-4-columns mobile-:is-stacked" style="padding:.5rem;">
+      <div class="column" v-for="(item, index) in main.list" :key="index">
         <label class="ts-checkbox is-kepall">
           <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
           {{ item.name }}
@@ -1481,8 +1481,8 @@ Vue.component('cooking', {
   </div>
   <div class="ts-space is-small"></div>
   <div class="ts-segment itemlog" v-for="(main, index) in dataList" :data-name="main.tab" :key="index">
-    <div class="ts-grid mobile-:is-stacked" style="padding:.5rem;">
-      <div class="column is-4-wide" v-for="(item, index) in main.list" :key="index">
+    <div class="ts-grid tablet+:is-3-columns desktop+:is-4-columns mobile-:is-stacked" style="padding:.5rem;">
+      <div class="column" v-for="(item, index) in main.list" :key="index">
         <label class="ts-checkbox is-kepall">
           <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
           {{ item.name }}
@@ -1570,8 +1570,8 @@ Vue.component('collection', {
   </div>
   <div class="ts-space is-small"></div>
   <div class="ts-segment itemlog" v-for="(main, index) in dataList" :data-name="main.tab" :key="index">
-    <div class="ts-grid mobile-:is-stacked" style="padding:.5rem;">
-      <div class="column is-4-wide" v-for="(item, index) in main.list" :key="index">
+    <div class="ts-grid tablet+:is-3-columns desktop+:is-4-columns mobile-:is-stacked" style="padding:.5rem;">
+      <div class="column" v-for="(item, index) in main.list" :key="index">
         <label class="ts-checkbox is-kepall">
           <input type="checkbox" v-model="item.checked" :checked="item.checked" v-on:change="saveJson" />
           {{ item.name }}

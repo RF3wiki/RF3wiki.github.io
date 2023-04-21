@@ -1348,6 +1348,47 @@ Vue.component('make', {
         .then((data) => { this.dataList = data; })
         .catch((error) => { console.warn(error) });
     },
+    updataJSON() {
+      const oldData = JSON.parse(localStorage.getItem(this.localKey)) || [];
+      fetch(this.url)
+        .then((res) => res.json())
+        .then((data) => {
+          const newData = data;
+          // 更新資料
+          newData.forEach((newCategory) => {
+            const oldCategory = oldData.find(
+              (oldCategory) => oldCategory.category === newCategory.category
+            );
+            if (oldCategory) {
+              newCategory.list.forEach((newItem) => {
+                const oldItem = oldCategory.list.find(
+                  (oldItem) => oldItem.id === newItem.id
+                );
+                if (oldItem) {
+                  // 如果舊資料存在，則更新除了checked以外的其他欄位
+                  const keys = Object.keys(newItem);
+                  keys.forEach((key) => {
+                    if (key !== "checked") {
+                      oldItem[key] = newItem[key];
+                    }
+                  });
+                } else {
+                  // 如果舊資料不存在，則加入新資料，並將 checked 設為 false
+                  oldCategory.list.push({
+                    ...newItem,
+                    checked: false,
+                  });
+                }
+              });
+            } else {
+              // 如果舊資料的分類不存在，則加入新的分類
+              oldData.push(newCategory);
+            }
+          });
+          localStorage.setItem(this.localKey, JSON.stringify(oldData));
+          this.dataList = oldData;
+        });
+    },
     detailsClose() {
       const details = document.querySelectorAll('.itemlog:not(.u-hidden) details');
       details.forEach((targetDetail) => {
@@ -1367,6 +1408,7 @@ Vue.component('make', {
     <div class="ts-wrap is-middle-aligned">
       <div class="ts-text"> ※ 點選頁籤切換，將自動存檔於瀏覽器。(需載入一段時間) </div>
       <button class="ts-button is-small is-outlined" v-on:click="deleteSave">清除紀錄</button>
+      <button class="ts-button is-small is-outlined" v-on:click="updataJSON">更新資料</button>
     </div>
   </div>
   <div class="ts-space is-small"></div>
@@ -1451,6 +1493,47 @@ Vue.component('cooking', {
         .then((data) => { this.dataList = data; })
         .catch((error) => { console.warn(error) });
     },
+    updataJSON() {
+      const oldData = JSON.parse(localStorage.getItem(this.localKey)) || [];
+      fetch(this.url)
+        .then((res) => res.json())
+        .then((data) => {
+          const newData = data;
+          // 更新資料
+          newData.forEach((newCategory) => {
+            const oldCategory = oldData.find(
+              (oldCategory) => oldCategory.category === newCategory.category
+            );
+            if (oldCategory) {
+              newCategory.list.forEach((newItem) => {
+                const oldItem = oldCategory.list.find(
+                  (oldItem) => oldItem.id === newItem.id
+                );
+                if (oldItem) {
+                  // 如果舊資料存在，則更新除了checked以外的其他欄位
+                  const keys = Object.keys(newItem);
+                  keys.forEach((key) => {
+                    if (key !== "checked") {
+                      oldItem[key] = newItem[key];
+                    }
+                  });
+                } else {
+                  // 如果舊資料不存在，則加入新資料，並將 checked 設為 false
+                  oldCategory.list.push({
+                    ...newItem,
+                    checked: false,
+                  });
+                }
+              });
+            } else {
+              // 如果舊資料的分類不存在，則加入新的分類
+              oldData.push(newCategory);
+            }
+          });
+          localStorage.setItem(this.localKey, JSON.stringify(oldData));
+          this.dataList = oldData;
+        });
+    },
     detailsClose() {
       const details = document.querySelectorAll('.itemlog:not(.u-hidden) details');
       details.forEach((targetDetail) => {
@@ -1470,6 +1553,7 @@ Vue.component('cooking', {
     <div class="ts-wrap is-middle-aligned">
       <div class="ts-text"> ※ 點選頁籤切換，將自動存檔於瀏覽器。(需載入一段時間) </div>
       <button class="ts-button is-small is-outlined" v-on:click="deleteSave">清除紀錄</button>
+      <button class="ts-button is-small is-outlined" v-on:click="updataJSON">更新資料</button>
     </div>
   </div>
   <div class="ts-space is-small"></div>
@@ -1540,6 +1624,47 @@ Vue.component('collection', {
         .then((data) => { this.dataList = data; })
         .catch((error) => { console.warn(error) });
     },
+    updataJSON() {
+      const oldData = JSON.parse(localStorage.getItem(this.localKey)) || [];
+      fetch(this.url)
+        .then((res) => res.json())
+        .then((data) => {
+          const newData = data;
+          // 更新資料
+          newData.forEach((newCategory) => {
+            const oldCategory = oldData.find(
+              (oldCategory) => oldCategory.category === newCategory.category
+            );
+            if (oldCategory) {
+              newCategory.list.forEach((newItem) => {
+                const oldItem = oldCategory.list.find(
+                  (oldItem) => oldItem.id === newItem.id
+                );
+                if (oldItem) {
+                  // 如果舊資料存在，則更新除了checked以外的其他欄位
+                  const keys = Object.keys(newItem);
+                  keys.forEach((key) => {
+                    if (key !== "checked") {
+                      oldItem[key] = newItem[key];
+                    }
+                  });
+                } else {
+                  // 如果舊資料不存在，則加入新資料，並將 checked 設為 false
+                  oldCategory.list.push({
+                    ...newItem,
+                    checked: false,
+                  });
+                }
+              });
+            } else {
+              // 如果舊資料的分類不存在，則加入新的分類
+              oldData.push(newCategory);
+            }
+          });
+          localStorage.setItem(this.localKey, JSON.stringify(oldData));
+          this.dataList = oldData;
+        });
+    },
     detailsClose() {
       const details = document.querySelectorAll('.itemlog:not(.u-hidden) details');
       details.forEach((targetDetail) => {
@@ -1559,6 +1684,7 @@ Vue.component('collection', {
     <div class="ts-wrap is-middle-aligned">
       <div class="ts-text"> ※ 點選頁籤切換，將自動存檔於瀏覽器。(需載入一段時間) </div>
       <button class="ts-button is-small is-outlined" v-on:click="deleteSave">清除紀錄</button>
+      <button class="ts-button is-small is-outlined" v-on:click="updataJSON">更新資料</button>
     </div>
   </div>
   <div class="ts-space is-small"></div>

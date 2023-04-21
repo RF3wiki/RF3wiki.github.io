@@ -63,7 +63,7 @@
         ]
     },
     {
-        "id":"出貨紀錄",
+        "id":"出貨紀錄(即將棄用)",
         "mobileTab":"sell-item-logTab",
         "list":[
             {"name":"全出貨箱物品","tab":"all-item","isShow":false},

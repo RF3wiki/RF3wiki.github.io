@@ -207,7 +207,7 @@
                 "getItem": "花屋"
             },
             {
-                "name": "月落種子",
+                "name": "月落草種子",
                 "jpName": "ムーンドロップの種",
                 "checked": false,
                 "season": "春",
@@ -219,7 +219,7 @@
                 "getItem": "花屋"
             },
             {
-                "name": "櫻色蕪菁種子",
+                "name": "櫻蕪菁種子",
                 "jpName": "サクラカブの種",
                 "checked": false,
                 "season": "春",
@@ -255,7 +255,7 @@
                 "getItem": "雜貨店"
             },
             {
-                "name": "櫻花草種子",
+                "name": "櫻草種子",
                 "jpName": "サクラ草の種",
                 "checked": false,
                 "season": "春",
@@ -926,7 +926,7 @@
                 "sell": 4580
             },
             {
-                "name": "櫻花草",
+                "name": "櫻草",
                 "jpName": "サクラ草",
                 "checked": false,
                 "sp": [
@@ -1539,7 +1539,7 @@
                 "sell": 4200
             },
             {
-                "name": "櫻色蕪菁",
+                "name": "櫻蕪菁",
                 "jpName": "サクラカブ",
                 "checked": false,
                 "sp": [

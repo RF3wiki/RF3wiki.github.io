@@ -255,7 +255,7 @@
                 "id": 4
             },
             {
-                "name": "捲心菜種子",
+                "name": "高麗菜種子",
                 "jpName": "キャベツの種",
                 "checked": false,
                 "season": "春",
@@ -711,7 +711,7 @@
                 "id": 39
             },
             {
-                "name": "金捲心菜種子",
+                "name": "金高麗菜種子",
                 "jpName": "金のキャベツの種",
                 "checked": false,
                 "day": 14,
@@ -1376,7 +1376,7 @@
                 "id": 9
             },
             {
-                "name": "金捲心菜",
+                "name": "金高麗菜",
                 "jpName": "金のキャベツ",
                 "checked": false,
                 "sp": [
@@ -1679,7 +1679,7 @@
                 "id": 29
             },
             {
-                "name": "捲心菜",
+                "name": "高麗菜",
                 "jpName": "キャベツ",
                 "checked": false,
                 "sp": [
@@ -1725,7 +1725,7 @@
                 "id": 2
             },
             {
-                "name": "油",
+                "name": "調理油",
                 "jpName": "油",
                 "checked": false,
                 "sp": [
@@ -1778,7 +1778,7 @@
                 "id": 6
             },
             {
-                "name": "優質蛋",
+                "name": "好雞蛋",
                 "jpName": "良い卵",
                 "checked": false,
                 "sp": [
@@ -1791,7 +1791,7 @@
                 "id": 7
             },
             {
-                "name": "蛋",
+                "name": "雞蛋",
                 "jpName": "卵",
                 "checked": false,
                 "sp": [
@@ -1804,7 +1804,7 @@
                 "id": 8
             },
             {
-                "name": "鈣滿點牛奶",
+                "name": "鈣質滿分牛奶",
                 "jpName": "カルシウム満點牛乳",
                 "checked": false,
                 "sp": [
@@ -1902,7 +1902,7 @@
         "active": false,
         "list": [
             {
-                "name": "公魚",
+                "name": "西太公魚",
                 "jpName": "ワカサギ",
                 "checked": false,
                 "season": "冬",
@@ -1940,11 +1940,11 @@
                 "id": 4
             },
             {
-                "name": "斑鲅魚",
+                "name": "黑毛魚",
                 "jpName": "メジナ",
                 "checked": false,
                 "season": "冬",
-                "MaxCM": 30,
+                "MaxCM": 57,
                 "id": 5
             },
             {
@@ -1984,7 +1984,7 @@
                 "id": 9
             },
             {
-                "name": "雅羅魚",
+                "name": "珠星魚",
                 "jpName": "ウグイ",
                 "checked": false,
                 "season": "夏",
@@ -1992,7 +1992,7 @@
                 "id": 10
             },
             {
-                "name": "巖魚",
+                "name": "紅點鮭",
                 "jpName": "イワナ",
                 "checked": false,
                 "season": "夏",
@@ -2020,7 +2020,7 @@
                 "id": 13
             },
             {
-                "name": "毒虹鱒魚/虹色魚",
+                "name": "劇毒虹鱒",
                 "jpName": "ドクニジマス",
                 "checked": false,
                 "season": "冬",
@@ -2157,7 +2157,7 @@
                 "id": 28
             },
             {
-                "name": "鮭魚",
+                "name": "鉤吻鮭",
                 "jpName": "サケ",
                 "checked": false,
                 "season": "秋",
@@ -2206,7 +2206,7 @@
                 "id": 1
             },
             {
-                "name": "莫可棉/軟綿綿棉",
+                "name": "摩可棉",
                 "jpName": "モコ綿",
                 "checked": false,
                 "buy": 80,
@@ -2247,7 +2247,7 @@
                 "id": 6
             },
             {
-                "name": "結實的蜘蛛絲",
+                "name": "堅韌的蜘蛛絲",
                 "jpName": "丈夫なクモ糸",
                 "checked": false,
                 "buy": 160,
@@ -2394,7 +2394,7 @@
                 "id": 24
             },
             {
-                "name": "骨膠",
+                "name": "膠",
                 "jpName": "にかわ",
                 "checked": false,
                 "buy": 500,
@@ -2418,7 +2418,7 @@
                 "id": 27
             },
             {
-                "name": "錘子的碎片",
+                "name": "錘子碎片",
                 "jpName": "ハンマーの破片",
                 "checked": false,
                 "buy": 400,
@@ -2468,7 +2468,7 @@
                 "id": 33
             },
             {
-                "name": "鳥之羽",
+                "name": "鳥羽毛",
                 "jpName": "鳥の羽",
                 "checked": false,
                 "buy": 660,
@@ -2476,7 +2476,7 @@
                 "id": 34
             },
             {
-                "name": "蝎子的尾巴",
+                "name": "蠍子的尾巴",
                 "jpName": "サソリの尻尾",
                 "checked": false,
                 "buy": 400,
@@ -2525,7 +2525,7 @@
                 "id": 40
             },
             {
-                "name": "紫水晶",
+                "name": "紫寶石",
                 "jpName": "アメジスト",
                 "checked": false,
                 "buy": 1200,
@@ -2582,7 +2582,7 @@
                 "id": 47
             },
             {
-                "name": "上質的毛皮",
+                "name": "上等皮毛",
                 "jpName": "上質の毛皮",
                 "checked": false,
                 "buy": 1440,
@@ -2797,7 +2797,7 @@
                 "id": 73
             },
             {
-                "name": "獅子的藍毛",
+                "name": "獅子的青毛",
                 "jpName": "獅子の青毛",
                 "checked": false,
                 "buy": 22500,

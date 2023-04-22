@@ -816,7 +816,7 @@ Vue.component('maze-data', {
       <div class="item ts-text">魔物頭上會出現愛心標誌，成功了可以取名字，失敗了愛心變骷髏，可以重複贈送</div>
       <div class="item ts-text">送魔物喜愛物品，或者在送物品之前用刷子撫摸魔物出現高興的音符標誌，能夠提高抓怪物的成功率</div>
       <div class="item ts-text">摩可摩可的出產物品，不僅會掉落在怪物小屋內，也可以使用毛剪去剪</div>
-      <div class="item ts-text">牛奶、蛋、蜂蜜出產物的品質等級等於飼養怪物的好感度等級+1</div>
+      <div class="item ts-text">牛奶、雞蛋、蜂蜜出產物的品質等級等於飼養怪物的好感度等級+1</div>
       <div class="item ts-text">可騎乘同伴魔物，按A可以上下坐騎，XYB進行攻擊</div>
       <div class="item ts-text">關於魔物對各屬性的抗性說明：+4是吸收，+3是無效，+2是1/8倍，+1是減半，-1是1.5倍，-2是3倍</div>
     </div>
@@ -1326,9 +1326,14 @@ Vue.component('make', {
       dataList: null,
       localKey: 'makelogdata',
       url: '../json/category-make.json',
+      checkDelete: false,
+      updataKey: 'jsonMakeUpdataCheck',
+      haveUpdata: false,
+      jsonVersion: '1.0'
     }
   },
   created() {
+    this.checkUpdata();
     if (localStorage.getItem(this.localKey)) {
       this.dataList = JSON.parse(localStorage.getItem(this.localKey));
     } else if (!this.dataList) {
@@ -1341,6 +1346,7 @@ Vue.component('make', {
     },
     deleteSave() {
       localStorage.removeItem(this.localKey);
+      this.checkDelete = false;
       this.getFetchData();
     },
     getFetchData() {
@@ -1386,8 +1392,18 @@ Vue.component('make', {
             }
           });
           localStorage.setItem(this.localKey, JSON.stringify(oldData));
+          localStorage.setItem(this.updataKey, this.jsonVersion);
+          this.checkUpdata();
           this.dataList = oldData;
         });
+    },
+    checkUpdata() {
+      if (localStorage.getItem(this.updataKey)) {
+        this.haveUpdata = this.jsonVersion != localStorage.getItem(this.updataKey) ? true : false;
+      } else {
+        this.haveUpdata = true;
+        localStorage.setItem(this.updataKey, this.jsonVersion);
+      }
     },
     detailsClose() {
       const details = document.querySelectorAll('.itemlog:not(.u-hidden) details');
@@ -1407,8 +1423,13 @@ Vue.component('make', {
   <div class="ts-header">
     <div class="ts-wrap is-middle-aligned">
       <div class="ts-text"> ※ 點選頁籤切換，將自動存檔於瀏覽器。(需載入一段時間) </div>
-      <button class="ts-button is-small is-outlined" v-on:click="deleteSave">清除紀錄</button>
-      <button class="ts-button is-small is-outlined" v-on:click="updataJSON">更新資料</button>
+      <button class="ts-button is-small is-negative is-outlined" v-show="!checkDelete"
+        v-on:click="checkDelete = !checkDelete">清除紀錄</button>
+      <button class="ts-button is-small is-negative" v-show="checkDelete" v-on:click="deleteSave">確認刪除</button>
+      <button class="ts-button is-small is-secondary" v-show="checkDelete"
+        v-on:click="checkDelete = !checkDelete">取消</button>
+      <button class="ts-button is-small is-outlined" v-show="!checkDelete" v-on:click="updataJSON">更新資料</button>
+      <div class="ts-notice is-small is-dense is-accent" v-show="haveUpdata"><div class="content">偵測到新版本</div></div>
     </div>
   </div>
   <div class="ts-space is-small"></div>
@@ -1470,10 +1491,15 @@ Vue.component('cooking', {
     return {
       dataList: null,
       localKey: 'cookinglogdata',
-      url: '../json/category-cooking.json'
+      url: '../json/category-cooking.json',
+      checkDelete: false,
+      updataKey: 'jsonCookingUpdataCheck',
+      haveUpdata: false,
+      jsonVersion: '1.0'
     }
   },
   created() {
+    this.checkUpdata();
     if (localStorage.getItem(this.localKey)) {
       this.dataList = JSON.parse(localStorage.getItem(this.localKey));
     } else if (!this.dataList) {
@@ -1486,6 +1512,7 @@ Vue.component('cooking', {
     },
     deleteSave() {
       localStorage.removeItem(this.localKey);
+      this.checkDelete = false;
       this.getFetchData();
     },
     getFetchData() {
@@ -1531,8 +1558,18 @@ Vue.component('cooking', {
             }
           });
           localStorage.setItem(this.localKey, JSON.stringify(oldData));
+          localStorage.setItem(this.updataKey, this.jsonVersion);
+          this.checkUpdata();
           this.dataList = oldData;
         });
+    },
+    checkUpdata() {
+      if (localStorage.getItem(this.updataKey)) {
+        this.haveUpdata = this.jsonVersion != localStorage.getItem(this.updataKey) ? true : false;
+      } else {
+        this.haveUpdata = true;
+        localStorage.setItem(this.updataKey, this.jsonVersion);
+      }
     },
     detailsClose() {
       const details = document.querySelectorAll('.itemlog:not(.u-hidden) details');
@@ -1552,8 +1589,13 @@ Vue.component('cooking', {
   <div class="ts-header">
     <div class="ts-wrap is-middle-aligned">
       <div class="ts-text"> ※ 點選頁籤切換，將自動存檔於瀏覽器。(需載入一段時間) </div>
-      <button class="ts-button is-small is-outlined" v-on:click="deleteSave">清除紀錄</button>
-      <button class="ts-button is-small is-outlined" v-on:click="updataJSON">更新資料</button>
+      <button class="ts-button is-small is-negative is-outlined" v-show="!checkDelete"
+        v-on:click="checkDelete = !checkDelete">清除紀錄</button>
+      <button class="ts-button is-small is-negative" v-show="checkDelete" v-on:click="deleteSave">確認刪除</button>
+      <button class="ts-button is-small is-secondary" v-show="checkDelete"
+        v-on:click="checkDelete = !checkDelete">取消</button>
+      <button class="ts-button is-small is-outlined" v-show="!checkDelete" v-on:click="updataJSON">更新資料</button>
+      <div class="ts-notice is-small is-dense is-accent" v-show="haveUpdata"><div class="content">偵測到新版本</div></div>
     </div>
   </div>
   <div class="ts-space is-small"></div>
@@ -1601,10 +1643,15 @@ Vue.component('collection', {
     return {
       dataList: null,
       localKey: 'collectionlogdata',
-      url: '../json/category-collection.json'
+      url: '../json/category-collection.json',
+      checkDelete: false,
+      updataKey: 'jsonCollectionUpdataCheck',
+      haveUpdata: false,
+      jsonVersion: '1.0'
     }
   },
   created() {
+    this.checkUpdata();
     if (localStorage.getItem(this.localKey)) {
       this.dataList = JSON.parse(localStorage.getItem(this.localKey));
     } else if (!this.dataList) {
@@ -1617,6 +1664,7 @@ Vue.component('collection', {
     },
     deleteSave() {
       localStorage.removeItem(this.localKey);
+      this.checkDelete = false;
       this.getFetchData();
     },
     getFetchData() {
@@ -1662,8 +1710,18 @@ Vue.component('collection', {
             }
           });
           localStorage.setItem(this.localKey, JSON.stringify(oldData));
+          localStorage.setItem(this.updataKey, this.jsonVersion);
+          this.checkUpdata();
           this.dataList = oldData;
         });
+    },
+    checkUpdata() {
+      if (localStorage.getItem(this.updataKey)) {
+        this.haveUpdata = this.jsonVersion != localStorage.getItem(this.updataKey) ? true : false;
+      } else {
+        this.haveUpdata = true;
+        localStorage.setItem(this.updataKey, this.jsonVersion);
+      }
     },
     detailsClose() {
       const details = document.querySelectorAll('.itemlog:not(.u-hidden) details');
@@ -1683,8 +1741,13 @@ Vue.component('collection', {
   <div class="ts-header">
     <div class="ts-wrap is-middle-aligned">
       <div class="ts-text"> ※ 點選頁籤切換，將自動存檔於瀏覽器。(需載入一段時間) </div>
-      <button class="ts-button is-small is-outlined" v-on:click="deleteSave">清除紀錄</button>
-      <button class="ts-button is-small is-outlined" v-on:click="updataJSON">更新資料</button>
+      <button class="ts-button is-small is-negative is-outlined" v-show="!checkDelete"
+        v-on:click="checkDelete = !checkDelete">清除紀錄</button>
+      <button class="ts-button is-small is-negative" v-show="checkDelete" v-on:click="deleteSave">確認刪除</button>
+      <button class="ts-button is-small is-secondary" v-show="checkDelete"
+        v-on:click="checkDelete = !checkDelete">取消</button>
+      <button class="ts-button is-small is-outlined" v-show="!checkDelete" v-on:click="updataJSON">更新資料</button>
+      <div class="ts-notice is-small is-dense is-accent" v-show="haveUpdata"><div class="content">偵測到新版本</div></div>
     </div>
   </div>
   <div class="ts-space is-small"></div>

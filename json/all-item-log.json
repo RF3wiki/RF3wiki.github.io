@@ -586,7 +586,7 @@
                 ]
             },
             {
-                "category": "回復瓶",
+                "category": "回復壺",
                 "tab": "replybottleTab",
                 "active": false,
                 "list": [
@@ -595,11 +595,11 @@
                         "checked": false
                     },
                     {
-                        "name": "いやしのポット (治療瓶)",
+                        "name": "いやしのポット (療癒壺)",
                         "checked": false
                     },
                     {
-                        "name": "回復のポット (回復瓶)",
+                        "name": "回復のポット (回復壺)",
                         "checked": false
                     }
                 ]
@@ -614,7 +614,7 @@
                         "checked": false
                     },
                     {
-                        "name": "サワードロップ (酸味料)",
+                        "name": "サワードロップ (酸味香料)",
                         "checked": false
                     },
                     {
@@ -1834,7 +1834,7 @@
                         "checked": false
                     },
                     {
-                        "name": "ディフェンダー (防禦之劍)",
+                        "name": "ディフェンダー (防衛者)",
                         "checked": false
                     },
                     {
@@ -1916,11 +1916,11 @@
                         "checked": false
                     },
                     {
-                        "name": "おまけのバッヂ (贈送徽章)",
+                        "name": "おまけのバッヂ (贈品徽章)",
                         "checked": false
                     },
                     {
-                        "name": "がんばり屋の軍手 (努力者勞動手套)",
+                        "name": "がんばり屋の軍手 (拼命三郎的手套)",
                         "checked": false
                     },
                     {
@@ -1996,7 +1996,7 @@
                         "checked": false
                     },
                     {
-                        "name": "アメジストブローチ (紫水晶胸針)",
+                        "name": "アメジストブローチ (紫寶石胸針)",
                         "checked": false
                     },
                     {
@@ -2016,11 +2016,11 @@
                         "checked": false
                     },
                     {
-                        "name": "銅の腕輪 (銅腕輪)",
+                        "name": "銅の腕輪 (銅手環)",
                         "checked": false
                     },
                     {
-                        "name": "安物の腕輪 (便宜的手環)",
+                        "name": "安物の腕輪 (便宜手環)",
                         "checked": false
                     },
                     {
@@ -2096,7 +2096,7 @@
                         "checked": false
                     },
                     {
-                        "name": "アメジストの指輪 (紫水晶戒指)",
+                        "name": "アメジストの指輪 (紫寶石戒指)",
                         "checked": false
                     },
                     {
@@ -2154,7 +2154,7 @@
                         "checked": false
                     },
                     {
-                        "name": "良い卵 (優質蛋)",
+                        "name": "良い卵 (好雞蛋)",
                         "checked": false
                     },
                     {
@@ -2162,7 +2162,7 @@
                         "checked": false
                     },
                     {
-                        "name": "カルシウム満點牛乳 (鈣滿點牛奶)",
+                        "name": "カルシウム満點牛乳 (鈣質滿分牛奶)",
                         "checked": false
                     },
                     {
@@ -2237,7 +2237,7 @@
                         "checked": false
                     },
                     {
-                        "name": "かぶの酢漬け (腌蕪菁)",
+                        "name": "かぶの酢漬け (蕪菁酸菜)",
                         "checked": false
                     },
                     {
@@ -2644,7 +2644,7 @@
                         "checked": false
                     },
                     {
-                        "name": "ワカサギの塩焼き (鹽烤公魚)",
+                        "name": "ワカサギの塩焼き (鹽烤西太公魚)",
                         "checked": false
                     },
                     {
@@ -2668,7 +2668,7 @@
                         "checked": false
                     },
                     {
-                        "name": "メジナの塩焼き (鹽烤斑鲅魚)",
+                        "name": "メジナの塩焼き (鹽烤黑毛魚)",
                         "checked": false
                     },
                     {
@@ -2692,7 +2692,7 @@
                         "checked": false
                     },
                     {
-                        "name": "ウグイの塩焼き (鹽烤雅羅魚)",
+                        "name": "ウグイの塩焼き (鹽烤珠星魚)",
                         "checked": false
                     },
                     {
@@ -2704,7 +2704,7 @@
                         "checked": false
                     },
                     {
-                        "name": "イワナの塩焼き (鹽烤巖魚)",
+                        "name": "イワナの塩焼き (鹽烤紅點鮭)",
                         "checked": false
                     },
                     {
@@ -2863,7 +2863,7 @@
                         "checked": false
                     },
                     {
-                        "name": "メジナのおさしみ (斑鲅魚刺身)",
+                        "name": "メジナのおさしみ (黑毛魚刺身)",
                         "checked": false
                     },
                     {
@@ -2895,7 +2895,7 @@
                         "checked": false
                     },
                     {
-                        "name": "イワナのおさしみ (巖魚刺身)",
+                        "name": "イワナのおさしみ (紅點鮭刺身)",
                         "checked": false
                     },
                     {
@@ -2959,7 +2959,7 @@
                         "checked": false
                     },
                     {
-                        "name": "ワカサギ (公魚) [冬]",
+                        "name": "ワカサギ (西太公魚) [冬]",
                         "checked": false
                     },
                     {
@@ -2979,7 +2979,7 @@
                         "checked": false
                     },
                     {
-                        "name": "メジナ (斑鲅魚) [冬]",
+                        "name": "メジナ (黑毛魚) [冬]",
                         "checked": false
                     },
                     {
@@ -3003,7 +3003,7 @@
                         "checked": false
                     },
                     {
-                        "name": "ドグニジマス (毒虹鱒魚/虹色魚) [冬]",
+                        "name": "ドグニジマス (劇毒虹鱒) [冬]",
                         "checked": false
                     },
                     {
@@ -3055,11 +3055,11 @@
                         "checked": false
                     },
                     {
-                        "name": "ウグイ (雅羅魚) [夏]",
+                        "name": "ウグイ (珠星魚) [夏]",
                         "checked": false
                     },
                     {
-                        "name": "イワナ (巖魚) [夏]",
+                        "name": "イワナ (紅點鮭) [夏]",
                         "checked": false
                     },
                     {
@@ -3168,7 +3168,7 @@
                         "checked": false
                     },
                     {
-                        "name": "獅子の青毛 (獅子的藍毛)",
+                        "name": "獅子の青毛 (獅子的青毛)",
                         "checked": false
                     },
                     {
@@ -3268,7 +3268,7 @@
                         "checked": false
                     },
                     {
-                        "name": "鳥の羽 (鳥之羽)",
+                        "name": "鳥の羽 (鳥羽毛)",
                         "checked": false
                     },
                     {
@@ -3276,7 +3276,7 @@
                         "checked": false
                     },
                     {
-                        "name": "上質の毛皮 (上質的毛皮)",
+                        "name": "上質の毛皮 (上等皮毛)",
                         "checked": false
                     },
                     {
@@ -3296,7 +3296,7 @@
                         "checked": false
                     },
                     {
-                        "name": "サソリの尻尾 (蝎子的尾巴)",
+                        "name": "サソリの尻尾 (蠍子的尾巴)",
                         "checked": false
                     },
                     {
@@ -3312,7 +3312,7 @@
                         "checked": false
                     },
                     {
-                        "name": "丈夫なクモ糸 (結實的蜘蛛絲)",
+                        "name": "丈夫なクモ糸 (堅韌的蜘蛛絲)",
                         "checked": false
                     },
                     {
@@ -3324,7 +3324,7 @@
                         "checked": false
                     },
                     {
-                        "name": "ハンマーの破片 (錘子的碎片)",
+                        "name": "ハンマーの破片 (錘子碎片)",
                         "checked": false
                     },
                     {
@@ -3368,7 +3368,7 @@
                         "checked": false
                     },
                     {
-                        "name": "にかわ (骨膠)",
+                        "name": "にかわ (膠)",
                         "checked": false
                     },
                     {
@@ -3396,7 +3396,7 @@
                         "checked": false
                     },
                     {
-                        "name": "アメジスト (紫水晶)",
+                        "name": "アメジスト (紫寶石)",
                         "checked": false
                     },
                     {

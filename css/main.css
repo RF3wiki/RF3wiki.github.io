@@ -169,4 +169,10 @@ div[logcategory] .item {
   bottom: auto;
   right: 0;
   margin-left: auto;
+}
+
+.ts-notice {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }/*# sourceMappingURL=main.css.map */

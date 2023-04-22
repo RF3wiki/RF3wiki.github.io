@@ -1712,7 +1712,7 @@
                 "id": 1
             },
             {
-                "name": "咖喱粉",
+                "name": "咖哩粉",
                 "jpName": "カレー粉",
                 "checked": false,
                 "sp": [
@@ -2114,7 +2114,7 @@
                 "id": 23
             },
             {
-                "name": "沙比目魚",
+                "name": "砂比目魚",
                 "jpName": "砂ヒラメ",
                 "checked": false,
                 "MaxCM": 60,
@@ -2175,8 +2175,8 @@
                 "id": 30
             },
             {
-                "name": "巖石魚",
-                "jpName": "巖石魚",
+                "name": "岩石魚",
+                "jpName": "岩石魚",
                 "checked": false,
                 "MaxCM": 100,
                 "id": 31

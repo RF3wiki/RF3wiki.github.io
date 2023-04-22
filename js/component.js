@@ -1329,7 +1329,7 @@ Vue.component('make', {
       checkDelete: false,
       updataKey: 'jsonMakeUpdataCheck',
       haveUpdata: false,
-      jsonVersion: '1.0'
+      jsonVersion: '1.1'
     }
   },
   created() {
@@ -1495,7 +1495,7 @@ Vue.component('cooking', {
       checkDelete: false,
       updataKey: 'jsonCookingUpdataCheck',
       haveUpdata: false,
-      jsonVersion: '1.0'
+      jsonVersion: '1.1'
     }
   },
   created() {
@@ -1647,7 +1647,7 @@ Vue.component('collection', {
       checkDelete: false,
       updataKey: 'jsonCollectionUpdataCheck',
       haveUpdata: false,
-      jsonVersion: '1.0'
+      jsonVersion: '1.1'
     }
   },
   created() {

@@ -576,7 +576,7 @@
                         "checked": false
                     },
                     {
-                        "name": "ぐんぐんグリーン (進化之綠)",
+                        "name": "ぐんぐんグリーン (速速綠)",
                         "checked": false
                     },
                     {
@@ -2122,7 +2122,7 @@
                         "checked": false
                     },
                     {
-                        "name": "カレー粉 (咖喱粉)",
+                        "name": "カレー粉 (咖哩粉)",
                         "checked": false
                     },
                     {
@@ -2284,7 +2284,7 @@
                         "checked": false
                     },
                     {
-                        "name": "カレーまん (咖喱包子)",
+                        "name": "カレーまん (咖哩肉包)",
                         "checked": false
                     },
                     {
@@ -2469,7 +2469,7 @@
                 "active": false,
                 "list": [
                     {
-                        "name": "巖石魚の煮付け (水煮巖石魚)",
+                        "name": "岩石魚の煮付け (水煮岩石魚)",
                         "checked": false
                     },
                     {
@@ -2485,15 +2485,15 @@
                         "checked": false
                     },
                     {
-                        "name": "至高のカレー (至高咖喱)",
+                        "name": "至高のカレー (至高咖哩)",
                         "checked": false
                     },
                     {
-                        "name": "究極のカレー (究極咖喱)",
+                        "name": "究極のカレー (究極咖哩)",
                         "checked": false
                     },
                     {
-                        "name": "カレーライス (咖喱飯)",
+                        "name": "カレーライス (咖哩飯)",
                         "checked": false
                     },
                     {
@@ -2521,7 +2521,7 @@
                         "checked": false
                     },
                     {
-                        "name": "カレーうどん (咖喱湯麵)",
+                        "name": "カレーうどん (咖哩湯麵)",
                         "checked": false
                     },
                     {
@@ -2588,7 +2588,7 @@
                 "active": false,
                 "list": [
                     {
-                        "name": "焼き砂ヒラメ (烤沙比目魚)",
+                        "name": "焼き砂ヒラメ (烤砂比目魚)",
                         "checked": false
                     },
                     {
@@ -2712,7 +2712,7 @@
                         "checked": false
                     },
                     {
-                        "name": "ドライカレー (咖喱炒飯/干咖喱)",
+                        "name": "ドライカレー (咖哩炒飯/干咖哩)",
                         "checked": false
                     },
                     {
@@ -2744,7 +2744,7 @@
                         "checked": false
                     },
                     {
-                        "name": "カレーパン (咖喱麵包)",
+                        "name": "カレーパン (咖哩麵包)",
                         "checked": false
                     },
                     {
@@ -2951,11 +2951,11 @@
                 "active": false,
                 "list": [
                     {
-                        "name": "巖石魚 (巖石魚)",
+                        "name": "岩石魚 (岩石魚)",
                         "checked": false
                     },
                     {
-                        "name": "砂ヒラメ (沙比目魚)",
+                        "name": "砂ヒラメ (砂比目魚)",
                         "checked": false
                     },
                     {

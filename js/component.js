@@ -1329,7 +1329,7 @@ Vue.component('make', {
       checkDelete: false,
       updataKey: 'jsonMakeUpdataCheck',
       haveUpdata: false,
-      jsonVersion: '1.1'
+      jsonVersion: '1.2'
     }
   },
   created() {
@@ -1461,6 +1461,12 @@ Vue.component('make', {
               {{ sp }}
             </div>
           </div>
+          <div class="ts-wrap is-middle-aligned is-compact" v-if="item.se">
+            <div class="ts-text">特殊效果：</div>
+            <div class="ts-chip is-spaced is-outlined" v-for="se in item.se">
+              {{ se }}
+            </div>
+          </div>
           <div class="ts-text" v-if="item.skillLv">等級：{{item.skillLv}}</div>
           <div class="ts-wrap is-middle-aligned is-compact" v-if="item.item">
             <div class="ts-text">材料：</div>
@@ -1495,7 +1501,7 @@ Vue.component('cooking', {
       checkDelete: false,
       updataKey: 'jsonCookingUpdataCheck',
       haveUpdata: false,
-      jsonVersion: '1.1'
+      jsonVersion: '1.2'
     }
   },
   created() {
@@ -1647,7 +1653,7 @@ Vue.component('collection', {
       checkDelete: false,
       updataKey: 'jsonCollectionUpdataCheck',
       haveUpdata: false,
-      jsonVersion: '1.1'
+      jsonVersion: '1.2'
     }
   },
   created() {

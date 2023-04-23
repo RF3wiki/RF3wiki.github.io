@@ -2211,7 +2211,7 @@
                 "checked": false,
                 "buy": 80,
                 "sell": 20,
-                "getItem": "摩可摩可を倒す",
+                "getItem": "摩可摩可掉落",
                 "id": 2
             },
             {
@@ -2521,7 +2521,7 @@
                 "checked": false,
                 "buy": 820,
                 "sell": 280,
-                "getItem": "トータスを倒す",
+                "getItem": "トータス掉落",
                 "id": 40
             },
             {
@@ -2538,7 +2538,7 @@
                 "checked": false,
                 "buy": 2100,
                 "sell": 300,
-                "getItem": "スライムを倒す",
+                "getItem": "スライム掉落",
                 "id": 42
             },
             {
@@ -2692,7 +2692,7 @@
                 "checked": false,
                 "buy": 2300,
                 "sell": 650,
-                "getItem": "パックンボックスを倒す",
+                "getItem": "パックンボックス掉落",
                 "id": 61
             },
             {
@@ -2766,7 +2766,7 @@
                 "checked": false,
                 "buy": 9000,
                 "sell": 2500,
-                "getItem": "タヌゴローを倒す",
+                "getItem": "タヌゴロー掉落",
                 "id": 70
             },
             {
@@ -2775,7 +2775,7 @@
                 "checked": false,
                 "buy": 30000,
                 "sell": 3000,
-                "getItem": "アクナビートを倒す，アクナ湖で釣りをしていると稀に釣れる",
+                "getItem": "アクナビート掉落，アクナ湖で釣りをしていると稀に釣れる",
                 "id": 71
             },
             {
@@ -2784,7 +2784,7 @@
                 "checked": false,
                 "buy": 9600,
                 "sell": 3600,
-                "getItem": "グレーターデーモンを倒す",
+                "getItem": "グレーターデーモン掉落",
                 "id": 72
             },
             {
@@ -2793,7 +2793,7 @@
                 "checked": false,
                 "buy": 16800,
                 "sell": 3800,
-                "getItem": "オクトパイレーツを倒す",
+                "getItem": "オクトパイレーツ掉落",
                 "id": 73
             },
             {
@@ -2802,7 +2802,7 @@
                 "checked": false,
                 "buy": 22500,
                 "sell": 4000,
-                "getItem": "きのとを倒す",
+                "getItem": "きのと掉落",
                 "id": 74
             },
             {
@@ -2811,7 +2811,7 @@
                 "checked": false,
                 "buy": 22500,
                 "sell": 4000,
-                "getItem": "ひのえを倒す",
+                "getItem": "ひのえ掉落",
                 "id": 75
             },
             {
@@ -2820,7 +2820,7 @@
                 "checked": false,
                 "buy": 150000,
                 "sell": 4200,
-                "getItem": "デットツリーを倒す",
+                "getItem": "デットツリー掉落",
                 "id": 76
             },
             {
@@ -2829,7 +2829,7 @@
                 "checked": false,
                 "buy": 26100,
                 "sell": 4400,
-                "getItem": "クリスタルマンモスを倒す",
+                "getItem": "クリスタルマンモス掉落",
                 "id": 77
             },
             {
@@ -2838,7 +2838,7 @@
                 "checked": false,
                 "buy": 160000,
                 "sell": 4400,
-                "getItem": "ウーパードラゴンを倒す",
+                "getItem": "ウーパードラゴン掉落",
                 "id": 78
             },
             {
@@ -2847,7 +2847,7 @@
                 "checked": false,
                 "buy": 170000,
                 "sell": 4600,
-                "getItem": "セイレーンを倒す",
+                "getItem": "セイレーン掉落",
                 "id": 79
             },
             {
@@ -2864,7 +2864,7 @@
                 "checked": false,
                 "buy": 24000,
                 "sell": 5000,
-                "getItem": "エンシェントボーンを倒す",
+                "getItem": "エンシェントボーン掉落",
                 "id": 81
             },
             {
@@ -2873,7 +2873,7 @@
                 "checked": false,
                 "buy": 14400,
                 "sell": 5500,
-                "getItem": "キメラを倒す",
+                "getItem": "キメラ掉落",
                 "id": 82
             },
             {
@@ -2882,7 +2882,7 @@
                 "checked": false,
                 "buy": 66000,
                 "sell": 6000,
-                "getItem": "デスウォールを倒す",
+                "getItem": "デスウォール掉落",
                 "id": 83
             },
             {
@@ -2891,7 +2891,7 @@
                 "checked": false,
                 "buy": 144000,
                 "sell": 7000,
-                "getItem": "グリモアを倒す",
+                "getItem": "グリモア掉落",
                 "id": 84
             },
             {
@@ -2900,7 +2900,7 @@
                 "checked": false,
                 "buy": 90000,
                 "sell": 8400,
-                "getItem": "アクナビートを倒す",
+                "getItem": "アクナビート掉落",
                 "id": 85
             },
             {

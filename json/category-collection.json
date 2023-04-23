@@ -1966,7 +1966,7 @@
                 "id": 7
             },
             {
-                "name": "銀鮒魚",
+                "name": "鮒魚",
                 "jpName": "ギンブナ",
                 "checked": false,
                 "season": "春",
@@ -1974,7 +1974,7 @@
                 "id": 8
             },
             {
-                "name": "鱒魚",
+                "name": "石川鮭魚",
                 "jpName": "アマゴ",
                 "checked": false,
                 "season": "春",
@@ -2211,7 +2211,7 @@
                 "checked": false,
                 "buy": 80,
                 "sell": 20,
-                "getItem": "モコモコを倒す",
+                "getItem": "摩可摩可を倒す",
                 "id": 2
             },
             {

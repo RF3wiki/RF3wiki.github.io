@@ -1463,8 +1463,8 @@ Vue.component('make', {
           </div>
           <div class="ts-wrap is-middle-aligned is-compact" v-if="item.se">
             <div class="ts-text">特殊效果：</div>
-            <div class="ts-chip is-spaced is-outlined" v-for="se in item.se">
-              {{ se }}
+            <div class="ts-chip is-spaced is-outlined">
+              {{ item.se }}
             </div>
           </div>
           <div class="ts-text" v-if="item.skillLv">等級：{{item.skillLv}}</div>

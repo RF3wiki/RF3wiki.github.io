@@ -96,7 +96,7 @@
                         ]
                     },
                     {
-                        "name": "砍伐的斧子",
+                        "name": "砍伐用斧",
                         "checked": false,
                         "skillLv": "30",
                         "item": [
@@ -106,7 +106,7 @@
                         ]
                     },
                     {
-                        "name": "守山的斧子",
+                        "name": "巡山用斧",
                         "checked": false,
                         "skillLv": "60",
                         "item": [
@@ -254,7 +254,7 @@
                         ]
                     },
                     {
-                        "name": "結實的鋤頭",
+                        "name": "堅固的鋤頭",
                         "checked": false,
                         "skillLv": "15",
                         "item": [
@@ -268,7 +268,7 @@
                         "checked": false,
                         "skillLv": "30",
                         "item": [
-                            "結實的鋤頭",
+                            "堅固的鋤頭",
                             "銀",
                             "銀"
                         ]

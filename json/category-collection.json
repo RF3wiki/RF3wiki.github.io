@@ -2068,7 +2068,7 @@
                 "id": 18
             },
             {
-                "name": "鯖魚/鮐魚",
+                "name": "青花魚",
                 "jpName": "サバ",
                 "checked": false,
                 "season": "秋",
@@ -2078,7 +2078,7 @@
                 "id": 19
             },
             {
-                "name": "龍蝦",
+                "name": "鰲龍蝦",
                 "jpName": "ロブスター",
                 "checked": false,
                 "season": "夏",
@@ -2086,7 +2086,7 @@
                 "id": 20
             },
             {
-                "name": "鯽魚",
+                "name": "高身鯽",
                 "jpName": "ヘラブナ",
                 "checked": false,
                 "season": "夏",
@@ -2139,7 +2139,7 @@
                 "id": 26
             },
             {
-                "name": "銀鯛",
+                "name": "閃光鯛魚",
                 "jpName": "カガヤキタイ",
                 "checked": false,
                 "season": "冬",

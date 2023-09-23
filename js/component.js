@@ -1653,7 +1653,7 @@ Vue.component('collection', {
       checkDelete: false,
       updataKey: 'jsonCollectionUpdataCheck',
       haveUpdata: false,
-      jsonVersion: '1.5'
+      jsonVersion: '1.6'
     }
   },
   created() {
